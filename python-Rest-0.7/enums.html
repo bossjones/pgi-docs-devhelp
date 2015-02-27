@@ -1,0 +1,479 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    Rest 0.7
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Rest 0.7 Python API Docs" href="index.html"/>
+        <link rel="next" title="Symbol Mapping" href="mapping.html"/>
+        <link rel="prev" title="Rest.XmlNode" href="structs/XmlNode.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Rest 0.7</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/XmlNode.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="mapping.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Rest 0.7</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/XmlNode.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="mapping.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Rest.MemoryUse" title="Rest.MemoryUse"><tt class="xref py py-class docutils literal"><span class="pre">Rest.MemoryUse</span></tt></a></li>
+<li><a class="reference internal" href="#Rest.OAuthSignatureMethod" title="Rest.OAuthSignatureMethod"><tt class="xref py py-class docutils literal"><span class="pre">Rest.OAuthSignatureMethod</span></tt></a></li>
+<li><a class="reference internal" href="#Rest.ProxyCallError" title="Rest.ProxyCallError"><tt class="xref py py-class docutils literal"><span class="pre">Rest.ProxyCallError</span></tt></a></li>
+<li><a class="reference internal" href="#Rest.ProxyError" title="Rest.ProxyError"><tt class="xref py py-class docutils literal"><span class="pre">Rest.ProxyError</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Rest.MemoryUse">
+<em class="property">class </em><tt class="descclassname">Rest.</tt><tt class="descname">MemoryUse</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Rest-0.7/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="Rest.MemoryUse.STATIC">
+<tt class="descname">STATIC</tt><em class="property"> = 0</em></dt>
+<dd><p>the memory block can be assumed to always exist for the
+lifetime of the parameter, <a class="reference internal" href="structs/Param.html#Rest.Param" title="Rest.Param"><tt class="xref py py-obj docutils literal"><span class="pre">Rest.Param</span></tt></a> will use it directly.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.MemoryUse.TAKE">
+<tt class="descname">TAKE</tt><em class="property"> = 1</em></dt>
+<dd><p><a class="reference internal" href="structs/Param.html#Rest.Param" title="Rest.Param"><tt class="xref py py-obj docutils literal"><span class="pre">Rest.Param</span></tt></a> will take ownership of the memory block, and
+<a class="reference external" href="_devhelp/Rest-0.7/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> () it when it isn&#8217;t used.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.MemoryUse.COPY">
+<tt class="descname">COPY</tt><em class="property"> = 2</em></dt>
+<dd><p><a class="reference internal" href="structs/Param.html#Rest.Param" title="Rest.Param"><tt class="xref py py-obj docutils literal"><span class="pre">Rest.Param</span></tt></a> will make a copy of the memory block.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Rest.OAuthSignatureMethod">
+<em class="property">class </em><tt class="descclassname">Rest.</tt><tt class="descname">OAuthSignatureMethod</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Rest-0.7/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The signature method to use when signing method calls.  PLAINTEXT is only
+recommended for testing, in general <a class="reference internal" href="#Rest.OAuthSignatureMethod.HMAC_SHA1" title="Rest.OAuthSignatureMethod.HMAC_SHA1"><tt class="xref py py-obj docutils literal"><span class="pre">Rest.OAuthSignatureMethod.HMAC_SHA1</span></tt></a> is well supported and more
+secure.</p>
+<dl class="attribute">
+<dt id="Rest.OAuthSignatureMethod.PLAINTEXT">
+<tt class="descname">PLAINTEXT</tt><em class="property"> = 0</em></dt>
+<dd><p>plain text signatures (not recommended)</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.OAuthSignatureMethod.HMAC_SHA1">
+<tt class="descname">HMAC_SHA1</tt><em class="property"> = 1</em></dt>
+<dd><p>HMAC-SHA1 signatures (recommended)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Rest.ProxyCallError">
+<em class="property">class </em><tt class="descclassname">Rest.</tt><tt class="descname">ProxyCallError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Rest-0.7/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Error domain used when returning errors from <a class="reference internal" href="classes/ProxyCall.html#Rest.ProxyCall" title="Rest.ProxyCall"><tt class="xref py py-obj docutils literal"><span class="pre">Rest.ProxyCall</span></tt></a>.</p>
+<dl class="staticmethod">
+<dt id="Rest.ProxyCallError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyCallError.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 0</em></dt>
+<dd><p>the method call failed</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Rest.ProxyError">
+<em class="property">class </em><tt class="descclassname">Rest.</tt><tt class="descname">ProxyError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Rest-0.7/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Error domain used when returning errors from a <a class="reference internal" href="classes/Proxy.html#Rest.Proxy" title="Rest.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">Rest.Proxy</span></tt></a>.</p>
+<dl class="staticmethod">
+<dt id="Rest.ProxyError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.CANCELLED">
+<tt class="descname">CANCELLED</tt><em class="property"> = 1</em></dt>
+<dd><p>Cancelled</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.RESOLUTION">
+<tt class="descname">RESOLUTION</tt><em class="property"> = 2</em></dt>
+<dd><p>Resolution</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.CONNECTION">
+<tt class="descname">CONNECTION</tt><em class="property"> = 3</em></dt>
+<dd><p>Connection</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.SSL">
+<tt class="descname">SSL</tt><em class="property"> = 4</em></dt>
+<dd><p>SSL</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.IO">
+<tt class="descname">IO</tt><em class="property"> = 5</em></dt>
+<dd><p>Input/Output</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 6</em></dt>
+<dd><p>Failure</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_MULTIPLE_CHOICES">
+<tt class="descname">HTTP_MULTIPLE_CHOICES</tt><em class="property"> = 300</em></dt>
+<dd><p>HTTP/Multiple choices</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_MOVED_PERMANENTLY">
+<tt class="descname">HTTP_MOVED_PERMANENTLY</tt><em class="property"> = 301</em></dt>
+<dd><p>HTTP/Moved permanently</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_FOUND">
+<tt class="descname">HTTP_FOUND</tt><em class="property"> = 302</em></dt>
+<dd><p>HTTP/Found</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_SEE_OTHER">
+<tt class="descname">HTTP_SEE_OTHER</tt><em class="property"> = 303</em></dt>
+<dd><p>HTTP/See other</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_NOT_MODIFIED">
+<tt class="descname">HTTP_NOT_MODIFIED</tt><em class="property"> = 304</em></dt>
+<dd><p>HTTP/Not modified</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_USE_PROXY">
+<tt class="descname">HTTP_USE_PROXY</tt><em class="property"> = 305</em></dt>
+<dd><p>HTTP/Use proxy</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_THREEOHSIX">
+<tt class="descname">HTTP_THREEOHSIX</tt><em class="property"> = 306</em></dt>
+<dd><p>HTTP/306</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_TEMPORARY_REDIRECT">
+<tt class="descname">HTTP_TEMPORARY_REDIRECT</tt><em class="property"> = 307</em></dt>
+<dd><p>HTTP/Temporary redirect</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_BAD_REQUEST">
+<tt class="descname">HTTP_BAD_REQUEST</tt><em class="property"> = 400</em></dt>
+<dd><p>HTTP/Bad request</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_UNAUTHORIZED">
+<tt class="descname">HTTP_UNAUTHORIZED</tt><em class="property"> = 401</em></dt>
+<dd><p>HTTP/Unauthorized</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_FOUROHTWO">
+<tt class="descname">HTTP_FOUROHTWO</tt><em class="property"> = 402</em></dt>
+<dd><p>HTTP/402</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_FORBIDDEN">
+<tt class="descname">HTTP_FORBIDDEN</tt><em class="property"> = 403</em></dt>
+<dd><p>HTTP/Forbidden</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_NOT_FOUND">
+<tt class="descname">HTTP_NOT_FOUND</tt><em class="property"> = 404</em></dt>
+<dd><p>HTTP/Not found</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_METHOD_NOT_ALLOWED">
+<tt class="descname">HTTP_METHOD_NOT_ALLOWED</tt><em class="property"> = 405</em></dt>
+<dd><p>HTTP/Method not allowed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_NOT_ACCEPTABLE">
+<tt class="descname">HTTP_NOT_ACCEPTABLE</tt><em class="property"> = 406</em></dt>
+<dd><p>HTTP/Not acceptable</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_PROXY_AUTHENTICATION_REQUIRED">
+<tt class="descname">HTTP_PROXY_AUTHENTICATION_REQUIRED</tt><em class="property"> = 407</em></dt>
+<dd><p>HTTP/Proxy authentication required</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_REQUEST_TIMEOUT">
+<tt class="descname">HTTP_REQUEST_TIMEOUT</tt><em class="property"> = 408</em></dt>
+<dd><p>HTTP/Request timeout</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_CONFLICT">
+<tt class="descname">HTTP_CONFLICT</tt><em class="property"> = 409</em></dt>
+<dd><p>HTTP/Conflict</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_GONE">
+<tt class="descname">HTTP_GONE</tt><em class="property"> = 410</em></dt>
+<dd><p>HTTP/Gone</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_LENGTH_REQUIRED">
+<tt class="descname">HTTP_LENGTH_REQUIRED</tt><em class="property"> = 411</em></dt>
+<dd><p>HTTP/Length required</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_PRECONDITION_FAILED">
+<tt class="descname">HTTP_PRECONDITION_FAILED</tt><em class="property"> = 412</em></dt>
+<dd><p>HTTP/Precondition failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_REQUEST_ENTITY_TOO_LARGE">
+<tt class="descname">HTTP_REQUEST_ENTITY_TOO_LARGE</tt><em class="property"> = 413</em></dt>
+<dd><p>HTTP/Request entity too large</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_REQUEST_URI_TOO_LONG">
+<tt class="descname">HTTP_REQUEST_URI_TOO_LONG</tt><em class="property"> = 414</em></dt>
+<dd><p>HTTP/Request URI too long</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_UNSUPPORTED_MEDIA_TYPE">
+<tt class="descname">HTTP_UNSUPPORTED_MEDIA_TYPE</tt><em class="property"> = 415</em></dt>
+<dd><p>HTTP/Unsupported media type</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_REQUESTED_RANGE_NOT_SATISFIABLE">
+<tt class="descname">HTTP_REQUESTED_RANGE_NOT_SATISFIABLE</tt><em class="property"> = 416</em></dt>
+<dd><p>HTTP/Requested range not satisfiable</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_EXPECTATION_FAILED">
+<tt class="descname">HTTP_EXPECTATION_FAILED</tt><em class="property"> = 417</em></dt>
+<dd><p>HTTP/Expectation failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_INTERNAL_SERVER_ERROR">
+<tt class="descname">HTTP_INTERNAL_SERVER_ERROR</tt><em class="property"> = 500</em></dt>
+<dd><p>HTTP/Internal server error</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_NOT_IMPLEMENTED">
+<tt class="descname">HTTP_NOT_IMPLEMENTED</tt><em class="property"> = 501</em></dt>
+<dd><p>HTTP/Not implemented</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_BAD_GATEWAY">
+<tt class="descname">HTTP_BAD_GATEWAY</tt><em class="property"> = 502</em></dt>
+<dd><p>HTTP/Bad gateway</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_SERVICE_UNAVAILABLE">
+<tt class="descname">HTTP_SERVICE_UNAVAILABLE</tt><em class="property"> = 503</em></dt>
+<dd><p>HTTP/Service unavailable</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_GATEWAY_TIMEOUT">
+<tt class="descname">HTTP_GATEWAY_TIMEOUT</tt><em class="property"> = 504</em></dt>
+<dd><p>HTTP/Gateway timeout</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Rest.ProxyError.HTTP_HTTP_VERSION_NOT_SUPPORTED">
+<tt class="descname">HTTP_HTTP_VERSION_NOT_SUPPORTED</tt><em class="property"> = 505</em></dt>
+<dd><p>HTTP/Version not supported</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

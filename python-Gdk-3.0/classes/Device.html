@@ -1,0 +1,1303 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gdk.Device -
+    
+      Classes -
+    
+    Gdk 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gdk 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gdk.DeviceManager" href="DeviceManager.html"/>
+        <link rel="prev" title="Gdk.Cursor" href="Cursor.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gdk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gdk.Device</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Cursor.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="DeviceManager.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gdk.Device</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gdk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gdk.Device</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Cursor.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="DeviceManager.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gdk.Device</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gdk-device">
+<h1>Gdk.Device</h1>
+<p class="graphviz">
+<svg width="88pt" height="80pt"
+ viewBox="0.00 0.00 88.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritancef915f04050</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gdk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M74,-72C74,-72 6,-72 6,-72 3,-72 0,-69 0,-66 0,-66 0,-60 0,-60 0,-57 3,-54 6,-54 6,-54 74,-54 74,-54 77,-54 80,-57 80,-60 80,-60 80,-66 80,-66 80,-69 77,-72 74,-72"/>
+<text text-anchor="middle" x="40" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- Gdk.Device -->
+<g id="node2" class="node"><title>Gdk.Device</title>
+<g id="a_node2"><a xlink:href="#Gdk.Device" xlink:title="Gdk.Device">
+<path fill="none" stroke="#75507b" d="M66,-18C66,-18 14,-18 14,-18 11,-18 8,-15 8,-12 8,-12 8,-6 8,-6 8,-3 11,-0 14,-0 14,-0 66,-0 66,-0 69,-0 72,-3 72,-6 72,-6 72,-12 72,-12 72,-15 69,-18 66,-18"/>
+<text text-anchor="middle" x="40" y="-6.7" font-family="inherit" font-size="8.50">Gdk.Device</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Gdk.Device -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;Gdk.Device</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M40,-53.875C40,-45.7564 40,-33.1312 40,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="41.7501,-23.2395 40,-18.2396 38.2501,-23.2396 41.7501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="gdk-device-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gdk.Device.grab_info_libgtk_only" title="Gdk.Device.grab_info_libgtk_only"><tt class="xref py py-obj docutils literal"><span class="pre">grab_info_libgtk_only</span></tt></a>(display, device)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_associated_device" title="Gdk.Device.get_associated_device"><tt class="xref py py-obj docutils literal"><span class="pre">get_associated_device</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_axis_use" title="Gdk.Device.get_axis_use"><tt class="xref py py-obj docutils literal"><span class="pre">get_axis_use</span></tt></a>(index_)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_device_type" title="Gdk.Device.get_device_type"><tt class="xref py py-obj docutils literal"><span class="pre">get_device_type</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_display" title="Gdk.Device.get_display"><tt class="xref py py-obj docutils literal"><span class="pre">get_display</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_has_cursor" title="Gdk.Device.get_has_cursor"><tt class="xref py py-obj docutils literal"><span class="pre">get_has_cursor</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_key" title="Gdk.Device.get_key"><tt class="xref py py-obj docutils literal"><span class="pre">get_key</span></tt></a>(index_)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_last_event_window" title="Gdk.Device.get_last_event_window"><tt class="xref py py-obj docutils literal"><span class="pre">get_last_event_window</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_mode" title="Gdk.Device.get_mode"><tt class="xref py py-obj docutils literal"><span class="pre">get_mode</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_n_axes" title="Gdk.Device.get_n_axes"><tt class="xref py py-obj docutils literal"><span class="pre">get_n_axes</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_n_keys" title="Gdk.Device.get_n_keys"><tt class="xref py py-obj docutils literal"><span class="pre">get_n_keys</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_name" title="Gdk.Device.get_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_name</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_position" title="Gdk.Device.get_position"><tt class="xref py py-obj docutils literal"><span class="pre">get_position</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_position_double" title="Gdk.Device.get_position_double"><tt class="xref py py-obj docutils literal"><span class="pre">get_position_double</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_source" title="Gdk.Device.get_source"><tt class="xref py py-obj docutils literal"><span class="pre">get_source</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_window_at_position" title="Gdk.Device.get_window_at_position"><tt class="xref py py-obj docutils literal"><span class="pre">get_window_at_position</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.get_window_at_position_double" title="Gdk.Device.get_window_at_position_double"><tt class="xref py py-obj docutils literal"><span class="pre">get_window_at_position_double</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.grab" title="Gdk.Device.grab"><tt class="xref py py-obj docutils literal"><span class="pre">grab</span></tt></a>(window, grab_ownership, owner_events, event_mask, cursor, time_)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.list_axes" title="Gdk.Device.list_axes"><tt class="xref py py-obj docutils literal"><span class="pre">list_axes</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.list_slave_devices" title="Gdk.Device.list_slave_devices"><tt class="xref py py-obj docutils literal"><span class="pre">list_slave_devices</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.set_axis_use" title="Gdk.Device.set_axis_use"><tt class="xref py py-obj docutils literal"><span class="pre">set_axis_use</span></tt></a>(index_, use)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.set_key" title="Gdk.Device.set_key"><tt class="xref py py-obj docutils literal"><span class="pre">set_key</span></tt></a>(index_, keyval, modifiers)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.set_mode" title="Gdk.Device.set_mode"><tt class="xref py py-obj docutils literal"><span class="pre">set_mode</span></tt></a>(mode)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.ungrab" title="Gdk.Device.ungrab"><tt class="xref py py-obj docutils literal"><span class="pre">ungrab</span></tt></a>(time_)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gdk.Device.warp" title="Gdk.Device.warp"><tt class="xref py py-obj docutils literal"><span class="pre">warp</span></tt></a>(screen, x, y)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gdk-device-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gdk-device-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gdk.Device.props.associated_device" title="Gdk.Device.props.associated_device"><tt class="xref py py-data docutils literal"><span class="pre">associated-device</span></tt></a></td>
+<td><a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Device</span></tt></a></td>
+<td>r</td>
+<td>Associated pointer or keyboard with this device</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gdk.Device.props.device_manager" title="Gdk.Device.props.device_manager"><tt class="xref py py-data docutils literal"><span class="pre">device-manager</span></tt></a></td>
+<td><a class="reference internal" href="DeviceManager.html#Gdk.DeviceManager" title="Gdk.DeviceManager"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.DeviceManager</span></tt></a></td>
+<td>r/w</td>
+<td>Device manager which the device belongs to</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gdk.Device.props.display" title="Gdk.Device.props.display"><tt class="xref py py-data docutils literal"><span class="pre">display</span></tt></a></td>
+<td><a class="reference internal" href="Display.html#Gdk.Display" title="Gdk.Display"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Display</span></tt></a></td>
+<td>r/w</td>
+<td>Display which the device belongs to</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gdk.Device.props.has_cursor" title="Gdk.Device.props.has_cursor"><tt class="xref py py-data docutils literal"><span class="pre">has-cursor</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether there is a visible cursor following device motion</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gdk.Device.props.input_mode" title="Gdk.Device.props.input_mode"><tt class="xref py py-data docutils literal"><span class="pre">input-mode</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Gdk.InputMode" title="Gdk.InputMode"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.InputMode</span></tt></a></td>
+<td>r/w</td>
+<td>Input mode for the device</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gdk.Device.props.input_source" title="Gdk.Device.props.input_source"><tt class="xref py py-data docutils literal"><span class="pre">input-source</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Gdk.InputSource" title="Gdk.InputSource"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.InputSource</span></tt></a></td>
+<td>r/w</td>
+<td>Source type for the device</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gdk.Device.props.n_axes" title="Gdk.Device.props.n_axes"><tt class="xref py py-data docutils literal"><span class="pre">n-axes</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r</td>
+<td>Number of axes in the device</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gdk.Device.props.name" title="Gdk.Device.props.name"><tt class="xref py py-data docutils literal"><span class="pre">name</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>Device name</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gdk.Device.props.type" title="Gdk.Device.props.type"><tt class="xref py py-data docutils literal"><span class="pre">type</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Gdk.DeviceType" title="Gdk.DeviceType"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.DeviceType</span></tt></a></td>
+<td>r/w</td>
+<td>Device role in the device manager</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gdk-device-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gdk.Device.signals.changed" title="Gdk.Device.signals.changed"><tt class="xref py py-func docutils literal"><span class="pre">changed</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gdk.Device.signals.changed" title="Gdk.Device.signals.changed"><tt class="xref py py-func docutils literal"><span class="pre">::changed</span></tt></a> signal is emitted either when the <a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device</span></tt></a>  has changed the number of either axes or keys.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gdk-device-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gdk.Device">
+<em class="property">class </em><tt class="descclassname">Gdk.</tt><tt class="descname">Device</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></p>
+<p>The <a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device</span></tt></a> object represents a single input device, such
+as a keyboard, a mouse, a touchpad, etc.</p>
+<p>See the <a class="reference internal" href="DeviceManager.html#Gdk.DeviceManager" title="Gdk.DeviceManager"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceManager</span></tt></a> documentation for more information
+about the various kinds of master and slave devices, and their
+relationships.</p>
+<dl class="staticmethod">
+<dt id="Gdk.Device.grab_info_libgtk_only">
+<em class="property">static </em><tt class="descname">grab_info_libgtk_only</tt><big>(</big><em>display</em>, <em>device</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>display</strong> (<a class="reference internal" href="Display.html#Gdk.Display" title="Gdk.Display"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Display</span></tt></a>) &#8211; the display for which to get the grab information</li>
+<li><strong>device</strong> (<a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Device</span></tt></a>) &#8211; device to get the grab information from</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if this application currently has the
+keyboard grabbed.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">grab_window:</th><td class="field-body">location to store current grab window</td>
+</tr>
+<tr class="field-even field"><th class="field-name">owner_events:</th><td class="field-body">location to store boolean indicating whether
+the <cite>owner_events</cite> flag to <a class="reference internal" href="../functions.html#Gdk.keyboard_grab" title="Gdk.keyboard_grab"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.keyboard_grab</span></tt></a> () or
+<a class="reference internal" href="../functions.html#Gdk.pointer_grab" title="Gdk.pointer_grab"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.pointer_grab</span></tt></a> () was <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>grab_window</strong>: <a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Window</span></tt></a>, <strong>owner_events</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Determines information about the current keyboard grab.
+This is not public API and must not be used by applications.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_associated_device">
+<tt class="descname">get_associated_device</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The associated device, or
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Device</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the associated device to <cite>device</cite>, if <cite>device</cite> is of type
+<a class="reference internal" href="../enums.html#Gdk.DeviceType.MASTER" title="Gdk.DeviceType.MASTER"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.MASTER</span></tt></a>, it will return the paired pointer or
+keyboard.</p>
+<p>If <cite>device</cite> is of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.SLAVE" title="Gdk.DeviceType.SLAVE"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.SLAVE</span></tt></a>, it will return
+the master device to which <cite>device</cite> is attached to.</p>
+<p>If <cite>device</cite> is of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.FLOATING" title="Gdk.DeviceType.FLOATING"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.FLOATING</span></tt></a>, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> will be
+returned, as there is no associated device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_axis_use">
+<tt class="descname">get_axis_use</tt><big>(</big><em>index_</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index_</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the index of the axis.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="../enums.html#Gdk.AxisUse" title="Gdk.AxisUse"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.AxisUse</span></tt></a> specifying how the axis is used.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.AxisUse" title="Gdk.AxisUse"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.AxisUse</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the axis use for <cite>index_</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_device_type">
+<tt class="descname">get_device_type</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="../enums.html#Gdk.DeviceType" title="Gdk.DeviceType"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType</span></tt></a> for <cite>device</cite>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.DeviceType" title="Gdk.DeviceType"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.DeviceType</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the device type for <cite>device</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_display">
+<tt class="descname">get_display</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="Display.html#Gdk.Display" title="Gdk.Display"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Display</span></tt></a>. This memory is owned
+by GTK+, and must not be freed or unreffed.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Display.html#Gdk.Display" title="Gdk.Display"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Display</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the <a class="reference internal" href="Display.html#Gdk.Display" title="Gdk.Display"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Display</span></tt></a> to which <cite>device</cite> pertains.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_has_cursor">
+<tt class="descname">get_has_cursor</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the pointer follows device motion</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Determines whether the pointer follows device motion.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_key">
+<tt class="descname">get_key</tt><big>(</big><em>index_</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index_</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the index of the macro button to get.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if keyval is set for <cite>index</cite>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">keyval:</th><td class="field-body">return value for the keyval.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">modifiers:</th><td class="field-body">return value for modifiers.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>keyval</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>, <strong>modifiers</strong>: <a class="reference internal" href="../flags.html#Gdk.ModifierType" title="Gdk.ModifierType"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.ModifierType</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>If <cite>index_</cite> has a valid keyval, this function will return <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>
+and fill in <cite>keyval</cite> and <cite>modifiers</cite> with the keyval settings.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_last_event_window">
+<tt class="descname">get_last_event_window</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the last window the device</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Window</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets information about which window the given pointer device is in, based on
+that have been received so far from the display server. If another application
+has a pointer grab, or this application has a grab with owner_events = <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a>,
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> may be returned even if the pointer is physically over one of this
+application&#8217;s windows.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_mode">
+<tt class="descname">get_mode</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="../enums.html#Gdk.InputSource" title="Gdk.InputSource"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.InputSource</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.InputMode" title="Gdk.InputMode"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.InputMode</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Determines the mode of the device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_n_axes">
+<tt class="descname">get_n_axes</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the number of axes.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the number of axes the device currently has.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_n_keys">
+<tt class="descname">get_n_keys</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the number of keys.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the number of keys the device currently has.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.24.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_name">
+<tt class="descname">get_name</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a name</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Determines the name of the device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_position">
+<tt class="descname">get_position</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">screen:</th><td class="field-body">location to store the <a class="reference internal" href="Screen.html#Gdk.Screen" title="Gdk.Screen"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Screen</span></tt></a>
+the <cite>device</cite> is on, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">x:</th><td class="field-body">location to store root window X coordinate of <cite>device</cite>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">y:</th><td class="field-body">location to store root window Y coordinate of <cite>device</cite>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<strong>screen</strong>: <a class="reference internal" href="Screen.html#Gdk.Screen" title="Gdk.Screen"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Screen</span></tt></a>, <strong>x</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>, <strong>y</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Gets the current location of <cite>device</cite>. As a slave device
+coordinates are those of its master pointer, This function
+may not be called on devices of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.SLAVE" title="Gdk.DeviceType.SLAVE"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.SLAVE</span></tt></a>,
+unless there is an ongoing grab on them, see <a class="reference internal" href="#Gdk.Device.grab" title="Gdk.Device.grab"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device.grab</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_position_double">
+<tt class="descname">get_position_double</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">screen:</th><td class="field-body">location to store the <a class="reference internal" href="Screen.html#Gdk.Screen" title="Gdk.Screen"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Screen</span></tt></a>
+the <cite>device</cite> is on, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">x:</th><td class="field-body">location to store root window X coordinate of <cite>device</cite>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">y:</th><td class="field-body">location to store root window Y coordinate of <cite>device</cite>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<strong>screen</strong>: <a class="reference internal" href="Screen.html#Gdk.Screen" title="Gdk.Screen"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Screen</span></tt></a>, <strong>x</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>, <strong>y</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Gets the current location of <cite>device</cite> in double precision. As a slave device&#8217;s
+coordinates are those of its master pointer, this function
+may not be called on devices of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.SLAVE" title="Gdk.DeviceType.SLAVE"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.SLAVE</span></tt></a>,
+unless there is an ongoing grab on them. See <a class="reference internal" href="#Gdk.Device.grab" title="Gdk.Device.grab"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device.grab</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_source">
+<tt class="descname">get_source</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="../enums.html#Gdk.InputSource" title="Gdk.InputSource"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.InputSource</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.InputSource" title="Gdk.InputSource"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.InputSource</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Determines the type of the device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_window_at_position">
+<tt class="descname">get_window_at_position</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Window</span></tt></a> under the
+device position, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">win_x:</th><td class="field-body">return location for the X coordinate of the device location,
+relative to the window origin, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">win_y:</th><td class="field-body">return location for the Y coordinate of the device location,
+relative to the window origin, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Window</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, <strong>win_x</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>, <strong>win_y</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Obtains the window underneath <cite>device</cite>, returning the location of the device in <cite>win_x</cite> and <cite>win_y</cite>. Returns
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if the window tree under <cite>device</cite> is not known to GDK (for example, belongs to another application).</p>
+<p>As a slave device coordinates are those of its master pointer, This
+function may not be called on devices of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.SLAVE" title="Gdk.DeviceType.SLAVE"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.SLAVE</span></tt></a>,
+unless there is an ongoing grab on them, see <a class="reference internal" href="#Gdk.Device.grab" title="Gdk.Device.grab"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device.grab</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.get_window_at_position_double">
+<tt class="descname">get_window_at_position_double</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Window</span></tt></a> under the
+device position, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">win_x:</th><td class="field-body">return location for the X coordinate of the device location,
+relative to the window origin, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">win_y:</th><td class="field-body">return location for the Y coordinate of the device location,
+relative to the window origin, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Window</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, <strong>win_x</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>, <strong>win_y</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Obtains the window underneath <cite>device</cite>, returning the location of the device in <cite>win_x</cite> and <cite>win_y</cite> in
+double precision. Returns <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if the window tree under <cite>device</cite> is not known to GDK (for example,
+belongs to another application).</p>
+<p>As a slave device coordinates are those of its master pointer, This
+function may not be called on devices of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.SLAVE" title="Gdk.DeviceType.SLAVE"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.SLAVE</span></tt></a>,
+unless there is an ongoing grab on them, see <a class="reference internal" href="#Gdk.Device.grab" title="Gdk.Device.grab"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device.grab</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.grab">
+<tt class="descname">grab</tt><big>(</big><em>window</em>, <em>grab_ownership</em>, <em>owner_events</em>, <em>event_mask</em>, <em>cursor</em>, <em>time_</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>window</strong> (<a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Window</span></tt></a>) &#8211; the <a class="reference internal" href="Window.html#Gdk.Window" title="Gdk.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Window</span></tt></a> which will own the grab (the grab window)</li>
+<li><strong>grab_ownership</strong> (<a class="reference internal" href="../enums.html#Gdk.GrabOwnership" title="Gdk.GrabOwnership"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.GrabOwnership</span></tt></a>) &#8211; specifies the grab ownership.</li>
+<li><strong>owner_events</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; if <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> then all device events are reported with respect to
+<cite>window</cite> and are only reported if selected by <cite>event_mask</cite>. If
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> then pointer events for this application are reported
+as normal, but pointer events outside this application are
+reported with respect to <cite>window</cite> and only if selected by
+<cite>event_mask</cite>. In either mode, unreported events are discarded.</li>
+<li><strong>event_mask</strong> (<a class="reference internal" href="../flags.html#Gdk.EventMask" title="Gdk.EventMask"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.EventMask</span></tt></a>) &#8211; specifies the event mask, which is used in accordance with
+<cite>owner_events</cite>.</li>
+<li><strong>cursor</strong> (<a class="reference internal" href="Cursor.html#Gdk.Cursor" title="Gdk.Cursor"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Cursor</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the cursor to display while the grab is active if the device is
+a pointer. If this is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> then the normal cursors are used for
+<cite>window</cite> and its descendants, and the cursor for <cite>window</cite> is used
+elsewhere.</li>
+<li><strong>time_</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the timestamp of the event which led to this pointer grab. This
+usually comes from the <a class="reference internal" href="../unions/Event.html#Gdk.Event" title="Gdk.Event"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Event</span></tt></a> struct, though <a class="reference internal" href="../constants.html#Gdk.CURRENT_TIME" title="Gdk.CURRENT_TIME"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.CURRENT_TIME</span></tt></a>
+can be used if the time isn’t known.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference internal" href="../enums.html#Gdk.GrabStatus.SUCCESS" title="Gdk.GrabStatus.SUCCESS"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.GrabStatus.SUCCESS</span></tt></a> if the grab was successful.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="../enums.html#Gdk.GrabStatus" title="Gdk.GrabStatus"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.GrabStatus</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Grabs the device so that all events coming from this device are passed to
+this application until the device is ungrabbed with <a class="reference internal" href="#Gdk.Device.ungrab" title="Gdk.Device.ungrab"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device.ungrab</span></tt></a> (),
+or the window becomes unviewable. This overrides any previous grab on the device
+by this client.</p>
+<p>Device grabs are used for operations which need complete control over the
+given device events (either pointer or keyboard). For example in GTK+ this
+is used for Drag and Drop operations, popup menus and such.</p>
+<p>Note that if the event mask of an X window has selected both button press
+and button release events, then a button press event will cause an automatic
+pointer grab until the button is released. X does this automatically since
+most applications expect to receive button press and release events in pairs.
+It is equivalent to a pointer grab on the window with <cite>owner_events</cite> set to
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>.</p>
+<p>If you set up anything at the time you take the grab that needs to be
+cleaned up when the grab ends, you should handle the <a class="reference internal" href="../structs/EventGrabBroken.html#Gdk.EventGrabBroken" title="Gdk.EventGrabBroken"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.EventGrabBroken</span></tt></a>
+events that are emitted when the grab ends unvoluntarily.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.list_axes">
+<tt class="descname">list_axes</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of <a class="reference internal" href="../structs/Atom.html#Gdk.Atom" title="Gdk.Atom"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Atoms</span></tt></a>, free with <tt class="xref py py-obj docutils literal"><span class="pre">GLib.List.free</span></tt> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference internal" href="../structs/Atom.html#Gdk.Atom" title="Gdk.Atom"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Atom</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Returns a <a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of <a class="reference internal" href="../structs/Atom.html#Gdk.Atom" title="Gdk.Atom"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Atoms</span></tt></a>, containing the labels for
+the axes that <cite>device</cite> currently has.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.list_slave_devices">
+<tt class="descname">list_slave_devices</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the list of slave devices, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>. The list must be
+freed with <tt class="xref py py-obj docutils literal"><span class="pre">GLib.List.free</span></tt> (), the contents of the list are
+owned by GTK+ and should not be freed.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Device</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>If the device if of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.MASTER" title="Gdk.DeviceType.MASTER"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.MASTER</span></tt></a>, it will return
+the list of slave devices attached to it, otherwise it will return
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.set_axis_use">
+<tt class="descname">set_axis_use</tt><big>(</big><em>index_</em>, <em>use</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>index_</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the index of the axis</li>
+<li><strong>use</strong> (<a class="reference internal" href="../enums.html#Gdk.AxisUse" title="Gdk.AxisUse"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.AxisUse</span></tt></a>) &#8211; specifies how the axis is used</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Specifies how an axis of a device is used.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.set_key">
+<tt class="descname">set_key</tt><big>(</big><em>index_</em>, <em>keyval</em>, <em>modifiers</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>index_</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the index of the macro button to set</li>
+<li><strong>keyval</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the keyval to generate</li>
+<li><strong>modifiers</strong> (<a class="reference internal" href="../flags.html#Gdk.ModifierType" title="Gdk.ModifierType"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.ModifierType</span></tt></a>) &#8211; the modifiers to set</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Specifies the X key event to generate when a macro button of a device
+is pressed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.set_mode">
+<tt class="descname">set_mode</tt><big>(</big><em>mode</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mode</strong> (<a class="reference internal" href="../enums.html#Gdk.InputMode" title="Gdk.InputMode"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.InputMode</span></tt></a>) &#8211; the input mode.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the mode was successfully changed.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets a the mode of an input device. The mode controls if the
+device is active and whether the device’s range is mapped to the
+entire screen or to a single window.</p>
+<p>Note: This is only meaningful for floating devices, master devices (and
+slaves connected to these) drive the pointer cursor, which is not limited
+by the input mode.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.ungrab">
+<tt class="descname">ungrab</tt><big>(</big><em>time_</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>time_</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; a timestap (e.g. <a class="reference internal" href="../constants.html#Gdk.CURRENT_TIME" title="Gdk.CURRENT_TIME"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.CURRENT_TIME</span></tt></a> ).</td>
+</tr>
+</tbody>
+</table>
+<p>Release any grab on <cite>device</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gdk.Device.warp">
+<tt class="descname">warp</tt><big>(</big><em>screen</em>, <em>x</em>, <em>y</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>screen</strong> (<a class="reference internal" href="Screen.html#Gdk.Screen" title="Gdk.Screen"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Screen</span></tt></a>) &#8211; the screen to warp <cite>device</cite> to.</li>
+<li><strong>x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the X coordinate of the destination.</li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the Y coordinate of the destination.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Warps <cite>device</cite> in <cite>display</cite> to the point <cite>x</cite>,`y` on
+the screen <cite>screen</cite>, unless the device is confined
+to a window by a grab, in which case it will be moved
+as far as allowed by the grab. Warping the pointer
+creates events as if the user had moved the mouse
+instantaneously to the destination.</p>
+<p>Note that the pointer should normally be under the
+control of the user. This function was added to cover
+some rare use cases like keyboard navigation support
+for the color picker in the #GtkColorSelectionDialog.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Gdk.Device.signals.changed">
+<tt class="descclassname">Gdk.Device.signals.</tt><tt class="descname">changed</tt><big>(</big><em>device</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">changed</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gdk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>device</strong> (<a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Device</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gdk.Device.signals.changed" title="Gdk.Device.signals.changed"><tt class="xref py py-func docutils literal"><span class="pre">::changed</span></tt></a> signal is emitted either when the <a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device</span></tt></a>
+has changed the number of either axes or keys. For example
+In X this will normally happen when the slave device routing
+events through the master device changes (for example, user
+switches from the USB mouse to a tablet), in that case the
+master device will change to reflect the new slave device
+axes and keys.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gdk.Device.props.associated_device">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">associated_device</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">associated-device</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Device</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>Associated pointer or keyboard with this device, if any. Devices of type <a class="reference internal" href="../enums.html#Gdk.DeviceType.MASTER" title="Gdk.DeviceType.MASTER"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.MASTER</span></tt></a>
+always come in keyboard/pointer pairs. Other device types will have a <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> associated device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.device_manager">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">device_manager</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">device-manager</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="DeviceManager.html#Gdk.DeviceManager" title="Gdk.DeviceManager"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.DeviceManager</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="DeviceManager.html#Gdk.DeviceManager" title="Gdk.DeviceManager"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceManager</span></tt></a> the <a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device</span></tt></a> pertains to.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.display">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">display</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">display</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="Display.html#Gdk.Display" title="Gdk.Display"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Display</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="Display.html#Gdk.Display" title="Gdk.Display"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Display</span></tt></a> the <a class="reference internal" href="#Gdk.Device" title="Gdk.Device"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Device</span></tt></a> pertains to.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.has_cursor">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">has_cursor</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">has-cursor</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the device is represented by a cursor on the screen. Devices of type
+<a class="reference internal" href="../enums.html#Gdk.DeviceType.MASTER" title="Gdk.DeviceType.MASTER"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.MASTER</span></tt></a> will have <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> here.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.input_mode">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">input_mode</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">input-mode</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.InputMode" title="Gdk.InputMode"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.InputMode</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.InputMode.DISABLED" title="Gdk.InputMode.DISABLED"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.InputMode.DISABLED</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Input mode for the device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.input_source">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">input_source</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">input-source</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.InputSource" title="Gdk.InputSource"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.InputSource</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.InputSource.MOUSE" title="Gdk.InputSource.MOUSE"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.InputSource.MOUSE</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Source type for the device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.n_axes">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">n_axes</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">n-axes</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>Number of axes in the device.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.name">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">name</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">name</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The device name.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gdk.Device.props.type">
+<tt class="descclassname">Gdk.Device.props.</tt><tt class="descname">type</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">type</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.DeviceType" title="Gdk.DeviceType"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.DeviceType</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gdk.DeviceType.MASTER" title="Gdk.DeviceType.MASTER"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.DeviceType.MASTER</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Device role in the device manager.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

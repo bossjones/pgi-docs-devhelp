@@ -1,0 +1,864 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    GstCheck 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="GstCheck 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Classes" href="classes/index.html"/>
+        <link rel="prev" title="GstCheck 1.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstCheck 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstCheck 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.buffer_straw_get_buffer" title="GstCheck.buffer_straw_get_buffer"><tt class="xref py py-obj docutils literal"><span class="pre">buffer_straw_get_buffer</span></tt></a>(bin, pad)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">buffer_straw_start_pipeline</span></tt></a>(bin, pad)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.buffer_straw_stop_pipeline" title="GstCheck.buffer_straw_stop_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">buffer_straw_stop_pipeline</span></tt></a>(bin, pad)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_abi_list" title="GstCheck.check_abi_list"><tt class="xref py py-obj docutils literal"><span class="pre">check_abi_list</span></tt></a>(list, have_abi_sizes)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_buffer_data" title="GstCheck.check_buffer_data"><tt class="xref py py-obj docutils literal"><span class="pre">check_buffer_data</span></tt></a>(buffer, data, size)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_caps_equal" title="GstCheck.check_caps_equal"><tt class="xref py py-obj docutils literal"><span class="pre">check_caps_equal</span></tt></a>(caps1, caps2)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_chain_func" title="GstCheck.check_chain_func"><tt class="xref py py-obj docutils literal"><span class="pre">check_chain_func</span></tt></a>(pad, parent, buffer)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_drop_buffers" title="GstCheck.check_drop_buffers"><tt class="xref py py-obj docutils literal"><span class="pre">check_drop_buffers</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_element_push_buffer" title="GstCheck.check_element_push_buffer"><tt class="xref py py-obj docutils literal"><span class="pre">check_element_push_buffer</span></tt></a>(element_name, buffer_in, caps_in, buffer_out, caps_out)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_element_push_buffer_list" title="GstCheck.check_element_push_buffer_list"><tt class="xref py py-obj docutils literal"><span class="pre">check_element_push_buffer_list</span></tt></a>(element_name, buffer_in, caps_in, buffer_out, caps_out, last_flow_return)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_init" title="GstCheck.check_init"><tt class="xref py py-obj docutils literal"><span class="pre">check_init</span></tt></a>(argc, argv)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_message_error" title="GstCheck.check_message_error"><tt class="xref py py-obj docutils literal"><span class="pre">check_message_error</span></tt></a>(message, type, domain, code)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_element" title="GstCheck.check_setup_element"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_element</span></tt></a>(factory)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_events" title="GstCheck.check_setup_events"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_events</span></tt></a>(srcpad, element, caps, format)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_events_with_stream_id" title="GstCheck.check_setup_events_with_stream_id"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_events_with_stream_id</span></tt></a>(srcpad, element, caps, format, stream_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_sink_pad" title="GstCheck.check_setup_sink_pad"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_sink_pad</span></tt></a>(element, tmpl)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_sink_pad_by_name" title="GstCheck.check_setup_sink_pad_by_name"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_sink_pad_by_name</span></tt></a>(element, tmpl, name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_sink_pad_by_name_from_template" title="GstCheck.check_setup_sink_pad_by_name_from_template"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_sink_pad_by_name_from_template</span></tt></a>(element, tmpl, name)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_sink_pad_from_template" title="GstCheck.check_setup_sink_pad_from_template"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_sink_pad_from_template</span></tt></a>(element, tmpl)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_src_pad" title="GstCheck.check_setup_src_pad"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_src_pad</span></tt></a>(element, tmpl)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_src_pad_by_name" title="GstCheck.check_setup_src_pad_by_name"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_src_pad_by_name</span></tt></a>(element, tmpl, name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_src_pad_by_name_from_template" title="GstCheck.check_setup_src_pad_by_name_from_template"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_src_pad_by_name_from_template</span></tt></a>(element, tmpl, name)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_setup_src_pad_from_template" title="GstCheck.check_setup_src_pad_from_template"><tt class="xref py py-obj docutils literal"><span class="pre">check_setup_src_pad_from_template</span></tt></a>(element, tmpl)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_teardown_element" title="GstCheck.check_teardown_element"><tt class="xref py py-obj docutils literal"><span class="pre">check_teardown_element</span></tt></a>(element)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_teardown_pad_by_name" title="GstCheck.check_teardown_pad_by_name"><tt class="xref py py-obj docutils literal"><span class="pre">check_teardown_pad_by_name</span></tt></a>(element, name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_teardown_sink_pad" title="GstCheck.check_teardown_sink_pad"><tt class="xref py py-obj docutils literal"><span class="pre">check_teardown_sink_pad</span></tt></a>(element)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.check_teardown_src_pad" title="GstCheck.check_teardown_src_pad"><tt class="xref py py-obj docutils literal"><span class="pre">check_teardown_src_pad</span></tt></a>(element)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.consistency_checker_add_pad" title="GstCheck.consistency_checker_add_pad"><tt class="xref py py-obj docutils literal"><span class="pre">consistency_checker_add_pad</span></tt></a>(consist, pad)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstCheck.consistency_checker_free" title="GstCheck.consistency_checker_free"><tt class="xref py py-obj docutils literal"><span class="pre">consistency_checker_free</span></tt></a>(consist)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstCheck.consistency_checker_reset" title="GstCheck.consistency_checker_reset"><tt class="xref py py-obj docutils literal"><span class="pre">consistency_checker_reset</span></tt></a>(consist)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="GstCheck.buffer_straw_get_buffer">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">buffer_straw_get_buffer</tt><big>(</big><em>bin</em>, <em>pad</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>bin</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; the pipeline previously started via <a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_start_pipeline</span></tt></a> ()</li>
+<li><strong>pad</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a>) &#8211; the pad previously passed to <a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_start_pipeline</span></tt></a> ()</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the captured <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Buffer</span></tt></a>.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Buffer</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Get one buffer from <cite>pad</cite>. Implemented via buffer probes. This function will
+block until the pipeline passes a buffer over <cite>pad</cite>, so for robust behavior
+in unit tests, you need to use check&#8217;s timeout to fail out in the case that a
+buffer never arrives.</p>
+<p>You must have previously called <a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_start_pipeline</span></tt></a> () on
+<cite>pipeline</cite> and <cite>pad</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.buffer_straw_start_pipeline">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">buffer_straw_start_pipeline</tt><big>(</big><em>bin</em>, <em>pad</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>bin</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; the pipeline to run</li>
+<li><strong>pad</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a>) &#8211; a pad on an element in <cite>bin</cite></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets up a pipeline for buffer sucking. This will allow you to call
+<a class="reference internal" href="#GstCheck.buffer_straw_get_buffer" title="GstCheck.buffer_straw_get_buffer"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_get_buffer</span></tt></a> () to access buffers as they pass over <cite>pad</cite>.</p>
+<p>This function is normally used in unit tests that want to verify that a
+particular element is outputting correct buffers. For example, you would make
+a pipeline via <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/functions.html#Gst.parse_launch" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.parse_launch</span></tt></a> (), pull out the pad you want to monitor, then
+call <a class="reference internal" href="#GstCheck.buffer_straw_get_buffer" title="GstCheck.buffer_straw_get_buffer"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_get_buffer</span></tt></a> () to get the buffers that pass through <cite>pad</cite>.
+The pipeline will block until you have sucked off the buffers.</p>
+<p>This function will set the state of <cite>bin</cite> to PLAYING; to clean up, be sure to
+call <a class="reference internal" href="#GstCheck.buffer_straw_stop_pipeline" title="GstCheck.buffer_straw_stop_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_stop_pipeline</span></tt></a> ().</p>
+<p>Note that you may not start two buffer straws at the same time. This function
+is intended for unit tests, not general API use. In fact it calls fail_if
+from libcheck, so you cannot use it outside unit tests.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.buffer_straw_stop_pipeline">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">buffer_straw_stop_pipeline</tt><big>(</big><em>bin</em>, <em>pad</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>bin</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; the pipeline previously started via <a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_start_pipeline</span></tt></a> ()</li>
+<li><strong>pad</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a>) &#8211; the pad previously passed to <a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_start_pipeline</span></tt></a> ()</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Set <cite>bin</cite> to <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.State.NULL" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.State.NULL</span></tt></a> and release resource allocated in
+<a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_start_pipeline</span></tt></a> ().</p>
+<p>You must have previously called <a class="reference internal" href="#GstCheck.buffer_straw_start_pipeline" title="GstCheck.buffer_straw_start_pipeline"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.buffer_straw_start_pipeline</span></tt></a> () on
+<cite>pipeline</cite> and <cite>pad</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_abi_list">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_abi_list</tt><big>(</big><em>list</em>, <em>have_abi_sizes</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>list</strong> (<a class="reference internal" href="structs/CheckABIStruct.html#GstCheck.CheckABIStruct" title="GstCheck.CheckABIStruct"><tt class="xref py py-class docutils literal"><span class="pre">GstCheck.CheckABIStruct</span></tt></a>) &#8211; </li>
+<li><strong>have_abi_sizes</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_buffer_data">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_buffer_data</tt><big>(</big><em>buffer</em>, <em>data</em>, <em>size</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>buffer</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Buffer</span></tt></a>) &#8211; buffer to compare</li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; data to compare to</li>
+<li><strong>size</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; size of data to compare</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Compare the buffer contents with <cite>data</cite> and <cite>size</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_caps_equal">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_caps_equal</tt><big>(</big><em>caps1</em>, <em>caps2</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>caps1</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a>) &#8211; first caps to compare</li>
+<li><strong>caps2</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a>) &#8211; second caps to compare</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Compare two caps with <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps.is_equal" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps.is_equal</span></tt></a> and fail unless they are
+equal.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_chain_func">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_chain_func</tt><big>(</big><em>pad</em>, <em>parent</em>, <em>buffer</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>pad</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a>) &#8211; </li>
+<li><strong>parent</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Object.html#Gst.Object" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Object</span></tt></a>) &#8211; </li>
+<li><strong>buffer</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Buffer</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.FlowReturn" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.FlowReturn</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_drop_buffers">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_drop_buffers</tt><big>(</big><big>)</big></dt>
+<dd><p>Unref and remove all buffers that are in the global <cite>buffers</cite> <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a>,
+emptying the list.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_element_push_buffer">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_element_push_buffer</tt><big>(</big><em>element_name</em>, <em>buffer_in</em>, <em>caps_in</em>, <em>buffer_out</em>, <em>caps_out</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>element_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; name of the element that needs to be created</li>
+<li><strong>buffer_in</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Buffer</span></tt></a>) &#8211; push this buffer to the element</li>
+<li><strong>caps_in</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a>) &#8211; the <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps</span></tt></a> expected of the sinkpad of the element</li>
+<li><strong>buffer_out</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Buffer</span></tt></a>) &#8211; compare the result with this buffer</li>
+<li><strong>caps_out</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a>) &#8211; the <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps</span></tt></a> expected of the srcpad of the element</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create an element using the factory providing the <cite>element_name</cite> and
+push the <cite>buffer_in</cite> to this element. The element should create one buffer
+and this will be compared with <cite>buffer_out</cite>. We only check the caps
+and the data of the buffers. This function unrefs the buffers.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_element_push_buffer_list">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_element_push_buffer_list</tt><big>(</big><em>element_name</em>, <em>buffer_in</em>, <em>caps_in</em>, <em>buffer_out</em>, <em>caps_out</em>, <em>last_flow_return</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>element_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; name of the element that needs to be created</li>
+<li><strong>buffer_in</strong> ([<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Buffer</span></tt></a>]) &#8211; a list of buffers that needs to be
+pushed to the element</li>
+<li><strong>caps_in</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a>) &#8211; the <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps</span></tt></a> expected of the sinkpad of the element</li>
+<li><strong>buffer_out</strong> ([<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Buffer.html#Gst.Buffer" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Buffer</span></tt></a>]) &#8211; a list of buffers that we expect from
+the element</li>
+<li><strong>caps_out</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a>) &#8211; the <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps</span></tt></a> expected of the srcpad of the element</li>
+<li><strong>last_flow_return</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.FlowReturn" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.FlowReturn</span></tt></a>) &#8211; the last buffer push needs to give this <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.FlowReturn" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.FlowReturn</span></tt></a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create an element using the factory providing the <cite>element_name</cite> and push the
+buffers in <cite>buffer_in</cite> to this element. The element should create the buffers
+equal to the buffers in <cite>buffer_out</cite>. We only check the size and the data of
+the buffers. This function unrefs the buffers in the two lists.
+The last_flow_return parameter indicates the expected flow return value from
+pushing the final buffer in the list.
+This can be used to set up a test which pushes some buffers and then an
+invalid buffer, when the final buffer is expected to fail, for example.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_init">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_init</tt><big>(</big><em>argc</em>, <em>argv</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>argc</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>argv</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_message_error">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_message_error</tt><big>(</big><em>message</em>, <em>type</em>, <em>domain</em>, <em>code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>message</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Message.html#Gst.Message" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Message</span></tt></a>) &#8211; </li>
+<li><strong>type</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/flags.html#Gst.MessageType" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.MessageType</span></tt></a>) &#8211; </li>
+<li><strong>domain</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_element">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_element</tt><big>(</big><em>factory</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>factory</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; factory</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new element</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>setup an element for a filter test with mysrcpad and mysinkpad</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_events">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_events</tt><big>(</big><em>srcpad</em>, <em>element</em>, <em>caps</em>, <em>format</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>srcpad</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a>) &#8211; The src <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Pad</span></tt></a> to push on</li>
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; The <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Element</span></tt></a> use to create the stream id</li>
+<li><strong>caps</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps</span></tt></a> in case caps event must be sent</li>
+<li><strong>format</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.Format" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Format</span></tt></a>) &#8211; The <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.Format" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Format</span></tt></a> of the default segment to send</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Push stream-start, caps and segment event, which consist of the minimum
+required events to allow streaming. Caps is optional to allow raw src
+testing. If <cite>element</cite> has more than one src or sink pad, use
+<a class="reference internal" href="#GstCheck.check_setup_events_with_stream_id" title="GstCheck.check_setup_events_with_stream_id"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.check_setup_events_with_stream_id</span></tt></a> () instead.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_events_with_stream_id">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_events_with_stream_id</tt><big>(</big><em>srcpad</em>, <em>element</em>, <em>caps</em>, <em>format</em>, <em>stream_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>srcpad</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a>) &#8211; The src <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Pad</span></tt></a> to push on</li>
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; The <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Element</span></tt></a> use to create the stream id</li>
+<li><strong>caps</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Caps</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps</span></tt></a> in case caps event must be sent</li>
+<li><strong>format</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.Format" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Format</span></tt></a>) &#8211; The <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/enums.html#Gst.Format" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Format</span></tt></a> of the default segment to send</li>
+<li><strong>stream_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A unique identifier for the stream</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Push stream-start, caps and segment event, which consist of the minimum
+required events to allow streaming. Caps is optional to allow raw src
+testing.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_sink_pad">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_sink_pad</tt><big>(</big><em>element</em>, <em>tmpl</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/StaticPadTemplate.html#Gst.StaticPadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.StaticPadTemplate</span></tt></a>) &#8211; pad template</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_sink_pad_by_name">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_sink_pad_by_name</tt><big>(</big><em>element</em>, <em>tmpl</em>, <em>name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/StaticPadTemplate.html#Gst.StaticPadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.StaticPadTemplate</span></tt></a>) &#8211; pad template</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; name</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_sink_pad_by_name_from_template">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_sink_pad_by_name_from_template</tt><big>(</big><em>element</em>, <em>tmpl</em>, <em>name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/PadTemplate.html#Gst.PadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.PadTemplate</span></tt></a>) &#8211; pad template</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; name</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_sink_pad_from_template">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_sink_pad_from_template</tt><big>(</big><em>element</em>, <em>tmpl</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/PadTemplate.html#Gst.PadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.PadTemplate</span></tt></a>) &#8211; pad template</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_src_pad">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_src_pad</tt><big>(</big><em>element</em>, <em>tmpl</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/StaticPadTemplate.html#Gst.StaticPadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.StaticPadTemplate</span></tt></a>) &#8211; pad template</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_src_pad_by_name">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_src_pad_by_name</tt><big>(</big><em>element</em>, <em>tmpl</em>, <em>name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/structs/StaticPadTemplate.html#Gst.StaticPadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.StaticPadTemplate</span></tt></a>) &#8211; pad template</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; name</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_src_pad_by_name_from_template">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_src_pad_by_name_from_template</tt><big>(</big><em>element</em>, <em>tmpl</em>, <em>name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/PadTemplate.html#Gst.PadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.PadTemplate</span></tt></a>) &#8211; pad template</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; name</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_setup_src_pad_from_template">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_setup_src_pad_from_template</tt><big>(</big><em>element</em>, <em>tmpl</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; element to setup pad on</li>
+<li><strong>tmpl</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/PadTemplate.html#Gst.PadTemplate" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.PadTemplate</span></tt></a>) &#8211; pad template</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new pad</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_teardown_element">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_teardown_element</tt><big>(</big><em>element</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_teardown_pad_by_name">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_teardown_pad_by_name</tt><big>(</big><em>element</em>, <em>name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; </li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_teardown_sink_pad">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_teardown_sink_pad</tt><big>(</big><em>element</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.check_teardown_src_pad">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">check_teardown_src_pad</tt><big>(</big><em>element</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>element</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Element</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.consistency_checker_add_pad">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">consistency_checker_add_pad</tt><big>(</big><em>consist</em>, <em>pad</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>consist</strong> (<a class="reference internal" href="structs/StreamConsistency.html#GstCheck.StreamConsistency" title="GstCheck.StreamConsistency"><tt class="xref py py-class docutils literal"><span class="pre">GstCheck.StreamConsistency</span></tt></a>) &#8211; The <a class="reference internal" href="structs/StreamConsistency.html#GstCheck.StreamConsistency" title="GstCheck.StreamConsistency"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.StreamConsistency</span></tt></a> handle</li>
+<li><strong>pad</strong> (<a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Pad</span></tt></a>) &#8211; The <a class="reference external" href="_devhelp/GstCheck-1.0/../../../python-Gst-1.0/classes/Pad.html#Gst.Pad" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Pad</span></tt></a> on which the dataflow will be checked.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the pad was added</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets up a data probe on the given pad which will raise assertions if the
+data flow is inconsistent.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.consistency_checker_free">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">consistency_checker_free</tt><big>(</big><em>consist</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>consist</strong> (<a class="reference internal" href="structs/StreamConsistency.html#GstCheck.StreamConsistency" title="GstCheck.StreamConsistency"><tt class="xref py py-class docutils literal"><span class="pre">GstCheck.StreamConsistency</span></tt></a>) &#8211; The <a class="reference internal" href="structs/StreamConsistency.html#GstCheck.StreamConsistency" title="GstCheck.StreamConsistency"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.StreamConsistency</span></tt></a> to free.</td>
+</tr>
+</tbody>
+</table>
+<p>Frees the allocated data and probes associated with <cite>consist</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstCheck.consistency_checker_reset">
+<tt class="descclassname">GstCheck.</tt><tt class="descname">consistency_checker_reset</tt><big>(</big><em>consist</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>consist</strong> (<a class="reference internal" href="structs/StreamConsistency.html#GstCheck.StreamConsistency" title="GstCheck.StreamConsistency"><tt class="xref py py-class docutils literal"><span class="pre">GstCheck.StreamConsistency</span></tt></a>) &#8211; The <a class="reference internal" href="structs/StreamConsistency.html#GstCheck.StreamConsistency" title="GstCheck.StreamConsistency"><tt class="xref py py-obj docutils literal"><span class="pre">GstCheck.StreamConsistency</span></tt></a> to reset.</td>
+</tr>
+</tbody>
+</table>
+<p>Reset the stream checker&#8217;s internal variables.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

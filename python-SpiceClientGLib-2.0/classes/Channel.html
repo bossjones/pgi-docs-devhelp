@@ -1,0 +1,947 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    SpiceClientGLib.Channel -
+    
+      Classes -
+    
+    SpiceClientGLib 2.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="SpiceClientGLib 2.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="SpiceClientGLib.CursorChannel" href="CursorChannel.html"/>
+        <link rel="prev" title="SpiceClientGLib.Audio" href="Audio.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">SpiceClientGLib 2.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>SpiceClientGLib.Channel</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Audio.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="CursorChannel.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">SpiceClientGLib.Channel</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">SpiceClientGLib 2.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>SpiceClientGLib.Channel</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Audio.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="CursorChannel.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">SpiceClientGLib.Channel</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="spiceclientglib-channel">
+<h1>SpiceClientGLib.Channel</h1>
+<p class="graphviz">
+<svg width="128pt" height="80pt"
+ viewBox="0.00 0.00 128.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritance68e3544a8b</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M94,-72C94,-72 26,-72 26,-72 23,-72 20,-69 20,-66 20,-66 20,-60 20,-60 20,-57 23,-54 26,-54 26,-54 94,-54 94,-54 97,-54 100,-57 100,-60 100,-60 100,-66 100,-66 100,-69 97,-72 94,-72"/>
+<text text-anchor="middle" x="60" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- SpiceClientGLib.Channel -->
+<g id="node2" class="node"><title>SpiceClientGLib.Channel</title>
+<g id="a_node2"><a xlink:href="#SpiceClientGLib.Channel" xlink:title="SpiceClientGLib.Channel">
+<path fill="none" stroke="#75507b" d="M114,-18C114,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 114,-0 114,-0 117,-0 120,-3 120,-6 120,-6 120,-12 120,-12 120,-15 117,-18 114,-18"/>
+<text text-anchor="middle" x="60" y="-6.7" font-family="inherit" font-size="8.50">SpiceClientGLib.Channel</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;SpiceClientGLib.Channel -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;SpiceClientGLib.Channel</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M60,-53.875C60,-45.7564 60,-33.1312 60,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="61.7501,-23.2395 60,-18.2396 58.2501,-23.2396 61.7501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Subclasses:</th><td class="field-body"><a class="reference internal" href="CursorChannel.html#SpiceClientGLib.CursorChannel" title="SpiceClientGLib.CursorChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.CursorChannel</span></tt></a>,     <a class="reference internal" href="DisplayChannel.html#SpiceClientGLib.DisplayChannel" title="SpiceClientGLib.DisplayChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.DisplayChannel</span></tt></a>,     <a class="reference internal" href="InputsChannel.html#SpiceClientGLib.InputsChannel" title="SpiceClientGLib.InputsChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.InputsChannel</span></tt></a>,     <a class="reference internal" href="MainChannel.html#SpiceClientGLib.MainChannel" title="SpiceClientGLib.MainChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.MainChannel</span></tt></a>,     <a class="reference internal" href="PlaybackChannel.html#SpiceClientGLib.PlaybackChannel" title="SpiceClientGLib.PlaybackChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.PlaybackChannel</span></tt></a>,     <a class="reference internal" href="PortChannel.html#SpiceClientGLib.PortChannel" title="SpiceClientGLib.PortChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.PortChannel</span></tt></a>,     <a class="reference internal" href="RecordChannel.html#SpiceClientGLib.RecordChannel" title="SpiceClientGLib.RecordChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.RecordChannel</span></tt></a>,     <a class="reference internal" href="SmartcardChannel.html#SpiceClientGLib.SmartcardChannel" title="SpiceClientGLib.SmartcardChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.SmartcardChannel</span></tt></a>,     <a class="reference internal" href="UsbredirChannel.html#SpiceClientGLib.UsbredirChannel" title="SpiceClientGLib.UsbredirChannel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.UsbredirChannel</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="methods">
+<span id="spiceclientglib-channel-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.new" title="SpiceClientGLib.Channel.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(s, type, id)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.string_to_type" title="SpiceClientGLib.Channel.string_to_type"><tt class="xref py py-obj docutils literal"><span class="pre">string_to_type</span></tt></a>(str)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.type_to_string" title="SpiceClientGLib.Channel.type_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">type_to_string</span></tt></a>(type)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.connect" title="SpiceClientGLib.Channel.connect"><tt class="xref py py-obj docutils literal"><span class="pre">connect</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.destroy" title="SpiceClientGLib.Channel.destroy"><tt class="xref py py-obj docutils literal"><span class="pre">destroy</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.disconnect" title="SpiceClientGLib.Channel.disconnect"><tt class="xref py py-obj docutils literal"><span class="pre">disconnect</span></tt></a>(reason)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.flush_async" title="SpiceClientGLib.Channel.flush_async"><tt class="xref py py-obj docutils literal"><span class="pre">flush_async</span></tt></a>(cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.flush_finish" title="SpiceClientGLib.Channel.flush_finish"><tt class="xref py py-obj docutils literal"><span class="pre">flush_finish</span></tt></a>(result)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.get_error" title="SpiceClientGLib.Channel.get_error"><tt class="xref py py-obj docutils literal"><span class="pre">get_error</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.open_fd" title="SpiceClientGLib.Channel.open_fd"><tt class="xref py py-obj docutils literal"><span class="pre">open_fd</span></tt></a>(fd)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.set_capability" title="SpiceClientGLib.Channel.set_capability"><tt class="xref py py-obj docutils literal"><span class="pre">set_capability</span></tt></a>(cap)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.test_capability" title="SpiceClientGLib.Channel.test_capability"><tt class="xref py py-obj docutils literal"><span class="pre">test_capability</span></tt></a>(cap)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.test_common_capability" title="SpiceClientGLib.Channel.test_common_capability"><tt class="xref py py-obj docutils literal"><span class="pre">test_common_capability</span></tt></a>(cap)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="spiceclientglib-channel-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_channel_disconnect" title="SpiceClientGLib.Channel.do_channel_disconnect"><tt class="xref py py-obj docutils literal"><span class="pre">do_channel_disconnect</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_channel_event" title="SpiceClientGLib.Channel.do_channel_event"><tt class="xref py py-obj docutils literal"><span class="pre">do_channel_event</span></tt></a>(event)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_channel_reset" title="SpiceClientGLib.Channel.do_channel_reset"><tt class="xref py py-obj docutils literal"><span class="pre">do_channel_reset</span></tt></a>(migrating)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_channel_reset_capabilities" title="SpiceClientGLib.Channel.do_channel_reset_capabilities"><tt class="xref py py-obj docutils literal"><span class="pre">do_channel_reset_capabilities</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_channel_send_migration_handshake" title="SpiceClientGLib.Channel.do_channel_send_migration_handshake"><tt class="xref py py-obj docutils literal"><span class="pre">do_channel_send_migration_handshake</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_channel_up" title="SpiceClientGLib.Channel.do_channel_up"><tt class="xref py py-obj docutils literal"><span class="pre">do_channel_up</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_handle_msg" title="SpiceClientGLib.Channel.do_handle_msg"><tt class="xref py py-obj docutils literal"><span class="pre">do_handle_msg</span></tt></a>(msg)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_iterate_read" title="SpiceClientGLib.Channel.do_iterate_read"><tt class="xref py py-obj docutils literal"><span class="pre">do_iterate_read</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_iterate_write" title="SpiceClientGLib.Channel.do_iterate_write"><tt class="xref py py-obj docutils literal"><span class="pre">do_iterate_write</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#SpiceClientGLib.Channel.do_open_fd" title="SpiceClientGLib.Channel.do_open_fd"><tt class="xref py py-obj docutils literal"><span class="pre">do_open_fd</span></tt></a>(with_tls)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="spiceclientglib-channel-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#SpiceClientGLib.Channel.props.channel_id" title="SpiceClientGLib.Channel.props.channel_id"><tt class="xref py py-data docutils literal"><span class="pre">channel-id</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#SpiceClientGLib.Channel.props.channel_type" title="SpiceClientGLib.Channel.props.channel_type"><tt class="xref py py-data docutils literal"><span class="pre">channel-type</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#SpiceClientGLib.Channel.props.spice_session" title="SpiceClientGLib.Channel.props.spice_session"><tt class="xref py py-data docutils literal"><span class="pre">spice-session</span></tt></a></td>
+<td><a class="reference internal" href="Session.html#SpiceClientGLib.Session" title="SpiceClientGLib.Session"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.Session</span></tt></a></td>
+<td>r/w</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#SpiceClientGLib.Channel.props.total_read_bytes" title="SpiceClientGLib.Channel.props.total_read_bytes"><tt class="xref py py-data docutils literal"><span class="pre">total-read-bytes</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="spiceclientglib-channel-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#SpiceClientGLib.Channel.signals.channel_event" title="SpiceClientGLib.Channel.signals.channel_event"><tt class="xref py py-func docutils literal"><span class="pre">channel-event</span></tt></a></td>
+<td>The <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a> <a class="reference internal" href="#SpiceClientGLib.Channel.signals.channel_event" title="SpiceClientGLib.Channel.signals.channel_event"><tt class="xref py py-func docutils literal"><span class="pre">::channel-event</span></tt></a> signal is emitted when the state of the connection is changed.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#SpiceClientGLib.Channel.signals.open_fd" title="SpiceClientGLib.Channel.signals.open_fd"><tt class="xref py py-func docutils literal"><span class="pre">open-fd</span></tt></a></td>
+<td>The <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a> <a class="reference internal" href="#SpiceClientGLib.Channel.signals.open_fd" title="SpiceClientGLib.Channel.signals.open_fd"><tt class="xref py py-func docutils literal"><span class="pre">::open-fd</span></tt></a> signal is emitted when a new connection is requested.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="spiceclientglib-channel-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="SpiceClientGLib.Channel">
+<em class="property">class </em><tt class="descclassname">SpiceClientGLib.</tt><tt class="descname">Channel</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></p>
+<dl class="staticmethod">
+<dt id="SpiceClientGLib.Channel.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>s</em>, <em>type</em>, <em>id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>s</strong> (<a class="reference internal" href="Session.html#SpiceClientGLib.Session" title="SpiceClientGLib.Session"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.Session</span></tt></a>) &#8211; the <a class="reference internal" href="Session.html#SpiceClientGLib.Session" title="SpiceClientGLib.Session"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Session</span></tt></a> the channel is linked to</li>
+<li><strong>type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the requested SPICECHANNELPRIVATE type</li>
+<li><strong>id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the channel-id</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a weak reference to <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a>, the session owns the reference</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a> of type <cite>type</cite>, and channel ID <cite>id</cite>.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="SpiceClientGLib.Channel.string_to_type">
+<em class="property">static </em><tt class="descname">string_to_type</tt><big>(</big><em>str</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>str</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a string representation of the channel-type property</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the channel-type property value for a <cite>str</cite> channel</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert a channel-type property value to a string.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.21.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="SpiceClientGLib.Channel.type_to_string">
+<em class="property">static </em><tt class="descname">type_to_string</tt><big>(</big><em>type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; a channel-type property value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">string representation of <cite>type</cite>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert a channel-type property value to a string.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.connect">
+<tt class="descname">connect</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> on success.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Connect the channel, using <a class="reference internal" href="Session.html#SpiceClientGLib.Session" title="SpiceClientGLib.Session"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Session</span></tt></a> connection informations</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.destroy">
+<tt class="descname">destroy</tt><big>(</big><big>)</big></dt>
+<dd><p>Disconnect and unref the <cite>channel</cite>. Called by <cite>spice_session_disconnect</cite> ()</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.disconnect">
+<tt class="descname">disconnect</tt><big>(</big><em>reason</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reason</strong> (<a class="reference internal" href="../enums.html#SpiceClientGLib.ChannelEvent" title="SpiceClientGLib.ChannelEvent"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.ChannelEvent</span></tt></a>) &#8211; a channel event emitted on main context (or <a class="reference internal" href="../enums.html#SpiceClientGLib.ChannelEvent.NONE" title="SpiceClientGLib.ChannelEvent.NONE"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.ChannelEvent.NONE</span></tt></a> )</td>
+</tr>
+</tbody>
+</table>
+<p>Close the socket and reset connection specific data. Finally, emit
+<cite>reason</cite> <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a> <a class="reference internal" href="#SpiceClientGLib.Channel.signals.channel_event" title="SpiceClientGLib.Channel.signals.channel_event"><tt class="xref py py-func docutils literal"><span class="pre">::channel-event</span></tt></a> on main context if not
+<a class="reference internal" href="../enums.html#SpiceClientGLib.ChannelEvent.NONE" title="SpiceClientGLib.ChannelEvent.NONE"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.ChannelEvent.NONE</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.flush_async">
+<tt class="descname">flush_async</tt><big>(</big><em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>cancellable</strong> (<a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; optional <a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> object, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to ignore</li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; callback to call when the request is satisfied</li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; the data to pass to callback function</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Forces an asynchronous write of all user-space buffered data for
+the given channel.</p>
+<p>When the operation is finished callback will be called. You can
+then call <a class="reference internal" href="#SpiceClientGLib.Channel.flush_finish" title="SpiceClientGLib.Channel.flush_finish"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel.flush_finish</span></tt></a> () to get the result of the
+operation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.flush_finish">
+<tt class="descname">flush_finish</tt><big>(</big><em>result</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>result</strong> (<a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if flush operation succeeded, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Finishes flushing a channel.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.get_error">
+<tt class="descname">get_error</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the pointer to the error, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the <a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> currently set on channel, if the <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a>
+is in error state and can provide additional error details.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.24.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.open_fd">
+<tt class="descname">open_fd</tt><big>(</big><em>fd</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fd</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; a file descriptor (socket) or -1.
+request mechanism</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> on success.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Connect the channel using <cite>fd</cite> socket.</p>
+<p>If <cite>fd</cite> is -1, a valid fd will be requested later via the
+<a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a> <a class="reference internal" href="#SpiceClientGLib.Channel.signals.open_fd" title="SpiceClientGLib.Channel.signals.open_fd"><tt class="xref py py-func docutils literal"><span class="pre">::open-fd</span></tt></a> signal.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.set_capability">
+<tt class="descname">set_capability</tt><big>(</big><em>cap</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cap</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; a capability</td>
+</tr>
+</tbody>
+</table>
+<p>Enable specific channel-kind capability.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.13: </span>this function has been removed</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.test_capability">
+<tt class="descname">test_capability</tt><big>(</big><em>cap</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cap</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if <cite>cap</cite> (channel kind capability) is available.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Test availability of remote &#8220;channel kind capability&#8221;.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.test_common_capability">
+<tt class="descname">test_common_capability</tt><big>(</big><em>cap</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cap</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if <cite>cap</cite> (common channel capability) is available.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Test availability of remote &#8220;common channel capability&#8221;.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_channel_disconnect">
+<tt class="descname">do_channel_disconnect</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_channel_event">
+<tt class="descname">do_channel_event</tt><big>(</big><em>event</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>event</strong> (<a class="reference internal" href="../enums.html#SpiceClientGLib.ChannelEvent" title="SpiceClientGLib.ChannelEvent"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.ChannelEvent</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_channel_reset">
+<tt class="descname">do_channel_reset</tt><big>(</big><em>migrating</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>migrating</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_channel_reset_capabilities">
+<tt class="descname">do_channel_reset_capabilities</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_channel_send_migration_handshake">
+<tt class="descname">do_channel_send_migration_handshake</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_channel_up">
+<tt class="descname">do_channel_up</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_handle_msg">
+<tt class="descname">do_handle_msg</tt><big>(</big><em>msg</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msg</strong> (<tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.MsgIn</span></tt>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_iterate_read">
+<tt class="descname">do_iterate_read</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_iterate_write">
+<tt class="descname">do_iterate_write</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="SpiceClientGLib.Channel.do_open_fd">
+<tt class="descname">do_open_fd</tt><big>(</big><em>with_tls</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>with_tls</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="SpiceClientGLib.Channel.signals.channel_event">
+<tt class="descclassname">SpiceClientGLib.Channel.signals.</tt><tt class="descname">channel_event</tt><big>(</big><em>channel</em>, <em>event</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">channel-event</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>channel</strong> (<a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>event</strong> (<a class="reference internal" href="../enums.html#SpiceClientGLib.ChannelEvent" title="SpiceClientGLib.ChannelEvent"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.ChannelEvent</span></tt></a>) &#8211; a <a class="reference internal" href="../enums.html#SpiceClientGLib.ChannelEvent" title="SpiceClientGLib.ChannelEvent"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.ChannelEvent</span></tt></a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a> <a class="reference internal" href="#SpiceClientGLib.Channel.signals.channel_event" title="SpiceClientGLib.Channel.signals.channel_event"><tt class="xref py py-func docutils literal"><span class="pre">::channel-event</span></tt></a> signal is emitted when the
+state of the connection is changed. In case of errors,
+<a class="reference internal" href="#SpiceClientGLib.Channel.get_error" title="SpiceClientGLib.Channel.get_error"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel.get_error</span></tt></a> () may provide additional informations
+on the source of the error.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="SpiceClientGLib.Channel.signals.open_fd">
+<tt class="descclassname">SpiceClientGLib.Channel.signals.</tt><tt class="descname">open_fd</tt><big>(</big><em>channel</em>, <em>with_tls</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">open-fd</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/SpiceClientGLib-2.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>channel</strong> (<a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>with_tls</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; wether TLS connection is requested</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#SpiceClientGLib.Channel" title="SpiceClientGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Channel</span></tt></a> <a class="reference internal" href="#SpiceClientGLib.Channel.signals.open_fd" title="SpiceClientGLib.Channel.signals.open_fd"><tt class="xref py py-func docutils literal"><span class="pre">::open-fd</span></tt></a> signal is emitted when a new
+connection is requested. This signal is emitted when the
+connection is made with <a class="reference internal" href="Session.html#SpiceClientGLib.Session.open_fd" title="SpiceClientGLib.Session.open_fd"><tt class="xref py py-obj docutils literal"><span class="pre">SpiceClientGLib.Session.open_fd</span></tt></a> ().</p>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="SpiceClientGLib.Channel.props.channel_id">
+<tt class="descclassname">SpiceClientGLib.Channel.props.</tt><tt class="descname">channel_id</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">channel-id</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">-1</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="data">
+<dt id="SpiceClientGLib.Channel.props.channel_type">
+<tt class="descclassname">SpiceClientGLib.Channel.props.</tt><tt class="descname">channel_type</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">channel-type</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">-1</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="data">
+<dt id="SpiceClientGLib.Channel.props.spice_session">
+<tt class="descclassname">SpiceClientGLib.Channel.props.</tt><tt class="descname">spice_session</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">spice-session</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="Session.html#SpiceClientGLib.Session" title="SpiceClientGLib.Session"><tt class="xref py py-class docutils literal"><span class="pre">SpiceClientGLib.Session</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="data">
+<dt id="SpiceClientGLib.Channel.props.total_read_bytes">
+<tt class="descclassname">SpiceClientGLib.Channel.props.</tt><tt class="descname">total_read_bytes</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">total-read-bytes</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

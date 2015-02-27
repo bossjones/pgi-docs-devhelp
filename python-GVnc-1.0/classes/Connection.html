@@ -1,0 +1,1621 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    GVnc.Connection -
+    
+      Classes -
+    
+    GVnc 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="GVnc 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="GVnc.Cursor" href="Cursor.html"/>
+        <link rel="prev" title="GVnc.BaseFramebuffer" href="BaseFramebuffer.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">GVnc 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>GVnc.Connection</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="BaseFramebuffer.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Cursor.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">GVnc.Connection</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">GVnc 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>GVnc.Connection</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="BaseFramebuffer.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Cursor.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">GVnc.Connection</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gvnc-connection">
+<h1>GVnc.Connection</h1>
+<p class="graphviz">
+<svg width="97pt" height="80pt"
+ viewBox="0.00 0.00 97.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritancebd948e73a2</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M78.5,-72C78.5,-72 10.5,-72 10.5,-72 7.5,-72 4.5,-69 4.5,-66 4.5,-66 4.5,-60 4.5,-60 4.5,-57 7.5,-54 10.5,-54 10.5,-54 78.5,-54 78.5,-54 81.5,-54 84.5,-57 84.5,-60 84.5,-60 84.5,-66 84.5,-66 84.5,-69 81.5,-72 78.5,-72"/>
+<text text-anchor="middle" x="44.5" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GVnc.Connection -->
+<g id="node2" class="node"><title>GVnc.Connection</title>
+<g id="a_node2"><a xlink:href="#GVnc.Connection" xlink:title="GVnc.Connection">
+<path fill="none" stroke="#75507b" d="M83,-18C83,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 83,-0 83,-0 86,-0 89,-3 89,-6 89,-6 89,-12 89,-12 89,-15 86,-18 83,-18"/>
+<text text-anchor="middle" x="44.5" y="-6.7" font-family="inherit" font-size="8.50">GVnc.Connection</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GVnc.Connection -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;GVnc.Connection</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M44.5,-53.875C44.5,-45.7564 44.5,-33.1312 44.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="46.2501,-23.2395 44.5,-18.2396 42.7501,-23.2396 46.2501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="gvnc-connection-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#GVnc.Connection.new" title="GVnc.Connection.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.audio_disable" title="GVnc.Connection.audio_disable"><tt class="xref py py-obj docutils literal"><span class="pre">audio_disable</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.audio_enable" title="GVnc.Connection.audio_enable"><tt class="xref py py-obj docutils literal"><span class="pre">audio_enable</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.client_cut_text" title="GVnc.Connection.client_cut_text"><tt class="xref py py-obj docutils literal"><span class="pre">client_cut_text</span></tt></a>(data, length)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.framebuffer_update_request" title="GVnc.Connection.framebuffer_update_request"><tt class="xref py py-obj docutils literal"><span class="pre">framebuffer_update_request</span></tt></a>(incremental, x, y, width, height)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_abs_pointer" title="GVnc.Connection.get_abs_pointer"><tt class="xref py py-obj docutils literal"><span class="pre">get_abs_pointer</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_audio_format" title="GVnc.Connection.get_audio_format"><tt class="xref py py-obj docutils literal"><span class="pre">get_audio_format</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_ext_key_event" title="GVnc.Connection.get_ext_key_event"><tt class="xref py py-obj docutils literal"><span class="pre">get_ext_key_event</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_height" title="GVnc.Connection.get_height"><tt class="xref py py-obj docutils literal"><span class="pre">get_height</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_ledstate" title="GVnc.Connection.get_ledstate"><tt class="xref py py-obj docutils literal"><span class="pre">get_ledstate</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_name" title="GVnc.Connection.get_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_name</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_pixel_format" title="GVnc.Connection.get_pixel_format"><tt class="xref py py-obj docutils literal"><span class="pre">get_pixel_format</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_shared" title="GVnc.Connection.get_shared"><tt class="xref py py-obj docutils literal"><span class="pre">get_shared</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.get_width" title="GVnc.Connection.get_width"><tt class="xref py py-obj docutils literal"><span class="pre">get_width</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.has_error" title="GVnc.Connection.has_error"><tt class="xref py py-obj docutils literal"><span class="pre">has_error</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.is_initialized" title="GVnc.Connection.is_initialized"><tt class="xref py py-obj docutils literal"><span class="pre">is_initialized</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.is_open" title="GVnc.Connection.is_open"><tt class="xref py py-obj docutils literal"><span class="pre">is_open</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.key_event" title="GVnc.Connection.key_event"><tt class="xref py py-obj docutils literal"><span class="pre">key_event</span></tt></a>(down_flag, key, scancode)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.open_fd" title="GVnc.Connection.open_fd"><tt class="xref py py-obj docutils literal"><span class="pre">open_fd</span></tt></a>(fd)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.open_fd_with_hostname" title="GVnc.Connection.open_fd_with_hostname"><tt class="xref py py-obj docutils literal"><span class="pre">open_fd_with_hostname</span></tt></a>(fd, hostname)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.open_host" title="GVnc.Connection.open_host"><tt class="xref py py-obj docutils literal"><span class="pre">open_host</span></tt></a>(host, port)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.pointer_event" title="GVnc.Connection.pointer_event"><tt class="xref py py-obj docutils literal"><span class="pre">pointer_event</span></tt></a>(button_mask, x, y)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_audio" title="GVnc.Connection.set_audio"><tt class="xref py py-obj docutils literal"><span class="pre">set_audio</span></tt></a>(audio)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_audio_format" title="GVnc.Connection.set_audio_format"><tt class="xref py py-obj docutils literal"><span class="pre">set_audio_format</span></tt></a>(fmt)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_auth_subtype" title="GVnc.Connection.set_auth_subtype"><tt class="xref py py-obj docutils literal"><span class="pre">set_auth_subtype</span></tt></a>(type)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_auth_type" title="GVnc.Connection.set_auth_type"><tt class="xref py py-obj docutils literal"><span class="pre">set_auth_type</span></tt></a>(type)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_credential" title="GVnc.Connection.set_credential"><tt class="xref py py-obj docutils literal"><span class="pre">set_credential</span></tt></a>(type, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_encodings" title="GVnc.Connection.set_encodings"><tt class="xref py py-obj docutils literal"><span class="pre">set_encodings</span></tt></a>(n_encoding, encoding)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_framebuffer" title="GVnc.Connection.set_framebuffer"><tt class="xref py py-obj docutils literal"><span class="pre">set_framebuffer</span></tt></a>(fb)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_pixel_format" title="GVnc.Connection.set_pixel_format"><tt class="xref py py-obj docutils literal"><span class="pre">set_pixel_format</span></tt></a>(fmt)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.set_shared" title="GVnc.Connection.set_shared"><tt class="xref py py-obj docutils literal"><span class="pre">set_shared</span></tt></a>(sharedFlag)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.shutdown" title="GVnc.Connection.shutdown"><tt class="xref py py-obj docutils literal"><span class="pre">shutdown</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gvnc-connection-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_auth_choose_subtype" title="GVnc.Connection.do_vnc_auth_choose_subtype"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_auth_choose_subtype</span></tt></a>(type, subtypes)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_auth_choose_type" title="GVnc.Connection.do_vnc_auth_choose_type"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_auth_choose_type</span></tt></a>(types)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_auth_credential" title="GVnc.Connection.do_vnc_auth_credential"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_auth_credential</span></tt></a>(creds)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_auth_failure" title="GVnc.Connection.do_vnc_auth_failure"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_auth_failure</span></tt></a>(reason)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_auth_unsupported" title="GVnc.Connection.do_vnc_auth_unsupported"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_auth_unsupported</span></tt></a>(authType)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_bell" title="GVnc.Connection.do_vnc_bell"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_bell</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_connected" title="GVnc.Connection.do_vnc_connected"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_connected</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_cursor_changed" title="GVnc.Connection.do_vnc_cursor_changed"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_cursor_changed</span></tt></a>(cursor)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_desktop_resize" title="GVnc.Connection.do_vnc_desktop_resize"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_desktop_resize</span></tt></a>(width, height)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_disconnected" title="GVnc.Connection.do_vnc_disconnected"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_disconnected</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_framebuffer_update" title="GVnc.Connection.do_vnc_framebuffer_update"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_framebuffer_update</span></tt></a>(x, y, width, height)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_initialized" title="GVnc.Connection.do_vnc_initialized"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_initialized</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_led_state" title="GVnc.Connection.do_vnc_led_state"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_led_state</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_pixel_format_changed" title="GVnc.Connection.do_vnc_pixel_format_changed"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_pixel_format_changed</span></tt></a>(format)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_pointer_mode_changed" title="GVnc.Connection.do_vnc_pointer_mode_changed"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_pointer_mode_changed</span></tt></a>(absPointer)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GVnc.Connection.do_vnc_server_cut_text" title="GVnc.Connection.do_vnc_server_cut_text"><tt class="xref py py-obj docutils literal"><span class="pre">do_vnc_server_cut_text</span></tt></a>(text)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gvnc-connection-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.props.framebuffer" title="GVnc.Connection.props.framebuffer"><tt class="xref py py-data docutils literal"><span class="pre">framebuffer</span></tt></a></td>
+<td><a class="reference internal" href="../interfaces/Framebuffer.html#GVnc.Framebuffer" title="GVnc.Framebuffer"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Framebuffer</span></tt></a></td>
+<td>r/w</td>
+<td>The desktop framebuffer instance</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gvnc-connection-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_auth_choose_subtype" title="GVnc.Connection.signals.vnc_auth_choose_subtype"><tt class="xref py py-func docutils literal"><span class="pre">vnc-auth-choose-subtype</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_auth_choose_type" title="GVnc.Connection.signals.vnc_auth_choose_type"><tt class="xref py py-func docutils literal"><span class="pre">vnc-auth-choose-type</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_auth_credential" title="GVnc.Connection.signals.vnc_auth_credential"><tt class="xref py py-func docutils literal"><span class="pre">vnc-auth-credential</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_auth_failure" title="GVnc.Connection.signals.vnc_auth_failure"><tt class="xref py py-func docutils literal"><span class="pre">vnc-auth-failure</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_auth_unsupported" title="GVnc.Connection.signals.vnc_auth_unsupported"><tt class="xref py py-func docutils literal"><span class="pre">vnc-auth-unsupported</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_bell" title="GVnc.Connection.signals.vnc_bell"><tt class="xref py py-func docutils literal"><span class="pre">vnc-bell</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_connected" title="GVnc.Connection.signals.vnc_connected"><tt class="xref py py-func docutils literal"><span class="pre">vnc-connected</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_cursor_changed" title="GVnc.Connection.signals.vnc_cursor_changed"><tt class="xref py py-func docutils literal"><span class="pre">vnc-cursor-changed</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_desktop_resize" title="GVnc.Connection.signals.vnc_desktop_resize"><tt class="xref py py-func docutils literal"><span class="pre">vnc-desktop-resize</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_disconnected" title="GVnc.Connection.signals.vnc_disconnected"><tt class="xref py py-func docutils literal"><span class="pre">vnc-disconnected</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_framebuffer_update" title="GVnc.Connection.signals.vnc_framebuffer_update"><tt class="xref py py-func docutils literal"><span class="pre">vnc-framebuffer-update</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_initialized" title="GVnc.Connection.signals.vnc_initialized"><tt class="xref py py-func docutils literal"><span class="pre">vnc-initialized</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_led_state" title="GVnc.Connection.signals.vnc_led_state"><tt class="xref py py-func docutils literal"><span class="pre">vnc-led-state</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_pixel_format_changed" title="GVnc.Connection.signals.vnc_pixel_format_changed"><tt class="xref py py-func docutils literal"><span class="pre">vnc-pixel-format-changed</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_pointer_mode_changed" title="GVnc.Connection.signals.vnc_pointer_mode_changed"><tt class="xref py py-func docutils literal"><span class="pre">vnc-pointer-mode-changed</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#GVnc.Connection.signals.vnc_server_cut_text" title="GVnc.Connection.signals.vnc_server_cut_text"><tt class="xref py py-func docutils literal"><span class="pre">vnc-server-cut-text</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gvnc-connection-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="GVnc.Connection">
+<em class="property">class </em><tt class="descclassname">GVnc.</tt><tt class="descname">Connection</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></p>
+<dl class="staticmethod">
+<dt id="GVnc.Connection.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.audio_disable">
+<tt class="descname">audio_disable</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.audio_enable">
+<tt class="descname">audio_enable</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.client_cut_text">
+<tt class="descname">client_cut_text</tt><big>(</big><em>data</em>, <em>length</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+<li><strong>length</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.framebuffer_update_request">
+<tt class="descname">framebuffer_update_request</tt><big>(</big><em>incremental</em>, <em>x</em>, <em>y</em>, <em>width</em>, <em>height</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>incremental</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+<li><strong>x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>width</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>height</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_abs_pointer">
+<tt class="descname">get_abs_pointer</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_audio_format">
+<tt class="descname">get_audio_format</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../structs/AudioFormat.html#GVnc.AudioFormat" title="GVnc.AudioFormat"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.AudioFormat</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_ext_key_event">
+<tt class="descname">get_ext_key_event</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_height">
+<tt class="descname">get_height</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_ledstate">
+<tt class="descname">get_ledstate</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_name">
+<tt class="descname">get_name</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_pixel_format">
+<tt class="descname">get_pixel_format</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../structs/PixelFormat.html#GVnc.PixelFormat" title="GVnc.PixelFormat"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.PixelFormat</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_shared">
+<tt class="descname">get_shared</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.get_width">
+<tt class="descname">get_width</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.has_error">
+<tt class="descname">has_error</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.is_initialized">
+<tt class="descname">is_initialized</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.is_open">
+<tt class="descname">is_open</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.key_event">
+<tt class="descname">key_event</tt><big>(</big><em>down_flag</em>, <em>key</em>, <em>scancode</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>down_flag</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+<li><strong>key</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>scancode</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.open_fd">
+<tt class="descname">open_fd</tt><big>(</big><em>fd</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fd</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.open_fd_with_hostname">
+<tt class="descname">open_fd_with_hostname</tt><big>(</big><em>fd</em>, <em>hostname</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>fd</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>hostname</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.open_host">
+<tt class="descname">open_host</tt><big>(</big><em>host</em>, <em>port</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>host</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>port</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.pointer_event">
+<tt class="descname">pointer_event</tt><big>(</big><em>button_mask</em>, <em>x</em>, <em>y</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>button_mask</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_audio">
+<tt class="descname">set_audio</tt><big>(</big><em>audio</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>audio</strong> (<a class="reference internal" href="../interfaces/Audio.html#GVnc.Audio" title="GVnc.Audio"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Audio</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_audio_format">
+<tt class="descname">set_audio_format</tt><big>(</big><em>fmt</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fmt</strong> (<a class="reference internal" href="../structs/AudioFormat.html#GVnc.AudioFormat" title="GVnc.AudioFormat"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.AudioFormat</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_auth_subtype">
+<tt class="descname">set_auth_subtype</tt><big>(</big><em>type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_auth_type">
+<tt class="descname">set_auth_type</tt><big>(</big><em>type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_credential">
+<tt class="descname">set_credential</tt><big>(</big><em>type</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_encodings">
+<tt class="descname">set_encodings</tt><big>(</big><em>n_encoding</em>, <em>encoding</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>n_encoding</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>encoding</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_framebuffer">
+<tt class="descname">set_framebuffer</tt><big>(</big><em>fb</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fb</strong> (<a class="reference internal" href="../interfaces/Framebuffer.html#GVnc.Framebuffer" title="GVnc.Framebuffer"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Framebuffer</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_pixel_format">
+<tt class="descname">set_pixel_format</tt><big>(</big><em>fmt</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fmt</strong> (<a class="reference internal" href="../structs/PixelFormat.html#GVnc.PixelFormat" title="GVnc.PixelFormat"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.PixelFormat</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.set_shared">
+<tt class="descname">set_shared</tt><big>(</big><em>sharedFlag</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>sharedFlag</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.shutdown">
+<tt class="descname">shutdown</tt><big>(</big><big>)</big></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_auth_choose_subtype">
+<tt class="descname">do_vnc_auth_choose_subtype</tt><big>(</big><em>type</em>, <em>subtypes</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>subtypes</strong> (<a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/structs/ValueArray.html#GObject.ValueArray" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ValueArray</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_auth_choose_type">
+<tt class="descname">do_vnc_auth_choose_type</tt><big>(</big><em>types</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>types</strong> (<a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/structs/ValueArray.html#GObject.ValueArray" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ValueArray</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_auth_credential">
+<tt class="descname">do_vnc_auth_credential</tt><big>(</big><em>creds</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>creds</strong> (<a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/structs/ValueArray.html#GObject.ValueArray" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ValueArray</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_auth_failure">
+<tt class="descname">do_vnc_auth_failure</tt><big>(</big><em>reason</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reason</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_auth_unsupported">
+<tt class="descname">do_vnc_auth_unsupported</tt><big>(</big><em>authType</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>authType</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_bell">
+<tt class="descname">do_vnc_bell</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_connected">
+<tt class="descname">do_vnc_connected</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_cursor_changed">
+<tt class="descname">do_vnc_cursor_changed</tt><big>(</big><em>cursor</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cursor</strong> (<a class="reference internal" href="Cursor.html#GVnc.Cursor" title="GVnc.Cursor"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Cursor</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_desktop_resize">
+<tt class="descname">do_vnc_desktop_resize</tt><big>(</big><em>width</em>, <em>height</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>width</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>height</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_disconnected">
+<tt class="descname">do_vnc_disconnected</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_framebuffer_update">
+<tt class="descname">do_vnc_framebuffer_update</tt><big>(</big><em>x</em>, <em>y</em>, <em>width</em>, <em>height</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>width</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>height</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_initialized">
+<tt class="descname">do_vnc_initialized</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_led_state">
+<tt class="descname">do_vnc_led_state</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_pixel_format_changed">
+<tt class="descname">do_vnc_pixel_format_changed</tt><big>(</big><em>format</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>format</strong> (<a class="reference internal" href="../structs/PixelFormat.html#GVnc.PixelFormat" title="GVnc.PixelFormat"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.PixelFormat</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_pointer_mode_changed">
+<tt class="descname">do_vnc_pointer_mode_changed</tt><big>(</big><em>absPointer</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>absPointer</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="GVnc.Connection.do_vnc_server_cut_text">
+<tt class="descname">do_vnc_server_cut_text</tt><big>(</big><em>text</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>text</strong> (<a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GLib-2.0/structs/String.html#GLib.String" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.String</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_auth_choose_subtype">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_auth_choose_subtype</tt><big>(</big><em>connection</em>, <em>object</em>, <em>p0</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-auth-choose-subtype</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/structs/ValueArray.html#GObject.ValueArray" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ValueArray</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_auth_choose_type">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_auth_choose_type</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-auth-choose-type</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/structs/ValueArray.html#GObject.ValueArray" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ValueArray</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_auth_credential">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_auth_credential</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-auth-credential</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/structs/ValueArray.html#GObject.ValueArray" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.ValueArray</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_auth_failure">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_auth_failure</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-auth-failure</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_auth_unsupported">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_auth_unsupported</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-auth-unsupported</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_bell">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_bell</tt><big>(</big><em>connection</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">vnc-bell</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_connected">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_connected</tt><big>(</big><em>connection</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">vnc-connected</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_cursor_changed">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_cursor_changed</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-cursor-changed</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference internal" href="Cursor.html#GVnc.Cursor" title="GVnc.Cursor"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Cursor</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_desktop_resize">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_desktop_resize</tt><big>(</big><em>connection</em>, <em>object</em>, <em>p0</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-desktop-resize</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_disconnected">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_disconnected</tt><big>(</big><em>connection</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">vnc-disconnected</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_framebuffer_update">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_framebuffer_update</tt><big>(</big><em>connection</em>, <em>object</em>, <em>p0</em>, <em>p1</em>, <em>p2</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-framebuffer-update</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p2</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_initialized">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_initialized</tt><big>(</big><em>connection</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">vnc-initialized</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_led_state">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_led_state</tt><big>(</big><em>connection</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">vnc-led-state</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_pixel_format_changed">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_pixel_format_changed</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-pixel-format-changed</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_pointer_mode_changed">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_pointer_mode_changed</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-pointer-mode-changed</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GVnc.Connection.signals.vnc_server_cut_text">
+<tt class="descclassname">GVnc.Connection.signals.</tt><tt class="descname">vnc_server_cut_text</tt><big>(</big><em>connection</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">vnc-server-cut-text</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/GVnc-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="#GVnc.Connection" title="GVnc.Connection"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Connection</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="GVnc.Connection.props.framebuffer">
+<tt class="descclassname">GVnc.Connection.props.</tt><tt class="descname">framebuffer</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">framebuffer</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../interfaces/Framebuffer.html#GVnc.Framebuffer" title="GVnc.Framebuffer"><tt class="xref py py-class docutils literal"><span class="pre">GVnc.Framebuffer</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The desktop framebuffer instance</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

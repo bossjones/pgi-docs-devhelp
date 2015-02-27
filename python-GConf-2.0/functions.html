@@ -1,0 +1,485 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    GConf 2.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="GConf 2.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Callbacks" href="callbacks.html"/>
+        <link rel="prev" title="GConf 2.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GConf 2.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GConf 2.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.concat_dir_and_key" title="GConf.concat_dir_and_key"><tt class="xref py py-obj docutils literal"><span class="pre">concat_dir_and_key</span></tt></a>(dir, key)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GConf.debug_shutdown" title="GConf.debug_shutdown"><tt class="xref py py-obj docutils literal"><span class="pre">debug_shutdown</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.enum_to_string" title="GConf.enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">enum_to_string</span></tt></a>(lookup_table, enum_value)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GConf.error_quark" title="GConf.error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.escape_key" title="GConf.escape_key"><tt class="xref py py-obj docutils literal"><span class="pre">escape_key</span></tt></a>(arbitrary_text, len)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GConf.init" title="GConf.init"><tt class="xref py py-obj docutils literal"><span class="pre">init</span></tt></a>(argc, argv)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.is_initialized" title="GConf.is_initialized"><tt class="xref py py-obj docutils literal"><span class="pre">is_initialized</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GConf.key_is_below" title="GConf.key_is_below"><tt class="xref py py-obj docutils literal"><span class="pre">key_is_below</span></tt></a>(above, below)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.postinit" title="GConf.postinit"><tt class="xref py py-obj docutils literal"><span class="pre">postinit</span></tt></a>(app, mod_info)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GConf.preinit" title="GConf.preinit"><tt class="xref py py-obj docutils literal"><span class="pre">preinit</span></tt></a>(app, mod_info)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.string_to_enum" title="GConf.string_to_enum"><tt class="xref py py-obj docutils literal"><span class="pre">string_to_enum</span></tt></a>(lookup_table, str, enum_value_retloc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GConf.unescape_key" title="GConf.unescape_key"><tt class="xref py py-obj docutils literal"><span class="pre">unescape_key</span></tt></a>(escaped_key, len)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.unique_key" title="GConf.unique_key"><tt class="xref py py-obj docutils literal"><span class="pre">unique_key</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GConf.valid_key" title="GConf.valid_key"><tt class="xref py py-obj docutils literal"><span class="pre">valid_key</span></tt></a>(key, why_invalid)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GConf.value_decode" title="GConf.value_decode"><tt class="xref py py-obj docutils literal"><span class="pre">value_decode</span></tt></a>(encoded)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="GConf.concat_dir_and_key">
+<tt class="descclassname">GConf.</tt><tt class="descname">concat_dir_and_key</tt><big>(</big><em>dir</em>, <em>key</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>dir</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>key</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.debug_shutdown">
+<tt class="descclassname">GConf.</tt><tt class="descname">debug_shutdown</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Detach from the config server and release
+all related resources</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.enum_to_string">
+<tt class="descclassname">GConf.</tt><tt class="descname">enum_to_string</tt><big>(</big><em>lookup_table</em>, <em>enum_value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>lookup_table</strong> (<a class="reference internal" href="structs/EnumStringPair.html#GConf.EnumStringPair" title="GConf.EnumStringPair"><tt class="xref py py-class docutils literal"><span class="pre">GConf.EnumStringPair</span></tt></a>) &#8211; </li>
+<li><strong>enum_value</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.error_quark">
+<tt class="descclassname">GConf.</tt><tt class="descname">error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.escape_key">
+<tt class="descclassname">GConf.</tt><tt class="descname">escape_key</tt><big>(</big><em>arbitrary_text</em>, <em>len</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>arbitrary_text</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; some text in any encoding or format</li>
+<li><strong>len</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; length of <cite>arbitrary_text</cite> in bytes, or -1 if <cite>arbitrary_text</cite> is nul-terminated</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a nul-terminated valid GConf key</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Escape <cite>arbitrary_text</cite> such that it&#8217;s a valid key element (i.e. one
+part of the key path). The escaped key won&#8217;t pass <a class="reference internal" href="#GConf.valid_key" title="GConf.valid_key"><tt class="xref py py-obj docutils literal"><span class="pre">GConf.valid_key</span></tt></a> ()
+because it isn&#8217;t a whole key (i.e. it doesn&#8217;t have a preceding
+slash), but prepending a slash to the escaped text should always
+result in a valid key.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.init">
+<tt class="descclassname">GConf.</tt><tt class="descname">init</tt><big>(</big><em>argc</em>, <em>argv</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>argc</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>argv</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/GConf-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.is_initialized">
+<tt class="descclassname">GConf.</tt><tt class="descname">is_initialized</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.key_is_below">
+<tt class="descclassname">GConf.</tt><tt class="descname">key_is_below</tt><big>(</big><em>above</em>, <em>below</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>above</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>below</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.postinit">
+<tt class="descclassname">GConf.</tt><tt class="descname">postinit</tt><big>(</big><em>app</em>, <em>mod_info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>app</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+<li><strong>mod_info</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.preinit">
+<tt class="descclassname">GConf.</tt><tt class="descname">preinit</tt><big>(</big><em>app</em>, <em>mod_info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>app</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+<li><strong>mod_info</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.string_to_enum">
+<tt class="descclassname">GConf.</tt><tt class="descname">string_to_enum</tt><big>(</big><em>lookup_table</em>, <em>str</em>, <em>enum_value_retloc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>lookup_table</strong> (<a class="reference internal" href="structs/EnumStringPair.html#GConf.EnumStringPair" title="GConf.EnumStringPair"><tt class="xref py py-class docutils literal"><span class="pre">GConf.EnumStringPair</span></tt></a>) &#8211; </li>
+<li><strong>str</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>enum_value_retloc</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.unescape_key">
+<tt class="descclassname">GConf.</tt><tt class="descname">unescape_key</tt><big>(</big><em>escaped_key</em>, <em>len</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>escaped_key</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a key created with <a class="reference internal" href="#GConf.escape_key" title="GConf.escape_key"><tt class="xref py py-obj docutils literal"><span class="pre">GConf.escape_key</span></tt></a> ()</li>
+<li><strong>len</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; length of <cite>escaped_key</cite> in bytes, or -1 if <cite>escaped_key</cite> is nul-terminated</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the original string that was escaped to create <cite>escaped_key</cite></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Converts a string escaped with <a class="reference internal" href="#GConf.escape_key" title="GConf.escape_key"><tt class="xref py py-obj docutils literal"><span class="pre">GConf.escape_key</span></tt></a> () back into its original
+form.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.unique_key">
+<tt class="descclassname">GConf.</tt><tt class="descname">unique_key</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.valid_key">
+<tt class="descclassname">GConf.</tt><tt class="descname">valid_key</tt><big>(</big><em>key</em>, <em>why_invalid</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>key</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>why_invalid</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GConf.value_decode">
+<tt class="descclassname">GConf.</tt><tt class="descname">value_decode</tt><big>(</big><em>encoded</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>encoded</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="structs/Value.html#GConf.Value" title="GConf.Value"><tt class="xref py py-class docutils literal"><span class="pre">GConf.Value</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

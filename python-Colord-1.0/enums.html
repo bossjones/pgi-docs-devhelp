@@ -1,0 +1,1312 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    Colord 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Colord 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Constants" href="constants.html"/>
+        <link rel="prev" title="Flags" href="flags.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Colord 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="flags.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Colord 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="flags.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Colord.BufferKind" title="Colord.BufferKind"><tt class="xref py py-class docutils literal"><span class="pre">Colord.BufferKind</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.ClientError" title="Colord.ClientError"><tt class="xref py py-class docutils literal"><span class="pre">Colord.ClientError</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.Colorspace" title="Colord.Colorspace"><tt class="xref py py-class docutils literal"><span class="pre">Colord.Colorspace</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.DeviceError" title="Colord.DeviceError"><tt class="xref py py-class docutils literal"><span class="pre">Colord.DeviceError</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.DeviceKind" title="Colord.DeviceKind"><tt class="xref py py-class docutils literal"><span class="pre">Colord.DeviceKind</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.DeviceMode" title="Colord.DeviceMode"><tt class="xref py py-class docutils literal"><span class="pre">Colord.DeviceMode</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.DeviceRelation" title="Colord.DeviceRelation"><tt class="xref py py-class docutils literal"><span class="pre">Colord.DeviceRelation</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.IccError" title="Colord.IccError"><tt class="xref py py-class docutils literal"><span class="pre">Colord.IccError</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.IccSaveFlags" title="Colord.IccSaveFlags"><tt class="xref py py-class docutils literal"><span class="pre">Colord.IccSaveFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.IccStoreSearchFlags" title="Colord.IccStoreSearchFlags"><tt class="xref py py-class docutils literal"><span class="pre">Colord.IccStoreSearchFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.IccStoreSearchKind" title="Colord.IccStoreSearchKind"><tt class="xref py py-class docutils literal"><span class="pre">Colord.IccStoreSearchKind</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.InterpError" title="Colord.InterpError"><tt class="xref py py-class docutils literal"><span class="pre">Colord.InterpError</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.InterpKind" title="Colord.InterpKind"><tt class="xref py py-class docutils literal"><span class="pre">Colord.InterpKind</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.It8Error" title="Colord.It8Error"><tt class="xref py py-class docutils literal"><span class="pre">Colord.It8Error</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.It8Kind" title="Colord.It8Kind"><tt class="xref py py-class docutils literal"><span class="pre">Colord.It8Kind</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.ObjectScope" title="Colord.ObjectScope"><tt class="xref py py-class docutils literal"><span class="pre">Colord.ObjectScope</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.ProfileError" title="Colord.ProfileError"><tt class="xref py py-class docutils literal"><span class="pre">Colord.ProfileError</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.ProfileKind" title="Colord.ProfileKind"><tt class="xref py py-class docutils literal"><span class="pre">Colord.ProfileKind</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.ProfileQuality" title="Colord.ProfileQuality"><tt class="xref py py-class docutils literal"><span class="pre">Colord.ProfileQuality</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.ProfileWarning" title="Colord.ProfileWarning"><tt class="xref py py-class docutils literal"><span class="pre">Colord.ProfileWarning</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.RenderingIntent" title="Colord.RenderingIntent"><tt class="xref py py-class docutils literal"><span class="pre">Colord.RenderingIntent</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.SensorCap" title="Colord.SensorCap"><tt class="xref py py-class docutils literal"><span class="pre">Colord.SensorCap</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.SensorError" title="Colord.SensorError"><tt class="xref py py-class docutils literal"><span class="pre">Colord.SensorError</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.SensorKind" title="Colord.SensorKind"><tt class="xref py py-class docutils literal"><span class="pre">Colord.SensorKind</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.SensorState" title="Colord.SensorState"><tt class="xref py py-class docutils literal"><span class="pre">Colord.SensorState</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.StandardSpace" title="Colord.StandardSpace"><tt class="xref py py-class docutils literal"><span class="pre">Colord.StandardSpace</span></tt></a></li>
+<li><a class="reference internal" href="#Colord.TransformError" title="Colord.TransformError"><tt class="xref py py-class docutils literal"><span class="pre">Colord.TransformError</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Colord.BufferKind">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">BufferKind</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="Colord.BufferKind.REQUEST">
+<tt class="descname">REQUEST</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.BufferKind.RESPONSE">
+<tt class="descname">RESPONSE</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.BufferKind.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.ClientError">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">ClientError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Errors that can be thrown</p>
+<dl class="attribute">
+<dt id="Colord.ClientError.INTERNAL">
+<tt class="descname">INTERNAL</tt><em class="property"> = 0</em></dt>
+<dd><p>An internal error occurred</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ClientError.ALREADY_EXISTS">
+<tt class="descname">ALREADY_EXISTS</tt><em class="property"> = 1</em></dt>
+<dd><p>The profile already exists</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ClientError.FAILED_TO_AUTHENTICATE">
+<tt class="descname">FAILED_TO_AUTHENTICATE</tt><em class="property"> = 2</em></dt>
+<dd><p>Authentication failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ClientError.NOT_SUPPORTED">
+<tt class="descname">NOT_SUPPORTED</tt><em class="property"> = 3</em></dt>
+<dd><p>Feature not supported</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ClientError.NOT_FOUND">
+<tt class="descname">NOT_FOUND</tt><em class="property"> = 4</em></dt>
+<dd><p>Profile or device not found</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ClientError.INPUT_INVALID">
+<tt class="descname">INPUT_INVALID</tt><em class="property"> = 5</em></dt>
+<dd><p>One or more of the parameters is invalid</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ClientError.FILE_INVALID">
+<tt class="descname">FILE_INVALID</tt><em class="property"> = 6</em></dt>
+<dd><p>The file if invalid</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.Colorspace">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">Colorspace</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The known colorspace.</p>
+<dl class="attribute">
+<dt id="Colord.Colorspace.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.XYZ">
+<tt class="descname">XYZ</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.LAB">
+<tt class="descname">LAB</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.LUV">
+<tt class="descname">LUV</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.YCBCR">
+<tt class="descname">YCBCR</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.YXY">
+<tt class="descname">YXY</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.RGB">
+<tt class="descname">RGB</tt><em class="property"> = 6</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.GRAY">
+<tt class="descname">GRAY</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.HSV">
+<tt class="descname">HSV</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.CMYK">
+<tt class="descname">CMYK</tt><em class="property"> = 9</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.Colorspace.CMY">
+<tt class="descname">CMY</tt><em class="property"> = 10</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.DeviceError">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">DeviceError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Errors that can be thrown</p>
+<dl class="attribute">
+<dt id="Colord.DeviceError.INTERNAL">
+<tt class="descname">INTERNAL</tt><em class="property"> = 0</em></dt>
+<dd><p>An internal error occurred</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.PROFILE_DOES_NOT_EXIST">
+<tt class="descname">PROFILE_DOES_NOT_EXIST</tt><em class="property"> = 1</em></dt>
+<dd><p>The profile does not exist</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.PROFILE_ALREADY_ADDED">
+<tt class="descname">PROFILE_ALREADY_ADDED</tt><em class="property"> = 2</em></dt>
+<dd><p>The profile has already been added</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.PROFILING">
+<tt class="descname">PROFILING</tt><em class="property"> = 3</em></dt>
+<dd><p>The device is being profiled</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.NOTHING_MATCHED">
+<tt class="descname">NOTHING_MATCHED</tt><em class="property"> = 4</em></dt>
+<dd><p>Nothing matched the search term</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.FAILED_TO_INHIBIT">
+<tt class="descname">FAILED_TO_INHIBIT</tt><em class="property"> = 5</em></dt>
+<dd><p>Cound not inhibit device</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.FAILED_TO_UNINHIBIT">
+<tt class="descname">FAILED_TO_UNINHIBIT</tt><em class="property"> = 6</em></dt>
+<dd><p>Cound not uninhibit device</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.FAILED_TO_AUTHENTICATE">
+<tt class="descname">FAILED_TO_AUTHENTICATE</tt><em class="property"> = 7</em></dt>
+<dd><p>Authentication failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceError.NOT_ENABLED">
+<tt class="descname">NOT_ENABLED</tt><em class="property"> = 8</em></dt>
+<dd><p>The device has been disabled</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.DeviceKind">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">DeviceKind</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The device type.</p>
+<dl class="attribute">
+<dt id="Colord.DeviceKind.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceKind.DISPLAY">
+<tt class="descname">DISPLAY</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceKind.SCANNER">
+<tt class="descname">SCANNER</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceKind.PRINTER">
+<tt class="descname">PRINTER</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceKind.CAMERA">
+<tt class="descname">CAMERA</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceKind.WEBCAM">
+<tt class="descname">WEBCAM</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.DeviceMode">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">DeviceMode</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The device mode.</p>
+<dl class="attribute">
+<dt id="Colord.DeviceMode.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceMode.PHYSICAL">
+<tt class="descname">PHYSICAL</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceMode.VIRTUAL">
+<tt class="descname">VIRTUAL</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.DeviceRelation">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">DeviceRelation</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The device to profile relationship.</p>
+<dl class="attribute">
+<dt id="Colord.DeviceRelation.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceRelation.SOFT">
+<tt class="descname">SOFT</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.DeviceRelation.HARD">
+<tt class="descname">HARD</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.IccError">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">IccError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The ICC error code.</p>
+<dl class="attribute">
+<dt id="Colord.IccError.FAILED_TO_OPEN">
+<tt class="descname">FAILED_TO_OPEN</tt><em class="property"> = 0</em></dt>
+<dd><p>Failed to open file</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.FAILED_TO_PARSE">
+<tt class="descname">FAILED_TO_PARSE</tt><em class="property"> = 1</em></dt>
+<dd><p>Failed to parse data</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.INVALID_LOCALE">
+<tt class="descname">INVALID_LOCALE</tt><em class="property"> = 2</em></dt>
+<dd><p>Locale was invalid</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.NO_DATA">
+<tt class="descname">NO_DATA</tt><em class="property"> = 3</em></dt>
+<dd><p>No data to read</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.FAILED_TO_SAVE">
+<tt class="descname">FAILED_TO_SAVE</tt><em class="property"> = 4</em></dt>
+<dd><p>Failed to save file</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.FAILED_TO_CREATE">
+<tt class="descname">FAILED_TO_CREATE</tt><em class="property"> = 5</em></dt>
+<dd><p>Failed to create file</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.INVALID_COLORSPACE">
+<tt class="descname">INVALID_COLORSPACE</tt><em class="property"> = 6</em></dt>
+<dd><p>Invalid colorspace</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.CORRUPTION_DETECTED">
+<tt class="descname">CORRUPTION_DETECTED</tt><em class="property"> = 7</em></dt>
+<dd><p>Corruption has been detected</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccError.INTERNAL">
+<tt class="descname">INTERNAL</tt><em class="property"> = 8</em></dt>
+<dd><p>Something inside LCMS broke</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.IccSaveFlags">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">IccSaveFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Flags used when saving an ICC profile.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.32.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Colord.IccSaveFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.IccStoreSearchFlags">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">IccStoreSearchFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Flags used when adding scan locations.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.1.1.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Colord.IccStoreSearchFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccStoreSearchFlags.CREATE_LOCATION">
+<tt class="descname">CREATE_LOCATION</tt><em class="property"> = 1</em></dt>
+<dd><p>Create the location if it does not exist</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.IccStoreSearchKind">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">IccStoreSearchKind</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The kind of profiles locations to search.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.1.1.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Colord.IccStoreSearchKind.SYSTEM">
+<tt class="descname">SYSTEM</tt><em class="property"> = 0</em></dt>
+<dd><p>Per-system locations</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccStoreSearchKind.MACHINE">
+<tt class="descname">MACHINE</tt><em class="property"> = 1</em></dt>
+<dd><p>Per-machine locations</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.IccStoreSearchKind.USER">
+<tt class="descname">USER</tt><em class="property"> = 2</em></dt>
+<dd><p>Per-user locations</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.InterpError">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">InterpError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Errors that can be thrown</p>
+<dl class="attribute">
+<dt id="Colord.InterpError.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 0</em></dt>
+<dd><p>the method failed for an unknown reason</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.InterpKind">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">InterpKind</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The kind of interpolation.</p>
+<dl class="attribute">
+<dt id="Colord.InterpKind.LINEAR">
+<tt class="descname">LINEAR</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.InterpKind.AKIMA">
+<tt class="descname">AKIMA</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.It8Error">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">It8Error</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Errors that can be thrown</p>
+<dl class="attribute">
+<dt id="Colord.It8Error.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 0</em></dt>
+<dd><p>the transaction failed for an unknown reason</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Error.INVALID_FORMAT">
+<tt class="descname">INVALID_FORMAT</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Error.UNKNOWN_KIND">
+<tt class="descname">UNKNOWN_KIND</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.It8Kind">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">It8Kind</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The kind of IT8 file.</p>
+<dl class="attribute">
+<dt id="Colord.It8Kind.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Kind.TI1">
+<tt class="descname">TI1</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Kind.TI3">
+<tt class="descname">TI3</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Kind.CCMX">
+<tt class="descname">CCMX</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Kind.CAL">
+<tt class="descname">CAL</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Kind.CCSS">
+<tt class="descname">CCSS</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Kind.SPECT">
+<tt class="descname">SPECT</tt><em class="property"> = 6</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.It8Kind.CMF">
+<tt class="descname">CMF</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.ObjectScope">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">ObjectScope</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The options type.</p>
+<dl class="attribute">
+<dt id="Colord.ObjectScope.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ObjectScope.NORMAL">
+<tt class="descname">NORMAL</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ObjectScope.TEMP">
+<tt class="descname">TEMP</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ObjectScope.DISK">
+<tt class="descname">DISK</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.ProfileError">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">ProfileError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Errors that can be thrown</p>
+<dl class="attribute">
+<dt id="Colord.ProfileError.INTERNAL">
+<tt class="descname">INTERNAL</tt><em class="property"> = 0</em></dt>
+<dd><p>An internal error occurred</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileError.ALREADY_INSTALLED">
+<tt class="descname">ALREADY_INSTALLED</tt><em class="property"> = 1</em></dt>
+<dd><p>The profile is already installed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileError.FAILED_TO_WRITE">
+<tt class="descname">FAILED_TO_WRITE</tt><em class="property"> = 2</em></dt>
+<dd><p>The profile could not be written</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileError.FAILED_TO_PARSE">
+<tt class="descname">FAILED_TO_PARSE</tt><em class="property"> = 3</em></dt>
+<dd><p>The profile could not be parsed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileError.FAILED_TO_READ">
+<tt class="descname">FAILED_TO_READ</tt><em class="property"> = 4</em></dt>
+<dd><p>The profile could not be read</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileError.FAILED_TO_AUTHENTICATE">
+<tt class="descname">FAILED_TO_AUTHENTICATE</tt><em class="property"> = 5</em></dt>
+<dd><p>Authentication failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileError.PROPERTY_INVALID">
+<tt class="descname">PROPERTY_INVALID</tt><em class="property"> = 6</em></dt>
+<dd><p>One or more of the properties was invalid</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileError.FAILED_TO_GET_UID">
+<tt class="descname">FAILED_TO_GET_UID</tt><em class="property"> = 7</em></dt>
+<dd><p>Failed to get UID for sender</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.ProfileKind">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">ProfileKind</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The profile type.</p>
+<dl class="attribute">
+<dt id="Colord.ProfileKind.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileKind.INPUT_DEVICE">
+<tt class="descname">INPUT_DEVICE</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileKind.DISPLAY_DEVICE">
+<tt class="descname">DISPLAY_DEVICE</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileKind.OUTPUT_DEVICE">
+<tt class="descname">OUTPUT_DEVICE</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileKind.DEVICELINK">
+<tt class="descname">DEVICELINK</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileKind.COLORSPACE_CONVERSION">
+<tt class="descname">COLORSPACE_CONVERSION</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileKind.ABSTRACT">
+<tt class="descname">ABSTRACT</tt><em class="property"> = 6</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileKind.NAMED_COLOR">
+<tt class="descname">NAMED_COLOR</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.ProfileQuality">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">ProfileQuality</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The quality of the profile produced through calibration.</p>
+<dl class="attribute">
+<dt id="Colord.ProfileQuality.LOW">
+<tt class="descname">LOW</tt><em class="property"> = 0</em></dt>
+<dd><p>Low quality profile, fast</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileQuality.MEDIUM">
+<tt class="descname">MEDIUM</tt><em class="property"> = 1</em></dt>
+<dd><p>Medium quality profile</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileQuality.HIGH">
+<tt class="descname">HIGH</tt><em class="property"> = 2</em></dt>
+<dd><p>High quality profile, slow</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.ProfileWarning">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">ProfileWarning</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The warning about the profile. Profiles with warnings can still be
+used, but may be of limited use.</p>
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No error is found</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.DESCRIPTION_MISSING">
+<tt class="descname">DESCRIPTION_MISSING</tt><em class="property"> = 1</em></dt>
+<dd><p>The description is missing or of zero length</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.COPYRIGHT_MISSING">
+<tt class="descname">COPYRIGHT_MISSING</tt><em class="property"> = 2</em></dt>
+<dd><p>The copyright is missing or of zero length</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.VCGT_NON_MONOTONIC">
+<tt class="descname">VCGT_NON_MONOTONIC</tt><em class="property"> = 3</em></dt>
+<dd><p>The video card gamma table is not monotonic</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.SCUM_DOT">
+<tt class="descname">SCUM_DOT</tt><em class="property"> = 4</em></dt>
+<dd><p>Lab 100, 0, 0 does not map to RGB 255,255,255</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.GRAY_AXIS_INVALID">
+<tt class="descname">GRAY_AXIS_INVALID</tt><em class="property"> = 5</em></dt>
+<dd><p>There is significant a/b for gray</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.GRAY_AXIS_NON_MONOTONIC">
+<tt class="descname">GRAY_AXIS_NON_MONOTONIC</tt><em class="property"> = 6</em></dt>
+<dd><p>The gray ramp is not monotonic</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.PRIMARIES_INVALID">
+<tt class="descname">PRIMARIES_INVALID</tt><em class="property"> = 7</em></dt>
+<dd><p>One or more of the primaries are invalid</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.PRIMARIES_NON_ADDITIVE">
+<tt class="descname">PRIMARIES_NON_ADDITIVE</tt><em class="property"> = 8</em></dt>
+<dd><p>The primaries to not add to give D50 white</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.PRIMARIES_UNLIKELY">
+<tt class="descname">PRIMARIES_UNLIKELY</tt><em class="property"> = 9</em></dt>
+<dd><p>One or more of the primaries are outside of ROMM RGB</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.WHITEPOINT_INVALID">
+<tt class="descname">WHITEPOINT_INVALID</tt><em class="property"> = 10</em></dt>
+<dd><p>RGB 255,255,255 does not return D50</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.ProfileWarning.WHITEPOINT_UNLIKELY">
+<tt class="descname">WHITEPOINT_UNLIKELY</tt><em class="property"> = 11</em></dt>
+<dd><p>Whitepoint is outside of usual range</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.RenderingIntent">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">RenderingIntent</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The rendering intent.</p>
+<dl class="attribute">
+<dt id="Colord.RenderingIntent.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd><p>Unknown rendering intent</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.RenderingIntent.PERCEPTUAL">
+<tt class="descname">PERCEPTUAL</tt><em class="property"> = 1</em></dt>
+<dd><p>Used for photos as it maintains contrast</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.RenderingIntent.RELATIVE_COLORIMETRIC">
+<tt class="descname">RELATIVE_COLORIMETRIC</tt><em class="property"> = 2</em></dt>
+<dd><p>Used for graphic design and named colors</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.RenderingIntent.SATURATION">
+<tt class="descname">SATURATION</tt><em class="property"> = 3</em></dt>
+<dd><p>Used for business charts as it maintains saturation without dithering</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.RenderingIntent.ABSOLUTE_COLORIMETRIC">
+<tt class="descname">ABSOLUTE_COLORIMETRIC</tt><em class="property"> = 4</em></dt>
+<dd><p>Used when a specific color is required</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.SensorCap">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">SensorCap</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The sensor capabilities.</p>
+<dl class="attribute">
+<dt id="Colord.SensorCap.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.LCD">
+<tt class="descname">LCD</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.CRT">
+<tt class="descname">CRT</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.PRINTER">
+<tt class="descname">PRINTER</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.SPOT">
+<tt class="descname">SPOT</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.PROJECTOR">
+<tt class="descname">PROJECTOR</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.AMBIENT">
+<tt class="descname">AMBIENT</tt><em class="property"> = 6</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.CALIBRATION">
+<tt class="descname">CALIBRATION</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.LED">
+<tt class="descname">LED</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.PLASMA">
+<tt class="descname">PLASMA</tt><em class="property"> = 9</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.LCD_CCFL">
+<tt class="descname">LCD_CCFL</tt><em class="property"> = 10</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.LCD_RGB_LED">
+<tt class="descname">LCD_RGB_LED</tt><em class="property"> = 11</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.LCD_WHITE_LED">
+<tt class="descname">LCD_WHITE_LED</tt><em class="property"> = 12</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.WIDE_GAMUT_LCD_CCFL">
+<tt class="descname">WIDE_GAMUT_LCD_CCFL</tt><em class="property"> = 13</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorCap.WIDE_GAMUT_LCD_RGB_LED">
+<tt class="descname">WIDE_GAMUT_LCD_RGB_LED</tt><em class="property"> = 14</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.SensorError">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">SensorError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The sensor error code.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Colord.SensorError.NO_SUPPORT">
+<tt class="descname">NO_SUPPORT</tt><em class="property"> = 0</em></dt>
+<dd><p>This action is unsupported on this hardware</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.NO_DATA">
+<tt class="descname">NO_DATA</tt><em class="property"> = 1</em></dt>
+<dd><p>The sensor provided no data</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.INTERNAL">
+<tt class="descname">INTERNAL</tt><em class="property"> = 2</em></dt>
+<dd><p>An internal error occurred</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.ALREADY_LOCKED">
+<tt class="descname">ALREADY_LOCKED</tt><em class="property"> = 3</em></dt>
+<dd><p>The sensor is already locked</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.NOT_LOCKED">
+<tt class="descname">NOT_LOCKED</tt><em class="property"> = 4</em></dt>
+<dd><p>The sensor is not locked</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.IN_USE">
+<tt class="descname">IN_USE</tt><em class="property"> = 5</em></dt>
+<dd><p>The sensor is already in use</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.FAILED_TO_AUTHENTICATE">
+<tt class="descname">FAILED_TO_AUTHENTICATE</tt><em class="property"> = 6</em></dt>
+<dd><p>Authentication failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.REQUIRED_POSITION_CALIBRATE">
+<tt class="descname">REQUIRED_POSITION_CALIBRATE</tt><em class="property"> = 7</em></dt>
+<dd><p>The sensor needs to be in the calibrate position</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorError.REQUIRED_POSITION_SURFACE">
+<tt class="descname">REQUIRED_POSITION_SURFACE</tt><em class="property"> = 8</em></dt>
+<dd><p>The sensor needs to be in the surface position</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.SensorKind">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">SensorKind</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The sensor type.</p>
+<dl class="attribute">
+<dt id="Colord.SensorKind.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.DUMMY">
+<tt class="descname">DUMMY</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.HUEY">
+<tt class="descname">HUEY</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.COLOR_MUNKI_PHOTO">
+<tt class="descname">COLOR_MUNKI_PHOTO</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.SPYDER">
+<tt class="descname">SPYDER</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.DTP20">
+<tt class="descname">DTP20</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.DTP22">
+<tt class="descname">DTP22</tt><em class="property"> = 6</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.DTP41">
+<tt class="descname">DTP41</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.DTP51">
+<tt class="descname">DTP51</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.DTP94">
+<tt class="descname">DTP94</tt><em class="property"> = 9</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.SPECTRO_SCAN">
+<tt class="descname">SPECTRO_SCAN</tt><em class="property"> = 10</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.I1_PRO">
+<tt class="descname">I1_PRO</tt><em class="property"> = 11</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.COLORIMTRE_HCFR">
+<tt class="descname">COLORIMTRE_HCFR</tt><em class="property"> = 12</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.I1_DISPLAY3">
+<tt class="descname">I1_DISPLAY3</tt><em class="property"> = 13</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.COLORHUG">
+<tt class="descname">COLORHUG</tt><em class="property"> = 14</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.SPYDER2">
+<tt class="descname">SPYDER2</tt><em class="property"> = 15</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.SPYDER3">
+<tt class="descname">SPYDER3</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.COLORHUG_SPECTRO">
+<tt class="descname">COLORHUG_SPECTRO</tt><em class="property"> = 17</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.I1_DISPLAY1">
+<tt class="descname">I1_DISPLAY1</tt><em class="property"> = 18</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.I1_DISPLAY2">
+<tt class="descname">I1_DISPLAY2</tt><em class="property"> = 19</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.DTP92">
+<tt class="descname">DTP92</tt><em class="property"> = 20</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.I1_MONITOR">
+<tt class="descname">I1_MONITOR</tt><em class="property"> = 21</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.SPYDER4">
+<tt class="descname">SPYDER4</tt><em class="property"> = 22</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorKind.COLOR_MUNKI_SMILE">
+<tt class="descname">COLOR_MUNKI_SMILE</tt><em class="property"> = 23</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.SensorState">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">SensorState</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The state of the sensor.</p>
+<dl class="attribute">
+<dt id="Colord.SensorState.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorState.STARTING">
+<tt class="descname">STARTING</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorState.IDLE">
+<tt class="descname">IDLE</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorState.MEASURING">
+<tt class="descname">MEASURING</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.SensorState.BUSY">
+<tt class="descname">BUSY</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.StandardSpace">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">StandardSpace</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>A standard colorspace</p>
+<dl class="attribute">
+<dt id="Colord.StandardSpace.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.StandardSpace.SRGB">
+<tt class="descname">SRGB</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.StandardSpace.ADOBE_RGB">
+<tt class="descname">ADOBE_RGB</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.StandardSpace.PROPHOTO_RGB">
+<tt class="descname">PROPHOTO_RGB</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Colord.TransformError">
+<em class="property">class </em><tt class="descclassname">Colord.</tt><tt class="descname">TransformError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Colord-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>The transform error code.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.34.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Colord.TransformError.FAILED_TO_SETUP_TRANSFORM">
+<tt class="descname">FAILED_TO_SETUP_TRANSFORM</tt><em class="property"> = 0</em></dt>
+<dd><p>Failed to setup transform</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.TransformError.INVALID_COLORSPACE">
+<tt class="descname">INVALID_COLORSPACE</tt><em class="property"> = 1</em></dt>
+<dd><p>Invalid colorspace</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Colord.TransformError.LAST">
+<tt class="descname">LAST</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

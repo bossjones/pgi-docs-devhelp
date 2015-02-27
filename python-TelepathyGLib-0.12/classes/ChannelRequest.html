@@ -1,0 +1,861 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    TelepathyGLib.ChannelRequest -
+    
+      Classes -
+    
+    TelepathyGLib 0.12
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="TelepathyGLib 0.12 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="TelepathyGLib.ClientMessage" href="ClientMessage.html"/>
+        <link rel="prev" title="TelepathyGLib.ChannelDispatcher" href="ChannelDispatcher.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">TelepathyGLib 0.12</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>TelepathyGLib.ChannelRequest</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ChannelDispatcher.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ClientMessage.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">TelepathyGLib.ChannelRequest</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">TelepathyGLib 0.12</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>TelepathyGLib.ChannelRequest</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ChannelDispatcher.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ClientMessage.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">TelepathyGLib.ChannelRequest</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="telepathyglib-channelrequest">
+<h1>TelepathyGLib.ChannelRequest</h1>
+<p class="graphviz">
+<svg width="155pt" height="134pt"
+ viewBox="0.00 0.00 155.00 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritance35aa115d26</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M107.5,-126C107.5,-126 39.5,-126 39.5,-126 36.5,-126 33.5,-123 33.5,-120 33.5,-120 33.5,-114 33.5,-114 33.5,-111 36.5,-108 39.5,-108 39.5,-108 107.5,-108 107.5,-108 110.5,-108 113.5,-111 113.5,-114 113.5,-114 113.5,-120 113.5,-120 113.5,-123 110.5,-126 107.5,-126"/>
+<text text-anchor="middle" x="73.5" y="-114.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- TelepathyGLib.Proxy -->
+<g id="node2" class="node"><title>TelepathyGLib.Proxy</title>
+<g id="a_node2"><a xlink:href="Proxy.html#TelepathyGLib.Proxy" xlink:title="TelepathyGLib.Proxy">
+<path fill="none" stroke="#75507b" d="M118,-72C118,-72 29,-72 29,-72 26,-72 23,-69 23,-66 23,-66 23,-60 23,-60 23,-57 26,-54 29,-54 29,-54 118,-54 118,-54 121,-54 124,-57 124,-60 124,-60 124,-66 124,-66 124,-69 121,-72 118,-72"/>
+<text text-anchor="middle" x="73.5" y="-60.7" font-family="inherit" font-size="8.50">TelepathyGLib.Proxy</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;TelepathyGLib.Proxy -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;TelepathyGLib.Proxy</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M73.5,-107.875C73.5,-99.7564 73.5,-87.1312 73.5,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="75.2501,-77.2395 73.5,-72.2396 71.7501,-77.2396 75.2501,-77.2395"/>
+</g>
+<!-- TelepathyGLib.ChannelRequest -->
+<g id="node3" class="node"><title>TelepathyGLib.ChannelRequest</title>
+<g id="a_node3"><a xlink:href="#TelepathyGLib.ChannelRequest" xlink:title="TelepathyGLib.ChannelRequest">
+<path fill="none" stroke="#75507b" d="M141,-18C141,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 141,-0 141,-0 144,-0 147,-3 147,-6 147,-6 147,-12 147,-12 147,-15 144,-18 141,-18"/>
+<text text-anchor="middle" x="73.5" y="-6.7" font-family="inherit" font-size="8.50">TelepathyGLib.ChannelRequest</text>
+</a>
+</g>
+</g>
+<!-- TelepathyGLib.Proxy&#45;&gt;TelepathyGLib.ChannelRequest -->
+<g id="edge2" class="edge"><title>TelepathyGLib.Proxy&#45;&gt;TelepathyGLib.ChannelRequest</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M73.5,-53.875C73.5,-45.7564 73.5,-33.1312 73.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="75.2501,-23.2395 73.5,-18.2396 71.7501,-23.2396 75.2501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="telepathyglib-channelrequest-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Proxy.html#telepathyglib-proxy-methods"><em>TelepathyGLib.Proxy (11)</em></a>, <a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.init_known_interfaces" title="TelepathyGLib.ChannelRequest.init_known_interfaces"><tt class="xref py py-obj docutils literal"><span class="pre">init_known_interfaces</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.new" title="TelepathyGLib.ChannelRequest.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(bus_daemon, object_path, immutable_properties)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.dup_hints" title="TelepathyGLib.ChannelRequest.dup_hints"><tt class="xref py py-obj docutils literal"><span class="pre">dup_hints</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.dup_immutable_properties" title="TelepathyGLib.ChannelRequest.dup_immutable_properties"><tt class="xref py py-obj docutils literal"><span class="pre">dup_immutable_properties</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.get_account" title="TelepathyGLib.ChannelRequest.get_account"><tt class="xref py py-obj docutils literal"><span class="pre">get_account</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.get_hints" title="TelepathyGLib.ChannelRequest.get_hints"><tt class="xref py py-obj docutils literal"><span class="pre">get_hints</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.get_immutable_properties" title="TelepathyGLib.ChannelRequest.get_immutable_properties"><tt class="xref py py-obj docutils literal"><span class="pre">get_immutable_properties</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.get_preferred_handler" title="TelepathyGLib.ChannelRequest.get_preferred_handler"><tt class="xref py py-obj docutils literal"><span class="pre">get_preferred_handler</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.get_user_action_time" title="TelepathyGLib.ChannelRequest.get_user_action_time"><tt class="xref py py-obj docutils literal"><span class="pre">get_user_action_time</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.set_channel_factory" title="TelepathyGLib.ChannelRequest.set_channel_factory"><tt class="xref py py-obj docutils literal"><span class="pre">set_channel_factory</span></tt></a>(factory)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="telepathyglib-channelrequest-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="telepathyglib-channelrequest-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Proxy.html#telepathyglib-proxy-props"><em>TelepathyGLib.Proxy (5)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.account" title="TelepathyGLib.ChannelRequest.props.account"><tt class="xref py py-data docutils literal"><span class="pre">account</span></tt></a></td>
+<td><a class="reference internal" href="Account.html#TelepathyGLib.Account" title="TelepathyGLib.Account"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.Account</span></tt></a></td>
+<td>r</td>
+<td>Account</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.channel_factory" title="TelepathyGLib.ChannelRequest.props.channel_factory"><tt class="xref py py-data docutils literal"><span class="pre">channel-factory</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r/w/c</td>
+<td>Object implementing TpClientChannelFactoryInterface</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.hints_vardict" title="TelepathyGLib.ChannelRequest.props.hints_vardict"><tt class="xref py py-data docutils literal"><span class="pre">hints-vardict</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+<td>r</td>
+<td>Hints</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.immutable_properties_vardict" title="TelepathyGLib.ChannelRequest.props.immutable_properties_vardict"><tt class="xref py py-data docutils literal"><span class="pre">immutable-properties-vardict</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+<td>r</td>
+<td>A map D-Bus interface + &#8221;.&#8221; + property name =&gt; variant</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.preferred_handler" title="TelepathyGLib.ChannelRequest.props.preferred_handler"><tt class="xref py py-data docutils literal"><span class="pre">preferred-handler</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r</td>
+<td>PreferredHandler</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.user_action_time" title="TelepathyGLib.ChannelRequest.props.user_action_time"><tt class="xref py py-data docutils literal"><span class="pre">user-action-time</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r</td>
+<td>UserActionTime</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="telepathyglib-channelrequest-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Proxy.html#telepathyglib-proxy-signals"><em>TelepathyGLib.Proxy (2)</em></a>, <a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.signals.succeeded" title="TelepathyGLib.ChannelRequest.signals.succeeded"><tt class="xref py py-func docutils literal"><span class="pre">succeeded</span></tt></a></td>
+<td>Emitted when the channel request succeeds.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#TelepathyGLib.ChannelRequest.signals.succeeded_with_channel" title="TelepathyGLib.ChannelRequest.signals.succeeded_with_channel"><tt class="xref py py-func docutils literal"><span class="pre">succeeded-with-channel</span></tt></a></td>
+<td>Emitted when the channel request succeeds.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="telepathyglib-channelrequest-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Proxy.html#telepathyglib-proxy-fields"><em>TelepathyGLib.Proxy (6)</em></a>, <a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="TelepathyGLib.ChannelRequest">
+<em class="property">class </em><tt class="descclassname">TelepathyGLib.</tt><tt class="descname">ChannelRequest</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a></p>
+<p>Requesting a channel from the channel dispatcher can take some time, so an
+object is created in the channel dispatcher to represent each request. This
+proxy represents one of those objects.</p>
+<p>Any client can call tp_cli_channel_request_call_cancel() at any time to
+attempt to cancel the request.</p>
+<p>On success, the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.signals.succeeded" title="TelepathyGLib.ChannelRequest.signals.succeeded"><tt class="xref py py-func docutils literal"><span class="pre">::succeeded</span></tt></a> signal will be emitted.
+Immediately after that, the <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.signals.invalidated" title="TelepathyGLib.Proxy.signals.invalidated"><tt class="xref py py-func docutils literal"><span class="pre">::invalidated</span></tt></a> signal will be emitted,
+with the domain %TP_DBUS_ERRORS and the error code
+<a class="reference internal" href="../enums.html#TelepathyGLib.DBusError.OBJECT_REMOVED" title="TelepathyGLib.DBusError.OBJECT_REMOVED"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.DBusError.OBJECT_REMOVED</span></tt></a> (this is not an error condition, it merely
+indicates that the channel request no longer exists).</p>
+<p>On failure, the <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.signals.invalidated" title="TelepathyGLib.Proxy.signals.invalidated"><tt class="xref py py-func docutils literal"><span class="pre">::invalidated</span></tt></a> signal will be emitted with some
+other suitable error, usually from the %TP_ERROR domain.</p>
+<p>If the channel dispatcher crashes or exits, the <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.signals.invalidated" title="TelepathyGLib.Proxy.signals.invalidated"><tt class="xref py py-func docutils literal"><span class="pre">::invalidated</span></tt></a> 
+signal will be emitted with the domain %TP_DBUS_ERRORS and the error code
+<a class="reference internal" href="../enums.html#TelepathyGLib.DBusError.NAME_OWNER_LOST" title="TelepathyGLib.DBusError.NAME_OWNER_LOST"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.DBusError.NAME_OWNER_LOST</span></tt></a>.</p>
+<p>Creating a <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> directly is deprecated: it
+should only be created via a <a class="reference internal" href="AccountChannelRequest.html#TelepathyGLib.AccountChannelRequest" title="TelepathyGLib.AccountChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.AccountChannelRequest</span></tt></a> 
+or a <a class="reference internal" href="BaseClient.html#TelepathyGLib.BaseClient" title="TelepathyGLib.BaseClient"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.BaseClient</span></tt></a>.</p>
+<p>Since 0.16, <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> always has a non-<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.props.factory" title="TelepathyGLib.Proxy.props.factory"><tt class="xref py py-data docutils literal"><span class="pre">:factory</span></tt></a>,
+and its <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.props.factory" title="TelepathyGLib.Proxy.props.factory"><tt class="xref py py-data docutils literal"><span class="pre">:factory</span></tt></a> will be propagated to the <a class="reference internal" href="Account.html#TelepathyGLib.Account" title="TelepathyGLib.Account"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Account</span></tt></a>,
+<a class="reference internal" href="Connection.html#TelepathyGLib.Connection" title="TelepathyGLib.Connection"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Connection</span></tt></a> and <a class="reference internal" href="Channel.html#TelepathyGLib.Channel" title="TelepathyGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Channel</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.7.32.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="TelepathyGLib.ChannelRequest.init_known_interfaces">
+<em class="property">static </em><tt class="descname">init_known_interfaces</tt><big>(</big><big>)</big></dt>
+<dd><p>Ensure that the known interfaces for <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> have been set up.
+This is done automatically when necessary, but for correct
+overriding of library interfaces by local extensions, you should
+call this function before calling
+tp_proxy_or_subclass_hook_on_interface_add() with first argument
+%TP_TYPE_CHANNEL_REQUEST.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.7.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="TelepathyGLib.ChannelRequest.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>bus_daemon</em>, <em>object_path</em>, <em>immutable_properties</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>bus_daemon</strong> (<a class="reference internal" href="DBusDaemon.html#TelepathyGLib.DBusDaemon" title="TelepathyGLib.DBusDaemon"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.DBusDaemon</span></tt></a>) &#8211; Proxy for the D-Bus daemon</li>
+<li><strong>object_path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; The non-NULL object path of this channel request</li>
+<li><strong>immutable_properties</strong> ({<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>}) &#8211; As many as are known of the immutable D-Bus
+properties of this channel request, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none are known</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new reference to an channel request proxy, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if
+<cite>object_path</cite> is not syntactically valid or the channel dispatcher is
+not running</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Convenience function to create a new channel request proxy.</p>
+<p>If the channel request was newly created, the client making the request
+is responsible for calling tp_cli_channel_request_call_proceed() when it
+is ready for the channel request to proceed.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version ??: </span>Since 0.19.9. New code should get <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> objects
+from a <a class="reference internal" href="BaseClient.html#TelepathyGLib.BaseClient" title="TelepathyGLib.BaseClient"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.BaseClient</span></tt></a></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.dup_hints">
+<tt class="descname">dup_hints</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the value of <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.hints_vardict" title="TelepathyGLib.ChannelRequest.props.hints_vardict"><tt class="xref py py-data docutils literal"><span class="pre">:hints-vardict</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Return the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.hints_vardict" title="TelepathyGLib.ChannelRequest.props.hints_vardict"><tt class="xref py py-data docutils literal"><span class="pre">:hints-vardict</span></tt></a> property</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.19.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.dup_immutable_properties">
+<tt class="descname">dup_immutable_properties</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the value of
+<a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.immutable_properties_vardict" title="TelepathyGLib.ChannelRequest.props.immutable_properties_vardict"><tt class="xref py py-data docutils literal"><span class="pre">:immutable-properties-vardict</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Return the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.immutable_properties_vardict" title="TelepathyGLib.ChannelRequest.props.immutable_properties_vardict"><tt class="xref py py-data docutils literal"><span class="pre">:immutable-properties-vardict</span></tt></a> property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.19.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.get_account">
+<tt class="descname">get_account</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the value of <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.account" title="TelepathyGLib.ChannelRequest.props.account"><tt class="xref py py-data docutils literal"><span class="pre">:account</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Account.html#TelepathyGLib.Account" title="TelepathyGLib.Account"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.Account</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Return the value of the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.account" title="TelepathyGLib.ChannelRequest.props.account"><tt class="xref py py-data docutils literal"><span class="pre">:account</span></tt></a> construct-only property</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.get_hints">
+<tt class="descname">get_hints</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the value of
+<a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:hints</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">{<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>}</td>
+</tr>
+</tbody>
+</table>
+<p>Return the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:hints</span></tt> property</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.13.14.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.get_immutable_properties">
+<tt class="descname">get_immutable_properties</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the value of
+<a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:immutable-properties</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">{<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>}</td>
+</tr>
+</tbody>
+</table>
+<p>Return the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:immutable-properties</span></tt> construct-only property</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.13.14.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.get_preferred_handler">
+<tt class="descname">get_preferred_handler</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the value of <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.preferred_handler" title="TelepathyGLib.ChannelRequest.props.preferred_handler"><tt class="xref py py-data docutils literal"><span class="pre">:preferred-handler</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>return the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.preferred_handler" title="TelepathyGLib.ChannelRequest.props.preferred_handler"><tt class="xref py py-data docutils literal"><span class="pre">:preferred-handler</span></tt></a> construct-only property</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.get_user_action_time">
+<tt class="descname">get_user_action_time</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the value of <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.user_action_time" title="TelepathyGLib.ChannelRequest.props.user_action_time"><tt class="xref py py-data docutils literal"><span class="pre">:user-action-time</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>return the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.user_action_time" title="TelepathyGLib.ChannelRequest.props.user_action_time"><tt class="xref py py-data docutils literal"><span class="pre">:user-action-time</span></tt></a> construct-only property</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="TelepathyGLib.ChannelRequest.set_channel_factory">
+<tt class="descname">set_channel_factory</tt><big>(</big><em>factory</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>factory</strong> (<a class="reference internal" href="../interfaces/ClientChannelFactory.html#TelepathyGLib.ClientChannelFactory" title="TelepathyGLib.ClientChannelFactory"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.ClientChannelFactory</span></tt></a>) &#8211; an object implementing the #TpClientChannelFactoryInterface
+interface</td>
+</tr>
+</tbody>
+</table>
+<p>Change the value of the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.channel_factory" title="TelepathyGLib.ChannelRequest.props.channel_factory"><tt class="xref py py-data docutils literal"><span class="pre">:channel-factory</span></tt></a> property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.13.14.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version ??: </span>since 0.15.5. Use <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.props.factory" title="TelepathyGLib.Proxy.props.factory"><tt class="xref py py-data docutils literal"><span class="pre">:factory</span></tt></a> instead.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="TelepathyGLib.ChannelRequest.signals.succeeded">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.signals.</tt><tt class="descname">succeeded</tt><big>(</big><em>channel_request</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">succeeded</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.DETAILED" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">DETAILED</span></tt></a>, <a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>channel_request</strong> (<a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>Emitted when the channel request succeeds.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version ??: </span>since 0.13.14. Use
+<a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.signals.succeeded_with_channel" title="TelepathyGLib.ChannelRequest.signals.succeeded_with_channel"><tt class="xref py py-func docutils literal"><span class="pre">::succeeded-with-channel</span></tt></a>, which provides the resulting
+channel, instead.</p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="TelepathyGLib.ChannelRequest.signals.succeeded_with_channel">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.signals.</tt><tt class="descname">succeeded_with_channel</tt><big>(</big><em>channel_request</em>, <em>connection</em>, <em>channel</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">succeeded-with-channel</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.DETAILED" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">DETAILED</span></tt></a>, <a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>channel_request</strong> (<a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>connection</strong> (<a class="reference internal" href="Connection.html#TelepathyGLib.Connection" title="TelepathyGLib.Connection"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.Connection</span></tt></a>) &#8211; the <a class="reference internal" href="Connection.html#TelepathyGLib.Connection" title="TelepathyGLib.Connection"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Connection</span></tt></a> of <cite>channel</cite>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>channel</strong> (<a class="reference internal" href="Channel.html#TelepathyGLib.Channel" title="TelepathyGLib.Channel"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.Channel</span></tt></a>) &#8211; the <a class="reference internal" href="Channel.html#TelepathyGLib.Channel" title="TelepathyGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Channel</span></tt></a> created, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Emitted when the channel request succeeds.</p>
+<p>With telepathy-mission-control version 5.7.1 and earlier, <cite>connection</cite> and
+<cite>channel</cite> will be <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>. When using newer versions, they will be correctly
+set to the newly-created channel, and the connection which owns it.</p>
+<p>The <a class="reference internal" href="Channel.html#TelepathyGLib.Channel" title="TelepathyGLib.Channel"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Channel</span></tt></a> is created using <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.props.channel_factory" title="TelepathyGLib.ChannelRequest.props.channel_factory"><tt class="xref py py-data docutils literal"><span class="pre">:channel-factory</span></tt></a> or
+<a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.props.factory" title="TelepathyGLib.Proxy.props.factory"><tt class="xref py py-data docutils literal"><span class="pre">:factory</span></tt></a> but the features of the factory are NOT prepared.
+It&#8217;s up to the user to prepare the features returned by
+<a class="reference internal" href="SimpleClientFactory.html#TelepathyGLib.SimpleClientFactory.dup_channel_features" title="TelepathyGLib.SimpleClientFactory.dup_channel_features"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.SimpleClientFactory.dup_channel_features</span></tt></a> () himself.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.13.14.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="TelepathyGLib.ChannelRequest.props.account">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.props.</tt><tt class="descname">account</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">account</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="Account.html#TelepathyGLib.Account" title="TelepathyGLib.Account"><tt class="xref py py-class docutils literal"><span class="pre">TelepathyGLib.Account</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="Account.html#TelepathyGLib.Account" title="TelepathyGLib.Account"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Account</span></tt></a> on which this request was made, not guaranteed
+to be prepared.</p>
+<p>Read-only.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="TelepathyGLib.ChannelRequest.props.channel_factory">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.props.</tt><tt class="descname">channel_factory</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">channel-factory</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>The object implementing the #TpClientChannelFactoryInterface interface
+that will be used to create channel proxies when the
+<a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <a class="reference internal" href="#TelepathyGLib.ChannelRequest.signals.succeeded_with_channel" title="TelepathyGLib.ChannelRequest.signals.succeeded_with_channel"><tt class="xref py py-func docutils literal"><span class="pre">::succeeded-with-channel</span></tt></a> signal is fired.
+This property can be changed using
+<a class="reference internal" href="#TelepathyGLib.ChannelRequest.set_channel_factory" title="TelepathyGLib.ChannelRequest.set_channel_factory"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest.set_channel_factory</span></tt></a> ().</p>
+<p>If no channel factory is specified then <a class="reference internal" href="AutomaticProxyFactory.html#TelepathyGLib.AutomaticProxyFactory" title="TelepathyGLib.AutomaticProxyFactory"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.AutomaticProxyFactory</span></tt></a> is used.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.13.14.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version ??: </span>since 0.15.5. Use <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy" title="TelepathyGLib.Proxy"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.Proxy</span></tt></a> <a class="reference internal" href="Proxy.html#TelepathyGLib.Proxy.props.factory" title="TelepathyGLib.Proxy.props.factory"><tt class="xref py py-data docutils literal"><span class="pre">:factory</span></tt></a> instead.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="TelepathyGLib.ChannelRequest.props.hints_vardict">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.props.</tt><tt class="descname">hints_vardict</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">hints-vardict</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>A %G_VARIANT_TYPE_VARDICT of metadata provided by
+the channel requester; or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:immutable-properties</span></tt>
+is not defined or if no hints have been defined.</p>
+<p>Read-only.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.19.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="TelepathyGLib.ChannelRequest.props.immutable_properties_vardict">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.props.</tt><tt class="descname">immutable_properties_vardict</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">immutable-properties-vardict</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/TelepathyGLib-0.12/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>The immutable D-Bus properties of this channel request, represented by a
+%G_VARIANT_TYPE_VARDICT where the keys are
+D-Bus interface name + &#8221;.&#8221; + property name.</p>
+<p>Note that this property is set only if the immutable properties have been
+set during the construction of the <a class="reference internal" href="#TelepathyGLib.ChannelRequest" title="TelepathyGLib.ChannelRequest"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.ChannelRequest</span></tt></a>.</p>
+<p>Read-only except during construction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.19.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="TelepathyGLib.ChannelRequest.props.preferred_handler">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.props.</tt><tt class="descname">preferred_handler</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">preferred-handler</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>Either the well-known bus name (starting with <a class="reference internal" href="../constants.html#TelepathyGLib.CLIENT_BUS_NAME_BASE" title="TelepathyGLib.CLIENT_BUS_NAME_BASE"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.CLIENT_BUS_NAME_BASE</span></tt></a> )
+of the preferred handler for this channel request,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to indicate that any handler would be acceptable.</p>
+<p>Read-only.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="TelepathyGLib.ChannelRequest.props.user_action_time">
+<tt class="descclassname">TelepathyGLib.ChannelRequest.props.</tt><tt class="descname">user_action_time</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">user-action-time</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>The time at which user action occurred, or
+<a class="reference internal" href="../constants.html#TelepathyGLib.USER_ACTION_TIME_NOT_USER_ACTION" title="TelepathyGLib.USER_ACTION_TIME_NOT_USER_ACTION"><tt class="xref py py-obj docutils literal"><span class="pre">TelepathyGLib.USER_ACTION_TIME_NOT_USER_ACTION</span></tt></a> if this channel request is
+for some reason not involving user action.</p>
+<p>Read-only.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.15.3.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

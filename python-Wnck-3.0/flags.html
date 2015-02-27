@@ -1,0 +1,412 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Flags -
+    
+    Wnck 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Wnck 3.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Enums" href="enums.html"/>
+        <link rel="prev" title="Wnck.WorkspaceLayout" href="structs/WorkspaceLayout.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Wnck 3.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/WorkspaceLayout.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Wnck 3.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/WorkspaceLayout.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="flags">
+<h1>Flags</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Wnck.WindowActions" title="Wnck.WindowActions"><tt class="xref py py-class docutils literal"><span class="pre">Wnck.WindowActions</span></tt></a></li>
+<li><a class="reference internal" href="#Wnck.WindowMoveResizeMask" title="Wnck.WindowMoveResizeMask"><tt class="xref py py-class docutils literal"><span class="pre">Wnck.WindowMoveResizeMask</span></tt></a></li>
+<li><a class="reference internal" href="#Wnck.WindowState" title="Wnck.WindowState"><tt class="xref py py-class docutils literal"><span class="pre">Wnck.WindowState</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Wnck.WindowActions">
+<em class="property">class </em><tt class="descclassname">Wnck.</tt><tt class="descname">WindowActions</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Wnck-3.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Type used as a bitmask to describe the actions that can be done for a
+<a class="reference internal" href="classes/Window.html#Wnck.Window" title="Wnck.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Wnck.Window</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Wnck.WindowActions.MOVE">
+<tt class="descname">MOVE</tt><em class="property"> = 1</em></dt>
+<dd><p>the window may be moved around the screen.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.RESIZE">
+<tt class="descname">RESIZE</tt><em class="property"> = 2</em></dt>
+<dd><p>the window may be resized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.SHADE">
+<tt class="descname">SHADE</tt><em class="property"> = 4</em></dt>
+<dd><p>the window may be shaded.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.STICK">
+<tt class="descname">STICK</tt><em class="property"> = 8</em></dt>
+<dd><p>the window may be sticked.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.MAXIMIZE_HORIZONTALLY">
+<tt class="descname">MAXIMIZE_HORIZONTALLY</tt><em class="property"> = 16</em></dt>
+<dd><p>the window may be maximized
+horizontally.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.MAXIMIZE_VERTICALLY">
+<tt class="descname">MAXIMIZE_VERTICALLY</tt><em class="property"> = 32</em></dt>
+<dd><p>the window may be maximized
+vertically.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.CHANGE_WORKSPACE">
+<tt class="descname">CHANGE_WORKSPACE</tt><em class="property"> = 64</em></dt>
+<dd><p>the window may be moved between
+workspaces, or (un)pinned.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.CLOSE">
+<tt class="descname">CLOSE</tt><em class="property"> = 128</em></dt>
+<dd><p>the window may be closed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.UNMAXIMIZE_HORIZONTALLY">
+<tt class="descname">UNMAXIMIZE_HORIZONTALLY</tt><em class="property"> = 256</em></dt>
+<dd><p>the window may be unmaximized
+horizontally.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.UNMAXIMIZE_VERTICALLY">
+<tt class="descname">UNMAXIMIZE_VERTICALLY</tt><em class="property"> = 512</em></dt>
+<dd><p>the window may be maximized
+vertically.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.UNSHADE">
+<tt class="descname">UNSHADE</tt><em class="property"> = 1024</em></dt>
+<dd><p>the window may be unshaded.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.UNSTICK">
+<tt class="descname">UNSTICK</tt><em class="property"> = 2048</em></dt>
+<dd><p>the window may be unsticked.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.MINIMIZE">
+<tt class="descname">MINIMIZE</tt><em class="property"> = 4096</em></dt>
+<dd><p>the window may be minimized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.UNMINIMIZE">
+<tt class="descname">UNMINIMIZE</tt><em class="property"> = 8192</em></dt>
+<dd><p>the window may be unminimized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.MAXIMIZE">
+<tt class="descname">MAXIMIZE</tt><em class="property"> = 16384</em></dt>
+<dd><p>the window may be maximized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.UNMAXIMIZE">
+<tt class="descname">UNMAXIMIZE</tt><em class="property"> = 32768</em></dt>
+<dd><p>the window may be unmaximized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.FULLSCREEN">
+<tt class="descname">FULLSCREEN</tt><em class="property"> = 65536</em></dt>
+<dd><p>the window may be brought to fullscreen.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.ABOVE">
+<tt class="descname">ABOVE</tt><em class="property"> = 131072</em></dt>
+<dd><p>the window may be made above other windows.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowActions.BELOW">
+<tt class="descname">BELOW</tt><em class="property"> = 262144</em></dt>
+<dd><p>the window may be made below other windows.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Wnck.WindowMoveResizeMask">
+<em class="property">class </em><tt class="descclassname">Wnck.</tt><tt class="descname">WindowMoveResizeMask</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Wnck-3.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flag used as a bitmask when changing the geometry of a <a class="reference internal" href="classes/Window.html#Wnck.Window" title="Wnck.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Wnck.Window</span></tt></a>. This
+indicates which part of the geometry should be changed.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.16.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Wnck.WindowMoveResizeMask.X">
+<tt class="descname">X</tt><em class="property"> = 1</em></dt>
+<dd><p>X coordinate of the window should be changed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowMoveResizeMask.Y">
+<tt class="descname">Y</tt><em class="property"> = 2</em></dt>
+<dd><p>Y coordinate of the window should be changed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowMoveResizeMask.WIDTH">
+<tt class="descname">WIDTH</tt><em class="property"> = 4</em></dt>
+<dd><p>width of the window should be changed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowMoveResizeMask.HEIGHT">
+<tt class="descname">HEIGHT</tt><em class="property"> = 8</em></dt>
+<dd><p>height of the window should be changed.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Wnck.WindowState">
+<em class="property">class </em><tt class="descclassname">Wnck.</tt><tt class="descname">WindowState</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Wnck-3.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Type used as a bitmask to describe the state of a <a class="reference internal" href="classes/Window.html#Wnck.Window" title="Wnck.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Wnck.Window</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Wnck.WindowState.MINIMIZED">
+<tt class="descname">MINIMIZED</tt><em class="property"> = 1</em></dt>
+<dd><p>the window is minimized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.MAXIMIZED_HORIZONTALLY">
+<tt class="descname">MAXIMIZED_HORIZONTALLY</tt><em class="property"> = 2</em></dt>
+<dd><p>the window is horizontically
+maximized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.MAXIMIZED_VERTICALLY">
+<tt class="descname">MAXIMIZED_VERTICALLY</tt><em class="property"> = 4</em></dt>
+<dd><p>the window is vertically maximized.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.SHADED">
+<tt class="descname">SHADED</tt><em class="property"> = 8</em></dt>
+<dd><p>the window is shaded.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.SKIP_PAGER">
+<tt class="descname">SKIP_PAGER</tt><em class="property"> = 16</em></dt>
+<dd><p>the window should not be included on pagers.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.SKIP_TASKLIST">
+<tt class="descname">SKIP_TASKLIST</tt><em class="property"> = 32</em></dt>
+<dd><p>the window should not be included on
+tasklists.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.STICKY">
+<tt class="descname">STICKY</tt><em class="property"> = 64</em></dt>
+<dd><p>the window is sticky (see
+<a class="reference internal" href="classes/Window.html#Wnck.Window.is_sticky" title="Wnck.Window.is_sticky"><tt class="xref py py-obj docutils literal"><span class="pre">Wnck.Window.is_sticky</span></tt></a> ()).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.HIDDEN">
+<tt class="descname">HIDDEN</tt><em class="property"> = 128</em></dt>
+<dd><p>the window is not visible on its <a class="reference internal" href="classes/Workspace.html#Wnck.Workspace" title="Wnck.Workspace"><tt class="xref py py-obj docutils literal"><span class="pre">Wnck.Workspace</span></tt></a>
+and viewport (when minimized, for example).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.FULLSCREEN">
+<tt class="descname">FULLSCREEN</tt><em class="property"> = 256</em></dt>
+<dd><p>the window is fullscreen.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.DEMANDS_ATTENTION">
+<tt class="descname">DEMANDS_ATTENTION</tt><em class="property"> = 512</em></dt>
+<dd><p>the window needs attention (because
+the window requested activation but the window manager refused it, for
+example).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.URGENT">
+<tt class="descname">URGENT</tt><em class="property"> = 1024</em></dt>
+<dd><p>the window requires a response from the user.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.ABOVE">
+<tt class="descname">ABOVE</tt><em class="property"> = 2048</em></dt>
+<dd><p>the window is above other windows (see
+<a class="reference internal" href="classes/Window.html#Wnck.Window.make_above" title="Wnck.Window.make_above"><tt class="xref py py-obj docutils literal"><span class="pre">Wnck.Window.make_above</span></tt></a> ()).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Wnck.WindowState.BELOW">
+<tt class="descname">BELOW</tt><em class="property"> = 4096</em></dt>
+<dd><p>the window is below other windows (see
+<a class="reference internal" href="classes/Window.html#Wnck.Window.make_below" title="Wnck.Window.make_below"><tt class="xref py py-obj docutils literal"><span class="pre">Wnck.Window.make_below</span></tt></a> ()).</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

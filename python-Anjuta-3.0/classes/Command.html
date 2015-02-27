@@ -1,0 +1,845 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Anjuta.Command -
+    
+      Classes -
+    
+    Anjuta 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Anjuta 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Anjuta.CommandBar" href="CommandBar.html"/>
+        <link rel="prev" title="Anjuta.ColumnTextView" href="ColumnTextView.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Anjuta 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Anjuta.Command</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ColumnTextView.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="CommandBar.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Anjuta.Command</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Anjuta 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Anjuta.Command</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ColumnTextView.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="CommandBar.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Anjuta.Command</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="anjuta-command">
+<h1>Anjuta.Command</h1>
+<p class="graphviz">
+<svg width="97pt" height="80pt"
+ viewBox="0.00 0.00 97.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritance7ec6fcffb8</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M78.5,-72C78.5,-72 10.5,-72 10.5,-72 7.5,-72 4.5,-69 4.5,-66 4.5,-66 4.5,-60 4.5,-60 4.5,-57 7.5,-54 10.5,-54 10.5,-54 78.5,-54 78.5,-54 81.5,-54 84.5,-57 84.5,-60 84.5,-60 84.5,-66 84.5,-66 84.5,-69 81.5,-72 78.5,-72"/>
+<text text-anchor="middle" x="44.5" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- Anjuta.Command -->
+<g id="node2" class="node"><title>Anjuta.Command</title>
+<g id="a_node2"><a xlink:href="#Anjuta.Command" xlink:title="Anjuta.Command">
+<path fill="none" stroke="#75507b" d="M83,-18C83,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 83,-0 83,-0 86,-0 89,-3 89,-6 89,-6 89,-12 89,-12 89,-15 86,-18 83,-18"/>
+<text text-anchor="middle" x="44.5" y="-6.7" font-family="inherit" font-size="8.50">Anjuta.Command</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Anjuta.Command -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;Anjuta.Command</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M44.5,-53.875C44.5,-45.7564 44.5,-33.1312 44.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="46.2501,-23.2395 44.5,-18.2396 42.7501,-23.2396 46.2501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Subclasses:</th><td class="field-body"><a class="reference internal" href="AsyncCommand.html#Anjuta.AsyncCommand" title="Anjuta.AsyncCommand"><tt class="xref py py-class docutils literal"><span class="pre">Anjuta.AsyncCommand</span></tt></a>,     <a class="reference internal" href="SyncCommand.html#Anjuta.SyncCommand" title="Anjuta.SyncCommand"><tt class="xref py py-class docutils literal"><span class="pre">Anjuta.SyncCommand</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="methods">
+<span id="anjuta-command-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.cancel" title="Anjuta.Command.cancel"><tt class="xref py py-obj docutils literal"><span class="pre">cancel</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.get_error_message" title="Anjuta.Command.get_error_message"><tt class="xref py py-obj docutils literal"><span class="pre">get_error_message</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.is_running" title="Anjuta.Command.is_running"><tt class="xref py py-obj docutils literal"><span class="pre">is_running</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.notify_complete" title="Anjuta.Command.notify_complete"><tt class="xref py py-obj docutils literal"><span class="pre">notify_complete</span></tt></a>(return_code)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.notify_data_arrived" title="Anjuta.Command.notify_data_arrived"><tt class="xref py py-obj docutils literal"><span class="pre">notify_data_arrived</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.notify_progress" title="Anjuta.Command.notify_progress"><tt class="xref py py-obj docutils literal"><span class="pre">notify_progress</span></tt></a>(progress)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.set_error_message" title="Anjuta.Command.set_error_message"><tt class="xref py py-obj docutils literal"><span class="pre">set_error_message</span></tt></a>(error_message)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.start" title="Anjuta.Command.start"><tt class="xref py py-obj docutils literal"><span class="pre">start</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.start_automatic_monitor" title="Anjuta.Command.start_automatic_monitor"><tt class="xref py py-obj docutils literal"><span class="pre">start_automatic_monitor</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.stop_automatic_monitor" title="Anjuta.Command.stop_automatic_monitor"><tt class="xref py py-obj docutils literal"><span class="pre">stop_automatic_monitor</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="anjuta-command-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_cancel" title="Anjuta.Command.do_cancel"><tt class="xref py py-obj docutils literal"><span class="pre">do_cancel</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_command_finished" title="Anjuta.Command.do_command_finished"><tt class="xref py py-obj docutils literal"><span class="pre">do_command_finished</span></tt></a>(return_code)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_command_started" title="Anjuta.Command.do_command_started"><tt class="xref py py-obj docutils literal"><span class="pre">do_command_started</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_data_arrived" title="Anjuta.Command.do_data_arrived"><tt class="xref py py-obj docutils literal"><span class="pre">do_data_arrived</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_get_error_message" title="Anjuta.Command.do_get_error_message"><tt class="xref py py-obj docutils literal"><span class="pre">do_get_error_message</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_notify_complete" title="Anjuta.Command.do_notify_complete"><tt class="xref py py-obj docutils literal"><span class="pre">do_notify_complete</span></tt></a>(return_code)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_notify_data_arrived" title="Anjuta.Command.do_notify_data_arrived"><tt class="xref py py-obj docutils literal"><span class="pre">do_notify_data_arrived</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_notify_progress" title="Anjuta.Command.do_notify_progress"><tt class="xref py py-obj docutils literal"><span class="pre">do_notify_progress</span></tt></a>(progress)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_progress" title="Anjuta.Command.do_progress"><tt class="xref py py-obj docutils literal"><span class="pre">do_progress</span></tt></a>(progress)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_run" title="Anjuta.Command.do_run"><tt class="xref py py-obj docutils literal"><span class="pre">do_run</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_set_error_message" title="Anjuta.Command.do_set_error_message"><tt class="xref py py-obj docutils literal"><span class="pre">do_set_error_message</span></tt></a>(error_message)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_start" title="Anjuta.Command.do_start"><tt class="xref py py-obj docutils literal"><span class="pre">do_start</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_start_automatic_monitor" title="Anjuta.Command.do_start_automatic_monitor"><tt class="xref py py-obj docutils literal"><span class="pre">do_start_automatic_monitor</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Anjuta.Command.do_stop_automatic_monitor" title="Anjuta.Command.do_stop_automatic_monitor"><tt class="xref py py-obj docutils literal"><span class="pre">do_stop_automatic_monitor</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="anjuta-command-props"></span><h2>Properties</h2>
+<p>None</p>
+</div>
+<div class="section" id="signals">
+<span id="anjuta-command-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Anjuta.Command.signals.command_finished" title="Anjuta.Command.signals.command_finished"><tt class="xref py py-func docutils literal"><span class="pre">command-finished</span></tt></a></td>
+<td>Indicates that the command has completed.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Anjuta.Command.signals.command_started" title="Anjuta.Command.signals.command_started"><tt class="xref py py-func docutils literal"><span class="pre">command-started</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Anjuta.Command.signals.data_arrived" title="Anjuta.Command.signals.data_arrived"><tt class="xref py py-func docutils literal"><span class="pre">data-arrived</span></tt></a></td>
+<td>Notifies clients that the command has processed data that is ready to be used.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Anjuta.Command.signals.progress" title="Anjuta.Command.signals.progress"><tt class="xref py py-func docutils literal"><span class="pre">progress</span></tt></a></td>
+<td>Notifies clients of changes in progress during command execution.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="anjuta-command-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Anjuta.Command">
+<em class="property">class </em><tt class="descclassname">Anjuta.</tt><tt class="descname">Command</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></p>
+<dl class="method">
+<dt id="Anjuta.Command.cancel">
+<tt class="descname">cancel</tt><big>(</big><big>)</big></dt>
+<dd><p>Cancels a running command.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.get_error_message">
+<tt class="descname">get_error_message</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Error message string that must
+be freed when no longer needed. If no error is set, return <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Get the error message from the command, if there is one. This method is
+normally used from a <a class="reference internal" href="#Anjuta.Command.signals.command_finished" title="Anjuta.Command.signals.command_finished"><tt class="xref py py-func docutils literal"><span class="pre">::command-finished</span></tt></a> handler to report errors to the user
+when a command finishes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.is_running">
+<tt class="descname">is_running</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the command is currently running; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.notify_complete">
+<tt class="descname">notify_complete</tt><big>(</big><em>return_code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>return_code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The returned code that is passed to the notify callback</td>
+</tr>
+</tbody>
+</table>
+<p>Used by base classes derived from <a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> to emit the
+<a class="reference internal" href="#Anjuta.Command.signals.command_finished" title="Anjuta.Command.signals.command_finished"><tt class="xref py py-func docutils literal"><span class="pre">::command-finished</span></tt></a> signal. This method should not be used by client code or
+<a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> objects that are not base classes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.notify_data_arrived">
+<tt class="descname">notify_data_arrived</tt><big>(</big><big>)</big></dt>
+<dd><p>Used by base classes derived from <a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> to emit the <a class="reference internal" href="#Anjuta.Command.signals.data_arrived" title="Anjuta.Command.signals.data_arrived"><tt class="xref py py-func docutils literal"><span class="pre">::data-arrived</span></tt></a>
+signal. This method should be used by both base command classes and
+non-base classes as appropriate.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.notify_progress">
+<tt class="descname">notify_progress</tt><big>(</big><em>progress</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; The of the command that is passed to the notify callback</td>
+</tr>
+</tbody>
+</table>
+<p>Emits the <a class="reference internal" href="#Anjuta.Command.signals.progress" title="Anjuta.Command.signals.progress"><tt class="xref py py-func docutils literal"><span class="pre">::progress</span></tt></a> signal. Can be used by both base classes and
+commands as needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.set_error_message">
+<tt class="descname">set_error_message</tt><big>(</big><em>error_message</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>error_message</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Error message.</td>
+</tr>
+</tbody>
+</table>
+<p>Command objects use this to set error messages when they encounter some kind
+of failure.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.start">
+<tt class="descname">start</tt><big>(</big><big>)</big></dt>
+<dd><p>Starts a command. Client code can handle data from the command by connecting
+to the <a class="reference internal" href="#Anjuta.Command.signals.data_arrived" title="Anjuta.Command.signals.data_arrived"><tt class="xref py py-func docutils literal"><span class="pre">::data-arrived</span></tt></a> signal.</p>
+<p><a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> subclasses should override this method to determine how they
+call <tt class="xref py py-func docutils literal"><span class="pre">::run</span></tt>, which actually does the command&#8217;s legwork.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.start_automatic_monitor">
+<tt class="descname">start_automatic_monitor</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if automatic starting is supported by the command and
+no errors were encountered; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> if automatic starting is unsupported or on
+error.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets up any monitoring needed for commands that should start themselves
+automatically in response to some event.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.stop_automatic_monitor">
+<tt class="descname">stop_automatic_monitor</tt><big>(</big><big>)</big></dt>
+<dd><p>Stops automatic monitoring for self executing commands. For commands that
+do not support self-starting, this function does nothing.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_cancel">
+<tt class="descname">do_cancel</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+<p>Cancels a running command.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_command_finished">
+<tt class="descname">do_command_finished</tt><big>(</big><em>return_code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>return_code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_command_started">
+<tt class="descname">do_command_started</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_data_arrived">
+<tt class="descname">do_data_arrived</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_get_error_message">
+<tt class="descname">do_get_error_message</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Error message string that must
+be freed when no longer needed. If no error is set, return <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Get the error message from the command, if there is one. This method is
+normally used from a <a class="reference internal" href="#Anjuta.Command.signals.command_finished" title="Anjuta.Command.signals.command_finished"><tt class="xref py py-func docutils literal"><span class="pre">::command-finished</span></tt></a> handler to report errors to the user
+when a command finishes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_notify_complete">
+<tt class="descname">do_notify_complete</tt><big>(</big><em>return_code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>return_code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The returned code that is passed to the notify callback</td>
+</tr>
+</tbody>
+</table>
+<p>Used by base classes derived from <a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> to emit the
+<a class="reference internal" href="#Anjuta.Command.signals.command_finished" title="Anjuta.Command.signals.command_finished"><tt class="xref py py-func docutils literal"><span class="pre">::command-finished</span></tt></a> signal. This method should not be used by client code or
+<a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> objects that are not base classes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_notify_data_arrived">
+<tt class="descname">do_notify_data_arrived</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+<p>Used by base classes derived from <a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> to emit the <a class="reference internal" href="#Anjuta.Command.signals.data_arrived" title="Anjuta.Command.signals.data_arrived"><tt class="xref py py-func docutils literal"><span class="pre">::data-arrived</span></tt></a>
+signal. This method should be used by both base command classes and
+non-base classes as appropriate.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_notify_progress">
+<tt class="descname">do_notify_progress</tt><big>(</big><em>progress</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; The of the command that is passed to the notify callback</td>
+</tr>
+</tbody>
+</table>
+<p>Emits the <a class="reference internal" href="#Anjuta.Command.signals.progress" title="Anjuta.Command.signals.progress"><tt class="xref py py-func docutils literal"><span class="pre">::progress</span></tt></a> signal. Can be used by both base classes and
+commands as needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_progress">
+<tt class="descname">do_progress</tt><big>(</big><em>progress</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_run">
+<tt class="descname">do_run</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_set_error_message">
+<tt class="descname">do_set_error_message</tt><big>(</big><em>error_message</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>error_message</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Error message.</td>
+</tr>
+</tbody>
+</table>
+<p>Command objects use this to set error messages when they encounter some kind
+of failure.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_start">
+<tt class="descname">do_start</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+<p>Starts a command. Client code can handle data from the command by connecting
+to the <a class="reference internal" href="#Anjuta.Command.signals.data_arrived" title="Anjuta.Command.signals.data_arrived"><tt class="xref py py-func docutils literal"><span class="pre">::data-arrived</span></tt></a> signal.</p>
+<p><a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-obj docutils literal"><span class="pre">Anjuta.Command</span></tt></a> subclasses should override this method to determine how they
+call <tt class="xref py py-func docutils literal"><span class="pre">::run</span></tt>, which actually does the command&#8217;s legwork.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_start_automatic_monitor">
+<tt class="descname">do_start_automatic_monitor</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if automatic starting is supported by the command and
+no errors were encountered; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> if automatic starting is unsupported or on
+error.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets up any monitoring needed for commands that should start themselves
+automatically in response to some event.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Anjuta.Command.do_stop_automatic_monitor">
+<tt class="descname">do_stop_automatic_monitor</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+<p>Stops automatic monitoring for self executing commands. For commands that
+do not support self-starting, this function does nothing.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Anjuta.Command.signals.command_finished">
+<tt class="descclassname">Anjuta.Command.signals.</tt><tt class="descname">command_finished</tt><big>(</big><em>command</em>, <em>return_code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">command-finished</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>command</strong> (<a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-class docutils literal"><span class="pre">Anjuta.Command</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>return_code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The return code of the finished commmand</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Indicates that the command has completed. Clients should at least handle
+this signal to unref the command object.</p>
+<p>Sublasses that override the method for this signal should chain up to
+the parent implementation to ensure proper handling of running/not
+running states.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anjuta.Command.signals.command_started">
+<tt class="descclassname">Anjuta.Command.signals.</tt><tt class="descname">command_started</tt><big>(</big><em>command</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">command-started</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>command</strong> (<a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-class docutils literal"><span class="pre">Anjuta.Command</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anjuta.Command.signals.data_arrived">
+<tt class="descclassname">Anjuta.Command.signals.</tt><tt class="descname">data_arrived</tt><big>(</big><em>command</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">data-arrived</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>command</strong> (<a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-class docutils literal"><span class="pre">Anjuta.Command</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>Notifies clients that the command has processed data that is ready to
+be used.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Anjuta.Command.signals.progress">
+<tt class="descclassname">Anjuta.Command.signals.</tt><tt class="descname">progress</tt><big>(</big><em>command</em>, <em>progress</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">progress</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Anjuta-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>command</strong> (<a class="reference internal" href="#Anjuta.Command" title="Anjuta.Command"><tt class="xref py py-class docutils literal"><span class="pre">Anjuta.Command</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; Fraction of the command&#8217;s task that is complete, between 0.0
+and 1.0, inclusive.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Notifies clients of changes in progress during command execution.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

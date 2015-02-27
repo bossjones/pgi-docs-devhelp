@@ -1,0 +1,1671 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gio.DBusProxy -
+    
+      Classes -
+    
+    Gio 2.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gio 2.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gio.DBusServer" href="DBusServer.html"/>
+        <link rel="prev" title="Gio.DBusObjectSkeleton" href="DBusObjectSkeleton.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gio 2.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gio.DBusProxy</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="DBusObjectSkeleton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="DBusServer.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gio.DBusProxy</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gio 2.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gio.DBusProxy</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="DBusObjectSkeleton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="DBusServer.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gio.DBusProxy</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gio-dbusproxy">
+<h1>Gio.DBusProxy</h1>
+<p class="graphviz">
+<svg width="392pt" height="134pt"
+ viewBox="0.00 0.00 391.50 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritance43c477ec9f</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M197.5,-126C197.5,-126 111.5,-126 111.5,-126 108.5,-126 105.5,-123 105.5,-120 105.5,-120 105.5,-114 105.5,-114 105.5,-111 108.5,-108 111.5,-108 111.5,-108 197.5,-108 197.5,-108 200.5,-108 203.5,-111 203.5,-114 203.5,-114 203.5,-120 203.5,-120 203.5,-123 200.5,-126 197.5,-126"/>
+<text text-anchor="middle" x="154.5" y="-114.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Gio.AsyncInitable -->
+<g id="node2" class="node"><title>Gio.AsyncInitable</title>
+<g id="a_node2"><a xlink:href="../interfaces/AsyncInitable.html#Gio.AsyncInitable" xlink:title="Gio.AsyncInitable">
+<path fill="none" stroke="#3091d1" d="M83,-72C83,-72 6,-72 6,-72 3,-72 7.10543e-15,-69 7.10543e-15,-66 7.10543e-15,-66 7.10543e-15,-60 7.10543e-15,-60 7.10543e-15,-57 3,-54 6,-54 6,-54 83,-54 83,-54 86,-54 89,-57 89,-60 89,-60 89,-66 89,-66 89,-69 86,-72 83,-72"/>
+<text text-anchor="middle" x="44.5" y="-60.7" font-family="inherit" font-size="8.50">Gio.AsyncInitable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gio.AsyncInitable -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Gio.AsyncInitable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M137.312,-107.875C118.1,-98.7928 86.9571,-84.0706 66.1104,-74.2158"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="66.8351,-72.6228 61.5668,-72.0679 65.3392,-75.787 66.8351,-72.6228"/>
+</g>
+<!-- Gio.DBusInterface -->
+<g id="node3" class="node"><title>Gio.DBusInterface</title>
+<g id="a_node3"><a xlink:href="../interfaces/DBusInterface.html#Gio.DBusInterface" xlink:title="Gio.DBusInterface">
+<path fill="none" stroke="#3091d1" d="M195.5,-72C195.5,-72 113.5,-72 113.5,-72 110.5,-72 107.5,-69 107.5,-66 107.5,-66 107.5,-60 107.5,-60 107.5,-57 110.5,-54 113.5,-54 113.5,-54 195.5,-54 195.5,-54 198.5,-54 201.5,-57 201.5,-60 201.5,-60 201.5,-66 201.5,-66 201.5,-69 198.5,-72 195.5,-72"/>
+<text text-anchor="middle" x="154.5" y="-60.7" font-family="inherit" font-size="8.50">Gio.DBusInterface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gio.DBusInterface -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gio.DBusInterface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M154.5,-107.875C154.5,-99.7564 154.5,-87.1312 154.5,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="156.25,-77.2395 154.5,-72.2396 152.75,-77.2396 156.25,-77.2395"/>
+</g>
+<!-- Gio.Initable -->
+<g id="node4" class="node"><title>Gio.Initable</title>
+<g id="a_node4"><a xlink:href="../interfaces/Initable.html#Gio.Initable" xlink:title="Gio.Initable">
+<path fill="none" stroke="#3091d1" d="M279,-72C279,-72 226,-72 226,-72 223,-72 220,-69 220,-66 220,-66 220,-60 220,-60 220,-57 223,-54 226,-54 226,-54 279,-54 279,-54 282,-54 285,-57 285,-60 285,-60 285,-66 285,-66 285,-69 282,-72 279,-72"/>
+<text text-anchor="middle" x="252.5" y="-60.7" font-family="inherit" font-size="8.50">Gio.Initable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gio.Initable -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Gio.Initable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M169.812,-107.875C186.785,-98.8692 214.209,-84.3177 232.777,-74.4653"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="233.699,-75.9574 237.295,-72.0679 232.058,-72.8657 233.699,-75.9574"/>
+</g>
+<!-- Gio.DBusProxy -->
+<g id="node6" class="node"><title>Gio.DBusProxy</title>
+<g id="a_node6"><a xlink:href="#Gio.DBusProxy" xlink:title="Gio.DBusProxy">
+<path fill="none" stroke="#75507b" d="M237.5,-18C237.5,-18 169.5,-18 169.5,-18 166.5,-18 163.5,-15 163.5,-12 163.5,-12 163.5,-6 163.5,-6 163.5,-3 166.5,-0 169.5,-0 169.5,-0 237.5,-0 237.5,-0 240.5,-0 243.5,-3 243.5,-6 243.5,-6 243.5,-12 243.5,-12 243.5,-15 240.5,-18 237.5,-18"/>
+<text text-anchor="middle" x="203.5" y="-6.7" font-family="inherit" font-size="8.50">Gio.DBusProxy</text>
+</a>
+</g>
+</g>
+<!-- Gio.AsyncInitable&#45;&gt;Gio.DBusProxy -->
+<g id="edge5" class="edge"><title>Gio.AsyncInitable&#45;&gt;Gio.DBusProxy</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M68.9953,-53.989C97.2403,-44.7516 143.654,-29.5722 173.897,-19.6814"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="174.769,-21.2377 178.977,-18.0201 173.681,-17.9111 174.769,-21.2377"/>
+</g>
+<!-- Gio.DBusInterface&#45;&gt;Gio.DBusProxy -->
+<g id="edge6" class="edge"><title>Gio.DBusInterface&#45;&gt;Gio.DBusProxy</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M162.156,-53.875C170.235,-45.3012 183.051,-31.7011 192.273,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="193.58,-23.0787 195.736,-18.2396 191.033,-20.6784 193.58,-23.0787"/>
+</g>
+<!-- Gio.Initable&#45;&gt;Gio.DBusProxy -->
+<g id="edge7" class="edge"><title>Gio.Initable&#45;&gt;Gio.DBusProxy</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M244.844,-53.875C236.765,-45.3012 223.949,-31.7011 214.727,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="215.967,-20.6784 211.264,-18.2396 213.42,-23.0787 215.967,-20.6784"/>
+</g>
+<!-- GObject.Object -->
+<g id="node5" class="node"><title>GObject.Object</title>
+<g id="a_node5"><a xlink:href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M377.5,-72C377.5,-72 309.5,-72 309.5,-72 306.5,-72 303.5,-69 303.5,-66 303.5,-66 303.5,-60 303.5,-60 303.5,-57 306.5,-54 309.5,-54 309.5,-54 377.5,-54 377.5,-54 380.5,-54 383.5,-57 383.5,-60 383.5,-60 383.5,-66 383.5,-66 383.5,-69 380.5,-72 377.5,-72"/>
+<text text-anchor="middle" x="343.5" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Gio.DBusProxy -->
+<g id="edge4" class="edge"><title>GObject.Object&#45;&gt;Gio.DBusProxy</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M321.932,-53.989C297.237,-44.8166 256.769,-29.7855 230.13,-19.891"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="230.62,-18.2063 225.323,-18.1058 229.401,-21.4873 230.62,-18.2063"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="gio-dbusproxy-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/AsyncInitable.html#gio-asyncinitable-methods"><em>Gio.AsyncInitable (4)</em></a>, <a class="reference internal" href="../interfaces/DBusInterface.html#gio-dbusinterface-methods"><em>Gio.DBusInterface (3)</em></a>, <a class="reference internal" href="../interfaces/Initable.html#gio-initable-methods"><em>Gio.Initable (2)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.new" title="Gio.DBusProxy.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(connection, flags, info, name, object_path, interface_name, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.new_finish" title="Gio.DBusProxy.new_finish"><tt class="xref py py-obj docutils literal"><span class="pre">new_finish</span></tt></a>(res)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.new_for_bus" title="Gio.DBusProxy.new_for_bus"><tt class="xref py py-obj docutils literal"><span class="pre">new_for_bus</span></tt></a>(bus_type, flags, info, name, object_path, interface_name, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.new_for_bus_finish" title="Gio.DBusProxy.new_for_bus_finish"><tt class="xref py py-obj docutils literal"><span class="pre">new_for_bus_finish</span></tt></a>(res)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.new_for_bus_sync" title="Gio.DBusProxy.new_for_bus_sync"><tt class="xref py py-obj docutils literal"><span class="pre">new_for_bus_sync</span></tt></a>(bus_type, flags, info, name, object_path, interface_name, cancellable)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.new_sync" title="Gio.DBusProxy.new_sync"><tt class="xref py py-obj docutils literal"><span class="pre">new_sync</span></tt></a>(connection, flags, info, name, object_path, interface_name, cancellable)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">call</span></tt></a>(method_name, parameters, flags, timeout_msec, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.call_finish" title="Gio.DBusProxy.call_finish"><tt class="xref py py-obj docutils literal"><span class="pre">call_finish</span></tt></a>(res)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.call_sync" title="Gio.DBusProxy.call_sync"><tt class="xref py py-obj docutils literal"><span class="pre">call_sync</span></tt></a>(method_name, parameters, flags, timeout_msec, cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.call_with_unix_fd_list" title="Gio.DBusProxy.call_with_unix_fd_list"><tt class="xref py py-obj docutils literal"><span class="pre">call_with_unix_fd_list</span></tt></a>(method_name, parameters, flags, timeout_msec, fd_list, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.call_with_unix_fd_list_finish" title="Gio.DBusProxy.call_with_unix_fd_list_finish"><tt class="xref py py-obj docutils literal"><span class="pre">call_with_unix_fd_list_finish</span></tt></a>(res)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.call_with_unix_fd_list_sync" title="Gio.DBusProxy.call_with_unix_fd_list_sync"><tt class="xref py py-obj docutils literal"><span class="pre">call_with_unix_fd_list_sync</span></tt></a>(method_name, parameters, flags, timeout_msec, fd_list, cancellable)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_cached_property" title="Gio.DBusProxy.get_cached_property"><tt class="xref py py-obj docutils literal"><span class="pre">get_cached_property</span></tt></a>(property_name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_cached_property_names" title="Gio.DBusProxy.get_cached_property_names"><tt class="xref py py-obj docutils literal"><span class="pre">get_cached_property_names</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_connection" title="Gio.DBusProxy.get_connection"><tt class="xref py py-obj docutils literal"><span class="pre">get_connection</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_default_timeout" title="Gio.DBusProxy.get_default_timeout"><tt class="xref py py-obj docutils literal"><span class="pre">get_default_timeout</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_flags" title="Gio.DBusProxy.get_flags"><tt class="xref py py-obj docutils literal"><span class="pre">get_flags</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_interface_info" title="Gio.DBusProxy.get_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">get_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_interface_name" title="Gio.DBusProxy.get_interface_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_interface_name</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_name" title="Gio.DBusProxy.get_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_name</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_name_owner" title="Gio.DBusProxy.get_name_owner"><tt class="xref py py-obj docutils literal"><span class="pre">get_name_owner</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.get_object_path" title="Gio.DBusProxy.get_object_path"><tt class="xref py py-obj docutils literal"><span class="pre">get_object_path</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.set_cached_property" title="Gio.DBusProxy.set_cached_property"><tt class="xref py py-obj docutils literal"><span class="pre">set_cached_property</span></tt></a>(property_name, value)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.set_default_timeout" title="Gio.DBusProxy.set_default_timeout"><tt class="xref py py-obj docutils literal"><span class="pre">set_default_timeout</span></tt></a>(timeout_msec)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.set_interface_info" title="Gio.DBusProxy.set_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">set_interface_info</span></tt></a>(info)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gio-dbusproxy-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/AsyncInitable.html#gio-asyncinitable-vfuncs"><em>Gio.AsyncInitable (2)</em></a>, <a class="reference internal" href="../interfaces/DBusInterface.html#gio-dbusinterface-vfuncs"><em>Gio.DBusInterface (3)</em></a>, <a class="reference internal" href="../interfaces/Initable.html#gio-initable-vfuncs"><em>Gio.Initable (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.do_g_properties_changed" title="Gio.DBusProxy.do_g_properties_changed"><tt class="xref py py-obj docutils literal"><span class="pre">do_g_properties_changed</span></tt></a>(changed_properties, invalidated_properties)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.DBusProxy.do_g_signal" title="Gio.DBusProxy.do_g_signal"><tt class="xref py py-obj docutils literal"><span class="pre">do_g_signal</span></tt></a>(sender_name, signal_name, parameters)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gio-dbusproxy-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_bus_type" title="Gio.DBusProxy.props.g_bus_type"><tt class="xref py py-data docutils literal"><span class="pre">g-bus-type</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-class docutils literal"><span class="pre">Gio.BusType</span></tt></a></td>
+<td>w</td>
+<td>The bus to connect to, if any</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_connection" title="Gio.DBusProxy.props.g_connection"><tt class="xref py py-data docutils literal"><span class="pre">g-connection</span></tt></a></td>
+<td><a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a></td>
+<td>r/w</td>
+<td>The connection the proxy is for</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_default_timeout" title="Gio.DBusProxy.props.g_default_timeout"><tt class="xref py py-data docutils literal"><span class="pre">g-default-timeout</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w/c</td>
+<td>Timeout for remote method invocation</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_flags" title="Gio.DBusProxy.props.g_flags"><tt class="xref py py-data docutils literal"><span class="pre">g-flags</span></tt></a></td>
+<td><a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a></td>
+<td>r/w</td>
+<td>Flags for the proxy</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_interface_info" title="Gio.DBusProxy.props.g_interface_info"><tt class="xref py py-data docutils literal"><span class="pre">g-interface-info</span></tt></a></td>
+<td><a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+<td>r/w</td>
+<td>Interface Information</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_interface_name" title="Gio.DBusProxy.props.g_interface_name"><tt class="xref py py-data docutils literal"><span class="pre">g-interface-name</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>The D-Bus interface name the proxy is for</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_name" title="Gio.DBusProxy.props.g_name"><tt class="xref py py-data docutils literal"><span class="pre">g-name</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>The well-known or unique name that the proxy is for</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_name_owner" title="Gio.DBusProxy.props.g_name_owner"><tt class="xref py py-data docutils literal"><span class="pre">g-name-owner</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r</td>
+<td>The unique name for the owner</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gio.DBusProxy.props.g_object_path" title="Gio.DBusProxy.props.g_object_path"><tt class="xref py py-data docutils literal"><span class="pre">g-object-path</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>The object path the proxy is for</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gio-dbusproxy-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gio.DBusProxy.signals.g_properties_changed" title="Gio.DBusProxy.signals.g_properties_changed"><tt class="xref py py-func docutils literal"><span class="pre">g-properties-changed</span></tt></a></td>
+<td>Emitted when one or more D-Bus properties on <cite>proxy</cite> changes.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gio.DBusProxy.signals.g_signal" title="Gio.DBusProxy.signals.g_signal"><tt class="xref py py-func docutils literal"><span class="pre">g-signal</span></tt></a></td>
+<td>Emitted when a signal from the remote object and interface that <cite>proxy</cite> is for, has been received.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gio-dbusproxy-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gio.DBusProxy">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusProxy</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>, <a class="reference internal" href="../interfaces/AsyncInitable.html#Gio.AsyncInitable" title="Gio.AsyncInitable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncInitable</span></tt></a>, <a class="reference internal" href="../interfaces/DBusInterface.html#Gio.DBusInterface" title="Gio.DBusInterface"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterface</span></tt></a>, <a class="reference internal" href="../interfaces/Initable.html#Gio.Initable" title="Gio.Initable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Initable</span></tt></a></p>
+<p><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> is a base class used for proxies to access a D-Bus
+interface on a remote object. A <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> can be constructed for
+both well-known and unique names.</p>
+<p>By default, <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> will cache all properties (and listen to
+changes) of the remote object, and proxy all signals that gets
+emitted. This behaviour can be changed by passing suitable
+<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a> when the proxy is created. If the proxy is for a
+well-known name, the property cache is flushed when the name owner
+vanishes and reloaded when a name owner appears.</p>
+<p>If a <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> is used for a well-known name, the owner of the
+name is tracked and can be read from
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_name_owner" title="Gio.DBusProxy.props.g_name_owner"><tt class="xref py py-data docutils literal"><span class="pre">:g-name-owner</span></tt></a>. Connect to the <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.signals.notify" title="(in GObject 2.0 v2.0)"><tt class="xref py py-func docutils literal"><span class="pre">::notify</span></tt></a> signal to
+get notified of changes. Additionally, only signals and property
+changes emitted from the current name owner are considered and
+calls are always sent to the current name owner. This avoids a
+number of race conditions when the name is lost by one owner and
+claimed by another. However, if no name owner currently exists,
+then calls will be sent to the well-known name which may result in
+the message bus launching an owner (unless
+<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_AUTO_START" title="Gio.DBusProxyFlags.DO_NOT_AUTO_START"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_AUTO_START</span></tt></a> is set).</p>
+<p>The generic <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.signals.g_properties_changed" title="Gio.DBusProxy.signals.g_properties_changed"><tt class="xref py py-func docutils literal"><span class="pre">::g-properties-changed</span></tt></a> and
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.signals.g_signal" title="Gio.DBusProxy.signals.g_signal"><tt class="xref py py-func docutils literal"><span class="pre">::g-signal</span></tt></a> signals are not very convenient to work with.
+Therefore, the recommended way of working with proxies is to subclass
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a>, and have more natural properties and signals in your derived
+class. This [example][gdbus-example-gdbus-codegen] shows how this can
+easily be done using the [gdbus-codegen][gdbus-codegen] tool.</p>
+<p>A <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> instance can be used from multiple threads but note
+that all signals (e.g. <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.signals.g_signal" title="Gio.DBusProxy.signals.g_signal"><tt class="xref py py-func docutils literal"><span class="pre">::g-signal</span></tt></a>, <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.signals.g_properties_changed" title="Gio.DBusProxy.signals.g_properties_changed"><tt class="xref py py-func docutils literal"><span class="pre">::g-properties-changed</span></tt></a> 
+and <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.signals.notify" title="(in GObject 2.0 v2.0)"><tt class="xref py py-func docutils literal"><span class="pre">::notify</span></tt></a> ) are emitted in the
+[thread-default main context][g-main-context-push-thread-default]
+of the thread where the instance was constructed.</p>
+<p>An example using a proxy for a well-known name can be found in
+[gdbus-example-watch-proxy.c](https://git.gnome.org/browse/glib/tree/gio/tests/gdbus-example-watch-proxy.c)</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Gio.DBusProxy.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>connection</em>, <em>flags</em>, <em>info</em>, <em>name</em>, <em>object_path</em>, <em>interface_name</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>connection</strong> (<a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>) &#8211; A <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a>) &#8211; Flags used when constructing the proxy.</li>
+<li><strong>info</strong> (<a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> specifying the minimal interface that <cite>proxy</cite> conforms to or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A bus name (well-known or unique) or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>connection</cite> is not a message bus connection.</li>
+<li><strong>object_path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; An object path.</li>
+<li><strong>interface_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A D-Bus interface name.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Callback function to invoke when the proxy is ready.</li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; User data to pass to <cite>callback</cite>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a proxy for accessing <cite>interface_name</cite> on the remote object
+at <cite>object_path</cite> owned by <cite>name</cite> at <cite>connection</cite> and asynchronously
+loads D-Bus properties unless the
+<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_LOAD_PROPERTIES" title="Gio.DBusProxyFlags.DO_NOT_LOAD_PROPERTIES"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_LOAD_PROPERTIES</span></tt></a> flag is used. Connect to
+the <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.signals.g_properties_changed" title="Gio.DBusProxy.signals.g_properties_changed"><tt class="xref py py-func docutils literal"><span class="pre">::g-properties-changed</span></tt></a> signal to get notified about
+property changes.</p>
+<p>If the <a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_CONNECT_SIGNALS" title="Gio.DBusProxyFlags.DO_NOT_CONNECT_SIGNALS"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_CONNECT_SIGNALS</span></tt></a> flag is not set, also sets up
+match rules for signals. Connect to the <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.signals.g_signal" title="Gio.DBusProxy.signals.g_signal"><tt class="xref py py-func docutils literal"><span class="pre">::g-signal</span></tt></a> signal
+to handle signals from the remote object.</p>
+<p>If <cite>name</cite> is a well-known name and the
+<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_AUTO_START" title="Gio.DBusProxyFlags.DO_NOT_AUTO_START"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_AUTO_START</span></tt></a> and <a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_AUTO_START_AT_CONSTRUCTION" title="Gio.DBusProxyFlags.DO_NOT_AUTO_START_AT_CONSTRUCTION"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_AUTO_START_AT_CONSTRUCTION</span></tt></a>
+flags aren&#8217;t set and no name owner currently exists, the message bus
+will be requested to launch a name owner for the name.</p>
+<p>This is a failable asynchronous constructor - when the proxy is
+ready, <cite>callback</cite> will be invoked and you can use
+<a class="reference internal" href="#Gio.DBusProxy.new_finish" title="Gio.DBusProxy.new_finish"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new_finish</span></tt></a> () to get the result.</p>
+<p>See <a class="reference internal" href="#Gio.DBusProxy.new_sync" title="Gio.DBusProxy.new_sync"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new_sync</span></tt></a> () and for a synchronous version of this constructor.</p>
+<p><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> is used in this [example][gdbus-wellknown-proxy].</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gio.DBusProxy.new_finish">
+<em class="property">static </em><tt class="descname">new_finish</tt><big>(</big><em>res</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>res</strong> (<a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; A <a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a> obtained from the <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> function passed to <a class="reference internal" href="#Gio.DBusProxy.new" title="Gio.DBusProxy.new"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Finishes creating a <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gio.DBusProxy.new_for_bus">
+<em class="property">static </em><tt class="descname">new_for_bus</tt><big>(</big><em>bus_type</em>, <em>flags</em>, <em>info</em>, <em>name</em>, <em>object_path</em>, <em>interface_name</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>bus_type</strong> (<a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-class docutils literal"><span class="pre">Gio.BusType</span></tt></a>) &#8211; A <a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.BusType</span></tt></a>.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a>) &#8211; Flags used when constructing the proxy.</li>
+<li><strong>info</strong> (<a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> specifying the minimal interface that <cite>proxy</cite> conforms to or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A bus name (well-known or unique).</li>
+<li><strong>object_path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; An object path.</li>
+<li><strong>interface_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A D-Bus interface name.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Callback function to invoke when the proxy is ready.</li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; User data to pass to <cite>callback</cite>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Like <a class="reference internal" href="#Gio.DBusProxy.new" title="Gio.DBusProxy.new"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new</span></tt></a> () but takes a <a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.BusType</span></tt></a> instead of a <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>.</p>
+<p><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> is used in this [example][gdbus-wellknown-proxy].</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gio.DBusProxy.new_for_bus_finish">
+<em class="property">static </em><tt class="descname">new_for_bus_finish</tt><big>(</big><em>res</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>res</strong> (<a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; A <a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a> obtained from the <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> function passed to <a class="reference internal" href="#Gio.DBusProxy.new_for_bus" title="Gio.DBusProxy.new_for_bus"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new_for_bus</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Finishes creating a <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gio.DBusProxy.new_for_bus_sync">
+<em class="property">static </em><tt class="descname">new_for_bus_sync</tt><big>(</big><em>bus_type</em>, <em>flags</em>, <em>info</em>, <em>name</em>, <em>object_path</em>, <em>interface_name</em>, <em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>bus_type</strong> (<a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-class docutils literal"><span class="pre">Gio.BusType</span></tt></a>) &#8211; A <a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.BusType</span></tt></a>.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a>) &#8211; Flags used when constructing the proxy.</li>
+<li><strong>info</strong> (<a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> specifying the minimal interface
+that <cite>proxy</cite> conforms to or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A bus name (well-known or unique).</li>
+<li><strong>object_path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; An object path.</li>
+<li><strong>interface_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A D-Bus interface name.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if error is set. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> ().</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Like <a class="reference internal" href="#Gio.DBusProxy.new_sync" title="Gio.DBusProxy.new_sync"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new_sync</span></tt></a> () but takes a <a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.BusType</span></tt></a> instead of a <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>.</p>
+<p><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> is used in this [example][gdbus-wellknown-proxy].</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gio.DBusProxy.new_sync">
+<em class="property">static </em><tt class="descname">new_sync</tt><big>(</big><em>connection</em>, <em>flags</em>, <em>info</em>, <em>name</em>, <em>object_path</em>, <em>interface_name</em>, <em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>connection</strong> (<a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>) &#8211; A <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a>) &#8211; Flags used when constructing the proxy.</li>
+<li><strong>info</strong> (<a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> specifying the minimal interface that <cite>proxy</cite> conforms to or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A bus name (well-known or unique) or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>connection</cite> is not a message bus connection.</li>
+<li><strong>object_path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; An object path.</li>
+<li><strong>interface_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A D-Bus interface name.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if error is set. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> ().</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a proxy for accessing <cite>interface_name</cite> on the remote object
+at <cite>object_path</cite> owned by <cite>name</cite> at <cite>connection</cite> and synchronously
+loads D-Bus properties unless the
+<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_LOAD_PROPERTIES" title="Gio.DBusProxyFlags.DO_NOT_LOAD_PROPERTIES"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_LOAD_PROPERTIES</span></tt></a> flag is used.</p>
+<p>If the <a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_CONNECT_SIGNALS" title="Gio.DBusProxyFlags.DO_NOT_CONNECT_SIGNALS"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_CONNECT_SIGNALS</span></tt></a> flag is not set, also sets up
+match rules for signals. Connect to the <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.signals.g_signal" title="Gio.DBusProxy.signals.g_signal"><tt class="xref py py-func docutils literal"><span class="pre">::g-signal</span></tt></a> signal
+to handle signals from the remote object.</p>
+<p>If <cite>name</cite> is a well-known name and the
+<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_AUTO_START" title="Gio.DBusProxyFlags.DO_NOT_AUTO_START"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_AUTO_START</span></tt></a> and <a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.DO_NOT_AUTO_START_AT_CONSTRUCTION" title="Gio.DBusProxyFlags.DO_NOT_AUTO_START_AT_CONSTRUCTION"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.DO_NOT_AUTO_START_AT_CONSTRUCTION</span></tt></a>
+flags aren&#8217;t set and no name owner currently exists, the message bus
+will be requested to launch a name owner for the name.</p>
+<p>This is a synchronous failable constructor. See <a class="reference internal" href="#Gio.DBusProxy.new" title="Gio.DBusProxy.new"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new</span></tt></a> ()
+and <a class="reference internal" href="#Gio.DBusProxy.new_finish" title="Gio.DBusProxy.new_finish"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.new_finish</span></tt></a> () for the asynchronous version.</p>
+<p><a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> is used in this [example][gdbus-wellknown-proxy].</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.call">
+<tt class="descname">call</tt><big>(</big><em>method_name</em>, <em>parameters</em>, <em>flags</em>, <em>timeout_msec</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>method_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Name of method to invoke.</li>
+<li><strong>parameters</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with parameters for the signal or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not passing parameters.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a>) &#8211; Flags from the <a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a> enumeration.</li>
+<li><strong>timeout_msec</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The timeout in milliseconds (with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/constants.html#GObject.G_MAXINT" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.G_MAXINT</span></tt></a> meaning
+&#8220;infinite&#8221;) or -1 to use the proxy default timeout.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> to call when the request is satisfied or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if you don&#8217;t
+care about the result of the method invocation.</li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; The data to pass to <cite>callback</cite>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Asynchronously invokes the <cite>method_name</cite> method on <cite>proxy</cite>.</p>
+<p>If <cite>method_name</cite> contains any dots, then <cite>name</cite> is split into interface and
+method name parts. This allows using <cite>proxy</cite> for invoking methods on
+other interfaces.</p>
+<p>If the <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a> associated with <cite>proxy</cite> is closed then
+the operation will fail with <a class="reference internal" href="../enums.html#Gio.IOErrorEnum.CLOSED" title="Gio.IOErrorEnum.CLOSED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.CLOSED</span></tt></a>. If
+<cite>cancellable</cite> is canceled, the operation will fail with
+<a class="reference internal" href="../enums.html#Gio.IOErrorEnum.CANCELLED" title="Gio.IOErrorEnum.CANCELLED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.CANCELLED</span></tt></a>. If <cite>parameters</cite> contains a value not
+compatible with the D-Bus protocol, the operation fails with
+<a class="reference internal" href="../enums.html#Gio.IOErrorEnum.INVALID_ARGUMENT" title="Gio.IOErrorEnum.INVALID_ARGUMENT"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.INVALID_ARGUMENT</span></tt></a>.</p>
+<p>If the <cite>parameters</cite> <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> is floating, it is consumed. This allows
+convenient &#8216;inline&#8217; use of <tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.new</span></tt> (), e.g.:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="o">&lt;!--</span> <span class="n">language</span><span class="o">=</span><span class="s">&quot;C&quot;</span> <span class="o">--&gt;</span>
+<span class="n">g_dbus_proxy_call</span> <span class="p">(</span><span class="n">proxy</span><span class="p">,</span>
+                   <span class="s">&quot;TwoStrings&quot;</span><span class="p">,</span>
+                   <span class="n">g_variant_new</span> <span class="p">(</span><span class="s">&quot;(ss)&quot;</span><span class="p">,</span>
+                                  <span class="s">&quot;Thing One&quot;</span><span class="p">,</span>
+                                  <span class="s">&quot;Thing Two&quot;</span><span class="p">),</span>
+                   <span class="n">G_DBUS_CALL_FLAGS_NONE</span><span class="p">,</span>
+                   <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+                   <span class="nb">NULL</span><span class="p">,</span>
+                   <span class="p">(</span><span class="n">GAsyncReadyCallback</span><span class="p">)</span> <span class="n">two_strings_done</span><span class="p">,</span>
+                   <span class="o">&amp;</span><span class="n">data</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>If <cite>proxy</cite> has an expected interface (see
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_interface_info" title="Gio.DBusProxy.props.g_interface_info"><tt class="xref py py-data docutils literal"><span class="pre">:g-interface-info</span></tt></a> ) and <cite>method_name</cite> is referenced by it,
+then the return value is checked against the return type.</p>
+<p>This is an asynchronous method. When the operation is finished,
+<cite>callback</cite> will be invoked in the
+[thread-default main context][g-main-context-push-thread-default]
+of the thread you are calling this method from.
+You can then call <a class="reference internal" href="#Gio.DBusProxy.call_finish" title="Gio.DBusProxy.call_finish"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_finish</span></tt></a> () to get the result of
+the operation. See <a class="reference internal" href="#Gio.DBusProxy.call_sync" title="Gio.DBusProxy.call_sync"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_sync</span></tt></a> () for the synchronous
+version of this method.</p>
+<p>If <cite>callback</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> then the D-Bus method call message will be sent with
+the <a class="reference internal" href="../flags.html#Gio.DBusMessageFlags.NO_REPLY_EXPECTED" title="Gio.DBusMessageFlags.NO_REPLY_EXPECTED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusMessageFlags.NO_REPLY_EXPECTED</span></tt></a> flag set.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.call_finish">
+<tt class="descname">call_finish</tt><big>(</big><em>res</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>res</strong> (<a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; A <a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a> obtained from the <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> passed to <a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Otherwise a <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with
+return values. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant.unref" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.unref</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Finishes an operation started with <a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.call_sync">
+<tt class="descname">call_sync</tt><big>(</big><em>method_name</em>, <em>parameters</em>, <em>flags</em>, <em>timeout_msec</em>, <em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>method_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Name of method to invoke.</li>
+<li><strong>parameters</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with parameters for the signal
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not passing parameters.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a>) &#8211; Flags from the <a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a> enumeration.</li>
+<li><strong>timeout_msec</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The timeout in milliseconds (with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/constants.html#GObject.G_MAXINT" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.G_MAXINT</span></tt></a> meaning
+&#8220;infinite&#8221;) or -1 to use the proxy default timeout.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Otherwise a <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with
+return values. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant.unref" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.unref</span></tt></a> ().</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Synchronously invokes the <cite>method_name</cite> method on <cite>proxy</cite>.</p>
+<p>If <cite>method_name</cite> contains any dots, then <cite>name</cite> is split into interface and
+method name parts. This allows using <cite>proxy</cite> for invoking methods on
+other interfaces.</p>
+<p>If the <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a> associated with <cite>proxy</cite> is disconnected then
+the operation will fail with <a class="reference internal" href="../enums.html#Gio.IOErrorEnum.CLOSED" title="Gio.IOErrorEnum.CLOSED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.CLOSED</span></tt></a>. If
+<cite>cancellable</cite> is canceled, the operation will fail with
+<a class="reference internal" href="../enums.html#Gio.IOErrorEnum.CANCELLED" title="Gio.IOErrorEnum.CANCELLED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.CANCELLED</span></tt></a>. If <cite>parameters</cite> contains a value not
+compatible with the D-Bus protocol, the operation fails with
+<a class="reference internal" href="../enums.html#Gio.IOErrorEnum.INVALID_ARGUMENT" title="Gio.IOErrorEnum.INVALID_ARGUMENT"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.INVALID_ARGUMENT</span></tt></a>.</p>
+<p>If the <cite>parameters</cite> <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> is floating, it is consumed. This allows
+convenient &#8216;inline&#8217; use of <tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.new</span></tt> (), e.g.:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="o">&lt;!--</span> <span class="n">language</span><span class="o">=</span><span class="s">&quot;C&quot;</span> <span class="o">--&gt;</span>
+<span class="n">g_dbus_proxy_call_sync</span> <span class="p">(</span><span class="n">proxy</span><span class="p">,</span>
+                        <span class="s">&quot;TwoStrings&quot;</span><span class="p">,</span>
+                        <span class="n">g_variant_new</span> <span class="p">(</span><span class="s">&quot;(ss)&quot;</span><span class="p">,</span>
+                                       <span class="s">&quot;Thing One&quot;</span><span class="p">,</span>
+                                       <span class="s">&quot;Thing Two&quot;</span><span class="p">),</span>
+                        <span class="n">G_DBUS_CALL_FLAGS_NONE</span><span class="p">,</span>
+                        <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+                        <span class="nb">NULL</span><span class="p">,</span>
+                        <span class="o">&amp;</span><span class="n">error</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>The calling thread is blocked until a reply is received. See
+<a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call</span></tt></a> () for the asynchronous version of this
+method.</p>
+<p>If <cite>proxy</cite> has an expected interface (see
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_interface_info" title="Gio.DBusProxy.props.g_interface_info"><tt class="xref py py-data docutils literal"><span class="pre">:g-interface-info</span></tt></a> ) and <cite>method_name</cite> is referenced by it,
+then the return value is checked against the return type.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.call_with_unix_fd_list">
+<tt class="descname">call_with_unix_fd_list</tt><big>(</big><em>method_name</em>, <em>parameters</em>, <em>flags</em>, <em>timeout_msec</em>, <em>fd_list</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>method_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Name of method to invoke.</li>
+<li><strong>parameters</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with parameters for the signal or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not passing parameters.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a>) &#8211; Flags from the <a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a> enumeration.</li>
+<li><strong>timeout_msec</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The timeout in milliseconds (with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/constants.html#GObject.G_MAXINT" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.G_MAXINT</span></tt></a> meaning
+&#8220;infinite&#8221;) or -1 to use the proxy default timeout.</li>
+<li><strong>fd_list</strong> (<a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-class docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> to call when the request is satisfied or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if you don&#8217;t
+care about the result of the method invocation.</li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; The data to pass to <cite>callback</cite>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Like <a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call</span></tt></a> () but also takes a <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> object.</p>
+<p>This method is only available on UNIX.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.call_with_unix_fd_list_finish">
+<tt class="descname">call_with_unix_fd_list_finish</tt><big>(</big><em>res</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>res</strong> (<a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; A <a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a> obtained from the <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> passed to <a class="reference internal" href="#Gio.DBusProxy.call_with_unix_fd_list" title="Gio.DBusProxy.call_with_unix_fd_list"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_with_unix_fd_list</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Otherwise a <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with
+return values. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant.unref" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.unref</span></tt></a> ().<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">out_fd_list:</th><td class="field-body">Return location for a <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>, <strong>out_fd_list</strong>: <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-class docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Finishes an operation started with <a class="reference internal" href="#Gio.DBusProxy.call_with_unix_fd_list" title="Gio.DBusProxy.call_with_unix_fd_list"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_with_unix_fd_list</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.call_with_unix_fd_list_sync">
+<tt class="descname">call_with_unix_fd_list_sync</tt><big>(</big><em>method_name</em>, <em>parameters</em>, <em>flags</em>, <em>timeout_msec</em>, <em>fd_list</em>, <em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>method_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Name of method to invoke.</li>
+<li><strong>parameters</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with parameters for the signal
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not passing parameters.</li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a>) &#8211; Flags from the <a class="reference internal" href="../flags.html#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a> enumeration.</li>
+<li><strong>timeout_msec</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The timeout in milliseconds (with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/constants.html#GObject.G_MAXINT" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.G_MAXINT</span></tt></a> meaning
+&#8220;infinite&#8221;) or -1 to use the proxy default timeout.</li>
+<li><strong>fd_list</strong> (<a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-class docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Otherwise a <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with
+return values. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant.unref" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.unref</span></tt></a> ().</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">out_fd_list:</th><td class="field-body">Return location for a <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>, <strong>out_fd_list</strong>: <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-class docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Like <a class="reference internal" href="#Gio.DBusProxy.call_sync" title="Gio.DBusProxy.call_sync"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_sync</span></tt></a> () but also takes and returns <a class="reference internal" href="UnixFDList.html#Gio.UnixFDList" title="Gio.UnixFDList"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.UnixFDList</span></tt></a> objects.</p>
+<p>This method is only available on UNIX.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_cached_property">
+<tt class="descname">get_cached_property</tt><big>(</big><em>property_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Property name.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A reference to the <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> instance that holds the value
+for <cite>property_name</cite> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if the value is not in the cache. The
+returned reference must be freed with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant.unref" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.unref</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Looks up the value for a property from the cache. This call does no
+blocking IO.</p>
+<p>If <cite>proxy</cite> has an expected interface (see
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_interface_info" title="Gio.DBusProxy.props.g_interface_info"><tt class="xref py py-data docutils literal"><span class="pre">:g-interface-info</span></tt></a> ) and <cite>property_name</cite> is referenced by
+it, then <cite>value</cite> is checked against the type of the property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_cached_property_names">
+<tt class="descname">get_cached_property_names</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>-terminated array of strings or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if
+<cite>proxy</cite> has no cached properties. Free the returned array with
+<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/functions.html#GLib.strfreev" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.strfreev</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Gets the names of all cached properties on <cite>proxy</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_connection">
+<tt class="descname">get_connection</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a> owned by <cite>proxy</cite>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the connection <cite>proxy</cite> is for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_default_timeout">
+<tt class="descname">get_default_timeout</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Timeout to use for <cite>proxy</cite>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the timeout to use if -1 (specifying default timeout) is
+passed as <cite>timeout_msec</cite> in the <a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call</span></tt></a> () and
+<a class="reference internal" href="#Gio.DBusProxy.call_sync" title="Gio.DBusProxy.call_sync"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_sync</span></tt></a> () functions.</p>
+<p>See the <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_default_timeout" title="Gio.DBusProxy.props.g_default_timeout"><tt class="xref py py-data docutils literal"><span class="pre">:g-default-timeout</span></tt></a> property for more details.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_flags">
+<tt class="descname">get_flags</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Flags from the <a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a> enumeration.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the flags that <cite>proxy</cite> was constructed with.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_interface_info">
+<tt class="descname">get_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>. Do not unref the returned
+object, it is owned by <cite>proxy</cite>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the <a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>, if any, specifying the interface
+that <cite>proxy</cite> conforms to. See the <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_interface_info" title="Gio.DBusProxy.props.g_interface_info"><tt class="xref py py-data docutils literal"><span class="pre">:g-interface-info</span></tt></a>
+property for more details.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_interface_name">
+<tt class="descname">get_interface_name</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A string owned by <cite>proxy</cite>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the D-Bus interface name <cite>proxy</cite> is for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_name">
+<tt class="descname">get_name</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A string owned by <cite>proxy</cite>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the name that <cite>proxy</cite> was constructed for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_name_owner">
+<tt class="descname">get_name_owner</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The name owner or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if no name owner exists. Free with <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>The unique name that owns the name that <cite>proxy</cite> is for or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if
+no-one currently owns that name. You may connect to the
+<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.signals.notify" title="(in GObject 2.0 v2.0)"><tt class="xref py py-func docutils literal"><span class="pre">::notify</span></tt></a> signal to track changes to the
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_name_owner" title="Gio.DBusProxy.props.g_name_owner"><tt class="xref py py-data docutils literal"><span class="pre">:g-name-owner</span></tt></a> property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.get_object_path">
+<tt class="descname">get_object_path</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A string owned by <cite>proxy</cite>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the object path <cite>proxy</cite> is for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.set_cached_property">
+<tt class="descname">set_cached_property</tt><big>(</big><em>property_name</em>, <em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Property name.</li>
+<li><strong>value</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Value for the property or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to remove it from the cache.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>If <cite>value</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, sets the cached value for the property with
+name <cite>property_name</cite> to the value in <cite>value</cite>.</p>
+<p>If <cite>value</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, then the cached value is removed from the
+property cache.</p>
+<p>If <cite>proxy</cite> has an expected interface (see
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_interface_info" title="Gio.DBusProxy.props.g_interface_info"><tt class="xref py py-data docutils literal"><span class="pre">:g-interface-info</span></tt></a> ) and <cite>property_name</cite> is referenced by
+it, then <cite>value</cite> is checked against the type of the property.</p>
+<p>If the <cite>value</cite> <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> is floating, it is consumed. This allows
+convenient &#8216;inline&#8217; use of <tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.new</span></tt> (), e.g.</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="o">&lt;!--</span> <span class="n">language</span><span class="o">=</span><span class="s">&quot;C&quot;</span> <span class="o">--&gt;</span>
+<span class="n">g_dbus_proxy_set_cached_property</span> <span class="p">(</span><span class="n">proxy</span><span class="p">,</span>
+                                  <span class="s">&quot;SomeProperty&quot;</span><span class="p">,</span>
+                                  <span class="n">g_variant_new</span> <span class="p">(</span><span class="s">&quot;(si)&quot;</span><span class="p">,</span>
+                                                <span class="s">&quot;A String&quot;</span><span class="p">,</span>
+                                                <span class="mi">42</span><span class="p">));</span>
+</pre></div>
+</div>
+<p>Normally you will not need to use this method since <cite>proxy</cite>
+is tracking changes using the
+`org.freedesktop.DBus.Properties.PropertiesChanged`
+D-Bus signal. However, for performance reasons an object may
+decide to not use this signal for some properties and instead
+use a proprietary out-of-band mechanism to transmit changes.</p>
+<p>As a concrete example, consider an object with a property
+`ChatroomParticipants` which is an array of strings. Instead of
+transmitting the same (long) array every time the property changes,
+it is more efficient to only transmit the delta using e.g. signals
+`ChatroomParticipantJoined(String name)` and
+`ChatroomParticipantParted(String name)`.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.set_default_timeout">
+<tt class="descname">set_default_timeout</tt><big>(</big><em>timeout_msec</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeout_msec</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; Timeout in milliseconds.</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the timeout to use if -1 (specifying default timeout) is
+passed as <cite>timeout_msec</cite> in the <a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call</span></tt></a> () and
+<a class="reference internal" href="#Gio.DBusProxy.call_sync" title="Gio.DBusProxy.call_sync"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_sync</span></tt></a> () functions.</p>
+<p>See the <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_default_timeout" title="Gio.DBusProxy.props.g_default_timeout"><tt class="xref py py-data docutils literal"><span class="pre">:g-default-timeout</span></tt></a> property for more details.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.set_interface_info">
+<tt class="descname">set_interface_info</tt><big>(</big><em>info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>info</strong> (<a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Minimum interface this proxy conforms to or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to unset.</td>
+</tr>
+</tbody>
+</table>
+<p>Ensure that interactions with <cite>proxy</cite> conform to the given
+interface. See the <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_interface_info" title="Gio.DBusProxy.props.g_interface_info"><tt class="xref py py-data docutils literal"><span class="pre">:g-interface-info</span></tt></a> property for more
+details.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.do_g_properties_changed">
+<tt class="descname">do_g_properties_changed</tt><big>(</big><em>changed_properties</em>, <em>invalidated_properties</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>changed_properties</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; </li>
+<li><strong>invalidated_properties</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.DBusProxy.do_g_signal">
+<tt class="descname">do_g_signal</tt><big>(</big><em>sender_name</em>, <em>signal_name</em>, <em>parameters</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>sender_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>signal_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>parameters</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Gio.DBusProxy.signals.g_properties_changed">
+<tt class="descclassname">Gio.DBusProxy.signals.</tt><tt class="descname">g_properties_changed</tt><big>(</big><em>d_bus_proxy</em>, <em>changed_properties</em>, <em>invalidated_properties</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">g-properties-changed</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.MUST_COLLECT" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">MUST_COLLECT</span></tt></a>, <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>d_bus_proxy</strong> (<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>changed_properties</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> containing the properties that changed</li>
+<li><strong>invalidated_properties</strong> ([<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]) &#8211; A <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> terminated array of properties that was invalidated</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Emitted when one or more D-Bus properties on <cite>proxy</cite> changes. The
+local cache has already been updated when this signal fires. Note
+that both <cite>changed_properties</cite> and <cite>invalidated_properties</cite> are
+guaranteed to never be <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> (either may be empty though).</p>
+<p>If the proxy has the flag
+<a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.GET_INVALIDATED_PROPERTIES" title="Gio.DBusProxyFlags.GET_INVALIDATED_PROPERTIES"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.GET_INVALIDATED_PROPERTIES</span></tt></a> set, then
+<cite>invalidated_properties</cite> will always be empty.</p>
+<p>This signal corresponds to the
+`PropertiesChanged` D-Bus signal on the
+`org.freedesktop.DBus.Properties` interface.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gio.DBusProxy.signals.g_signal">
+<tt class="descclassname">Gio.DBusProxy.signals.</tt><tt class="descname">g_signal</tt><big>(</big><em>d_bus_proxy</em>, <em>sender_name</em>, <em>signal_name</em>, <em>parameters</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">g-signal</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.MUST_COLLECT" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">MUST_COLLECT</span></tt></a>, <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>d_bus_proxy</strong> (<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>sender_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; The sender of the signal or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if the connection is not a bus connection.</li>
+<li><strong>signal_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; The name of the signal.</li>
+<li><strong>parameters</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> tuple with parameters for the signal.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Emitted when a signal from the remote object and interface that <cite>proxy</cite> is for, has been received.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_bus_type">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_bus_type</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-bus-type</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gio.BusType" title="Gio.BusType"><tt class="xref py py-class docutils literal"><span class="pre">Gio.BusType</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gio.BusType.NONE" title="Gio.BusType.NONE"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.BusType.NONE</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">w</td>
+</tr>
+</tbody>
+</table>
+<p>If this property is not <a class="reference internal" href="../enums.html#Gio.BusType.NONE" title="Gio.BusType.NONE"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.BusType.NONE</span></tt></a>, then
+<a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_connection" title="Gio.DBusProxy.props.g_connection"><tt class="xref py py-data docutils literal"><span class="pre">:g-connection</span></tt></a> must be <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> and will be set to the
+<a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a> obtained by calling <a class="reference internal" href="../functions.html#Gio.bus_get" title="Gio.bus_get"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.bus_get</span></tt></a> () with the value
+of this property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_connection">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_connection</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-connection</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a> the proxy is for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_default_timeout">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_default_timeout</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-default-timeout</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">-1</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>The timeout to use if -1 (specifying default timeout) is passed
+as <cite>timeout_msec</cite> in the <a class="reference internal" href="#Gio.DBusProxy.call" title="Gio.DBusProxy.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call</span></tt></a> () and
+<a class="reference internal" href="#Gio.DBusProxy.call_sync" title="Gio.DBusProxy.call_sync"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.call_sync</span></tt></a> () functions.</p>
+<p>This allows applications to set a proxy-wide timeout for all
+remote method invocations on the proxy. If this property is -1,
+the default timeout (typically 25 seconds) is used. If set to
+<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/constants.html#GObject.G_MAXINT" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.G_MAXINT</span></tt></a>, then no timeout is used.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_flags">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_flags</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-flags</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../flags.html#Gio.DBusProxyFlags.NONE" title="Gio.DBusProxyFlags.NONE"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags.NONE</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Flags from the <a class="reference internal" href="../flags.html#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a> enumeration.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_interface_info">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_interface_info</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-interface-info</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Ensure that interactions with this proxy conform to the given
+interface. This is mainly to ensure that malformed data received
+from the other peer is ignored. The given <a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a> is
+said to be the &#8220;expected interface&#8221;.</p>
+<p>The checks performed are:
+- When completing a method call, if the type signature of
+the reply message isn&#8217;t what&#8217;s expected, the reply is
+discarded and the <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/structs/Error.html#GLib.Error" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Error</span></tt></a> is set to <a class="reference internal" href="../enums.html#Gio.IOErrorEnum.INVALID_ARGUMENT" title="Gio.IOErrorEnum.INVALID_ARGUMENT"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.INVALID_ARGUMENT</span></tt></a>.</p>
+<ul class="simple">
+<li>Received signals that have a type signature mismatch are dropped and</li>
+</ul>
+<p>a warning is logged via g_warning().</p>
+<ul class="simple">
+<li>Properties received via the initial `GetAll()` call or via the</li>
+</ul>
+<p>`::PropertiesChanged` signal (on the
+[org.freedesktop.DBus.Properties](http://dbus.freedesktop.org/doc/dbus-specification.html#standard-interfaces-properties)
+interface) or set using <a class="reference internal" href="#Gio.DBusProxy.set_cached_property" title="Gio.DBusProxy.set_cached_property"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy.set_cached_property</span></tt></a> ()
+with a type signature mismatch are ignored and a warning is
+logged via g_warning().</p>
+<p>Note that these checks are never done on methods, signals and
+properties that are not referenced in the given
+<a class="reference internal" href="../structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="Gio.DBusInterfaceInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>, since extending a D-Bus interface on the
+service-side is not considered an ABI break.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_interface_name">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_interface_name</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-interface-name</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The D-Bus interface name the proxy is for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_name">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_name</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-name</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The well-known or unique name that the proxy is for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_name_owner">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_name_owner</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-name-owner</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>The unique name that owns <a class="reference internal" href="#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="#Gio.DBusProxy.props.g_name" title="Gio.DBusProxy.props.g_name"><tt class="xref py py-data docutils literal"><span class="pre">:g-name</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if no-one
+currently owns that name. You may connect to <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.signals.notify" title="(in GObject 2.0 v2.0)"><tt class="xref py py-func docutils literal"><span class="pre">::notify</span></tt></a> signal to
+track changes to this property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gio.DBusProxy.props.g_object_path">
+<tt class="descclassname">Gio.DBusProxy.props.</tt><tt class="descname">g_object_path</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">g-object-path</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The object path the proxy is for.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

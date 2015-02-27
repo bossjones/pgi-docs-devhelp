@@ -1,0 +1,535 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Soup.Cache -
+    
+      Classes -
+    
+    Soup 2.4
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Soup 2.4 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Soup.ContentDecoder" href="ContentDecoder.html"/>
+        <link rel="prev" title="Soup.AuthNTLM" href="AuthNTLM.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Soup 2.4</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Soup.Cache</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="AuthNTLM.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ContentDecoder.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Soup.Cache</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Soup 2.4</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Soup.Cache</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="AuthNTLM.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ContentDecoder.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Soup.Cache</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="soup-cache">
+<h1>Soup.Cache</h1>
+<p class="graphviz">
+<svg width="214pt" height="134pt"
+ viewBox="0.00 0.00 213.50 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritanceb73de2f316</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M96.5,-126C96.5,-126 10.5,-126 10.5,-126 7.5,-126 4.5,-123 4.5,-120 4.5,-120 4.5,-114 4.5,-114 4.5,-111 7.5,-108 10.5,-108 10.5,-108 96.5,-108 96.5,-108 99.5,-108 102.5,-111 102.5,-114 102.5,-114 102.5,-120 102.5,-120 102.5,-123 99.5,-126 96.5,-126"/>
+<text text-anchor="middle" x="53.5" y="-114.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Soup.SessionFeature -->
+<g id="node2" class="node"><title>Soup.SessionFeature</title>
+<g id="a_node2"><a xlink:href="../interfaces/SessionFeature.html#Soup.SessionFeature" xlink:title="Soup.SessionFeature">
+<path fill="none" stroke="#3091d1" d="M101,-72C101,-72 6,-72 6,-72 3,-72 0,-69 0,-66 0,-66 0,-60 0,-60 0,-57 3,-54 6,-54 6,-54 101,-54 101,-54 104,-54 107,-57 107,-60 107,-60 107,-66 107,-66 107,-69 104,-72 101,-72"/>
+<text text-anchor="middle" x="53.5" y="-60.7" font-family="inherit" font-size="8.50">Soup.SessionFeature</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Soup.SessionFeature -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Soup.SessionFeature</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M53.5,-107.875C53.5,-99.7564 53.5,-87.1312 53.5,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="55.2501,-77.2395 53.5,-72.2396 51.7501,-77.2396 55.2501,-77.2395"/>
+</g>
+<!-- Soup.Cache -->
+<g id="node4" class="node"><title>Soup.Cache</title>
+<g id="a_node4"><a xlink:href="#Soup.Cache" xlink:title="Soup.Cache">
+<path fill="none" stroke="#75507b" d="M137.5,-18C137.5,-18 81.5,-18 81.5,-18 78.5,-18 75.5,-15 75.5,-12 75.5,-12 75.5,-6 75.5,-6 75.5,-3 78.5,-0 81.5,-0 81.5,-0 137.5,-0 137.5,-0 140.5,-0 143.5,-3 143.5,-6 143.5,-6 143.5,-12 143.5,-12 143.5,-15 140.5,-18 137.5,-18"/>
+<text text-anchor="middle" x="109.5" y="-6.7" font-family="inherit" font-size="8.50">Soup.Cache</text>
+</a>
+</g>
+</g>
+<!-- Soup.SessionFeature&#45;&gt;Soup.Cache -->
+<g id="edge3" class="edge"><title>Soup.SessionFeature&#45;&gt;Soup.Cache</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M62.25,-53.875C71.565,-45.2253 86.3893,-31.46 96.9478,-21.6556"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="98.1534,-22.9242 100.627,-18.2396 95.7718,-20.3594 98.1534,-22.9242"/>
+</g>
+<!-- GObject.Object -->
+<g id="node3" class="node"><title>GObject.Object</title>
+<g id="a_node3"><a xlink:href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M199.5,-72C199.5,-72 131.5,-72 131.5,-72 128.5,-72 125.5,-69 125.5,-66 125.5,-66 125.5,-60 125.5,-60 125.5,-57 128.5,-54 131.5,-54 131.5,-54 199.5,-54 199.5,-54 202.5,-54 205.5,-57 205.5,-60 205.5,-60 205.5,-66 205.5,-66 205.5,-69 202.5,-72 199.5,-72"/>
+<text text-anchor="middle" x="165.5" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Soup.Cache -->
+<g id="edge2" class="edge"><title>GObject.Object&#45;&gt;Soup.Cache</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M156.75,-53.875C147.435,-45.2253 132.611,-31.46 122.052,-21.6556"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="123.228,-20.3594 118.373,-18.2396 120.847,-22.9242 123.228,-20.3594"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="soup-cache-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/SessionFeature.html#soup-sessionfeature-methods"><em>Soup.SessionFeature (5)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Soup.Cache.new" title="Soup.Cache.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(cache_dir, cache_type)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Cache.clear" title="Soup.Cache.clear"><tt class="xref py py-obj docutils literal"><span class="pre">clear</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Cache.dump" title="Soup.Cache.dump"><tt class="xref py py-obj docutils literal"><span class="pre">dump</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Cache.flush" title="Soup.Cache.flush"><tt class="xref py py-obj docutils literal"><span class="pre">flush</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Cache.get_max_size" title="Soup.Cache.get_max_size"><tt class="xref py py-obj docutils literal"><span class="pre">get_max_size</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Cache.load" title="Soup.Cache.load"><tt class="xref py py-obj docutils literal"><span class="pre">load</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Cache.set_max_size" title="Soup.Cache.set_max_size"><tt class="xref py py-obj docutils literal"><span class="pre">set_max_size</span></tt></a>(max_size)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="soup-cache-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/SessionFeature.html#soup-sessionfeature-vfuncs"><em>Soup.SessionFeature (8)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Cache.do_get_cacheability" title="Soup.Cache.do_get_cacheability"><tt class="xref py py-obj docutils literal"><span class="pre">do_get_cacheability</span></tt></a>(msg)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="soup-cache-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Soup.Cache.props.cache_dir" title="Soup.Cache.props.cache_dir"><tt class="xref py py-data docutils literal"><span class="pre">cache-dir</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>The directory to store the cache files</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Soup.Cache.props.cache_type" title="Soup.Cache.props.cache_type"><tt class="xref py py-data docutils literal"><span class="pre">cache-type</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Soup.CacheType" title="Soup.CacheType"><tt class="xref py py-class docutils literal"><span class="pre">Soup.CacheType</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the cache is private or shared</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="soup-cache-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="soup-cache-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Soup.Cache">
+<em class="property">class </em><tt class="descclassname">Soup.</tt><tt class="descname">Cache</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>, <a class="reference internal" href="../interfaces/SessionFeature.html#Soup.SessionFeature" title="Soup.SessionFeature"><tt class="xref py py-class docutils literal"><span class="pre">Soup.SessionFeature</span></tt></a></p>
+<dl class="staticmethod">
+<dt id="Soup.Cache.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>cache_dir</em>, <em>cache_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>cache_dir</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the directory to store the cached data, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to use the default one</li>
+<li><strong>cache_type</strong> (<a class="reference internal" href="../enums.html#Soup.CacheType" title="Soup.CacheType"><tt class="xref py py-class docutils literal"><span class="pre">Soup.CacheType</span></tt></a>) &#8211; the <a class="reference internal" href="../enums.html#Soup.CacheType" title="Soup.CacheType"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.CacheType</span></tt></a> of the cache</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new <a class="reference internal" href="#Soup.Cache" title="Soup.Cache"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Cache</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#Soup.Cache" title="Soup.Cache"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Cache</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Soup.Cache" title="Soup.Cache"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Cache</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Cache.clear">
+<tt class="descname">clear</tt><big>(</big><big>)</big></dt>
+<dd><p>Will remove all entries in the <cite>cache</cite> plus all the cache files.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Cache.dump">
+<tt class="descname">dump</tt><big>(</big><big>)</big></dt>
+<dd><p>Synchronously writes the cache index out to disk. Contrast with
+<a class="reference internal" href="#Soup.Cache.flush" title="Soup.Cache.flush"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Cache.flush</span></tt></a> (), which writes pending cache
+entries to disk.</p>
+<p>You must call this before exiting if you want your cache data to
+persist between sessions.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34..</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Cache.flush">
+<tt class="descname">flush</tt><big>(</big><big>)</big></dt>
+<dd><p>This function will force all pending writes in the <cite>cache</cite> to be
+committed to disk. For doing so it will iterate the <a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GLib-2.0/structs/MainContext.html#GLib.MainContext" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.MainContext</span></tt></a>
+associated with <cite>cache</cite> &#8216;s session as long as needed.</p>
+<p>Contrast with <a class="reference internal" href="#Soup.Cache.dump" title="Soup.Cache.dump"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Cache.dump</span></tt></a> (), which writes out the cache index
+file.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Cache.get_max_size">
+<tt class="descname">get_max_size</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the maximum size of the cache, in bytes.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the maximum size of the cache.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Cache.load">
+<tt class="descname">load</tt><big>(</big><big>)</big></dt>
+<dd><p>Loads the contents of <cite>cache</cite> &#8216;s index into memory.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Cache.set_max_size">
+<tt class="descname">set_max_size</tt><big>(</big><em>max_size</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>max_size</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the maximum size of the cache, in bytes</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the maximum size of the cache.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Cache.do_get_cacheability">
+<tt class="descname">do_get_cacheability</tt><big>(</big><em>msg</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msg</strong> (<a class="reference internal" href="Message.html#Soup.Message" title="Soup.Message"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Message</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../flags.html#Soup.Cacheability" title="Soup.Cacheability"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Cacheability</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Soup.Cache.props.cache_dir">
+<tt class="descclassname">Soup.Cache.props.</tt><tt class="descname">cache_dir</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">cache-dir</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The directory to store the cache files</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Soup.Cache.props.cache_type">
+<tt class="descclassname">Soup.Cache.props.</tt><tt class="descname">cache_type</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">cache-type</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Soup.CacheType" title="Soup.CacheType"><tt class="xref py py-class docutils literal"><span class="pre">Soup.CacheType</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Soup.CacheType.SINGLE_USER" title="Soup.CacheType.SINGLE_USER"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.CacheType.SINGLE_USER</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the cache is private or shared</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

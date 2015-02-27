@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    Guestfs 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Guestfs 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Symbol Mapping" href="mapping.html"/>
+        <link rel="prev" title="Guestfs.XFSInfo" href="structs/XFSInfo.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Guestfs 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/XFSInfo.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="mapping.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Guestfs 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/XFSInfo.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="mapping.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Guestfs.SessionEvent" title="Guestfs.SessionEvent"><tt class="xref py py-class docutils literal"><span class="pre">Guestfs.SessionEvent</span></tt></a></li>
+<li><a class="reference internal" href="#Guestfs.Tristate" title="Guestfs.Tristate"><tt class="xref py py-class docutils literal"><span class="pre">Guestfs.Tristate</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Guestfs.SessionEvent">
+<em class="property">class </em><tt class="descclassname">Guestfs.</tt><tt class="descname">SessionEvent</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Guestfs-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>For more detail on libguestfs events, see &#8220;SETTING CALLBACKS TO HANDLE
+EVENTS&#8221; in guestfs(3).</p>
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.CLOSE">
+<tt class="descname">CLOSE</tt><em class="property"> = 0</em></dt>
+<dd><p>The close event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.SUBPROCESS_QUIT">
+<tt class="descname">SUBPROCESS_QUIT</tt><em class="property"> = 1</em></dt>
+<dd><p>The subprocess_quit event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.LAUNCH_DONE">
+<tt class="descname">LAUNCH_DONE</tt><em class="property"> = 2</em></dt>
+<dd><p>The launch_done event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.PROGRESS">
+<tt class="descname">PROGRESS</tt><em class="property"> = 3</em></dt>
+<dd><p>The progress event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.APPLIANCE">
+<tt class="descname">APPLIANCE</tt><em class="property"> = 4</em></dt>
+<dd><p>The appliance event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.LIBRARY">
+<tt class="descname">LIBRARY</tt><em class="property"> = 5</em></dt>
+<dd><p>The library event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.TRACE">
+<tt class="descname">TRACE</tt><em class="property"> = 6</em></dt>
+<dd><p>The trace event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.ENTER">
+<tt class="descname">ENTER</tt><em class="property"> = 7</em></dt>
+<dd><p>The enter event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.LIBVIRT_AUTH">
+<tt class="descname">LIBVIRT_AUTH</tt><em class="property"> = 8</em></dt>
+<dd><p>The libvirt_auth event</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.SessionEvent.WARNING">
+<tt class="descname">WARNING</tt><em class="property"> = 9</em></dt>
+<dd><p>The warning event</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Guestfs.Tristate">
+<em class="property">class </em><tt class="descclassname">Guestfs.</tt><tt class="descname">Tristate</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Guestfs-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>An object representing a tristate: i.e. true, false, or unset. If a language
+binding has a native concept of true and false which also correspond to the
+integer values 1 and 0 respectively, these will also correspond to
+<a class="reference internal" href="#Guestfs.Tristate.TRUE" title="Guestfs.Tristate.TRUE"><tt class="xref py py-obj docutils literal"><span class="pre">Guestfs.Tristate.TRUE</span></tt></a> and <a class="reference internal" href="#Guestfs.Tristate.FALSE" title="Guestfs.Tristate.FALSE"><tt class="xref py py-obj docutils literal"><span class="pre">Guestfs.Tristate.FALSE</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Guestfs.Tristate.FALSE">
+<tt class="descname">FALSE</tt><em class="property"> = 0</em></dt>
+<dd><p>False</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.Tristate.TRUE">
+<tt class="descname">TRUE</tt><em class="property"> = 1</em></dt>
+<dd><p>True</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Guestfs.Tristate.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 2</em></dt>
+<dd><p>Unset</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

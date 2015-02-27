@@ -1,0 +1,283 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    Cattle 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Cattle 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Constants" href="constants.html"/>
+        <link rel="prev" title="Hierarchy" href="hierarchy.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Cattle 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="hierarchy.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Cattle 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="hierarchy.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Cattle.EndOfInputAction" title="Cattle.EndOfInputAction"><tt class="xref py py-class docutils literal"><span class="pre">Cattle.EndOfInputAction</span></tt></a></li>
+<li><a class="reference internal" href="#Cattle.Error" title="Cattle.Error"><tt class="xref py py-class docutils literal"><span class="pre">Cattle.Error</span></tt></a></li>
+<li><a class="reference internal" href="#Cattle.InstructionValue" title="Cattle.InstructionValue"><tt class="xref py py-class docutils literal"><span class="pre">Cattle.InstructionValue</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Cattle.EndOfInputAction">
+<em class="property">class </em><tt class="descclassname">Cattle.</tt><tt class="descname">EndOfInputAction</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Cattle-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Possible actions to be performed by a <a class="reference internal" href="classes/Interpreter.html#Cattle.Interpreter" title="Cattle.Interpreter"><tt class="xref py py-obj docutils literal"><span class="pre">Cattle.Interpreter</span></tt></a> when the end
+of input is reached.</p>
+<dl class="attribute">
+<dt id="Cattle.EndOfInputAction.STORE_ZERO">
+<tt class="descname">STORE_ZERO</tt><em class="property"> = 0</em></dt>
+<dd><p>Store a zero in the current cell. This is
+the default behaviour</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.EndOfInputAction.STORE_EOF">
+<tt class="descname">STORE_EOF</tt><em class="property"> = 1</em></dt>
+<dd><p>Store %CATTLE_EOF in the current cell</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.EndOfInputAction.DO_NOTHING">
+<tt class="descname">DO_NOTHING</tt><em class="property"> = 2</em></dt>
+<dd><p>Do nothing.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Cattle.Error">
+<em class="property">class </em><tt class="descclassname">Cattle.</tt><tt class="descname">Error</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Cattle-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Errors detected either on code loading or at runtime.</p>
+<dl class="attribute">
+<dt id="Cattle.Error.IO">
+<tt class="descname">IO</tt><em class="property"> = 0</em></dt>
+<dd><p>Generic I/O error</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.Error.UNBALANCED_BRACKETS">
+<tt class="descname">UNBALANCED_BRACKETS</tt><em class="property"> = 1</em></dt>
+<dd><p>The number of open and closed
+brackets don&#8217;t match</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.Error.INPUT_OUT_OF_RANGE">
+<tt class="descname">INPUT_OUT_OF_RANGE</tt><em class="property"> = 2</em></dt>
+<dd><p>The input cannot be stored in a
+tape cell</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Cattle.InstructionValue">
+<em class="property">class </em><tt class="descclassname">Cattle.</tt><tt class="descname">InstructionValue</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Cattle-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Brainfuck instructions supported by Cattle, as #gunichar s.</p>
+<p><a class="reference internal" href="#Cattle.InstructionValue.DEBUG" title="Cattle.InstructionValue.DEBUG"><tt class="xref py py-obj docutils literal"><span class="pre">Cattle.InstructionValue.DEBUG</span></tt></a> is not part of the Brainfuck language, but
+it&#8217;s often used for debugging and implemented in many interpreters,
+so it&#8217;s included in Cattle as well.</p>
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.DEBUG">
+<tt class="descname">DEBUG</tt><em class="property"> = 35</em></dt>
+<dd><p>Show debugging information. This usually
+means dumping the contents of the tape.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.INCREASE">
+<tt class="descname">INCREASE</tt><em class="property"> = 43</em></dt>
+<dd><p>Increase the current value</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.READ">
+<tt class="descname">READ</tt><em class="property"> = 44</em></dt>
+<dd><p>Get one character from the input and save
+its value at the current position</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.DECREASE">
+<tt class="descname">DECREASE</tt><em class="property"> = 45</em></dt>
+<dd><p>Decrease the current value</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.PRINT">
+<tt class="descname">PRINT</tt><em class="property"> = 46</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.MOVE_LEFT">
+<tt class="descname">MOVE_LEFT</tt><em class="property"> = 60</em></dt>
+<dd><p>Move the tape to the left</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.MOVE_RIGHT">
+<tt class="descname">MOVE_RIGHT</tt><em class="property"> = 62</em></dt>
+<dd><p>Move the tape to the right</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.LOOP_BEGIN">
+<tt class="descname">LOOP_BEGIN</tt><em class="property"> = 91</em></dt>
+<dd><p>Execute the loop until the current
+value is zero, then proceed to the next instruction</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.LOOP_END">
+<tt class="descname">LOOP_END</tt><em class="property"> = 93</em></dt>
+<dd><p>Exit from the currently-executing loop</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Cattle.InstructionValue.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 120</em></dt>
+<dd><p>Do nothing</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

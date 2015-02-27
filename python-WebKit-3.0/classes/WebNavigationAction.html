@@ -1,0 +1,603 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    WebKit.WebNavigationAction -
+    
+      Classes -
+    
+    WebKit 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="WebKit 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="WebKit.WebPlugin" href="WebPlugin.html"/>
+        <link rel="prev" title="WebKit.WebInspector" href="WebInspector.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">WebKit 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>WebKit.WebNavigationAction</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="WebInspector.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="WebPlugin.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">WebKit.WebNavigationAction</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">WebKit 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>WebKit.WebNavigationAction</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="WebInspector.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="WebPlugin.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">WebKit.WebNavigationAction</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="webkit-webnavigationaction">
+<h1>WebKit.WebNavigationAction</h1>
+<p class="graphviz">
+<svg width="141pt" height="80pt"
+ viewBox="0.00 0.00 141.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritance7f040634d1</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_devhelp/WebKit-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M100.5,-72C100.5,-72 32.5,-72 32.5,-72 29.5,-72 26.5,-69 26.5,-66 26.5,-66 26.5,-60 26.5,-60 26.5,-57 29.5,-54 32.5,-54 32.5,-54 100.5,-54 100.5,-54 103.5,-54 106.5,-57 106.5,-60 106.5,-60 106.5,-66 106.5,-66 106.5,-69 103.5,-72 100.5,-72"/>
+<text text-anchor="middle" x="66.5" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- WebKit.WebNavigationAction -->
+<g id="node2" class="node"><title>WebKit.WebNavigationAction</title>
+<g id="a_node2"><a xlink:href="#WebKit.WebNavigationAction" xlink:title="WebKit.WebNavigationAction">
+<path fill="none" stroke="#75507b" d="M127,-18C127,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 127,-0 127,-0 130,-0 133,-3 133,-6 133,-6 133,-12 133,-12 133,-15 130,-18 127,-18"/>
+<text text-anchor="middle" x="66.5" y="-6.7" font-family="inherit" font-size="8.50">WebKit.WebNavigationAction</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;WebKit.WebNavigationAction -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;WebKit.WebNavigationAction</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M66.5,-53.875C66.5,-45.7564 66.5,-33.1312 66.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="68.2501,-23.2395 66.5,-18.2396 64.7501,-23.2396 68.2501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="webkit-webnavigationaction-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/WebKit-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#WebKit.WebNavigationAction.get_button" title="WebKit.WebNavigationAction.get_button"><tt class="xref py py-obj docutils literal"><span class="pre">get_button</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#WebKit.WebNavigationAction.get_modifier_state" title="WebKit.WebNavigationAction.get_modifier_state"><tt class="xref py py-obj docutils literal"><span class="pre">get_modifier_state</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#WebKit.WebNavigationAction.get_original_uri" title="WebKit.WebNavigationAction.get_original_uri"><tt class="xref py py-obj docutils literal"><span class="pre">get_original_uri</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#WebKit.WebNavigationAction.get_reason" title="WebKit.WebNavigationAction.get_reason"><tt class="xref py py-obj docutils literal"><span class="pre">get_reason</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#WebKit.WebNavigationAction.get_target_frame" title="WebKit.WebNavigationAction.get_target_frame"><tt class="xref py py-obj docutils literal"><span class="pre">get_target_frame</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#WebKit.WebNavigationAction.set_original_uri" title="WebKit.WebNavigationAction.set_original_uri"><tt class="xref py py-obj docutils literal"><span class="pre">set_original_uri</span></tt></a>(originalUri)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#WebKit.WebNavigationAction.set_reason" title="WebKit.WebNavigationAction.set_reason"><tt class="xref py py-obj docutils literal"><span class="pre">set_reason</span></tt></a>(reason)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="webkit-webnavigationaction-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/WebKit-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="webkit-webnavigationaction-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#WebKit.WebNavigationAction.props.button" title="WebKit.WebNavigationAction.props.button"><tt class="xref py py-data docutils literal"><span class="pre">button</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>The button used to click</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#WebKit.WebNavigationAction.props.modifier_state" title="WebKit.WebNavigationAction.props.modifier_state"><tt class="xref py py-data docutils literal"><span class="pre">modifier-state</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>A bitmask representing the state of the modifier keys</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#WebKit.WebNavigationAction.props.original_uri" title="WebKit.WebNavigationAction.props.original_uri"><tt class="xref py py-data docutils literal"><span class="pre">original-uri</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w/c</td>
+<td>The URI that was requested as the target for the navigation</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#WebKit.WebNavigationAction.props.reason" title="WebKit.WebNavigationAction.props.reason"><tt class="xref py py-data docutils literal"><span class="pre">reason</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#WebKit.WebNavigationReason" title="WebKit.WebNavigationReason"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.WebNavigationReason</span></tt></a></td>
+<td>r/w/c</td>
+<td>The reason why this navigation is occurring</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#WebKit.WebNavigationAction.props.target_frame" title="WebKit.WebNavigationAction.props.target_frame"><tt class="xref py py-data docutils literal"><span class="pre">target-frame</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>The target frame for the navigation</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="webkit-webnavigationaction-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/WebKit-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="webkit-webnavigationaction-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/WebKit-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference external" href="../_devhelp/WebKit-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="WebKit.WebNavigationAction">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">WebNavigationAction</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/WebKit-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></p>
+<p><a class="reference internal" href="#WebKit.WebNavigationAction" title="WebKit.WebNavigationAction"><tt class="xref py py-obj docutils literal"><span class="pre">WebKit.WebNavigationAction</span></tt></a> is used in signals to provide details about
+what led the navigation to happen. This includes, for instance, if the user
+clicked a link to start that navigation, and what mouse button was used.</p>
+<dl class="method">
+<dt id="WebKit.WebNavigationAction.get_button">
+<tt class="descname">get_button</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the mouse button used to click</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>The GTK+ identifier for the mouse button used to click. Notice that GTK+ button values
+are 1, 2 and 3 for left, middle and right buttons, so they are DOM button values +1. If the action was not
+initiated by a mouse click the value will be -1.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="WebKit.WebNavigationAction.get_modifier_state">
+<tt class="descname">get_modifier_state</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a bitmask with the state of the modifier keys</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns a bitmask with the the state of the modifier keys.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="WebKit.WebNavigationAction.get_original_uri">
+<tt class="descname">get_original_uri</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the originally requested URI</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the URI that was originally requested. This may differ from the
+navigation target, for instance because of a redirect.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="WebKit.WebNavigationAction.get_reason">
+<tt class="descname">get_reason</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="../enums.html#WebKit.WebNavigationReason" title="WebKit.WebNavigationReason"><tt class="xref py py-obj docutils literal"><span class="pre">WebKit.WebNavigationReason</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#WebKit.WebNavigationReason" title="WebKit.WebNavigationReason"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.WebNavigationReason</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the reason why WebKit is requesting a navigation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="WebKit.WebNavigationAction.get_target_frame">
+<tt class="descname">get_target_frame</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the target frame of the action or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>
+if there is no target.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the target frame of the action.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.1.13.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="WebKit.WebNavigationAction.set_original_uri">
+<tt class="descname">set_original_uri</tt><big>(</big><em>originalUri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>originalUri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a URI</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the URI that was originally requested. This may differ from the
+navigation target, for instance because of a redirect.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="WebKit.WebNavigationAction.set_reason">
+<tt class="descname">set_reason</tt><big>(</big><em>reason</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reason</strong> (<a class="reference internal" href="../enums.html#WebKit.WebNavigationReason" title="WebKit.WebNavigationReason"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.WebNavigationReason</span></tt></a>) &#8211; a <a class="reference internal" href="../enums.html#WebKit.WebNavigationReason" title="WebKit.WebNavigationReason"><tt class="xref py py-obj docutils literal"><span class="pre">WebKit.WebNavigationReason</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the reason why WebKit is requesting a navigation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="WebKit.WebNavigationAction.props.button">
+<tt class="descclassname">WebKit.WebNavigationAction.props.</tt><tt class="descname">button</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">button</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">-1</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The GTK+ identifier for the mouse button used to click. Notice that GTK+ button values
+are 1, 2 and 3 for left, middle and right buttons, so they are DOM button values +1. If the action was not
+initiated by a mouse click the value will be -1.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="WebKit.WebNavigationAction.props.modifier_state">
+<tt class="descclassname">WebKit.WebNavigationAction.props.</tt><tt class="descname">modifier_state</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">modifier-state</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The state of the modifier keys when the action was requested.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="WebKit.WebNavigationAction.props.original_uri">
+<tt class="descclassname">WebKit.WebNavigationAction.props.</tt><tt class="descname">original_uri</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">original-uri</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">''</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>The URI that was requested as the target for the navigation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="WebKit.WebNavigationAction.props.reason">
+<tt class="descclassname">WebKit.WebNavigationAction.props.</tt><tt class="descname">reason</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">reason</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#WebKit.WebNavigationReason" title="WebKit.WebNavigationReason"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.WebNavigationReason</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#WebKit.WebNavigationReason.OTHER" title="WebKit.WebNavigationReason.OTHER"><tt class="xref py py-obj docutils literal"><span class="pre">WebKit.WebNavigationReason.OTHER</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>The reason why this navigation is occuring.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.3.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="WebKit.WebNavigationAction.props.target_frame">
+<tt class="descclassname">WebKit.WebNavigationAction.props.</tt><tt class="descname">target_frame</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">target-frame</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The target frame for the navigation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.1.13.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

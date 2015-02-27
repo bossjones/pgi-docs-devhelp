@@ -1,0 +1,1981 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    PackageKitGlib 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="PackageKitGlib 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Callbacks" href="callbacks.html"/>
+        <link rel="prev" title="PackageKitGlib 1.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">PackageKitGlib 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">PackageKitGlib 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.authorize_type_enum_from_string" title="PackageKitGlib.authorize_type_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">authorize_type_enum_from_string</span></tt></a>(authorize_type)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.authorize_type_enum_to_string" title="PackageKitGlib.authorize_type_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">authorize_type_enum_to_string</span></tt></a>(authorize_type)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.bitfield_test" title="PackageKitGlib.bitfield_test"><tt class="xref py py-obj docutils literal"><span class="pre">bitfield_test</span></tt></a>(user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.client_error_quark" title="PackageKitGlib.client_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">client_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.common_test" title="PackageKitGlib.common_test"><tt class="xref py py-obj docutils literal"><span class="pre">common_test</span></tt></a>(user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.control_error_quark" title="PackageKitGlib.control_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">control_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.debug_add_log_domain" title="PackageKitGlib.debug_add_log_domain"><tt class="xref py py-obj docutils literal"><span class="pre">debug_add_log_domain</span></tt></a>(log_domain)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.debug_is_verbose" title="PackageKitGlib.debug_is_verbose"><tt class="xref py py-obj docutils literal"><span class="pre">debug_is_verbose</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.debug_set_verbose" title="PackageKitGlib.debug_set_verbose"><tt class="xref py py-obj docutils literal"><span class="pre">debug_set_verbose</span></tt></a>(verbose)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.distro_upgrade_enum_from_string" title="PackageKitGlib.distro_upgrade_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">distro_upgrade_enum_from_string</span></tt></a>(upgrade)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.distro_upgrade_enum_to_string" title="PackageKitGlib.distro_upgrade_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">distro_upgrade_enum_to_string</span></tt></a>(upgrade)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.enum_find_string" title="PackageKitGlib.enum_find_string"><tt class="xref py py-obj docutils literal"><span class="pre">enum_find_string</span></tt></a>(table, value)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.enum_find_value" title="PackageKitGlib.enum_find_value"><tt class="xref py py-obj docutils literal"><span class="pre">enum_find_value</span></tt></a>(table, string)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.enum_test" title="PackageKitGlib.enum_test"><tt class="xref py py-obj docutils literal"><span class="pre">enum_test</span></tt></a>(user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.error_enum_from_string" title="PackageKitGlib.error_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">error_enum_from_string</span></tt></a>(code)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.error_enum_to_string" title="PackageKitGlib.error_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">error_enum_to_string</span></tt></a>(code)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.exit_enum_from_string" title="PackageKitGlib.exit_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">exit_enum_from_string</span></tt></a>(exit)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.exit_enum_to_string" title="PackageKitGlib.exit_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">exit_enum_to_string</span></tt></a>(exit)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.filter_bitfield_from_string" title="PackageKitGlib.filter_bitfield_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">filter_bitfield_from_string</span></tt></a>(filters)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.filter_bitfield_to_string" title="PackageKitGlib.filter_bitfield_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">filter_bitfield_to_string</span></tt></a>(filters)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.filter_enum_from_string" title="PackageKitGlib.filter_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">filter_enum_from_string</span></tt></a>(filter)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.filter_enum_to_string" title="PackageKitGlib.filter_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">filter_enum_to_string</span></tt></a>(filter)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.get_distro_id" title="PackageKitGlib.get_distro_id"><tt class="xref py py-obj docutils literal"><span class="pre">get_distro_id</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.group_bitfield_from_string" title="PackageKitGlib.group_bitfield_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">group_bitfield_from_string</span></tt></a>(groups)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.group_bitfield_to_string" title="PackageKitGlib.group_bitfield_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">group_bitfield_to_string</span></tt></a>(groups)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.group_enum_from_string" title="PackageKitGlib.group_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">group_enum_from_string</span></tt></a>(group)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.group_enum_to_string" title="PackageKitGlib.group_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">group_enum_to_string</span></tt></a>(group)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.info_enum_from_string" title="PackageKitGlib.info_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">info_enum_from_string</span></tt></a>(info)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.info_enum_to_localised_past" title="PackageKitGlib.info_enum_to_localised_past"><tt class="xref py py-obj docutils literal"><span class="pre">info_enum_to_localised_past</span></tt></a>(info)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.info_enum_to_localised_present" title="PackageKitGlib.info_enum_to_localised_present"><tt class="xref py py-obj docutils literal"><span class="pre">info_enum_to_localised_present</span></tt></a>(info)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.info_enum_to_string" title="PackageKitGlib.info_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">info_enum_to_string</span></tt></a>(info)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.iso8601_from_date" title="PackageKitGlib.iso8601_from_date"><tt class="xref py py-obj docutils literal"><span class="pre">iso8601_from_date</span></tt></a>(date)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.iso8601_present" title="PackageKitGlib.iso8601_present"><tt class="xref py py-obj docutils literal"><span class="pre">iso8601_present</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.media_type_enum_from_string" title="PackageKitGlib.media_type_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">media_type_enum_from_string</span></tt></a>(media_type)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.media_type_enum_to_string" title="PackageKitGlib.media_type_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">media_type_enum_to_string</span></tt></a>(media_type)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.network_enum_from_string" title="PackageKitGlib.network_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">network_enum_from_string</span></tt></a>(network)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.network_enum_to_string" title="PackageKitGlib.network_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">network_enum_to_string</span></tt></a>(network)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_action_from_string" title="PackageKitGlib.offline_action_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">offline_action_from_string</span></tt></a>(action)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_action_to_string" title="PackageKitGlib.offline_action_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">offline_action_to_string</span></tt></a>(action)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_auth_cancel" title="PackageKitGlib.offline_auth_cancel"><tt class="xref py py-obj docutils literal"><span class="pre">offline_auth_cancel</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_auth_clear_results" title="PackageKitGlib.offline_auth_clear_results"><tt class="xref py py-obj docutils literal"><span class="pre">offline_auth_clear_results</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_auth_invalidate" title="PackageKitGlib.offline_auth_invalidate"><tt class="xref py py-obj docutils literal"><span class="pre">offline_auth_invalidate</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_auth_set_action" title="PackageKitGlib.offline_auth_set_action"><tt class="xref py py-obj docutils literal"><span class="pre">offline_auth_set_action</span></tt></a>(action)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_auth_set_prepared_ids" title="PackageKitGlib.offline_auth_set_prepared_ids"><tt class="xref py py-obj docutils literal"><span class="pre">offline_auth_set_prepared_ids</span></tt></a>(package_ids)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_auth_set_results" title="PackageKitGlib.offline_auth_set_results"><tt class="xref py py-obj docutils literal"><span class="pre">offline_auth_set_results</span></tt></a>(results)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_auth_trigger" title="PackageKitGlib.offline_auth_trigger"><tt class="xref py py-obj docutils literal"><span class="pre">offline_auth_trigger</span></tt></a>(action)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_cancel" title="PackageKitGlib.offline_cancel"><tt class="xref py py-obj docutils literal"><span class="pre">offline_cancel</span></tt></a>(cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_clear_results" title="PackageKitGlib.offline_clear_results"><tt class="xref py py-obj docutils literal"><span class="pre">offline_clear_results</span></tt></a>(cancellable)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_error_quark" title="PackageKitGlib.offline_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">offline_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_get_action" title="PackageKitGlib.offline_get_action"><tt class="xref py py-obj docutils literal"><span class="pre">offline_get_action</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_get_action_monitor" title="PackageKitGlib.offline_get_action_monitor"><tt class="xref py py-obj docutils literal"><span class="pre">offline_get_action_monitor</span></tt></a>(cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_get_prepared_ids" title="PackageKitGlib.offline_get_prepared_ids"><tt class="xref py py-obj docutils literal"><span class="pre">offline_get_prepared_ids</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_get_prepared_monitor" title="PackageKitGlib.offline_get_prepared_monitor"><tt class="xref py py-obj docutils literal"><span class="pre">offline_get_prepared_monitor</span></tt></a>(cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_get_prepared_sack" title="PackageKitGlib.offline_get_prepared_sack"><tt class="xref py py-obj docutils literal"><span class="pre">offline_get_prepared_sack</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_get_results" title="PackageKitGlib.offline_get_results"><tt class="xref py py-obj docutils literal"><span class="pre">offline_get_results</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_get_results_mtime" title="PackageKitGlib.offline_get_results_mtime"><tt class="xref py py-obj docutils literal"><span class="pre">offline_get_results_mtime</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.offline_trigger" title="PackageKitGlib.offline_trigger"><tt class="xref py py-obj docutils literal"><span class="pre">offline_trigger</span></tt></a>(action, cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.polkit_agent_close" title="PackageKitGlib.polkit_agent_close"><tt class="xref py py-obj docutils literal"><span class="pre">polkit_agent_close</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.polkit_agent_open" title="PackageKitGlib.polkit_agent_open"><tt class="xref py py-obj docutils literal"><span class="pre">polkit_agent_open</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.restart_enum_from_string" title="PackageKitGlib.restart_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">restart_enum_from_string</span></tt></a>(restart)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.restart_enum_to_string" title="PackageKitGlib.restart_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">restart_enum_to_string</span></tt></a>(restart)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.role_bitfield_from_string" title="PackageKitGlib.role_bitfield_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">role_bitfield_from_string</span></tt></a>(roles)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.role_bitfield_to_string" title="PackageKitGlib.role_bitfield_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">role_bitfield_to_string</span></tt></a>(roles)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.role_enum_from_string" title="PackageKitGlib.role_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">role_enum_from_string</span></tt></a>(role)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.role_enum_to_localised_present" title="PackageKitGlib.role_enum_to_localised_present"><tt class="xref py py-obj docutils literal"><span class="pre">role_enum_to_localised_present</span></tt></a>(role)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.role_enum_to_string" title="PackageKitGlib.role_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">role_enum_to_string</span></tt></a>(role)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.sig_type_enum_from_string" title="PackageKitGlib.sig_type_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">sig_type_enum_from_string</span></tt></a>(sig_type)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.sig_type_enum_to_string" title="PackageKitGlib.sig_type_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">sig_type_enum_to_string</span></tt></a>(sig_type)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.status_enum_from_string" title="PackageKitGlib.status_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">status_enum_from_string</span></tt></a>(status)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.status_enum_to_localised_text" title="PackageKitGlib.status_enum_to_localised_text"><tt class="xref py py-obj docutils literal"><span class="pre">status_enum_to_localised_text</span></tt></a>(status)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.status_enum_to_string" title="PackageKitGlib.status_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">status_enum_to_string</span></tt></a>(status)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.transaction_flag_bitfield_from_string" title="PackageKitGlib.transaction_flag_bitfield_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">transaction_flag_bitfield_from_string</span></tt></a>(transaction_flags)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.transaction_flag_bitfield_to_string" title="PackageKitGlib.transaction_flag_bitfield_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">transaction_flag_bitfield_to_string</span></tt></a>(transaction_flags)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.transaction_flag_enum_from_string" title="PackageKitGlib.transaction_flag_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">transaction_flag_enum_from_string</span></tt></a>(transaction_flag)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.transaction_flag_enum_to_string" title="PackageKitGlib.transaction_flag_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">transaction_flag_enum_to_string</span></tt></a>(transaction_flag)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.update_state_enum_from_string" title="PackageKitGlib.update_state_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">update_state_enum_from_string</span></tt></a>(update_state)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.update_state_enum_to_string" title="PackageKitGlib.update_state_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">update_state_enum_to_string</span></tt></a>(update_state)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.upgrade_kind_enum_from_string" title="PackageKitGlib.upgrade_kind_enum_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">upgrade_kind_enum_from_string</span></tt></a>(upgrade_kind)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#PackageKitGlib.upgrade_kind_enum_to_string" title="PackageKitGlib.upgrade_kind_enum_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">upgrade_kind_enum_to_string</span></tt></a>(upgrade_kind)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="PackageKitGlib.authorize_type_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">authorize_type_enum_from_string</tt><big>(</big><em>authorize_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>authorize_type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.AuthorizeEnum.YES" title="PackageKitGlib.AuthorizeEnum.YES"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.AuthorizeEnum.YES</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.AuthorizeEnum" title="PackageKitGlib.AuthorizeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.AuthorizeEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.authorize_type_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">authorize_type_enum_to_string</tt><big>(</big><em>authorize_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>authorize_type</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.AuthorizeEnum" title="PackageKitGlib.AuthorizeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.AuthorizeEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;yes&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.bitfield_test">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">bitfield_test</tt><big>(</big><em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.client_error_quark">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">client_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Our personal error quark.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.common_test">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">common_test</tt><big>(</big><em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.control_error_quark">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">control_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Our personal error quark.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>We are a <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> that sets errors</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.debug_add_log_domain">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">debug_add_log_domain</tt><big>(</big><em>log_domain</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log_domain</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.debug_is_verbose">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">debug_is_verbose</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if we have debugging enabled</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.debug_set_verbose">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">debug_set_verbose</tt><big>(</big><em>verbose</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>verbose</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.distro_upgrade_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">distro_upgrade_enum_from_string</tt><big>(</big><em>upgrade</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>upgrade</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.DistroUpgradeEnum.STABLE" title="PackageKitGlib.DistroUpgradeEnum.STABLE"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.DistroUpgradeEnum.STABLE</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.DistroUpgradeEnum" title="PackageKitGlib.DistroUpgradeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.DistroUpgradeEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.distro_upgrade_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">distro_upgrade_enum_to_string</tt><big>(</big><em>upgrade</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>upgrade</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.DistroUpgradeEnum" title="PackageKitGlib.DistroUpgradeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.DistroUpgradeEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;stable&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.enum_find_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">enum_find_string</tt><big>(</big><em>table</em>, <em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>table</strong> (<a class="reference internal" href="structs/EnumMatch.html#PackageKitGlib.EnumMatch" title="PackageKitGlib.EnumMatch"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.EnumMatch</span></tt></a>) &#8211; A <a class="reference internal" href="structs/EnumMatch.html#PackageKitGlib.EnumMatch" title="PackageKitGlib.EnumMatch"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.EnumMatch</span></tt></a> enum table of values</li>
+<li><strong>value</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the string constant, e.g. &#8220;desktop-gnome&#8221;</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Search for a enum value in a table of constants.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.enum_find_value">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">enum_find_value</tt><big>(</big><em>table</em>, <em>string</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>table</strong> (<a class="reference internal" href="structs/EnumMatch.html#PackageKitGlib.EnumMatch" title="PackageKitGlib.EnumMatch"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.EnumMatch</span></tt></a>) &#8211; A <a class="reference internal" href="structs/EnumMatch.html#PackageKitGlib.EnumMatch" title="PackageKitGlib.EnumMatch"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.EnumMatch</span></tt></a> enum table of values</li>
+<li><strong>string</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the string constant to search for, e.g. &#8220;desktop-gnome&#8221;</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Search for a string value in a table of constants.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.enum_test">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">enum_test</tt><big>(</big><em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.error_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">error_enum_from_string</tt><big>(</big><em>code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.ErrorEnum" title="PackageKitGlib.ErrorEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.ErrorEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.error_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">error_enum_to_string</tt><big>(</big><em>code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>code</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.ErrorEnum" title="PackageKitGlib.ErrorEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.ErrorEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.exit_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">exit_enum_from_string</tt><big>(</big><em>exit</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>exit</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.ExitEnum" title="PackageKitGlib.ExitEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.ExitEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.exit_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">exit_enum_to_string</tt><big>(</big><em>exit</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>exit</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.ExitEnum" title="PackageKitGlib.ExitEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.ExitEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.filter_bitfield_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">filter_bitfield_from_string</tt><big>(</big><em>filters</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filters</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the enumerated constant value, e.g. &#8220;available;~gui&#8221;</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The enumerated type values</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts text representation to its enumerated type bitfield, or 0 for invalid</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.filter_bitfield_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">filter_bitfield_to_string</tt><big>(</big><em>filters</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filters</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The enumerated type values</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available;~gui&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type bitfield to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.filter_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">filter_enum_from_string</tt><big>(</big><em>filter</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filter</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.FilterEnum" title="PackageKitGlib.FilterEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.FilterEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.filter_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">filter_enum_to_string</tt><big>(</big><em>filter</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filter</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.FilterEnum" title="PackageKitGlib.FilterEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.FilterEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.get_distro_id">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">get_distro_id</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the distro-id, typically &#8220;distro;version;arch&#8221;</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.group_bitfield_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">group_bitfield_from_string</tt><big>(</big><em>groups</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>groups</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the enumerated constant value, e.g. &#8220;available;~gui&#8221;</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The enumerated type values, or 0 for invalid</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts text representation to its enumerated type bitfield</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.group_bitfield_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">group_bitfield_to_string</tt><big>(</big><em>groups</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>groups</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.group_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">group_enum_from_string</tt><big>(</big><em>group</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>group</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.GroupEnum" title="PackageKitGlib.GroupEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.GroupEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.group_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">group_enum_to_string</tt><big>(</big><em>group</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>group</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.GroupEnum" title="PackageKitGlib.GroupEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.GroupEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.info_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">info_enum_from_string</tt><big>(</big><em>info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>info</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.InfoEnum" title="PackageKitGlib.InfoEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.InfoEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.info_enum_to_localised_past">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">info_enum_to_localised_past</tt><big>(</big><em>info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>info</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.InfoEnum" title="PackageKitGlib.InfoEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.InfoEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the translated text</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its localized description</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.7.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.info_enum_to_localised_present">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">info_enum_to_localised_present</tt><big>(</big><em>info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>info</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.InfoEnum" title="PackageKitGlib.InfoEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.InfoEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the translated text</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its localized description</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.7.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.info_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">info_enum_to_string</tt><big>(</big><em>info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>info</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.InfoEnum" title="PackageKitGlib.InfoEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.InfoEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.iso8601_from_date">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">iso8601_from_date</tt><big>(</big><em>date</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>date</strong> (<a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/structs/Date.html#GLib.Date" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Date</span></tt></a>) &#8211; a <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/structs/Date.html#GLib.Date" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Date</span></tt></a> to convert</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">If valid then a new ISO8601 date, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.iso8601_present">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">iso8601_present</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The current iso8601 date and time</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.media_type_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">media_type_enum_from_string</tt><big>(</big><em>media_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>media_type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.MediaTypeEnum.CD" title="PackageKitGlib.MediaTypeEnum.CD"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.MediaTypeEnum.CD</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.MediaTypeEnum" title="PackageKitGlib.MediaTypeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.MediaTypeEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.media_type_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">media_type_enum_to_string</tt><big>(</big><em>media_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>media_type</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.MediaTypeEnum" title="PackageKitGlib.MediaTypeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.MediaTypeEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;dvd&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.network_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">network_enum_from_string</tt><big>(</big><em>network</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>network</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.NetworkEnum" title="PackageKitGlib.NetworkEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.NetworkEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.network_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">network_enum_to_string</tt><big>(</big><em>network</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>network</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.NetworkEnum" title="PackageKitGlib.NetworkEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.NetworkEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_action_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_action_from_string</tt><big>(</big><em>action</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>action</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a string representation of a <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>, e.g. &#8220;reboot&#8221;</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>, or <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction.UNKNOWN" title="PackageKitGlib.OfflineAction.UNKNOWN"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction.UNKNOWN</span></tt></a> for invalid</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts the string to the enumerated value.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_action_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_action_to_string</tt><big>(</big><em>action</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>action</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction.REBOOT" title="PackageKitGlib.OfflineAction.REBOOT"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction.REBOOT</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">string value, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for invalid</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts the enumerated value to a string.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_auth_cancel">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_auth_cancel</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Cancels the offline operation that has been scheduled. If there is no
+scheduled offline operation then this method returns with success.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_auth_clear_results">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_auth_clear_results</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates the last offline operation report, which may be success or failure.
+If the report does not exist then this method returns success.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_auth_invalidate">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_auth_invalidate</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Invalidates the offline operation. This is normally done when the package
+cache has been refreshed, or a package listed in the prepared transaction
+is manually installed or removed.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_auth_set_action">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_auth_set_action</tt><big>(</big><em>action</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>action</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction.REBOOT" title="PackageKitGlib.OfflineAction.REBOOT"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction.REBOOT</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the action to be done after the offline action has been performed.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_auth_set_prepared_ids">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_auth_set_prepared_ids</tt><big>(</big><em>package_ids</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>package_ids</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Array of package-ids</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Saves the package-ids to a prepared transaction file.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_auth_set_results">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_auth_set_results</tt><big>(</big><em>results</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>results</strong> (<a class="reference internal" href="classes/Results.html#PackageKitGlib.Results" title="PackageKitGlib.Results"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.Results</span></tt></a>) &#8211; A <a class="reference internal" href="classes/Results.html#PackageKitGlib.Results" title="PackageKitGlib.Results"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.Results</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Saves the transaction results to a file.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_auth_trigger">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_auth_trigger</tt><big>(</big><em>action</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>action</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction.REBOOT" title="PackageKitGlib.OfflineAction.REBOOT"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction.REBOOT</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Triggers the offline update so that the next reboot will perform the
+pending transaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_cancel">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_cancel</tt><big>(</big><em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cancellable</strong> (<a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Cancels the offline operation that has been scheduled. If there is no
+scheduled offline operation then this method returns with success.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_clear_results">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_clear_results</tt><big>(</big><em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cancellable</strong> (<a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Crears the last offline operation report, which may be success or failure.
+If the report does not exist then this method returns success.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_error_quark">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The error quark.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_get_action">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_get_action</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction.REBOOT" title="PackageKitGlib.OfflineAction.REBOOT"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction.REBOOT</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the action that will be taken after the offline action has completed.</p>
+<p>An error is set if the the value <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction.UNKNOWN" title="PackageKitGlib.OfflineAction.UNKNOWN"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction.UNKNOWN</span></tt></a> is returned.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_get_action_monitor">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_get_action_monitor</tt><big>(</big><em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cancellable</strong> (<a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/FileMonitor.html#Gio.FileMonitor" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileMonitor</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/FileMonitor.html#Gio.FileMonitor" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileMonitor</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a file monitor for the trigger.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_get_prepared_ids">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_get_prepared_ids</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">array of package-ids, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Gets the package-ids in the prepared transaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_get_prepared_monitor">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_get_prepared_monitor</tt><big>(</big><em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cancellable</strong> (<a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/FileMonitor.html#Gio.FileMonitor" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileMonitor</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/FileMonitor.html#Gio.FileMonitor" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileMonitor</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a file monitor for the prepared transaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_get_prepared_sack">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_get_prepared_sack</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A new <a class="reference internal" href="classes/PackageSack.html#PackageKitGlib.PackageSack" title="PackageKitGlib.PackageSack"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.PackageSack</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="classes/PackageSack.html#PackageKitGlib.PackageSack" title="PackageKitGlib.PackageSack"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.PackageSack</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a package sack of the packages in the prepared transaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_get_results">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_get_results</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="classes/Results.html#PackageKitGlib.Results" title="PackageKitGlib.Results"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.Results</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="classes/Results.html#PackageKitGlib.Results" title="PackageKitGlib.Results"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.Results</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the last result of the offline transaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_get_results_mtime">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_get_results_mtime</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a unix time, or 0 for error.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the motification time of the prepared transaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.offline_trigger">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">offline_trigger</tt><big>(</big><em>action</em>, <em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>action</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction" title="PackageKitGlib.OfflineAction"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction</span></tt></a>, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.OfflineAction.REBOOT" title="PackageKitGlib.OfflineAction.REBOOT"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.OfflineAction.REBOOT</span></tt></a></li>
+<li><strong>cancellable</strong> (<a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/PackageKitGlib-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for success, else <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>error</cite> set</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Triggers the offline update so that the next reboot will perform the
+pending transaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.9.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.polkit_agent_close">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">polkit_agent_close</tt><big>(</big><big>)</big></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.polkit_agent_open">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">polkit_agent_open</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.restart_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">restart_enum_from_string</tt><big>(</big><em>restart</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>restart</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.RestartEnum" title="PackageKitGlib.RestartEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.RestartEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.restart_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">restart_enum_to_string</tt><big>(</big><em>restart</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>restart</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.RestartEnum" title="PackageKitGlib.RestartEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.RestartEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.role_bitfield_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">role_bitfield_from_string</tt><big>(</big><em>roles</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>roles</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the enumerated constant value, e.g. &#8220;search-file;update-system&#8221;</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The enumerated type values, or 0 for invalid</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts text representation to its enumerated type bitfield</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.role_bitfield_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">role_bitfield_to_string</tt><big>(</big><em>roles</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>roles</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The enumerated type values</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;install-file;update-system&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type bitfield to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.role_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">role_enum_from_string</tt><big>(</big><em>role</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>role</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.RoleEnum" title="PackageKitGlib.RoleEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.RoleEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.role_enum_to_localised_present">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">role_enum_to_localised_present</tt><big>(</big><em>role</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>role</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.RoleEnum" title="PackageKitGlib.RoleEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.RoleEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the translated text</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its localized description</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.7.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.role_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">role_enum_to_string</tt><big>(</big><em>role</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>role</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.RoleEnum" title="PackageKitGlib.RoleEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.RoleEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.sig_type_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">sig_type_enum_from_string</tt><big>(</big><em>sig_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>sig_type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum" title="PackageKitGlib.SigTypeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.sig_type_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">sig_type_enum_to_string</tt><big>(</big><em>sig_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>sig_type</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum" title="PackageKitGlib.SigTypeEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.status_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">status_enum_from_string</tt><big>(</big><em>status</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>status</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.SigTypeEnum.GPG" title="PackageKitGlib.SigTypeEnum.GPG"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.SigTypeEnum.GPG</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.StatusEnum" title="PackageKitGlib.StatusEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.StatusEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.status_enum_to_localised_text">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">status_enum_to_localised_text</tt><big>(</big><em>status</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>status</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.StatusEnum" title="PackageKitGlib.StatusEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.StatusEnum</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.status_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">status_enum_to_string</tt><big>(</big><em>status</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>status</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.StatusEnum" title="PackageKitGlib.StatusEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.StatusEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;available&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.transaction_flag_bitfield_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">transaction_flag_bitfield_from_string</tt><big>(</big><em>transaction_flags</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>transaction_flags</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the enumerated constant value, e.g. &#8220;only-trusted;simulate&#8221;</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The enumerated type values</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts text representation to its enumerated type bitfield, or 0 for invalid</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.transaction_flag_bitfield_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">transaction_flag_bitfield_to_string</tt><big>(</big><em>transaction_flags</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>transaction_flags</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The enumerated type values</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;only-trusted;simulate&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type bitfield to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.transaction_flag_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">transaction_flag_enum_from_string</tt><big>(</big><em>transaction_flag</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>transaction_flag</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.TransactionFlagEnum.SIMULATE" title="PackageKitGlib.TransactionFlagEnum.SIMULATE"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.TransactionFlagEnum.SIMULATE</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.TransactionFlagEnum" title="PackageKitGlib.TransactionFlagEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.TransactionFlagEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.transaction_flag_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">transaction_flag_enum_to_string</tt><big>(</big><em>transaction_flag</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>transaction_flag</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.TransactionFlagEnum" title="PackageKitGlib.TransactionFlagEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.TransactionFlagEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;simulate&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.1.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.update_state_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">update_state_enum_from_string</tt><big>(</big><em>update_state</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>update_state</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.UpdateStateEnum.STABLE" title="PackageKitGlib.UpdateStateEnum.STABLE"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.UpdateStateEnum.STABLE</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.UpdateStateEnum" title="PackageKitGlib.UpdateStateEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.UpdateStateEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.update_state_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">update_state_enum_to_string</tt><big>(</big><em>update_state</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>update_state</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.UpdateStateEnum" title="PackageKitGlib.UpdateStateEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.UpdateStateEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;testing&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.5.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.upgrade_kind_enum_from_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">upgrade_kind_enum_from_string</tt><big>(</big><em>upgrade_kind</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>upgrade_kind</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; Text describing the enumerated type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. <a class="reference internal" href="enums.html#PackageKitGlib.UpgradeKindEnum.MINIMAL" title="PackageKitGlib.UpgradeKindEnum.MINIMAL"><tt class="xref py py-obj docutils literal"><span class="pre">PackageKitGlib.UpgradeKindEnum.MINIMAL</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#PackageKitGlib.UpgradeKindEnum" title="PackageKitGlib.UpgradeKindEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.UpgradeKindEnum</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a text enumerated type to its unsigned integer representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.11.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PackageKitGlib.upgrade_kind_enum_to_string">
+<tt class="descclassname">PackageKitGlib.</tt><tt class="descname">upgrade_kind_enum_to_string</tt><big>(</big><em>upgrade_kind</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>upgrade_kind</strong> (<a class="reference internal" href="enums.html#PackageKitGlib.UpgradeKindEnum" title="PackageKitGlib.UpgradeKindEnum"><tt class="xref py py-class docutils literal"><span class="pre">PackageKitGlib.UpgradeKindEnum</span></tt></a>) &#8211; The enumerated type value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the enumerated constant value, e.g. &#8220;minimal&#8221;</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts a enumerated type to its text representation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.11.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

@@ -1,0 +1,922 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Clutter.State -
+    
+      Classes -
+    
+    Clutter 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Clutter 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Clutter.SwipeAction" href="SwipeAction.html"/>
+        <link rel="prev" title="Clutter.StageManager" href="StageManager.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.State</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="StageManager.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="SwipeAction.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.State</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.State</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="StageManager.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="SwipeAction.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.State</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="clutter-state">
+<h1>Clutter.State</h1>
+<p class="graphviz">
+<svg width="200pt" height="134pt"
+ viewBox="0.00 0.00 200.00 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritance2bae172201</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M92,-126C92,-126 6,-126 6,-126 3,-126 7.10543e-15,-123 7.10543e-15,-120 7.10543e-15,-120 7.10543e-15,-114 7.10543e-15,-114 7.10543e-15,-111 3,-108 6,-108 6,-108 92,-108 92,-108 95,-108 98,-111 98,-114 98,-114 98,-120 98,-120 98,-123 95,-126 92,-126"/>
+<text text-anchor="middle" x="49" y="-114.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Scriptable -->
+<g id="node2" class="node"><title>Clutter.Scriptable</title>
+<g id="a_node2"><a xlink:href="../interfaces/Scriptable.html#Clutter.Scriptable" xlink:title="Clutter.Scriptable">
+<path fill="none" stroke="#3091d1" d="M88,-72C88,-72 10,-72 10,-72 7,-72 4,-69 4,-66 4,-66 4,-60 4,-60 4,-57 7,-54 10,-54 10,-54 88,-54 88,-54 91,-54 94,-57 94,-60 94,-60 94,-66 94,-66 94,-69 91,-72 88,-72"/>
+<text text-anchor="middle" x="49" y="-60.7" font-family="inherit" font-size="8.50">Clutter.Scriptable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Clutter.Scriptable -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Clutter.Scriptable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M49,-107.875C49,-99.7564 49,-87.1312 49,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="50.7501,-77.2395 49,-72.2396 47.2501,-77.2396 50.7501,-77.2395"/>
+</g>
+<!-- Clutter.State -->
+<g id="node4" class="node"><title>Clutter.State</title>
+<g id="a_node4"><a xlink:href="#Clutter.State" xlink:title="Clutter.State">
+<path fill="none" stroke="#75507b" d="M129,-18C129,-18 71,-18 71,-18 68,-18 65,-15 65,-12 65,-12 65,-6 65,-6 65,-3 68,-0 71,-0 71,-0 129,-0 129,-0 132,-0 135,-3 135,-6 135,-6 135,-12 135,-12 135,-15 132,-18 129,-18"/>
+<text text-anchor="middle" x="100" y="-6.7" font-family="inherit" font-size="8.50">Clutter.State</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Scriptable&#45;&gt;Clutter.State -->
+<g id="edge3" class="edge"><title>Clutter.Scriptable&#45;&gt;Clutter.State</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M56.9688,-53.875C65.3777,-45.3012 78.7163,-31.7011 88.3146,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="89.6672,-23.0346 91.9189,-18.2396 87.1684,-20.5839 89.6672,-23.0346"/>
+</g>
+<!-- GObject.Object -->
+<g id="node3" class="node"><title>GObject.Object</title>
+<g id="a_node3"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M186,-72C186,-72 118,-72 118,-72 115,-72 112,-69 112,-66 112,-66 112,-60 112,-60 112,-57 115,-54 118,-54 118,-54 186,-54 186,-54 189,-54 192,-57 192,-60 192,-60 192,-66 192,-66 192,-69 189,-72 186,-72"/>
+<text text-anchor="middle" x="152" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Clutter.State -->
+<g id="edge2" class="edge"><title>GObject.Object&#45;&gt;Clutter.State</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M143.875,-53.875C135.301,-45.3012 121.701,-31.7011 111.915,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="113.013,-20.5377 108.24,-18.2396 110.538,-23.0126 113.013,-20.5377"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="clutter-state-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-methods"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Clutter.State.new" title="Clutter.State.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.State.get_animator" title="Clutter.State.get_animator"><tt class="xref py py-obj docutils literal"><span class="pre">get_animator</span></tt></a>(source_state_name, target_state_name)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.State.get_duration" title="Clutter.State.get_duration"><tt class="xref py py-obj docutils literal"><span class="pre">get_duration</span></tt></a>(source_state_name, target_state_name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.State.get_keys" title="Clutter.State.get_keys"><tt class="xref py py-obj docutils literal"><span class="pre">get_keys</span></tt></a>(source_state_name, target_state_name, object, property_name)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.State.get_state" title="Clutter.State.get_state"><tt class="xref py py-obj docutils literal"><span class="pre">get_state</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.State.get_states" title="Clutter.State.get_states"><tt class="xref py py-obj docutils literal"><span class="pre">get_states</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.State.get_timeline" title="Clutter.State.get_timeline"><tt class="xref py py-obj docutils literal"><span class="pre">get_timeline</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.State.remove_key" title="Clutter.State.remove_key"><tt class="xref py py-obj docutils literal"><span class="pre">remove_key</span></tt></a>(source_state_name, target_state_name, object, property_name)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.State.set_animator" title="Clutter.State.set_animator"><tt class="xref py py-obj docutils literal"><span class="pre">set_animator</span></tt></a>(source_state_name, target_state_name, animator)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.State.set_duration" title="Clutter.State.set_duration"><tt class="xref py py-obj docutils literal"><span class="pre">set_duration</span></tt></a>(source_state_name, target_state_name, duration)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.State.set_key" title="Clutter.State.set_key"><tt class="xref py py-obj docutils literal"><span class="pre">set_key</span></tt></a>(source_state_name, target_state_name, object, property_name, mode, value, pre_delay, post_delay)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.State.set_state" title="Clutter.State.set_state"><tt class="xref py py-obj docutils literal"><span class="pre">set_state</span></tt></a>(target_state_name)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.State.warp_to_state" title="Clutter.State.warp_to_state"><tt class="xref py py-obj docutils literal"><span class="pre">warp_to_state</span></tt></a>(target_state_name)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="clutter-state-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-vfuncs"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.State.do_completed" title="Clutter.State.do_completed"><tt class="xref py py-obj docutils literal"><span class="pre">do_completed</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="clutter-state-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.State.props.duration" title="Clutter.State.props.duration"><tt class="xref py py-data docutils literal"><span class="pre">duration</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>Default transition duration</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.State.props.state" title="Clutter.State.props.state"><tt class="xref py py-data docutils literal"><span class="pre">state</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>Currently set state, (transition to this state might not be complete)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="clutter-state-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.State.signals.completed" title="Clutter.State.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">completed</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.State.signals.completed" title="Clutter.State.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a> signal is emitted when a <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> reaches the target state specified by <a class="reference internal" href="#Clutter.State.set_state" title="Clutter.State.set_state"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.set_state</span></tt></a> () or <a class="reference internal" href="#Clutter.State.warp_to_state" title="Clutter.State.warp_to_state"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.warp_to_state</span></tt></a> ().</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="clutter-state-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Clutter.State">
+<em class="property">class </em><tt class="descclassname">Clutter.</tt><tt class="descname">State</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>, <a class="reference internal" href="../interfaces/Scriptable.html#Clutter.Scriptable" title="Clutter.Scriptable"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Scriptable</span></tt></a></p>
+<p>The <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> structure contains only
+private data and should be accessed using the provided API</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Clutter.State.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the newly create <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> instance</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.State</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.get_animator">
+<tt class="descname">get_animator</tt><big>(</big><em>source_state_name</em>, <em>target_state_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>source_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a source state</li>
+<li><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a target state</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a <a class="reference internal" href="Animator.html#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> instance, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="Animator.html#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Animator</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the <a class="reference internal" href="Animator.html#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> that is being used for transitioning
+between the two states, if any has been set</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.get_duration">
+<tt class="descname">get_duration</tt><big>(</big><em>source_state_name</em>, <em>target_state_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>source_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the name of the source state to
+get the duration of, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the name of the source state to
+get the duration of, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the duration, in milliseconds</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Queries the duration used for transitions between a source and
+target state pair</p>
+<p>The semantics for the query are the same as the semantics used for
+setting the duration with <a class="reference internal" href="#Clutter.State.set_duration" title="Clutter.State.set_duration"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.set_duration</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.get_keys">
+<tt class="descname">get_keys</tt><big>(</big><em>source_state_name</em>, <em>target_state_name</em>, <em>object</em>, <em>property_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>source_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the source transition name to query,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all source states</li>
+<li><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the target transition name to query,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all target states</li>
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the specific object instance to list keys for,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all managed objects</li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the property name to search for, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>
+for all properties.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a
+newly allocated <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of <a class="reference internal" href="../structs/StateKey.html#Clutter.StateKey" title="Clutter.StateKey"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.StateKey</span></tt></a> s. The contents of
+the returned list are owned by the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> and should not be
+modified or freed. Use <tt class="xref py py-obj docutils literal"><span class="pre">GLib.List.free</span></tt> () to free the resources allocated
+by the returned list when done using it</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">[<a class="reference internal" href="../structs/StateKey.html#Clutter.StateKey" title="Clutter.StateKey"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.StateKey</span></tt></a>]</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Returns a list of pointers to opaque structures with accessor functions
+that describe the keys added to an animator.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.get_state">
+<tt class="descname">get_state</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a string containing the target state. The returned string
+is owned by the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> and should not be modified or freed</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Queries the currently set target state.</p>
+<p>During a transition this function will return the target of the transition.</p>
+<p>This function is useful when called from handlers of the
+<a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> <a class="reference internal" href="#Clutter.State.signals.completed" title="Clutter.State.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a> signal.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.get_states">
+<tt class="descname">get_states</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a newly allocated
+<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> of state names. The contents of the returned <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GLib-2.0/structs/List.html#GLib.List" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.List</span></tt></a> are owned
+by the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> and should not be modified or freed. Use
+<tt class="xref py py-obj docutils literal"><span class="pre">GLib.List.free</span></tt> () to free the resources allocated by the returned list when
+done using it</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Gets a list of all the state names managed by this <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.get_timeline">
+<tt class="descname">get_timeline</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> that drives
+the state change animations. The returned timeline is owned
+by the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> and it should not be unreferenced directly</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the timeline driving the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.remove_key">
+<tt class="descname">remove_key</tt><big>(</big><em>source_state_name</em>, <em>target_state_name</em>, <em>object</em>, <em>property_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the source state name to query,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all source states</li>
+<li><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the target state name to query,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all target states</li>
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the specific object instance to list keys for,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all managed objects</li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the property name to search for,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all properties.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Removes all keys matching the search criteria passed in arguments.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.set_animator">
+<tt class="descname">set_animator</tt><big>(</big><em>source_state_name</em>, <em>target_state_name</em>, <em>animator</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a source state</li>
+<li><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a target state</li>
+<li><strong>animator</strong> (<a class="reference internal" href="Animator.html#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Animator</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="Animator.html#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> instance, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to
+unset an existing <a class="reference internal" href="Animator.html#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Specifies a <a class="reference internal" href="Animator.html#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> to be used when transitioning between
+the two named states.</p>
+<p>The <cite>animator</cite> allows specifying a transition between the state that is
+more elaborate than the basic transitions allowed by the tweening of
+properties defined in the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> keys.</p>
+<p>If <cite>animator</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> it will unset an existing animator.</p>
+<p><a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> will take a reference on the passed <cite>animator</cite>, if any</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.set_duration">
+<tt class="descname">set_duration</tt><big>(</big><em>source_state_name</em>, <em>target_state_name</em>, <em>duration</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the name of the source state, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the name of the target state, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>duration</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the duration of the transition, in milliseconds</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the duration of a transition.</p>
+<p>If both state names are <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> the default duration for <cite>state</cite> is set.</p>
+<p>If only <cite>target_state_name</cite> is specified, the passed <cite>duration</cite> becomes
+the default duration for transitions to the target state.</p>
+<p>If both states names are specified, the passed <cite>duration</cite> only applies
+to the specified transition.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.set_key">
+<tt class="descname">set_key</tt><big>(</big><em>source_state_name</em>, <em>target_state_name</em>, <em>object</em>, <em>property_name</em>, <em>mode</em>, <em>value</em>, <em>pre_delay</em>, <em>post_delay</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>source_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the source transition to specify
+transition for, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to specify the default fallback when a
+more specific source state doesn&#8217;t exist.</li>
+<li><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of the transition to set a key value for.</li>
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; the <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> to set a key for</li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the property to set a key for</li>
+<li><strong>mode</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the id of the alpha function to use</li>
+<li><strong>value</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; the value for property_name of object in state_name</li>
+<li><strong>pre_delay</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; relative time of the transition to be idle in the beginning
+of the transition</li>
+<li><strong>post_delay</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; relative time of the transition to be idle in the end of
+the transition</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> instance, allowing
+chaining of multiple calls</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.State</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets one specific end key for a state name, <cite>object</cite>, <cite>property_name</cite>
+combination.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.set_state">
+<tt class="descname">set_state</tt><big>(</big><em>target_state_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the state to transition to</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> that drives the
+state transition. The returned timeline is owned by the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a>
+and it should not be unreferenced</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Change the current state of <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> to <cite>target_state_name</cite>.</p>
+<p>The state will animate during its transition, see
+<a class="reference internal" href="#Clutter.State.warp_to_state" title="Clutter.State.warp_to_state"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.warp_to_state</span></tt></a> for animation-free state switching.</p>
+<p>Setting a <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> state will stop the current animation and unset
+the current state, but keys will be left intact.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.warp_to_state">
+<tt class="descname">warp_to_state</tt><big>(</big><em>target_state_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>target_state_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the state to transition to</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> that drives the
+state transition. The returned timeline is owned by the <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a>
+and it should not be unreferenced</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Change to the specified target state immediately with no animation.</p>
+<p>See <a class="reference internal" href="#Clutter.State.set_state" title="Clutter.State.set_state"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.set_state</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.State.do_completed">
+<tt class="descname">do_completed</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Clutter.State.signals.completed">
+<tt class="descclassname">Clutter.State.signals.</tt><tt class="descname">completed</tt><big>(</big><em>state</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">completed</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>state</strong> (<a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.State</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.State.signals.completed" title="Clutter.State.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a> signal is emitted when a <a class="reference internal" href="#Clutter.State" title="Clutter.State"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State</span></tt></a> reaches
+the target state specified by <a class="reference internal" href="#Clutter.State.set_state" title="Clutter.State.set_state"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.set_state</span></tt></a> () or
+<a class="reference internal" href="#Clutter.State.warp_to_state" title="Clutter.State.warp_to_state"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.warp_to_state</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Clutter.State.props.duration">
+<tt class="descclassname">Clutter.State.props.</tt><tt class="descname">duration</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">duration</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">1000</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Default duration used if an duration has not been specified for a specific
+source/target state pair. The values is in milliseconds.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.State.props.state">
+<tt class="descclassname">Clutter.State.props.</tt><tt class="descname">state</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">state</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The currently set target state, setting it causes the
+state machine to transition to the new state, use
+<a class="reference internal" href="#Clutter.State.warp_to_state" title="Clutter.State.warp_to_state"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.State.warp_to_state</span></tt></a> () to change state without
+a transition.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> and
+<a class="reference internal" href="TransitionGroup.html#Clutter.TransitionGroup" title="Clutter.TransitionGroup"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TransitionGroup</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

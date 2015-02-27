@@ -1,0 +1,654 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gtk.AppChooserDialog -
+    
+      Classes -
+    
+    Gtk 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gtk 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gtk.AppChooserWidget" href="AppChooserWidget.html"/>
+        <link rel="prev" title="Gtk.AppChooserButton" href="AppChooserButton.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.AppChooserDialog</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="AppChooserButton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="AppChooserWidget.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.AppChooserDialog</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.AppChooserDialog</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="AppChooserButton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="AppChooserWidget.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.AppChooserDialog</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gtk-appchooserdialog">
+<h1>Gtk.AppChooserDialog</h1>
+<p class="graphviz">
+<svg width="378pt" height="404pt"
+ viewBox="0.00 0.00 378.00 404.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 400)">
+<title>inheritancec209edcfe9</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M111,-396C111,-396 25,-396 25,-396 22,-396 19,-393 19,-390 19,-390 19,-384 19,-384 19,-381 22,-378 25,-378 25,-378 111,-378 111,-378 114,-378 117,-381 117,-384 117,-384 117,-390 117,-390 117,-393 114,-396 111,-396"/>
+<text text-anchor="middle" x="68" y="-384.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface -->
+<g id="node2" class="node"><title>Atk.ImplementorIface</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-Atk-1.0/interfaces/ImplementorIface.html#Atk.ImplementorIface" xlink:title="Atk.ImplementorIface">
+<path fill="none" stroke="#3091d1" d="M223.5,-342C223.5,-342 128.5,-342 128.5,-342 125.5,-342 122.5,-339 122.5,-336 122.5,-336 122.5,-330 122.5,-330 122.5,-327 125.5,-324 128.5,-324 128.5,-324 223.5,-324 223.5,-324 226.5,-324 229.5,-327 229.5,-330 229.5,-330 229.5,-336 229.5,-336 229.5,-339 226.5,-342 223.5,-342"/>
+<text text-anchor="middle" x="176" y="-330.7" font-family="inherit" font-size="8.50">Atk.ImplementorIface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Atk.ImplementorIface -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Atk.ImplementorIface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M84.875,-377.875C103.659,-368.831 134.058,-354.194 154.524,-344.34"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="155.498,-345.814 159.243,-342.068 153.979,-342.66 155.498,-345.814"/>
+</g>
+<!-- Gtk.AppChooser -->
+<g id="node3" class="node"><title>Gtk.AppChooser</title>
+<g id="a_node3"><a xlink:href="../interfaces/AppChooser.html#Gtk.AppChooser" xlink:title="Gtk.AppChooser">
+<path fill="none" stroke="#3091d1" d="M80,-288C80,-288 6,-288 6,-288 3,-288 0,-285 0,-282 0,-282 0,-276 0,-276 0,-273 3,-270 6,-270 6,-270 80,-270 80,-270 83,-270 86,-273 86,-276 86,-276 86,-282 86,-282 86,-285 83,-288 80,-288"/>
+<text text-anchor="middle" x="43" y="-276.7" font-family="inherit" font-size="8.50">Gtk.AppChooser</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.AppChooser -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.AppChooser</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M54.6609,-377.763C43.5795,-370.062 28.6003,-357.447 22,-342 14.8414,-325.246 24.8837,-305.162 33.3911,-292.489"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="34.9793,-293.272 36.4212,-288.175 32.1152,-291.261 34.9793,-293.272"/>
+</g>
+<!-- Gtk.Buildable -->
+<g id="node4" class="node"><title>Gtk.Buildable</title>
+<g id="a_node4"><a xlink:href="../interfaces/Buildable.html#Gtk.Buildable" xlink:title="Gtk.Buildable">
+<path fill="none" stroke="#3091d1" d="M98.5,-342C98.5,-342 37.5,-342 37.5,-342 34.5,-342 31.5,-339 31.5,-336 31.5,-336 31.5,-330 31.5,-330 31.5,-327 34.5,-324 37.5,-324 37.5,-324 98.5,-324 98.5,-324 101.5,-324 104.5,-327 104.5,-330 104.5,-330 104.5,-336 104.5,-336 104.5,-339 101.5,-342 98.5,-342"/>
+<text text-anchor="middle" x="68" y="-330.7" font-family="inherit" font-size="8.50">Gtk.Buildable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Buildable -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Buildable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M68,-377.875C68,-369.756 68,-357.131 68,-347.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="69.7501,-347.24 68,-342.24 66.2501,-347.24 69.7501,-347.24"/>
+</g>
+<!-- Gtk.Widget -->
+<g id="node7" class="node"><title>Gtk.Widget</title>
+<g id="a_node7"><a xlink:href="Widget.html#Gtk.Widget" xlink:title="Gtk.Widget">
+<path fill="none" stroke="#75507b" d="M180,-288C180,-288 130,-288 130,-288 127,-288 124,-285 124,-282 124,-282 124,-276 124,-276 124,-273 127,-270 130,-270 130,-270 180,-270 180,-270 183,-270 186,-273 186,-276 186,-276 186,-282 186,-282 186,-285 183,-288 180,-288"/>
+<text text-anchor="middle" x="155" y="-276.7" font-family="inherit" font-size="8.50">Gtk.Widget</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface&#45;&gt;Gtk.Widget -->
+<g id="edge5" class="edge"><title>Atk.ImplementorIface&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M172.719,-323.875C169.379,-315.605 164.15,-302.658 160.237,-292.968"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="161.823,-292.22 158.328,-288.24 158.577,-293.531 161.823,-292.22"/>
+</g>
+<!-- Gtk.AppChooserDialog -->
+<g id="node8" class="node"><title>Gtk.AppChooserDialog</title>
+<g id="a_node8"><a xlink:href="#Gtk.AppChooserDialog" xlink:title="Gtk.AppChooserDialog">
+<path fill="none" stroke="#75507b" d="M146,-18C146,-18 46,-18 46,-18 43,-18 40,-15 40,-12 40,-12 40,-6 40,-6 40,-3 43,-0 46,-0 46,-0 146,-0 146,-0 149,-0 152,-3 152,-6 152,-6 152,-12 152,-12 152,-15 149,-18 146,-18"/>
+<text text-anchor="middle" x="96" y="-6.7" font-family="inherit" font-size="8.50">Gtk.AppChooserDialog</text>
+</a>
+</g>
+</g>
+<!-- Gtk.AppChooser&#45;&gt;Gtk.AppChooserDialog -->
+<g id="edge7" class="edge"><title>Gtk.AppChooser&#45;&gt;Gtk.AppChooserDialog</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M46.0068,-269.884C52.2413,-252.305 66,-209.285 66,-172 66,-172 66,-172 66,-116 66,-81.2377 81.1226,-42.404 89.894,-22.8034"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="91.5906,-23.3012 92.078,-18.0262 88.4075,-21.8459 91.5906,-23.3012"/>
+</g>
+<!-- Gtk.Buildable&#45;&gt;Gtk.Widget -->
+<g id="edge10" class="edge"><title>Gtk.Buildable&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M81.5938,-323.875C96.5335,-314.945 120.595,-300.564 137.07,-290.717"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="138.108,-292.135 141.502,-288.068 136.312,-289.131 138.108,-292.135"/>
+</g>
+<!-- GObject.Object -->
+<g id="node5" class="node"><title>GObject.Object</title>
+<g id="a_node5"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M343,-396C343,-396 275,-396 275,-396 272,-396 269,-393 269,-390 269,-390 269,-384 269,-384 269,-381 272,-378 275,-378 275,-378 343,-378 343,-378 346,-378 349,-381 349,-384 349,-384 349,-390 349,-390 349,-393 346,-396 343,-396"/>
+<text text-anchor="middle" x="309" y="-384.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.InitiallyUnowned -->
+<g id="node6" class="node"><title>GObject.InitiallyUnowned</title>
+<g id="a_node6"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#GObject.InitiallyUnowned" xlink:title="GObject.InitiallyUnowned">
+<path fill="none" stroke="#75507b" d="M364,-342C364,-342 254,-342 254,-342 251,-342 248,-339 248,-336 248,-336 248,-330 248,-330 248,-327 251,-324 254,-324 254,-324 364,-324 364,-324 367,-324 370,-327 370,-330 370,-330 370,-336 370,-336 370,-339 367,-342 364,-342"/>
+<text text-anchor="middle" x="309" y="-330.7" font-family="inherit" font-size="8.50">GObject.InitiallyUnowned</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GObject.InitiallyUnowned -->
+<g id="edge4" class="edge"><title>GObject.Object&#45;&gt;GObject.InitiallyUnowned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M309,-377.875C309,-369.756 309,-357.131 309,-347.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="310.75,-347.24 309,-342.24 307.25,-347.24 310.75,-347.24"/>
+</g>
+<!-- GObject.InitiallyUnowned&#45;&gt;Gtk.Widget -->
+<g id="edge6" class="edge"><title>GObject.InitiallyUnowned&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M285.275,-323.989C257.918,-314.752 212.964,-299.572 183.672,-289.681"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="184.049,-287.962 178.752,-288.02 182.929,-291.278 184.049,-287.962"/>
+</g>
+<!-- Gtk.Container -->
+<g id="node11" class="node"><title>Gtk.Container</title>
+<g id="a_node11"><a xlink:href="Container.html#Gtk.Container" xlink:title="Gtk.Container">
+<path fill="none" stroke="#75507b" d="M174.5,-234C174.5,-234 111.5,-234 111.5,-234 108.5,-234 105.5,-231 105.5,-228 105.5,-228 105.5,-222 105.5,-222 105.5,-219 108.5,-216 111.5,-216 111.5,-216 174.5,-216 174.5,-216 177.5,-216 180.5,-219 180.5,-222 180.5,-222 180.5,-228 180.5,-228 180.5,-231 177.5,-234 174.5,-234"/>
+<text text-anchor="middle" x="143" y="-222.7" font-family="inherit" font-size="8.50">Gtk.Container</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Widget&#45;&gt;Gtk.Container -->
+<g id="edge11" class="edge"><title>Gtk.Widget&#45;&gt;Gtk.Container</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M153.125,-269.875C151.234,-261.681 148.283,-248.895 146.054,-239.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="147.731,-238.718 144.901,-234.24 144.321,-239.505 147.731,-238.718"/>
+</g>
+<!-- Gtk.Bin -->
+<g id="node9" class="node"><title>Gtk.Bin</title>
+<g id="a_node9"><a xlink:href="Bin.html#Gtk.Bin" xlink:title="Gtk.Bin">
+<path fill="none" stroke="#75507b" d="M160,-180C160,-180 118,-180 118,-180 115,-180 112,-177 112,-174 112,-174 112,-168 112,-168 112,-165 115,-162 118,-162 118,-162 160,-162 160,-162 163,-162 166,-165 166,-168 166,-168 166,-174 166,-174 166,-177 163,-180 160,-180"/>
+<text text-anchor="middle" x="139" y="-168.7" font-family="inherit" font-size="8.50">Gtk.Bin</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Window -->
+<g id="node10" class="node"><title>Gtk.Window</title>
+<g id="a_node10"><a xlink:href="Window.html#Gtk.Window" xlink:title="Gtk.Window">
+<path fill="none" stroke="#75507b" d="M157.5,-126C157.5,-126 104.5,-126 104.5,-126 101.5,-126 98.5,-123 98.5,-120 98.5,-120 98.5,-114 98.5,-114 98.5,-111 101.5,-108 104.5,-108 104.5,-108 157.5,-108 157.5,-108 160.5,-108 163.5,-111 163.5,-114 163.5,-114 163.5,-120 163.5,-120 163.5,-123 160.5,-126 157.5,-126"/>
+<text text-anchor="middle" x="131" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Window</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Bin&#45;&gt;Gtk.Window -->
+<g id="edge8" class="edge"><title>Gtk.Bin&#45;&gt;Gtk.Window</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M137.75,-161.875C136.489,-153.681 134.522,-140.895 133.036,-131.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="134.758,-130.915 132.268,-126.24 131.298,-131.448 134.758,-130.915"/>
+</g>
+<!-- Gtk.Dialog -->
+<g id="node12" class="node"><title>Gtk.Dialog</title>
+<g id="a_node12"><a xlink:href="Dialog.html#Gtk.Dialog" xlink:title="Gtk.Dialog">
+<path fill="none" stroke="#75507b" d="M151,-72C151,-72 103,-72 103,-72 100,-72 97,-69 97,-66 97,-66 97,-60 97,-60 97,-57 100,-54 103,-54 103,-54 151,-54 151,-54 154,-54 157,-57 157,-60 157,-60 157,-66 157,-66 157,-69 154,-72 151,-72"/>
+<text text-anchor="middle" x="127" y="-60.7" font-family="inherit" font-size="8.50">Gtk.Dialog</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Window&#45;&gt;Gtk.Dialog -->
+<g id="edge12" class="edge"><title>Gtk.Window&#45;&gt;Gtk.Dialog</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M130.375,-107.875C129.745,-99.6806 128.761,-86.8948 128.018,-77.2353"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="129.762,-77.0906 127.634,-72.2396 126.273,-77.3591 129.762,-77.0906"/>
+</g>
+<!-- Gtk.Container&#45;&gt;Gtk.Bin -->
+<g id="edge9" class="edge"><title>Gtk.Container&#45;&gt;Gtk.Bin</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M142.375,-215.875C141.745,-207.681 140.761,-194.895 140.018,-185.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="141.762,-185.091 139.634,-180.24 138.273,-185.359 141.762,-185.091"/>
+</g>
+<!-- Gtk.Dialog&#45;&gt;Gtk.AppChooserDialog -->
+<g id="edge13" class="edge"><title>Gtk.Dialog&#45;&gt;Gtk.AppChooserDialog</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M122.156,-53.875C117.181,-45.5288 109.366,-32.4197 103.572,-22.7019"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="104.976,-21.6382 100.912,-18.2396 101.969,-23.4304 104.976,-21.6382"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="example">
+<h2>Example</h2>
+<img alt="../_images/Gtk.AppChooserDialog.png" src="../_images/Gtk.AppChooserDialog.png" />
+</div>
+<div class="section" id="methods">
+<span id="gtk-appchooserdialog-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-methods"><em>Gtk.Dialog (14)</em></a>, <a class="reference internal" href="Window.html#gtk-window-methods"><em>Gtk.Window (117)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-methods"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-methods"><em>Gtk.Container (27)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-methods"><em>Gtk.Widget (256)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-methods"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/AppChooser.html#gtk-appchooser-methods"><em>Gtk.AppChooser (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.AppChooserDialog.new" title="Gtk.AppChooserDialog.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(parent, flags, file)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.AppChooserDialog.new_for_content_type" title="Gtk.AppChooserDialog.new_for_content_type"><tt class="xref py py-obj docutils literal"><span class="pre">new_for_content_type</span></tt></a>(parent, flags, content_type)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.AppChooserDialog.get_heading" title="Gtk.AppChooserDialog.get_heading"><tt class="xref py py-obj docutils literal"><span class="pre">get_heading</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.AppChooserDialog.get_widget" title="Gtk.AppChooserDialog.get_widget"><tt class="xref py py-obj docutils literal"><span class="pre">get_widget</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.AppChooserDialog.set_heading" title="Gtk.AppChooserDialog.set_heading"><tt class="xref py py-obj docutils literal"><span class="pre">set_heading</span></tt></a>(heading)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gtk-appchooserdialog-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-vfuncs"><em>Gtk.Dialog (2)</em></a>, <a class="reference internal" href="Window.html#gtk-window-vfuncs"><em>Gtk.Window (5)</em></a>, <a class="reference internal" href="Container.html#gtk-container-vfuncs"><em>Gtk.Container (10)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-vfuncs"><em>Gtk.Widget (82)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-vfuncs"><em>Gtk.Buildable (10)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gtk-appchooserdialog-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-props"><em>Gtk.Dialog (1)</em></a>, <a class="reference internal" href="Window.html#gtk-window-props"><em>Gtk.Window (33)</em></a>, <a class="reference internal" href="Container.html#gtk-container-props"><em>Gtk.Container (3)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-props"><em>Gtk.Widget (38)</em></a>, <a class="reference internal" href="../interfaces/AppChooser.html#gtk-appchooser-props"><em>Gtk.AppChooser (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.AppChooserDialog.props.gfile" title="Gtk.AppChooserDialog.props.gfile"><tt class="xref py py-data docutils literal"><span class="pre">gfile</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a></td>
+<td>r/w</td>
+<td>The <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a> used by the app chooser dialog</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.AppChooserDialog.props.heading" title="Gtk.AppChooserDialog.props.heading"><tt class="xref py py-data docutils literal"><span class="pre">heading</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>The text to show at the top of the dialog</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="style-properties">
+<span id="gtk-appchooserdialog-style-props"></span><h2>Style Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-style-props"><em>Gtk.Dialog (4)</em></a>, <a class="reference internal" href="Window.html#gtk-window-style-props"><em>Gtk.Window (2)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-style-props"><em>Gtk.Widget (17)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gtk-appchooserdialog-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-signals"><em>Gtk.Dialog (2)</em></a>, <a class="reference internal" href="Window.html#gtk-window-signals"><em>Gtk.Window (5)</em></a>, <a class="reference internal" href="Container.html#gtk-container-signals"><em>Gtk.Container (4)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-signals"><em>Gtk.Widget (69)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gtk-appchooserdialog-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-fields"><em>Gtk.Dialog (1)</em></a>, <a class="reference internal" href="Window.html#gtk-window-fields"><em>Gtk.Window (1)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-fields"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-fields"><em>Gtk.Container (1)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-fields"><em>Gtk.Widget (1)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#gobject-initiallyunowned-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.InitiallyUnowned (3)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Dialog</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gtk.AppChooserDialog">
+<em class="property">class </em><tt class="descclassname">Gtk.</tt><tt class="descname">AppChooserDialog</tt><big>(</big><em>title=None</em>, <em>parent=None</em>, <em>flags=0</em>, <em>buttons=None</em>, <em>_buttons_property=None</em>, <em>**kwds</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Dialog</span></tt></a>, <a class="reference internal" href="../interfaces/AppChooser.html#Gtk.AppChooser" title="Gtk.AppChooser"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.AppChooser</span></tt></a></p>
+<p><a class="reference internal" href="#Gtk.AppChooserDialog" title="Gtk.AppChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog</span></tt></a> shows a <a class="reference internal" href="AppChooserWidget.html#Gtk.AppChooserWidget" title="Gtk.AppChooserWidget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserWidget</span></tt></a> inside a <a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Dialog</span></tt></a>.</p>
+<p>Note that <a class="reference internal" href="#Gtk.AppChooserDialog" title="Gtk.AppChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog</span></tt></a> does not have any interesting methods
+of its own. Instead, you should get the embedded <a class="reference internal" href="AppChooserWidget.html#Gtk.AppChooserWidget" title="Gtk.AppChooserWidget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserWidget</span></tt></a> 
+using <a class="reference internal" href="#Gtk.AppChooserDialog.get_widget" title="Gtk.AppChooserDialog.get_widget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog.get_widget</span></tt></a> () and call its methods if
+the generic <a class="reference internal" href="../interfaces/AppChooser.html#Gtk.AppChooser" title="Gtk.AppChooser"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooser</span></tt></a> interface is not sufficient for your needs.</p>
+<p>To set the heading that is shown above the <a class="reference internal" href="AppChooserWidget.html#Gtk.AppChooserWidget" title="Gtk.AppChooserWidget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserWidget</span></tt></a>,
+use <a class="reference internal" href="#Gtk.AppChooserDialog.set_heading" title="Gtk.AppChooserDialog.set_heading"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog.set_heading</span></tt></a> ().</p>
+<dl class="staticmethod">
+<dt id="Gtk.AppChooserDialog.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>parent</em>, <em>flags</em>, <em>file</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>parent</strong> (<a class="reference internal" href="Window.html#Gtk.Window" title="Gtk.Window"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Window</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="Window.html#Gtk.Window" title="Gtk.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Window</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gtk.DialogFlags" title="Gtk.DialogFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.DialogFlags</span></tt></a>) &#8211; flags for this dialog</li>
+<li><strong>file</strong> (<a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a newly created <a class="reference internal" href="#Gtk.AppChooserDialog" title="Gtk.AppChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.AppChooserDialog" title="Gtk.AppChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog</span></tt></a> for the provided <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a>,
+to allow the user to select an application for it.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gtk.AppChooserDialog.new_for_content_type">
+<em class="property">static </em><tt class="descname">new_for_content_type</tt><big>(</big><em>parent</em>, <em>flags</em>, <em>content_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>parent</strong> (<a class="reference internal" href="Window.html#Gtk.Window" title="Gtk.Window"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Window</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="Window.html#Gtk.Window" title="Gtk.Window"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Window</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>flags</strong> (<a class="reference internal" href="../flags.html#Gtk.DialogFlags" title="Gtk.DialogFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.DialogFlags</span></tt></a>) &#8211; flags for this dialog</li>
+<li><strong>content_type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a content type string</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a newly created <a class="reference internal" href="#Gtk.AppChooserDialog" title="Gtk.AppChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.AppChooserDialog" title="Gtk.AppChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog</span></tt></a> for the provided content type,
+to allow the user to select an application for it.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.AppChooserDialog.get_heading">
+<tt class="descname">get_heading</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the text to display at the top of the dialog, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, in which
+case a default text is displayed</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the text to display at the top of the dialog.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.AppChooserDialog.get_widget">
+<tt class="descname">get_widget</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="AppChooserWidget.html#Gtk.AppChooserWidget" title="Gtk.AppChooserWidget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserWidget</span></tt></a> of <cite>self</cite></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the <a class="reference internal" href="AppChooserWidget.html#Gtk.AppChooserWidget" title="Gtk.AppChooserWidget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserWidget</span></tt></a> of this dialog.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.AppChooserDialog.set_heading">
+<tt class="descname">set_heading</tt><big>(</big><em>heading</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>heading</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a string containing Pango markup</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the text to display at the top of the dialog.
+If the heading is not set, the dialog displays a default text.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gtk.AppChooserDialog.props.gfile">
+<tt class="descclassname">Gtk.AppChooserDialog.props.</tt><tt class="descname">gfile</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">gfile</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.File</span></tt></a> used by the <a class="reference internal" href="#Gtk.AppChooserDialog" title="Gtk.AppChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserDialog</span></tt></a>.
+The dialog&#8217;s <a class="reference internal" href="AppChooserWidget.html#Gtk.AppChooserWidget" title="Gtk.AppChooserWidget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.AppChooserWidget</span></tt></a> content type will be guessed from the
+file, if present.</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.AppChooserDialog.props.heading">
+<tt class="descclassname">Gtk.AppChooserDialog.props.</tt><tt class="descname">heading</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">heading</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The text to show at the top of the dialog.
+The string may contain Pango markup.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

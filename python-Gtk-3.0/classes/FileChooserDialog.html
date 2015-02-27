@@ -1,0 +1,572 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gtk.FileChooserDialog -
+    
+      Classes -
+    
+    Gtk 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gtk 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gtk.FileChooserWidget" href="FileChooserWidget.html"/>
+        <link rel="prev" title="Gtk.FileChooserButton" href="FileChooserButton.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.FileChooserDialog</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="FileChooserButton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="FileChooserWidget.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.FileChooserDialog</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.FileChooserDialog</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="FileChooserButton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="FileChooserWidget.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.FileChooserDialog</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gtk-filechooserdialog">
+<h1>Gtk.FileChooserDialog</h1>
+<p class="graphviz">
+<svg width="376pt" height="404pt"
+ viewBox="0.00 0.00 375.50 404.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 400)">
+<title>inheritance404bccced5</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M108.5,-396C108.5,-396 22.5,-396 22.5,-396 19.5,-396 16.5,-393 16.5,-390 16.5,-390 16.5,-384 16.5,-384 16.5,-381 19.5,-378 22.5,-378 22.5,-378 108.5,-378 108.5,-378 111.5,-378 114.5,-381 114.5,-384 114.5,-384 114.5,-390 114.5,-390 114.5,-393 111.5,-396 108.5,-396"/>
+<text text-anchor="middle" x="65.5" y="-384.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface -->
+<g id="node2" class="node"><title>Atk.ImplementorIface</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-Atk-1.0/interfaces/ImplementorIface.html#Atk.ImplementorIface" xlink:title="Atk.ImplementorIface">
+<path fill="none" stroke="#3091d1" d="M221,-342C221,-342 126,-342 126,-342 123,-342 120,-339 120,-336 120,-336 120,-330 120,-330 120,-327 123,-324 126,-324 126,-324 221,-324 221,-324 224,-324 227,-327 227,-330 227,-330 227,-336 227,-336 227,-339 224,-342 221,-342"/>
+<text text-anchor="middle" x="173.5" y="-330.7" font-family="inherit" font-size="8.50">Atk.ImplementorIface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Atk.ImplementorIface -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Atk.ImplementorIface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M82.375,-377.875C101.159,-368.831 131.558,-354.194 152.024,-344.34"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="152.998,-345.814 156.743,-342.068 151.479,-342.66 152.998,-345.814"/>
+</g>
+<!-- Gtk.Buildable -->
+<g id="node3" class="node"><title>Gtk.Buildable</title>
+<g id="a_node3"><a xlink:href="../interfaces/Buildable.html#Gtk.Buildable" xlink:title="Gtk.Buildable">
+<path fill="none" stroke="#3091d1" d="M96,-342C96,-342 35,-342 35,-342 32,-342 29,-339 29,-336 29,-336 29,-330 29,-330 29,-327 32,-324 35,-324 35,-324 96,-324 96,-324 99,-324 102,-327 102,-330 102,-330 102,-336 102,-336 102,-339 99,-342 96,-342"/>
+<text text-anchor="middle" x="65.5" y="-330.7" font-family="inherit" font-size="8.50">Gtk.Buildable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Buildable -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Buildable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M65.5,-377.875C65.5,-369.756 65.5,-357.131 65.5,-347.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="67.2501,-347.24 65.5,-342.24 63.7501,-347.24 67.2501,-347.24"/>
+</g>
+<!-- Gtk.FileChooser -->
+<g id="node4" class="node"><title>Gtk.FileChooser</title>
+<g id="a_node4"><a xlink:href="../interfaces/FileChooser.html#Gtk.FileChooser" xlink:title="Gtk.FileChooser">
+<path fill="none" stroke="#3091d1" d="M77,-288C77,-288 6,-288 6,-288 3,-288 0,-285 0,-282 0,-282 0,-276 0,-276 0,-273 3,-270 6,-270 6,-270 77,-270 77,-270 80,-270 83,-273 83,-276 83,-276 83,-282 83,-282 83,-285 80,-288 77,-288"/>
+<text text-anchor="middle" x="41.5" y="-276.7" font-family="inherit" font-size="8.50">Gtk.FileChooser</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.FileChooser -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.FileChooser</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M52.1609,-377.763C41.0795,-370.062 26.1003,-357.447 19.5,-342 12.3056,-325.163 22.7491,-305.1 31.5614,-292.454"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="33.1674,-293.221 34.6985,-288.15 30.3391,-291.16 33.1674,-293.221"/>
+</g>
+<!-- Gtk.Widget -->
+<g id="node7" class="node"><title>Gtk.Widget</title>
+<g id="a_node7"><a xlink:href="Widget.html#Gtk.Widget" xlink:title="Gtk.Widget">
+<path fill="none" stroke="#75507b" d="M177.5,-288C177.5,-288 127.5,-288 127.5,-288 124.5,-288 121.5,-285 121.5,-282 121.5,-282 121.5,-276 121.5,-276 121.5,-273 124.5,-270 127.5,-270 127.5,-270 177.5,-270 177.5,-270 180.5,-270 183.5,-273 183.5,-276 183.5,-276 183.5,-282 183.5,-282 183.5,-285 180.5,-288 177.5,-288"/>
+<text text-anchor="middle" x="152.5" y="-276.7" font-family="inherit" font-size="8.50">Gtk.Widget</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface&#45;&gt;Gtk.Widget -->
+<g id="edge5" class="edge"><title>Atk.ImplementorIface&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M170.219,-323.875C166.879,-315.605 161.65,-302.658 157.737,-292.968"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="159.323,-292.22 155.828,-288.24 156.077,-293.531 159.323,-292.22"/>
+</g>
+<!-- Gtk.Buildable&#45;&gt;Gtk.Widget -->
+<g id="edge9" class="edge"><title>Gtk.Buildable&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M79.0938,-323.875C94.0335,-314.945 118.095,-300.564 134.57,-290.717"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="135.608,-292.135 139.002,-288.068 133.812,-289.131 135.608,-292.135"/>
+</g>
+<!-- Gtk.FileChooserDialog -->
+<g id="node11" class="node"><title>Gtk.FileChooserDialog</title>
+<g id="a_node11"><a xlink:href="#Gtk.FileChooserDialog" xlink:title="Gtk.FileChooserDialog">
+<path fill="none" stroke="#75507b" d="M142.5,-18C142.5,-18 44.5,-18 44.5,-18 41.5,-18 38.5,-15 38.5,-12 38.5,-12 38.5,-6 38.5,-6 38.5,-3 41.5,-0 44.5,-0 44.5,-0 142.5,-0 142.5,-0 145.5,-0 148.5,-3 148.5,-6 148.5,-6 148.5,-12 148.5,-12 148.5,-15 145.5,-18 142.5,-18"/>
+<text text-anchor="middle" x="93.5" y="-6.7" font-family="inherit" font-size="8.50">Gtk.FileChooserDialog</text>
+</a>
+</g>
+</g>
+<!-- Gtk.FileChooser&#45;&gt;Gtk.FileChooserDialog -->
+<g id="edge11" class="edge"><title>Gtk.FileChooser&#45;&gt;Gtk.FileChooserDialog</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M44.3761,-269.873C50.3395,-252.272 63.5,-209.214 63.5,-172 63.5,-172 63.5,-172 63.5,-116 63.5,-81.2377 78.6226,-42.404 87.394,-22.8034"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="89.0906,-23.3012 89.578,-18.0262 85.9075,-21.8459 89.0906,-23.3012"/>
+</g>
+<!-- GObject.Object -->
+<g id="node5" class="node"><title>GObject.Object</title>
+<g id="a_node5"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M340.5,-396C340.5,-396 272.5,-396 272.5,-396 269.5,-396 266.5,-393 266.5,-390 266.5,-390 266.5,-384 266.5,-384 266.5,-381 269.5,-378 272.5,-378 272.5,-378 340.5,-378 340.5,-378 343.5,-378 346.5,-381 346.5,-384 346.5,-384 346.5,-390 346.5,-390 346.5,-393 343.5,-396 340.5,-396"/>
+<text text-anchor="middle" x="306.5" y="-384.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.InitiallyUnowned -->
+<g id="node6" class="node"><title>GObject.InitiallyUnowned</title>
+<g id="a_node6"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#GObject.InitiallyUnowned" xlink:title="GObject.InitiallyUnowned">
+<path fill="none" stroke="#75507b" d="M361.5,-342C361.5,-342 251.5,-342 251.5,-342 248.5,-342 245.5,-339 245.5,-336 245.5,-336 245.5,-330 245.5,-330 245.5,-327 248.5,-324 251.5,-324 251.5,-324 361.5,-324 361.5,-324 364.5,-324 367.5,-327 367.5,-330 367.5,-330 367.5,-336 367.5,-336 367.5,-339 364.5,-342 361.5,-342"/>
+<text text-anchor="middle" x="306.5" y="-330.7" font-family="inherit" font-size="8.50">GObject.InitiallyUnowned</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GObject.InitiallyUnowned -->
+<g id="edge4" class="edge"><title>GObject.Object&#45;&gt;GObject.InitiallyUnowned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M306.5,-377.875C306.5,-369.756 306.5,-357.131 306.5,-347.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="308.25,-347.24 306.5,-342.24 304.75,-347.24 308.25,-347.24"/>
+</g>
+<!-- GObject.InitiallyUnowned&#45;&gt;Gtk.Widget -->
+<g id="edge6" class="edge"><title>GObject.InitiallyUnowned&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M282.775,-323.989C255.418,-314.752 210.464,-299.572 181.172,-289.681"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="181.549,-287.962 176.252,-288.02 180.429,-291.278 181.549,-287.962"/>
+</g>
+<!-- Gtk.Container -->
+<g id="node10" class="node"><title>Gtk.Container</title>
+<g id="a_node10"><a xlink:href="Container.html#Gtk.Container" xlink:title="Gtk.Container">
+<path fill="none" stroke="#75507b" d="M172,-234C172,-234 109,-234 109,-234 106,-234 103,-231 103,-228 103,-228 103,-222 103,-222 103,-219 106,-216 109,-216 109,-216 172,-216 172,-216 175,-216 178,-219 178,-222 178,-222 178,-228 178,-228 178,-231 175,-234 172,-234"/>
+<text text-anchor="middle" x="140.5" y="-222.7" font-family="inherit" font-size="8.50">Gtk.Container</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Widget&#45;&gt;Gtk.Container -->
+<g id="edge10" class="edge"><title>Gtk.Widget&#45;&gt;Gtk.Container</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M150.625,-269.875C148.734,-261.681 145.783,-248.895 143.554,-239.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="145.231,-238.718 142.401,-234.24 141.821,-239.505 145.231,-238.718"/>
+</g>
+<!-- Gtk.Bin -->
+<g id="node8" class="node"><title>Gtk.Bin</title>
+<g id="a_node8"><a xlink:href="Bin.html#Gtk.Bin" xlink:title="Gtk.Bin">
+<path fill="none" stroke="#75507b" d="M157.5,-180C157.5,-180 115.5,-180 115.5,-180 112.5,-180 109.5,-177 109.5,-174 109.5,-174 109.5,-168 109.5,-168 109.5,-165 112.5,-162 115.5,-162 115.5,-162 157.5,-162 157.5,-162 160.5,-162 163.5,-165 163.5,-168 163.5,-168 163.5,-174 163.5,-174 163.5,-177 160.5,-180 157.5,-180"/>
+<text text-anchor="middle" x="136.5" y="-168.7" font-family="inherit" font-size="8.50">Gtk.Bin</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Window -->
+<g id="node9" class="node"><title>Gtk.Window</title>
+<g id="a_node9"><a xlink:href="Window.html#Gtk.Window" xlink:title="Gtk.Window">
+<path fill="none" stroke="#75507b" d="M155,-126C155,-126 102,-126 102,-126 99,-126 96,-123 96,-120 96,-120 96,-114 96,-114 96,-111 99,-108 102,-108 102,-108 155,-108 155,-108 158,-108 161,-111 161,-114 161,-114 161,-120 161,-120 161,-123 158,-126 155,-126"/>
+<text text-anchor="middle" x="128.5" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Window</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Bin&#45;&gt;Gtk.Window -->
+<g id="edge7" class="edge"><title>Gtk.Bin&#45;&gt;Gtk.Window</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M135.25,-161.875C133.989,-153.681 132.022,-140.895 130.536,-131.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="132.258,-130.915 129.768,-126.24 128.798,-131.448 132.258,-130.915"/>
+</g>
+<!-- Gtk.Dialog -->
+<g id="node12" class="node"><title>Gtk.Dialog</title>
+<g id="a_node12"><a xlink:href="Dialog.html#Gtk.Dialog" xlink:title="Gtk.Dialog">
+<path fill="none" stroke="#75507b" d="M148.5,-72C148.5,-72 100.5,-72 100.5,-72 97.5,-72 94.5,-69 94.5,-66 94.5,-66 94.5,-60 94.5,-60 94.5,-57 97.5,-54 100.5,-54 100.5,-54 148.5,-54 148.5,-54 151.5,-54 154.5,-57 154.5,-60 154.5,-60 154.5,-66 154.5,-66 154.5,-69 151.5,-72 148.5,-72"/>
+<text text-anchor="middle" x="124.5" y="-60.7" font-family="inherit" font-size="8.50">Gtk.Dialog</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Window&#45;&gt;Gtk.Dialog -->
+<g id="edge12" class="edge"><title>Gtk.Window&#45;&gt;Gtk.Dialog</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M127.875,-107.875C127.245,-99.6806 126.261,-86.8948 125.518,-77.2353"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="127.262,-77.0906 125.134,-72.2396 123.773,-77.3591 127.262,-77.0906"/>
+</g>
+<!-- Gtk.Container&#45;&gt;Gtk.Bin -->
+<g id="edge8" class="edge"><title>Gtk.Container&#45;&gt;Gtk.Bin</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M139.875,-215.875C139.245,-207.681 138.261,-194.895 137.518,-185.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="139.262,-185.091 137.134,-180.24 135.773,-185.359 139.262,-185.091"/>
+</g>
+<!-- Gtk.Dialog&#45;&gt;Gtk.FileChooserDialog -->
+<g id="edge13" class="edge"><title>Gtk.Dialog&#45;&gt;Gtk.FileChooserDialog</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M119.656,-53.875C114.681,-45.5288 106.866,-32.4197 101.072,-22.7019"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="102.476,-21.6382 98.412,-18.2396 99.4692,-23.4304 102.476,-21.6382"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="gtk-filechooserdialog-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-methods"><em>Gtk.Dialog (14)</em></a>, <a class="reference internal" href="Window.html#gtk-window-methods"><em>Gtk.Window (117)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-methods"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-methods"><em>Gtk.Container (27)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-methods"><em>Gtk.Widget (256)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-methods"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/FileChooser.html#gtk-filechooser-methods"><em>Gtk.FileChooser (59)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gtk-filechooserdialog-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-vfuncs"><em>Gtk.Dialog (2)</em></a>, <a class="reference internal" href="Window.html#gtk-window-vfuncs"><em>Gtk.Window (5)</em></a>, <a class="reference internal" href="Container.html#gtk-container-vfuncs"><em>Gtk.Container (10)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-vfuncs"><em>Gtk.Widget (82)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-vfuncs"><em>Gtk.Buildable (10)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gtk-filechooserdialog-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-props"><em>Gtk.Dialog (1)</em></a>, <a class="reference internal" href="Window.html#gtk-window-props"><em>Gtk.Window (33)</em></a>, <a class="reference internal" href="Container.html#gtk-container-props"><em>Gtk.Container (3)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-props"><em>Gtk.Widget (38)</em></a>, <a class="reference internal" href="../interfaces/FileChooser.html#gtk-filechooser-props"><em>Gtk.FileChooser (11)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="style-properties">
+<span id="gtk-filechooserdialog-style-props"></span><h2>Style Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-style-props"><em>Gtk.Dialog (4)</em></a>, <a class="reference internal" href="Window.html#gtk-window-style-props"><em>Gtk.Window (2)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-style-props"><em>Gtk.Widget (17)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gtk-filechooserdialog-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-signals"><em>Gtk.Dialog (2)</em></a>, <a class="reference internal" href="Window.html#gtk-window-signals"><em>Gtk.Window (5)</em></a>, <a class="reference internal" href="Container.html#gtk-container-signals"><em>Gtk.Container (4)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-signals"><em>Gtk.Widget (69)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a>, <a class="reference internal" href="../interfaces/FileChooser.html#gtk-filechooser-signals"><em>Gtk.FileChooser (5)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gtk-filechooserdialog-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Dialog.html#gtk-dialog-fields"><em>Gtk.Dialog (1)</em></a>, <a class="reference internal" href="Window.html#gtk-window-fields"><em>Gtk.Window (1)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-fields"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-fields"><em>Gtk.Container (1)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-fields"><em>Gtk.Widget (1)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#gobject-initiallyunowned-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.InitiallyUnowned (3)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Dialog</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gtk.FileChooserDialog">
+<em class="property">class </em><tt class="descclassname">Gtk.</tt><tt class="descname">FileChooserDialog</tt><big>(</big><em>title=None</em>, <em>parent=None</em>, <em>action=&lt;enum OPEN of type FileChooserAction&gt;</em>, <em>buttons=None</em>, <em>**kwds</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Dialog</span></tt></a>, <a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser" title="Gtk.FileChooser"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.FileChooser</span></tt></a></p>
+<p><a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a> is a dialog box suitable for use with
+“File/Open” or “File/Save as” commands.  This widget works by
+putting a <a class="reference internal" href="FileChooserWidget.html#Gtk.FileChooserWidget" title="Gtk.FileChooserWidget"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserWidget</span></tt></a> inside a <a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Dialog</span></tt></a>.  It exposes
+the <a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser" title="Gtk.FileChooser"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooser</span></tt></a> interface, so you can use all of the
+<a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser" title="Gtk.FileChooser"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooser</span></tt></a> functions on the file chooser dialog as well as
+those for <a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Dialog</span></tt></a>.</p>
+<p>Note that <a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a> does not have any methods of its
+own.  Instead, you should use the functions that work on a
+<a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser" title="Gtk.FileChooser"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooser</span></tt></a>.</p>
+<p>## Typical usage ## {#gtkfilechooser-typical-usage}</p>
+<p>In the simplest of cases, you can the following code to use
+<a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a> to select a file for opening:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="n">GtkWidget</span> <span class="o">*</span><span class="n">dialog</span><span class="p">;</span>
+<span class="n">GtkFileChooserAction</span> <span class="n">action</span> <span class="o">=</span> <span class="n">GTK_FILE_CHOOSER_ACTION_OPEN</span><span class="p">;</span>
+<span class="n">gint</span> <span class="n">res</span><span class="p">;</span>
+
+<span class="n">dialog</span> <span class="o">=</span> <span class="n">gtk_file_chooser_dialog_new</span> <span class="p">(</span><span class="s">&quot;Open File&quot;</span><span class="p">,</span>
+                                      <span class="n">parent_window</span><span class="p">,</span>
+                                      <span class="n">action</span><span class="p">,</span>
+                                      <span class="n">_</span><span class="p">(</span><span class="s">&quot;_Cancel&quot;</span><span class="p">),</span>
+                                      <span class="n">GTK_RESPONSE_CANCEL</span><span class="p">,</span>
+                                      <span class="n">_</span><span class="p">(</span><span class="s">&quot;_Open&quot;</span><span class="p">),</span>
+                                      <span class="n">GTK_RESPONSE_ACCEPT</span><span class="p">,</span>
+                                      <span class="nb">NULL</span><span class="p">);</span>
+
+<span class="n">res</span> <span class="o">=</span> <span class="n">gtk_dialog_run</span> <span class="p">(</span><span class="n">GTK_DIALOG</span> <span class="p">(</span><span class="n">dialog</span><span class="p">));</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">res</span> <span class="o">==</span> <span class="n">GTK_RESPONSE_ACCEPT</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="kt">char</span> <span class="o">*</span><span class="n">filename</span><span class="p">;</span>
+    <span class="n">GtkFileChooser</span> <span class="o">*</span><span class="n">chooser</span> <span class="o">=</span> <span class="n">GTK_FILE_CHOOSER</span> <span class="p">(</span><span class="n">dialog</span><span class="p">);</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="n">gtk_file_chooser_get_filename</span> <span class="p">(</span><span class="n">chooser</span><span class="p">);</span>
+    <span class="n">open_file</span> <span class="p">(</span><span class="n">filename</span><span class="p">);</span>
+    <span class="n">g_free</span> <span class="p">(</span><span class="n">filename</span><span class="p">);</span>
+  <span class="p">}</span>
+
+<span class="n">gtk_widget_destroy</span> <span class="p">(</span><span class="n">dialog</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>To use a dialog for saving, you can use this:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="n">GtkWidget</span> <span class="o">*</span><span class="n">dialog</span><span class="p">;</span>
+<span class="n">GtkFileChooser</span> <span class="o">*</span><span class="n">chooser</span><span class="p">;</span>
+<span class="n">GtkFileChooserAction</span> <span class="n">action</span> <span class="o">=</span> <span class="n">GTK_FILE_CHOOSER_ACTION_SAVE</span><span class="p">;</span>
+<span class="n">gint</span> <span class="n">res</span><span class="p">;</span>
+
+<span class="n">dialog</span> <span class="o">=</span> <span class="n">gtk_file_chooser_dialog_new</span> <span class="p">(</span><span class="s">&quot;Save File&quot;</span><span class="p">,</span>
+                                      <span class="n">parent_window</span><span class="p">,</span>
+                                      <span class="n">action</span><span class="p">,</span>
+                                      <span class="n">_</span><span class="p">(</span><span class="s">&quot;_Cancel&quot;</span><span class="p">),</span>
+                                      <span class="n">GTK_RESPONSE_CANCEL</span><span class="p">,</span>
+                                      <span class="n">_</span><span class="p">(</span><span class="s">&quot;_Save&quot;</span><span class="p">),</span>
+                                      <span class="n">GTK_RESPONSE_ACCEPT</span><span class="p">,</span>
+                                      <span class="nb">NULL</span><span class="p">);</span>
+<span class="n">chooser</span> <span class="o">=</span> <span class="n">GTK_FILE_CHOOSER</span> <span class="p">(</span><span class="n">dialog</span><span class="p">);</span>
+
+<span class="n">gtk_file_chooser_set_do_overwrite_confirmation</span> <span class="p">(</span><span class="n">chooser</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">user_edited_a_new_document</span><span class="p">)</span>
+  <span class="n">gtk_file_chooser_set_current_name</span> <span class="p">(</span><span class="n">chooser</span><span class="p">,</span>
+                                     <span class="n">_</span><span class="p">(</span><span class="s">&quot;Untitled document&quot;</span><span class="p">));</span>
+<span class="k">else</span>
+  <span class="nf">gtk_file_chooser_set_filename</span> <span class="p">(</span><span class="n">chooser</span><span class="p">,</span>
+                                 <span class="n">existing_filename</span><span class="p">);</span>
+
+<span class="n">res</span> <span class="o">=</span> <span class="n">gtk_dialog_run</span> <span class="p">(</span><span class="n">GTK_DIALOG</span> <span class="p">(</span><span class="n">dialog</span><span class="p">));</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">res</span> <span class="o">==</span> <span class="n">GTK_RESPONSE_ACCEPT</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="kt">char</span> <span class="o">*</span><span class="n">filename</span><span class="p">;</span>
+
+    <span class="n">filename</span> <span class="o">=</span> <span class="n">gtk_file_chooser_get_filename</span> <span class="p">(</span><span class="n">chooser</span><span class="p">);</span>
+    <span class="n">save_to_file</span> <span class="p">(</span><span class="n">filename</span><span class="p">);</span>
+    <span class="n">g_free</span> <span class="p">(</span><span class="n">filename</span><span class="p">);</span>
+  <span class="p">}</span>
+
+<span class="n">gtk_widget_destroy</span> <span class="p">(</span><span class="n">dialog</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>## Setting up a file chooser dialog ## {#gtkfilechooserdialog-setting-up}</p>
+<p>There are various cases in which you may need to use a <a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a>:</p>
+<ul class="simple">
+<li>To select a file for opening. Use <a class="reference internal" href="../enums.html#Gtk.FileChooserAction.OPEN" title="Gtk.FileChooserAction.OPEN"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserAction.OPEN</span></tt></a>.</li>
+<li>To save a file for the first time. Use <a class="reference internal" href="../enums.html#Gtk.FileChooserAction.SAVE" title="Gtk.FileChooserAction.SAVE"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserAction.SAVE</span></tt></a>,</li>
+</ul>
+<p>and suggest a name such as “Untitled” with <a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser.set_current_name" title="Gtk.FileChooser.set_current_name"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooser.set_current_name</span></tt></a> ().</p>
+<ul class="simple">
+<li>To save a file under a different name. Use <a class="reference internal" href="../enums.html#Gtk.FileChooserAction.SAVE" title="Gtk.FileChooserAction.SAVE"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserAction.SAVE</span></tt></a>,</li>
+</ul>
+<p>and set the existing filename with <a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser.set_filename" title="Gtk.FileChooser.set_filename"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooser.set_filename</span></tt></a> ().</p>
+<ul class="simple">
+<li>To choose a folder instead of a file. Use <a class="reference internal" href="../enums.html#Gtk.FileChooserAction.SELECT_FOLDER" title="Gtk.FileChooserAction.SELECT_FOLDER"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserAction.SELECT_FOLDER</span></tt></a>.</li>
+</ul>
+<p>Note that old versions of the file chooser’s documentation suggested
+using <a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser.set_current_folder" title="Gtk.FileChooser.set_current_folder"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooser.set_current_folder</span></tt></a> () in various
+situations, with the intention of letting the application
+suggest a reasonable default folder.  This is no longer
+considered to be a good policy, as now the file chooser is
+able to make good suggestions on its own.  In general, you
+should only cause the file chooser to show a specific folder
+when it is appropriate to use <a class="reference internal" href="../interfaces/FileChooser.html#Gtk.FileChooser.set_filename" title="Gtk.FileChooser.set_filename"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooser.set_filename</span></tt></a> (),
+i.e. when you are doing a Save As command and you already
+have a file saved somewhere.</p>
+<p>## Response Codes ## {#gtkfilechooserdialog-responses}</p>
+<p><a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a> inherits from <a class="reference internal" href="Dialog.html#Gtk.Dialog" title="Gtk.Dialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Dialog</span></tt></a>, so buttons that
+go in its action area have response codes such as
+<a class="reference internal" href="../enums.html#Gtk.ResponseType.ACCEPT" title="Gtk.ResponseType.ACCEPT"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType.ACCEPT</span></tt></a> and <a class="reference internal" href="../enums.html#Gtk.ResponseType.CANCEL" title="Gtk.ResponseType.CANCEL"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType.CANCEL</span></tt></a>.  For example, you
+could call <tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog.new</span></tt> () as follows:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="n">GtkWidget</span> <span class="o">*</span><span class="n">dialog</span><span class="p">;</span>
+<span class="n">GtkFileChooserAction</span> <span class="n">action</span> <span class="o">=</span> <span class="n">GTK_FILE_CHOOSER_ACTION_OPEN</span><span class="p">;</span>
+
+<span class="n">dialog</span> <span class="o">=</span> <span class="n">gtk_file_chooser_dialog_new</span> <span class="p">(</span><span class="s">&quot;Open File&quot;</span><span class="p">,</span>
+                                      <span class="n">parent_window</span><span class="p">,</span>
+                                      <span class="n">action</span><span class="p">,</span>
+                                      <span class="n">_</span><span class="p">(</span><span class="s">&quot;_Cancel&quot;</span><span class="p">),</span>
+                                      <span class="n">GTK_RESPONSE_CANCEL</span><span class="p">,</span>
+                                      <span class="n">_</span><span class="p">(</span><span class="s">&quot;_Open&quot;</span><span class="p">),</span>
+                                      <span class="n">GTK_RESPONSE_ACCEPT</span><span class="p">,</span>
+                                      <span class="nb">NULL</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>This will create buttons for “Cancel” and “Open” that use stock
+response identifiers from <a class="reference internal" href="../enums.html#Gtk.ResponseType" title="Gtk.ResponseType"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType</span></tt></a>.  For most dialog
+boxes you can use your own custom response codes rather than the
+ones in <a class="reference internal" href="../enums.html#Gtk.ResponseType" title="Gtk.ResponseType"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType</span></tt></a>, but <a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a> assumes that
+its “accept”-type action, e.g. an “Open” or “Save” button,
+will have one of the following response codes:</p>
+<ul class="simple">
+<li><a class="reference internal" href="../enums.html#Gtk.ResponseType.ACCEPT" title="Gtk.ResponseType.ACCEPT"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType.ACCEPT</span></tt></a></li>
+<li><a class="reference internal" href="../enums.html#Gtk.ResponseType.OK" title="Gtk.ResponseType.OK"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType.OK</span></tt></a></li>
+<li><a class="reference internal" href="../enums.html#Gtk.ResponseType.YES" title="Gtk.ResponseType.YES"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType.YES</span></tt></a></li>
+<li><a class="reference internal" href="../enums.html#Gtk.ResponseType.APPLY" title="Gtk.ResponseType.APPLY"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ResponseType.APPLY</span></tt></a></li>
+</ul>
+<p>This is because <a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a> must intercept responses
+and switch to folders if appropriate, rather than letting the
+dialog terminate — the implementation uses these known
+response codes to know which responses can be blocked if
+appropriate.</p>
+<p>To summarize, make sure you use a
+[stock response code][gtkfilechooserdialog-responses]
+when you use <a class="reference internal" href="#Gtk.FileChooserDialog" title="Gtk.FileChooserDialog"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.FileChooserDialog</span></tt></a> to ensure proper operation.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

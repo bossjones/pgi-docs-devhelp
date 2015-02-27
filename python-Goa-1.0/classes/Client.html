@@ -1,0 +1,617 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Goa.Client -
+    
+      Classes -
+    
+    Goa 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Goa 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Goa.ContactsProxy" href="ContactsProxy.html"/>
+        <link rel="prev" title="Goa.ChatSkeleton" href="ChatSkeleton.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Goa 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Goa.Client</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ChatSkeleton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ContactsProxy.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Goa.Client</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Goa 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Goa.Client</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ChatSkeleton.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ContactsProxy.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Goa.Client</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="goa-client">
+<h1>Goa.Client</h1>
+<p class="graphviz">
+<svg width="279pt" height="134pt"
+ viewBox="0.00 0.00 278.50 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritance3368fc18aa</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M134.5,-126C134.5,-126 48.5,-126 48.5,-126 45.5,-126 42.5,-123 42.5,-120 42.5,-120 42.5,-114 42.5,-114 42.5,-111 45.5,-108 48.5,-108 48.5,-108 134.5,-108 134.5,-108 137.5,-108 140.5,-111 140.5,-114 140.5,-114 140.5,-120 140.5,-120 140.5,-123 137.5,-126 134.5,-126"/>
+<text text-anchor="middle" x="91.5" y="-114.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Gio.AsyncInitable -->
+<g id="node2" class="node"><title>Gio.AsyncInitable</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/AsyncInitable.html#Gio.AsyncInitable" xlink:title="Gio.AsyncInitable">
+<path fill="none" stroke="#3091d1" d="M83,-72C83,-72 6,-72 6,-72 3,-72 7.10543e-15,-69 7.10543e-15,-66 7.10543e-15,-66 7.10543e-15,-60 7.10543e-15,-60 7.10543e-15,-57 3,-54 6,-54 6,-54 83,-54 83,-54 86,-54 89,-57 89,-60 89,-60 89,-66 89,-66 89,-69 86,-72 83,-72"/>
+<text text-anchor="middle" x="44.5" y="-60.7" font-family="inherit" font-size="8.50">Gio.AsyncInitable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gio.AsyncInitable -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Gio.AsyncInitable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M84.1562,-107.875C76.4754,-99.3771 64.3316,-85.9414 55.5046,-76.1753"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="56.5983,-74.7755 51.9473,-72.2396 54.0017,-77.1224 56.5983,-74.7755"/>
+</g>
+<!-- Gio.Initable -->
+<g id="node3" class="node"><title>Gio.Initable</title>
+<g id="a_node3"><a xlink:href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/Initable.html#Gio.Initable" xlink:title="Gio.Initable">
+<path fill="none" stroke="#3091d1" d="M166,-72C166,-72 113,-72 113,-72 110,-72 107,-69 107,-66 107,-66 107,-60 107,-60 107,-57 110,-54 113,-54 113,-54 166,-54 166,-54 169,-54 172,-57 172,-60 172,-60 172,-66 172,-66 172,-69 169,-72 166,-72"/>
+<text text-anchor="middle" x="139.5" y="-60.7" font-family="inherit" font-size="8.50">Gio.Initable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gio.Initable -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gio.Initable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M99,-107.875C106.914,-99.3012 119.468,-85.7011 128.502,-75.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="129.789,-77.1006 131.894,-72.2396 127.217,-74.7266 129.789,-77.1006"/>
+</g>
+<!-- Goa.Client -->
+<g id="node5" class="node"><title>Goa.Client</title>
+<g id="a_node5"><a xlink:href="#Goa.Client" xlink:title="Goa.Client">
+<path fill="none" stroke="#75507b" d="M164,-18C164,-18 115,-18 115,-18 112,-18 109,-15 109,-12 109,-12 109,-6 109,-6 109,-3 112,-0 115,-0 115,-0 164,-0 164,-0 167,-0 170,-3 170,-6 170,-6 170,-12 170,-12 170,-15 167,-18 164,-18"/>
+<text text-anchor="middle" x="139.5" y="-6.7" font-family="inherit" font-size="8.50">Goa.Client</text>
+</a>
+</g>
+</g>
+<!-- Gio.AsyncInitable&#45;&gt;Goa.Client -->
+<g id="edge4" class="edge"><title>Gio.AsyncInitable&#45;&gt;Goa.Client</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M59.3438,-53.875C75.6573,-44.9455 101.931,-30.5639 119.921,-20.7168"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="121.215,-22.0038 124.76,-18.0679 119.534,-18.9336 121.215,-22.0038"/>
+</g>
+<!-- Gio.Initable&#45;&gt;Goa.Client -->
+<g id="edge5" class="edge"><title>Gio.Initable&#45;&gt;Goa.Client</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M139.5,-53.875C139.5,-45.7564 139.5,-33.1312 139.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="141.25,-23.2395 139.5,-18.2396 137.75,-23.2396 141.25,-23.2395"/>
+</g>
+<!-- GObject.Object -->
+<g id="node4" class="node"><title>GObject.Object</title>
+<g id="a_node4"><a xlink:href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M264.5,-72C264.5,-72 196.5,-72 196.5,-72 193.5,-72 190.5,-69 190.5,-66 190.5,-66 190.5,-60 190.5,-60 190.5,-57 193.5,-54 196.5,-54 196.5,-54 264.5,-54 264.5,-54 267.5,-54 270.5,-57 270.5,-60 270.5,-60 270.5,-66 270.5,-66 270.5,-69 267.5,-72 264.5,-72"/>
+<text text-anchor="middle" x="230.5" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Goa.Client -->
+<g id="edge3" class="edge"><title>GObject.Object&#45;&gt;Goa.Client</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M216.281,-53.875C200.655,-44.9455 175.487,-30.5639 158.254,-20.7168"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="158.828,-19.0293 153.619,-18.0679 157.092,-22.0681 158.828,-19.0293"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="goa-client-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/AsyncInitable.html#gio-asyncinitable-methods" title="(in Gio 2.0 v2.0)"><em class="xref std std-ref">Gio.AsyncInitable (4)</em></a>, <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/Initable.html#gio-initable-methods" title="(in Gio 2.0 v2.0)"><em class="xref std std-ref">Gio.Initable (2)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Goa.Client.new" title="Goa.Client.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Goa.Client.new_finish" title="Goa.Client.new_finish"><tt class="xref py py-obj docutils literal"><span class="pre">new_finish</span></tt></a>(res)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Goa.Client.new_sync" title="Goa.Client.new_sync"><tt class="xref py py-obj docutils literal"><span class="pre">new_sync</span></tt></a>(cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Goa.Client.get_accounts" title="Goa.Client.get_accounts"><tt class="xref py py-obj docutils literal"><span class="pre">get_accounts</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Goa.Client.get_manager" title="Goa.Client.get_manager"><tt class="xref py py-obj docutils literal"><span class="pre">get_manager</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Goa.Client.get_object_manager" title="Goa.Client.get_object_manager"><tt class="xref py py-obj docutils literal"><span class="pre">get_object_manager</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Goa.Client.lookup_by_id" title="Goa.Client.lookup_by_id"><tt class="xref py py-obj docutils literal"><span class="pre">lookup_by_id</span></tt></a>(id)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="goa-client-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/AsyncInitable.html#gio-asyncinitable-vfuncs" title="(in Gio 2.0 v2.0)"><em class="xref std std-ref">Gio.AsyncInitable (2)</em></a>, <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/Initable.html#gio-initable-vfuncs" title="(in Gio 2.0 v2.0)"><em class="xref std std-ref">Gio.Initable (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="goa-client-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Goa.Client.props.object_manager" title="Goa.Client.props.object_manager"><tt class="xref py py-data docutils literal"><span class="pre">object-manager</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/DBusObjectManager.html#Gio.DBusObjectManager" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusObjectManager</span></tt></a></td>
+<td>r</td>
+<td>The <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/DBusObjectManager.html#Gio.DBusObjectManager" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusObjectManager</span></tt></a> used by the <a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="goa-client-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Goa.Client.signals.account_added" title="Goa.Client.signals.account_added"><tt class="xref py py-func docutils literal"><span class="pre">account-added</span></tt></a></td>
+<td>Emitted when <cite>object</cite> has been added.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Goa.Client.signals.account_changed" title="Goa.Client.signals.account_changed"><tt class="xref py py-func docutils literal"><span class="pre">account-changed</span></tt></a></td>
+<td>Emitted when something on <cite>object</cite> changes.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Goa.Client.signals.account_removed" title="Goa.Client.signals.account_removed"><tt class="xref py py-func docutils literal"><span class="pre">account-removed</span></tt></a></td>
+<td>Emitted when <cite>object</cite> has been removed.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="goa-client-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Goa.Client">
+<em class="property">class </em><tt class="descclassname">Goa.</tt><tt class="descname">Client</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>, <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/AsyncInitable.html#Gio.AsyncInitable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncInitable</span></tt></a>, <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/Initable.html#Gio.Initable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Initable</span></tt></a></p>
+<p><a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client</span></tt></a> is used for accessing the GNOME Online Accounts service
+from a client program.</p>
+<dl class="staticmethod">
+<dt id="Goa.Client.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>cancellable</strong> (<a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Function that will be called when the result is ready.</li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; Data to pass to <cite>callback</cite>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Asynchronously gets a <a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client</span></tt></a>. When the operation is
+finished, <cite>callback</cite> will be invoked in the thread-default main
+loop of the thread you are calling this method from.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Goa.Client.new_finish">
+<em class="property">static </em><tt class="descname">new_finish</tt><big>(</big><em>res</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>res</strong> (<a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Free with
+<a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> () when done with it.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Client</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Finishes an operation started with <a class="reference internal" href="#Goa.Client.new" title="Goa.Client.new"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client.new</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Goa.Client.new_sync">
+<em class="property">static </em><tt class="descname">new_sync</tt><big>(</big><em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cancellable</strong> (<a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>error</cite> is set. Free with
+<a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> () when done with it.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Client</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Synchronously gets a <a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client</span></tt></a> for the local system.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Goa.Client.get_accounts">
+<tt class="descname">get_accounts</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A list of
+<a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object</span></tt></a> instances that must be freed with <tt class="xref py py-obj docutils literal"><span class="pre">GLib.List.free</span></tt> () after
+each element has been freed with <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> ().</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Object</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Gets all accounts that <cite>client</cite> knows about. The result is a list of
+<a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object</span></tt></a> instances where each object at least has an <a class="reference internal" href="../interfaces/Account.html#Goa.Account" title="Goa.Account"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Account</span></tt></a>
+interface (that can be obtained via the <a class="reference internal" href="../interfaces/Object.html#Goa.Object.get_account" title="Goa.Object.get_account"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object.get_account</span></tt></a> ()
+method) but may also implement other interfaces such as
+<a class="reference internal" href="../interfaces/Mail.html#Goa.Mail" title="Goa.Mail"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Mail</span></tt></a> or <a class="reference internal" href="../interfaces/Files.html#Goa.Files" title="Goa.Files"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Files</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Goa.Client.get_manager">
+<tt class="descname">get_manager</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="../interfaces/Manager.html#Goa.Manager" title="Goa.Manager"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Manager</span></tt></a>. Do not free, the returned
+object belongs to <cite>client</cite>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../interfaces/Manager.html#Goa.Manager" title="Goa.Manager"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Manager</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the <a class="reference internal" href="../interfaces/Manager.html#Goa.Manager" title="Goa.Manager"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Manager</span></tt></a> for <cite>client</cite>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Goa.Client.get_object_manager">
+<tt class="descname">get_object_manager</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/DBusObjectManager.html#Gio.DBusObjectManager" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusObjectManager</span></tt></a>. Do not free, the
+instance is owned by <cite>client</cite>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/DBusObjectManager.html#Gio.DBusObjectManager" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusObjectManager</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/DBusObjectManager.html#Gio.DBusObjectManager" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusObjectManager</span></tt></a> used by <cite>client</cite>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Goa.Client.lookup_by_id">
+<tt class="descname">lookup_by_id</tt><big>(</big><em>id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; The ID to look for.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object</span></tt></a>. Free the returned
+object with <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Object</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Finds and returns the <a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object</span></tt></a> instance whose
+&#8220;Id&#8221;
+D-Bus property matches <cite>id</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.6.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Goa.Client.signals.account_added">
+<tt class="descclassname">Goa.Client.signals.</tt><tt class="descname">account_added</tt><big>(</big><em>client</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">account-added</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>client</strong> (<a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Client</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Object</span></tt></a>) &#8211; The <a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object</span></tt></a> for the added account.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Emitted when <cite>object</cite> has been added. See
+<a class="reference internal" href="#Goa.Client.get_accounts" title="Goa.Client.get_accounts"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client.get_accounts</span></tt></a> () for information about how to use this
+object.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Goa.Client.signals.account_changed">
+<tt class="descclassname">Goa.Client.signals.</tt><tt class="descname">account_changed</tt><big>(</big><em>client</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">account-changed</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>client</strong> (<a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Client</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Object</span></tt></a>) &#8211; The <a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object</span></tt></a> for the account with changes.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Emitted when something on <cite>object</cite> changes.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Goa.Client.signals.account_removed">
+<tt class="descclassname">Goa.Client.signals.</tt><tt class="descname">account_removed</tt><big>(</big><em>client</em>, <em>object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">account-removed</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>client</strong> (<a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Client</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-class docutils literal"><span class="pre">Goa.Object</span></tt></a>) &#8211; The <a class="reference internal" href="../interfaces/Object.html#Goa.Object" title="Goa.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Object</span></tt></a> for the removed account.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Emitted when <cite>object</cite> has been removed.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Goa.Client.props.object_manager">
+<tt class="descclassname">Goa.Client.props.</tt><tt class="descname">object_manager</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">object-manager</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/DBusObjectManager.html#Gio.DBusObjectManager" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusObjectManager</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference external" href="../_devhelp/Goa-1.0/../../../python-Gio-2.0/interfaces/DBusObjectManager.html#Gio.DBusObjectManager" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusObjectManager</span></tt></a> used by the <a class="reference internal" href="#Goa.Client" title="Goa.Client"><tt class="xref py py-obj docutils literal"><span class="pre">Goa.Client</span></tt></a> instance.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

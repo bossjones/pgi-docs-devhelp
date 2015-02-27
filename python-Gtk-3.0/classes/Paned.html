@@ -1,0 +1,1204 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gtk.Paned -
+    
+      Classes -
+    
+    Gtk 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gtk 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gtk.PanedAccessible" href="PanedAccessible.html"/>
+        <link rel="prev" title="Gtk.PageSetup" href="PageSetup.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.Paned</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="PageSetup.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="PanedAccessible.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.Paned</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#child-properties">Child Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.Paned</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="PageSetup.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="PanedAccessible.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.Paned</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#child-properties">Child Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gtk-paned">
+<h1>Gtk.Paned</h1>
+<p class="graphviz">
+<svg width="372pt" height="242pt"
+ viewBox="0.00 0.00 372.00 242.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 238)">
+<title>inheritance984162dfe0</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M105,-234C105,-234 19,-234 19,-234 16,-234 13,-231 13,-228 13,-228 13,-222 13,-222 13,-219 16,-216 19,-216 19,-216 105,-216 105,-216 108,-216 111,-219 111,-222 111,-222 111,-228 111,-228 111,-231 108,-234 105,-234"/>
+<text text-anchor="middle" x="62" y="-222.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface -->
+<g id="node2" class="node"><title>Atk.ImplementorIface</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-Atk-1.0/interfaces/ImplementorIface.html#Atk.ImplementorIface" xlink:title="Atk.ImplementorIface">
+<path fill="none" stroke="#3091d1" d="M217.5,-180C217.5,-180 122.5,-180 122.5,-180 119.5,-180 116.5,-177 116.5,-174 116.5,-174 116.5,-168 116.5,-168 116.5,-165 119.5,-162 122.5,-162 122.5,-162 217.5,-162 217.5,-162 220.5,-162 223.5,-165 223.5,-168 223.5,-168 223.5,-174 223.5,-174 223.5,-177 220.5,-180 217.5,-180"/>
+<text text-anchor="middle" x="170" y="-168.7" font-family="inherit" font-size="8.50">Atk.ImplementorIface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Atk.ImplementorIface -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Atk.ImplementorIface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M78.875,-215.875C97.6587,-206.831 128.058,-192.194 148.524,-182.34"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="149.498,-183.814 153.243,-180.068 147.979,-180.66 149.498,-183.814"/>
+</g>
+<!-- Gtk.Buildable -->
+<g id="node3" class="node"><title>Gtk.Buildable</title>
+<g id="a_node3"><a xlink:href="../interfaces/Buildable.html#Gtk.Buildable" xlink:title="Gtk.Buildable">
+<path fill="none" stroke="#3091d1" d="M92.5,-180C92.5,-180 31.5,-180 31.5,-180 28.5,-180 25.5,-177 25.5,-174 25.5,-174 25.5,-168 25.5,-168 25.5,-165 28.5,-162 31.5,-162 31.5,-162 92.5,-162 92.5,-162 95.5,-162 98.5,-165 98.5,-168 98.5,-168 98.5,-174 98.5,-174 98.5,-177 95.5,-180 92.5,-180"/>
+<text text-anchor="middle" x="62" y="-168.7" font-family="inherit" font-size="8.50">Gtk.Buildable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Buildable -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Buildable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M62,-215.875C62,-207.756 62,-195.131 62,-185.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="63.7501,-185.24 62,-180.24 60.2501,-185.24 63.7501,-185.24"/>
+</g>
+<!-- Gtk.Orientable -->
+<g id="node4" class="node"><title>Gtk.Orientable</title>
+<g id="a_node4"><a xlink:href="../interfaces/Orientable.html#Gtk.Orientable" xlink:title="Gtk.Orientable">
+<path fill="none" stroke="#3091d1" d="M72,-126C72,-126 6,-126 6,-126 3,-126 0,-123 0,-120 0,-120 0,-114 0,-114 0,-111 3,-108 6,-108 6,-108 72,-108 72,-108 75,-108 78,-111 78,-114 78,-114 78,-120 78,-120 78,-123 75,-126 72,-126"/>
+<text text-anchor="middle" x="39" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Orientable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Orientable -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Orientable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M48.6609,-215.763C37.5795,-208.062 22.6003,-195.447 16,-180 8.76827,-163.075 19.6134,-143.034 28.7311,-130.417"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="30.3569,-131.168 31.9754,-126.124 27.5646,-129.058 30.3569,-131.168"/>
+</g>
+<!-- Gtk.Widget -->
+<g id="node7" class="node"><title>Gtk.Widget</title>
+<g id="a_node7"><a xlink:href="Widget.html#Gtk.Widget" xlink:title="Gtk.Widget">
+<path fill="none" stroke="#75507b" d="M173,-126C173,-126 123,-126 123,-126 120,-126 117,-123 117,-120 117,-120 117,-114 117,-114 117,-111 120,-108 123,-108 123,-108 173,-108 173,-108 176,-108 179,-111 179,-114 179,-114 179,-120 179,-120 179,-123 176,-126 173,-126"/>
+<text text-anchor="middle" x="148" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Widget</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface&#45;&gt;Gtk.Widget -->
+<g id="edge5" class="edge"><title>Atk.ImplementorIface&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M166.562,-161.875C163.064,-153.605 157.586,-140.658 153.486,-130.968"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="155.046,-130.163 151.486,-126.24 151.823,-131.526 155.046,-130.163"/>
+</g>
+<!-- Gtk.Buildable&#45;&gt;Gtk.Widget -->
+<g id="edge7" class="edge"><title>Gtk.Buildable&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M75.4375,-161.875C90.2055,-152.945 113.99,-138.564 130.276,-128.717"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="131.284,-130.153 134.657,-126.068 129.473,-127.158 131.284,-130.153"/>
+</g>
+<!-- Gtk.Paned -->
+<g id="node9" class="node"><title>Gtk.Paned</title>
+<g id="a_node9"><a xlink:href="#Gtk.Paned" xlink:title="Gtk.Paned">
+<path fill="none" stroke="#75507b" d="M122,-18C122,-18 74,-18 74,-18 71,-18 68,-15 68,-12 68,-12 68,-6 68,-6 68,-3 71,-0 74,-0 74,-0 122,-0 122,-0 125,-0 128,-3 128,-6 128,-6 128,-12 128,-12 128,-15 125,-18 122,-18"/>
+<text text-anchor="middle" x="98" y="-6.7" font-family="inherit" font-size="8.50">Gtk.Paned</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Orientable&#45;&gt;Gtk.Paned -->
+<g id="edge10" class="edge"><title>Gtk.Orientable&#45;&gt;Gtk.Paned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M43.6296,-107.682C53.8833,-89.2605 78.5681,-44.9116 90.8337,-22.8751"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="92.4892,-23.499 93.3919,-18.279 89.431,-21.7967 92.4892,-23.499"/>
+</g>
+<!-- GObject.Object -->
+<g id="node5" class="node"><title>GObject.Object</title>
+<g id="a_node5"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M337,-234C337,-234 269,-234 269,-234 266,-234 263,-231 263,-228 263,-228 263,-222 263,-222 263,-219 266,-216 269,-216 269,-216 337,-216 337,-216 340,-216 343,-219 343,-222 343,-222 343,-228 343,-228 343,-231 340,-234 337,-234"/>
+<text text-anchor="middle" x="303" y="-222.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.InitiallyUnowned -->
+<g id="node6" class="node"><title>GObject.InitiallyUnowned</title>
+<g id="a_node6"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#GObject.InitiallyUnowned" xlink:title="GObject.InitiallyUnowned">
+<path fill="none" stroke="#75507b" d="M358,-180C358,-180 248,-180 248,-180 245,-180 242,-177 242,-174 242,-174 242,-168 242,-168 242,-165 245,-162 248,-162 248,-162 358,-162 358,-162 361,-162 364,-165 364,-168 364,-168 364,-174 364,-174 364,-177 361,-180 358,-180"/>
+<text text-anchor="middle" x="303" y="-168.7" font-family="inherit" font-size="8.50">GObject.InitiallyUnowned</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GObject.InitiallyUnowned -->
+<g id="edge4" class="edge"><title>GObject.Object&#45;&gt;GObject.InitiallyUnowned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M303,-215.875C303,-207.756 303,-195.131 303,-185.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="304.75,-185.24 303,-180.24 301.25,-185.24 304.75,-185.24"/>
+</g>
+<!-- GObject.InitiallyUnowned&#45;&gt;Gtk.Widget -->
+<g id="edge6" class="edge"><title>GObject.InitiallyUnowned&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M279.121,-161.989C251.586,-152.752 206.34,-137.572 176.858,-127.681"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="177.203,-125.951 171.906,-126.02 176.09,-129.27 177.203,-125.951"/>
+</g>
+<!-- Gtk.Container -->
+<g id="node8" class="node"><title>Gtk.Container</title>
+<g id="a_node8"><a xlink:href="Container.html#Gtk.Container" xlink:title="Gtk.Container">
+<path fill="none" stroke="#75507b" d="M168.5,-72C168.5,-72 105.5,-72 105.5,-72 102.5,-72 99.5,-69 99.5,-66 99.5,-66 99.5,-60 99.5,-60 99.5,-57 102.5,-54 105.5,-54 105.5,-54 168.5,-54 168.5,-54 171.5,-54 174.5,-57 174.5,-60 174.5,-60 174.5,-66 174.5,-66 174.5,-69 171.5,-72 168.5,-72"/>
+<text text-anchor="middle" x="137" y="-60.7" font-family="inherit" font-size="8.50">Gtk.Container</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Widget&#45;&gt;Gtk.Container -->
+<g id="edge9" class="edge"><title>Gtk.Widget&#45;&gt;Gtk.Container</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M146.281,-107.875C144.548,-99.6806 141.843,-86.8948 139.8,-77.2353"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="141.49,-76.7691 138.743,-72.2396 138.066,-77.4935 141.49,-76.7691"/>
+</g>
+<!-- Gtk.Container&#45;&gt;Gtk.Paned -->
+<g id="edge8" class="edge"><title>Gtk.Container&#45;&gt;Gtk.Paned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M130.906,-53.875C124.59,-45.4529 114.636,-32.1809 107.328,-22.4377"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="108.58,-21.1896 104.18,-18.2396 105.78,-23.2896 108.58,-21.1896"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="example">
+<h2>Example</h2>
+<img alt="../_images/Gtk.Paned.png" src="../_images/Gtk.Paned.png" />
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Subclasses:</th><td class="field-body"><a class="reference internal" href="HPaned.html#Gtk.HPaned" title="Gtk.HPaned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.HPaned</span></tt></a>,     <a class="reference internal" href="VPaned.html#Gtk.VPaned" title="Gtk.VPaned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.VPaned</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="methods">
+<span id="gtk-paned-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Container.html#gtk-container-methods"><em>Gtk.Container (27)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-methods"><em>Gtk.Widget (256)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-methods"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/Orientable.html#gtk-orientable-methods"><em>Gtk.Orientable (2)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.Paned.new" title="Gtk.Paned.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(orientation)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.add1" title="Gtk.Paned.add1"><tt class="xref py py-obj docutils literal"><span class="pre">add1</span></tt></a>(child)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.add2" title="Gtk.Paned.add2"><tt class="xref py py-obj docutils literal"><span class="pre">add2</span></tt></a>(child)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.get_child1" title="Gtk.Paned.get_child1"><tt class="xref py py-obj docutils literal"><span class="pre">get_child1</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.get_child2" title="Gtk.Paned.get_child2"><tt class="xref py py-obj docutils literal"><span class="pre">get_child2</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.get_handle_window" title="Gtk.Paned.get_handle_window"><tt class="xref py py-obj docutils literal"><span class="pre">get_handle_window</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.get_position" title="Gtk.Paned.get_position"><tt class="xref py py-obj docutils literal"><span class="pre">get_position</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.pack1" title="Gtk.Paned.pack1"><tt class="xref py py-obj docutils literal"><span class="pre">pack1</span></tt></a>(child[, resize, shrink])</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.pack2" title="Gtk.Paned.pack2"><tt class="xref py py-obj docutils literal"><span class="pre">pack2</span></tt></a>(child[, resize, shrink])</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.set_position" title="Gtk.Paned.set_position"><tt class="xref py py-obj docutils literal"><span class="pre">set_position</span></tt></a>(position)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gtk-paned-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Container.html#gtk-container-vfuncs"><em>Gtk.Container (10)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-vfuncs"><em>Gtk.Widget (82)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-vfuncs"><em>Gtk.Buildable (10)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.do_accept_position" title="Gtk.Paned.do_accept_position"><tt class="xref py py-obj docutils literal"><span class="pre">do_accept_position</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.do_cancel_position" title="Gtk.Paned.do_cancel_position"><tt class="xref py py-obj docutils literal"><span class="pre">do_cancel_position</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.do_cycle_child_focus" title="Gtk.Paned.do_cycle_child_focus"><tt class="xref py py-obj docutils literal"><span class="pre">do_cycle_child_focus</span></tt></a>(reverse)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.do_cycle_handle_focus" title="Gtk.Paned.do_cycle_handle_focus"><tt class="xref py py-obj docutils literal"><span class="pre">do_cycle_handle_focus</span></tt></a>(reverse)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.do_move_handle" title="Gtk.Paned.do_move_handle"><tt class="xref py py-obj docutils literal"><span class="pre">do_move_handle</span></tt></a>(scroll)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.Paned.do_toggle_handle_focus" title="Gtk.Paned.do_toggle_handle_focus"><tt class="xref py py-obj docutils literal"><span class="pre">do_toggle_handle_focus</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gtk-paned-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Container.html#gtk-container-props"><em>Gtk.Container (3)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-props"><em>Gtk.Widget (38)</em></a>, <a class="reference internal" href="../interfaces/Orientable.html#gtk-orientable-props"><em>Gtk.Orientable (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.Paned.props.max_position" title="Gtk.Paned.props.max_position"><tt class="xref py py-data docutils literal"><span class="pre">max-position</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r</td>
+<td>Largest possible value for the &#8220;position&#8221; property</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.Paned.props.min_position" title="Gtk.Paned.props.min_position"><tt class="xref py py-data docutils literal"><span class="pre">min-position</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r</td>
+<td>Smallest possible value for the &#8220;position&#8221; property</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.Paned.props.position" title="Gtk.Paned.props.position"><tt class="xref py py-data docutils literal"><span class="pre">position</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>Position of paned separator in pixels (0 means all the way to the left/top)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.Paned.props.position_set" title="Gtk.Paned.props.position_set"><tt class="xref py py-data docutils literal"><span class="pre">position-set</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the Position property should be used</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="child-properties">
+<span id="gtk-paned-child-props"></span><h2>Child Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="96%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Default</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><tt class="docutils literal"><span class="pre">resize</span></tt></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a></td>
+<td>r/w</td>
+<td>If <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>, the child expands and shrinks along with the paned widget</td>
+</tr>
+<tr class="row-odd"><td><tt class="docutils literal"><span class="pre">shrink</span></tt></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a></td>
+<td>r/w</td>
+<td>If <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>, the child can be made smaller than its requisition</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="style-properties">
+<span id="gtk-paned-style-props"></span><h2>Style Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Widget.html#gtk-widget-style-props"><em>Gtk.Widget (17)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="96%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Default</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><tt class="docutils literal"><span class="pre">handle-size</span></tt></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">5</span></tt></td>
+<td>r</td>
+<td>Width of handle</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gtk-paned-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Container.html#gtk-container-signals"><em>Gtk.Container (4)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-signals"><em>Gtk.Widget (69)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.Paned.signals.accept_position" title="Gtk.Paned.signals.accept_position"><tt class="xref py py-func docutils literal"><span class="pre">accept-position</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.Paned.signals.accept_position" title="Gtk.Paned.signals.accept_position"><tt class="xref py py-func docutils literal"><span class="pre">::accept-position</span></tt></a> signal is a [keybinding signal][GtkBindingSignal] which gets emitted to accept the current position of the handle when moving it using key bindings.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.Paned.signals.cancel_position" title="Gtk.Paned.signals.cancel_position"><tt class="xref py py-func docutils literal"><span class="pre">cancel-position</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.Paned.signals.cancel_position" title="Gtk.Paned.signals.cancel_position"><tt class="xref py py-func docutils literal"><span class="pre">::cancel-position</span></tt></a> signal is a [keybinding signal][GtkBindingSignal] which gets emitted to cancel moving the position of the handle using key bindings.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.Paned.signals.cycle_child_focus" title="Gtk.Paned.signals.cycle_child_focus"><tt class="xref py py-func docutils literal"><span class="pre">cycle-child-focus</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.Paned.signals.cycle_child_focus" title="Gtk.Paned.signals.cycle_child_focus"><tt class="xref py py-func docutils literal"><span class="pre">::cycle-child-focus</span></tt></a> signal is a [keybinding signal][GtkBindingSignal] which gets emitted to cycle the focus between the children of the paned.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.Paned.signals.cycle_handle_focus" title="Gtk.Paned.signals.cycle_handle_focus"><tt class="xref py py-func docutils literal"><span class="pre">cycle-handle-focus</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.Paned.signals.cycle_handle_focus" title="Gtk.Paned.signals.cycle_handle_focus"><tt class="xref py py-func docutils literal"><span class="pre">::cycle-handle-focus</span></tt></a> signal is a [keybinding signal][GtkBindingSignal] which gets emitted to cycle whether the paned should grab focus to allow the user to change position of the handle by using key bindings.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.Paned.signals.move_handle" title="Gtk.Paned.signals.move_handle"><tt class="xref py py-func docutils literal"><span class="pre">move-handle</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.Paned.signals.move_handle" title="Gtk.Paned.signals.move_handle"><tt class="xref py py-func docutils literal"><span class="pre">::move-handle</span></tt></a> signal is a [keybinding signal][GtkBindingSignal] which gets emitted to move the handle when the user is using key bindings to move it.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.Paned.signals.toggle_handle_focus" title="Gtk.Paned.signals.toggle_handle_focus"><tt class="xref py py-func docutils literal"><span class="pre">toggle-handle-focus</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.Paned.signals.toggle_handle_focus" title="Gtk.Paned.signals.toggle_handle_focus"><tt class="xref py py-func docutils literal"><span class="pre">::toggle-handle-focus</span></tt></a> is a [keybinding signal][GtkBindingSignal] which gets emitted to accept the current position of the handle and then move focus to the next widget in the focus chain.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gtk-paned-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Container.html#gtk-container-fields"><em>Gtk.Container (1)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-fields"><em>Gtk.Widget (1)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#gobject-initiallyunowned-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.InitiallyUnowned (3)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>container</td>
+<td><a class="reference internal" href="Container.html#Gtk.Container" title="Gtk.Container"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Container</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gtk.Paned">
+<em class="property">class </em><tt class="descclassname">Gtk.</tt><tt class="descname">Paned</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Container.html#Gtk.Container" title="Gtk.Container"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Container</span></tt></a>, <a class="reference internal" href="../interfaces/Orientable.html#Gtk.Orientable" title="Gtk.Orientable"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Orientable</span></tt></a></p>
+<p><a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Paned</span></tt></a> has two panes, arranged either
+horizontally or vertically. The division between
+the two panes is adjustable by the user by dragging
+a handle.</p>
+<p>Child widgets are
+added to the panes of the widget with <a class="reference internal" href="#Gtk.Paned.pack1" title="Gtk.Paned.pack1"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Paned.pack1</span></tt></a> () and
+<a class="reference internal" href="#Gtk.Paned.pack2" title="Gtk.Paned.pack2"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Paned.pack2</span></tt></a> (). The division between the two children is set by default
+from the size requests of the children, but it can be adjusted by the
+user.</p>
+<p>A paned widget draws a separator between the two child widgets and a
+small handle that the user can drag to adjust the division. It does not
+draw any relief around the children or around the separator. (The space
+in which the separator is called the gutter.) Often, it is useful to put
+each child inside a <a class="reference internal" href="Frame.html#Gtk.Frame" title="Gtk.Frame"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Frame</span></tt></a> with the shadow type set to <a class="reference internal" href="../enums.html#Gtk.ShadowType.IN" title="Gtk.ShadowType.IN"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ShadowType.IN</span></tt></a> 
+so that the gutter appears as a ridge. No separator is drawn if one of
+the children is missing.</p>
+<p>Each child has two options that can be set, <cite>resize</cite> and <cite>shrink</cite>. If
+<cite>resize</cite> is true, then when the <a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Paned</span></tt></a> is resized, that child will
+expand or shrink along with the paned widget. If <cite>shrink</cite> is true, then
+that child can be made smaller than its requisition by the user.
+Setting <cite>shrink</cite> to <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> allows the application to set a minimum size.
+If <cite>resize</cite> is false for both children, then this is treated as if
+<cite>resize</cite> is true for both children.</p>
+<p>The application can set the position of the slider as if it were set
+by the user, by calling <a class="reference internal" href="#Gtk.Paned.set_position" title="Gtk.Paned.set_position"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Paned.set_position</span></tt></a> ().</p>
+<p>## Creating a paned widget with minimum sizes.</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="o">&lt;!--</span> <span class="n">language</span><span class="o">=</span><span class="s">&quot;C&quot;</span> <span class="o">--&gt;</span>
+<span class="n">GtkWidget</span> <span class="o">*</span><span class="n">hpaned</span> <span class="o">=</span> <span class="n">gtk_paned_new</span> <span class="p">(</span><span class="n">GTK_ORIENTATION_HORIZONTAL</span><span class="p">);</span>
+<span class="n">GtkWidget</span> <span class="o">*</span><span class="n">frame1</span> <span class="o">=</span> <span class="n">gtk_frame_new</span> <span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
+<span class="n">GtkWidget</span> <span class="o">*</span><span class="n">frame2</span> <span class="o">=</span> <span class="n">gtk_frame_new</span> <span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
+<span class="n">gtk_frame_set_shadow_type</span> <span class="p">(</span><span class="n">GTK_FRAME</span> <span class="p">(</span><span class="n">frame1</span><span class="p">),</span> <span class="n">GTK_SHADOW_IN</span><span class="p">);</span>
+<span class="n">gtk_frame_set_shadow_type</span> <span class="p">(</span><span class="n">GTK_FRAME</span> <span class="p">(</span><span class="n">frame2</span><span class="p">),</span> <span class="n">GTK_SHADOW_IN</span><span class="p">);</span>
+
+<span class="n">gtk_widget_set_size_request</span> <span class="p">(</span><span class="n">hpaned</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+
+<span class="n">gtk_paned_pack1</span> <span class="p">(</span><span class="n">GTK_PANED</span> <span class="p">(</span><span class="n">hpaned</span><span class="p">),</span> <span class="n">frame1</span><span class="p">,</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">);</span>
+<span class="n">gtk_widget_set_size_request</span> <span class="p">(</span><span class="n">frame1</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+
+<span class="n">gtk_paned_pack2</span> <span class="p">(</span><span class="n">GTK_PANED</span> <span class="p">(</span><span class="n">hpaned</span><span class="p">),</span> <span class="n">frame2</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">);</span>
+<span class="n">gtk_widget_set_size_request</span> <span class="p">(</span><span class="n">frame2</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+</pre></div>
+</div>
+<dl class="staticmethod">
+<dt id="Gtk.Paned.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>orientation</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>orientation</strong> (<a class="reference internal" href="../enums.html#Gtk.Orientation" title="Gtk.Orientation"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Orientation</span></tt></a>) &#8211; the paned’s orientation.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new <a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Paned</span></tt></a>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Paned</span></tt></a> widget.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.add1">
+<tt class="descname">add1</tt><big>(</big><em>child</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>child</strong> (<a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a>) &#8211; the child to add</td>
+</tr>
+</tbody>
+</table>
+<p>Adds a child to the top or left pane with default parameters. This is
+equivalent to
+`gtk_paned_pack1 (paned, child, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a>, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> )`.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.add2">
+<tt class="descname">add2</tt><big>(</big><em>child</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>child</strong> (<a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a>) &#8211; the child to add</td>
+</tr>
+</tbody>
+</table>
+<p>Adds a child to the bottom or right pane with default parameters. This
+is equivalent to
+`gtk_paned_pack2 (paned, child, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> )`.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.get_child1">
+<tt class="descname">get_child1</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">first child, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if it is not set.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Obtains the first child of the paned widget.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.get_child2">
+<tt class="descname">get_child2</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">second child, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if it is not set.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Obtains the second child of the paned widget.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.get_handle_window">
+<tt class="descname">get_handle_window</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the paned’s handle window.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/classes/Window.html#Gdk.Window" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Window</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/classes/Window.html#Gdk.Window" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Window</span></tt></a> of the handle. This function is
+useful when handling button or motion events because it
+enables the callback to distinguish between the window
+of the paned, a child and the handle.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.get_position">
+<tt class="descname">get_position</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">position of the divider</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Obtains the position of the divider between the two panes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.pack1">
+<tt class="descname">pack1</tt><big>(</big><em>child</em>, <em>resize=False</em>, <em>shrink=True</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>child</strong> (<a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a>) &#8211; the child to add</li>
+<li><strong>resize</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; should this child expand when the paned widget is resized.</li>
+<li><strong>shrink</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; can this child be made smaller than its requisition.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Adds a child to the top or left pane.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.pack2">
+<tt class="descname">pack2</tt><big>(</big><em>child</em>, <em>resize=True</em>, <em>shrink=True</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>child</strong> (<a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a>) &#8211; the child to add</li>
+<li><strong>resize</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; should this child expand when the paned widget is resized.</li>
+<li><strong>shrink</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; can this child be made smaller than its requisition.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Adds a child to the bottom or right pane.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.set_position">
+<tt class="descname">set_position</tt><big>(</big><em>position</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>position</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; pixel position of divider, a negative value means that the position
+is unset.</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the position of the divider between the two panes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.do_accept_position">
+<tt class="descname">do_accept_position</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.do_cancel_position">
+<tt class="descname">do_cancel_position</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.do_cycle_child_focus">
+<tt class="descname">do_cycle_child_focus</tt><big>(</big><em>reverse</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reverse</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.do_cycle_handle_focus">
+<tt class="descname">do_cycle_handle_focus</tt><big>(</big><em>reverse</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reverse</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.do_move_handle">
+<tt class="descname">do_move_handle</tt><big>(</big><em>scroll</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>scroll</strong> (<a class="reference internal" href="../enums.html#Gtk.ScrollType" title="Gtk.ScrollType"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.ScrollType</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.Paned.do_toggle_handle_focus">
+<tt class="descname">do_toggle_handle_focus</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Gtk.Paned.signals.accept_position">
+<tt class="descclassname">Gtk.Paned.signals.</tt><tt class="descname">accept_position</tt><big>(</big><em>paned</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">accept-position</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>paned</strong> (<a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Paned</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.Paned.signals.accept_position" title="Gtk.Paned.signals.accept_position"><tt class="xref py py-func docutils literal"><span class="pre">::accept-position</span></tt></a> signal is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to accept the current position of the handle when
+moving it using key bindings.</p>
+<p>The default binding for this signal is Return or Space.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gtk.Paned.signals.cancel_position">
+<tt class="descclassname">Gtk.Paned.signals.</tt><tt class="descname">cancel_position</tt><big>(</big><em>paned</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">cancel-position</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>paned</strong> (<a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Paned</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.Paned.signals.cancel_position" title="Gtk.Paned.signals.cancel_position"><tt class="xref py py-func docutils literal"><span class="pre">::cancel-position</span></tt></a> signal is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to cancel moving the position of the handle using key
+bindings. The position of the handle will be reset to the value prior to
+moving it.</p>
+<p>The default binding for this signal is Escape.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gtk.Paned.signals.cycle_child_focus">
+<tt class="descclassname">Gtk.Paned.signals.</tt><tt class="descname">cycle_child_focus</tt><big>(</big><em>paned</em>, <em>reversed</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">cycle-child-focus</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>paned</strong> (<a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Paned</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>reversed</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; whether cycling backward or forward</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.Paned.signals.cycle_child_focus" title="Gtk.Paned.signals.cycle_child_focus"><tt class="xref py py-func docutils literal"><span class="pre">::cycle-child-focus</span></tt></a> signal is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to cycle the focus between the children of the paned.</p>
+<p>The default binding is f6.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gtk.Paned.signals.cycle_handle_focus">
+<tt class="descclassname">Gtk.Paned.signals.</tt><tt class="descname">cycle_handle_focus</tt><big>(</big><em>paned</em>, <em>reversed</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">cycle-handle-focus</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>paned</strong> (<a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Paned</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>reversed</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; whether cycling backward or forward</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.Paned.signals.cycle_handle_focus" title="Gtk.Paned.signals.cycle_handle_focus"><tt class="xref py py-func docutils literal"><span class="pre">::cycle-handle-focus</span></tt></a> signal is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to cycle whether the paned should grab focus to allow
+the user to change position of the handle by using key bindings.</p>
+<p>The default binding for this signal is f8.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gtk.Paned.signals.move_handle">
+<tt class="descclassname">Gtk.Paned.signals.</tt><tt class="descname">move_handle</tt><big>(</big><em>paned</em>, <em>scroll_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">move-handle</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>paned</strong> (<a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Paned</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>scroll_type</strong> (<a class="reference internal" href="../enums.html#Gtk.ScrollType" title="Gtk.ScrollType"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.ScrollType</span></tt></a>) &#8211; a <a class="reference internal" href="../enums.html#Gtk.ScrollType" title="Gtk.ScrollType"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScrollType</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.Paned.signals.move_handle" title="Gtk.Paned.signals.move_handle"><tt class="xref py py-func docutils literal"><span class="pre">::move-handle</span></tt></a> signal is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to move the handle when the user is using key bindings
+to move it.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gtk.Paned.signals.toggle_handle_focus">
+<tt class="descclassname">Gtk.Paned.signals.</tt><tt class="descname">toggle_handle_focus</tt><big>(</big><em>paned</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">toggle-handle-focus</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>paned</strong> (<a class="reference internal" href="#Gtk.Paned" title="Gtk.Paned"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Paned</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.Paned.signals.toggle_handle_focus" title="Gtk.Paned.signals.toggle_handle_focus"><tt class="xref py py-func docutils literal"><span class="pre">::toggle-handle-focus</span></tt></a> is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to accept the current position of the handle and then
+move focus to the next widget in the focus chain.</p>
+<p>The default binding is Tab.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.0.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gtk.Paned.props.max_position">
+<tt class="descclassname">Gtk.Paned.props.</tt><tt class="descname">max_position</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">max-position</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">2147483647</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>The largest possible value for the position property.
+This property is derived from the size and shrinkability
+of the widget&#8217;s children.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.Paned.props.min_position">
+<tt class="descclassname">Gtk.Paned.props.</tt><tt class="descname">min_position</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">min-position</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>The smallest possible value for the position property.
+This property is derived from the size and shrinkability
+of the widget&#8217;s children.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.Paned.props.position">
+<tt class="descclassname">Gtk.Paned.props.</tt><tt class="descname">position</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">position</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Position of paned separator in pixels (0 means all the way to the left/top)</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.Paned.props.position_set">
+<tt class="descclassname">Gtk.Paned.props.</tt><tt class="descname">position_set</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">position-set</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the Position property should be used</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

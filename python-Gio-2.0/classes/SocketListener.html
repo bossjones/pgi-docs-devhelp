@@ -1,0 +1,811 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gio.SocketListener -
+    
+      Classes -
+    
+    Gio 2.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gio 2.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gio.SocketService" href="SocketService.html"/>
+        <link rel="prev" title="Gio.SocketControlMessage" href="SocketControlMessage.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gio 2.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gio.SocketListener</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="SocketControlMessage.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="SocketService.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gio.SocketListener</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gio 2.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gio.SocketListener</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="SocketControlMessage.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="SocketService.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gio.SocketListener</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gio-socketlistener">
+<h1>Gio.SocketListener</h1>
+<p class="graphviz">
+<svg width="105pt" height="80pt"
+ viewBox="0.00 0.00 105.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritance2b7a7a533f</title>
+<!-- GObject.Object -->
+<g id="node1" class="node"><title>GObject.Object</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M82.5,-72C82.5,-72 14.5,-72 14.5,-72 11.5,-72 8.5,-69 8.5,-66 8.5,-66 8.5,-60 8.5,-60 8.5,-57 11.5,-54 14.5,-54 14.5,-54 82.5,-54 82.5,-54 85.5,-54 88.5,-57 88.5,-60 88.5,-60 88.5,-66 88.5,-66 88.5,-69 85.5,-72 82.5,-72"/>
+<text text-anchor="middle" x="48.5" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- Gio.SocketListener -->
+<g id="node2" class="node"><title>Gio.SocketListener</title>
+<g id="a_node2"><a xlink:href="#Gio.SocketListener" xlink:title="Gio.SocketListener">
+<path fill="none" stroke="#75507b" d="M91,-18C91,-18 6,-18 6,-18 3,-18 0,-15 0,-12 0,-12 0,-6 0,-6 0,-3 3,-0 6,-0 6,-0 91,-0 91,-0 94,-0 97,-3 97,-6 97,-6 97,-12 97,-12 97,-15 94,-18 91,-18"/>
+<text text-anchor="middle" x="48.5" y="-6.7" font-family="inherit" font-size="8.50">Gio.SocketListener</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Gio.SocketListener -->
+<g id="edge1" class="edge"><title>GObject.Object&#45;&gt;Gio.SocketListener</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M48.5,-53.875C48.5,-45.7564 48.5,-33.1312 48.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="50.2501,-23.2395 48.5,-18.2396 46.7501,-23.2396 50.2501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Subclasses:</th><td class="field-body"><a class="reference internal" href="SocketService.html#Gio.SocketService" title="Gio.SocketService"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketService</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="methods">
+<span id="gio-socketlistener-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gio.SocketListener.new" title="Gio.SocketListener.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.accept" title="Gio.SocketListener.accept"><tt class="xref py py-obj docutils literal"><span class="pre">accept</span></tt></a>(cancellable)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.accept_async" title="Gio.SocketListener.accept_async"><tt class="xref py py-obj docutils literal"><span class="pre">accept_async</span></tt></a>(cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.accept_finish" title="Gio.SocketListener.accept_finish"><tt class="xref py py-obj docutils literal"><span class="pre">accept_finish</span></tt></a>(result)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.accept_socket" title="Gio.SocketListener.accept_socket"><tt class="xref py py-obj docutils literal"><span class="pre">accept_socket</span></tt></a>(cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.accept_socket_async" title="Gio.SocketListener.accept_socket_async"><tt class="xref py py-obj docutils literal"><span class="pre">accept_socket_async</span></tt></a>(cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.accept_socket_finish" title="Gio.SocketListener.accept_socket_finish"><tt class="xref py py-obj docutils literal"><span class="pre">accept_socket_finish</span></tt></a>(result)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.add_address" title="Gio.SocketListener.add_address"><tt class="xref py py-obj docutils literal"><span class="pre">add_address</span></tt></a>(address, type, protocol, source_object)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.add_any_inet_port" title="Gio.SocketListener.add_any_inet_port"><tt class="xref py py-obj docutils literal"><span class="pre">add_any_inet_port</span></tt></a>(source_object)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.add_inet_port" title="Gio.SocketListener.add_inet_port"><tt class="xref py py-obj docutils literal"><span class="pre">add_inet_port</span></tt></a>(port, source_object)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.add_socket" title="Gio.SocketListener.add_socket"><tt class="xref py py-obj docutils literal"><span class="pre">add_socket</span></tt></a>(socket, source_object)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.close" title="Gio.SocketListener.close"><tt class="xref py py-obj docutils literal"><span class="pre">close</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.set_backlog" title="Gio.SocketListener.set_backlog"><tt class="xref py py-obj docutils literal"><span class="pre">set_backlog</span></tt></a>(listen_backlog)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gio-socketlistener-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gio.SocketListener.do_changed" title="Gio.SocketListener.do_changed"><tt class="xref py py-obj docutils literal"><span class="pre">do_changed</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gio-socketlistener-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gio.SocketListener.props.listen_backlog" title="Gio.SocketListener.props.listen_backlog"><tt class="xref py py-data docutils literal"><span class="pre">listen-backlog</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w/c</td>
+<td>outstanding connections in the listen queue</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gio-socketlistener-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gio-socketlistener-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gio.SocketListener">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">SocketListener</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></p>
+<p>A <a class="reference internal" href="#Gio.SocketListener" title="Gio.SocketListener"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener</span></tt></a> is an object that keeps track of a set
+of server sockets and helps you accept sockets from any of the
+socket, either sync or async.</p>
+<p>If you want to implement a network server, also look at <a class="reference internal" href="SocketService.html#Gio.SocketService" title="Gio.SocketService"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketService</span></tt></a> 
+and <a class="reference internal" href="ThreadedSocketService.html#Gio.ThreadedSocketService" title="Gio.ThreadedSocketService"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.ThreadedSocketService</span></tt></a> which are subclass of <a class="reference internal" href="#Gio.SocketListener" title="Gio.SocketListener"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener</span></tt></a> 
+that makes this even easier.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Gio.SocketListener.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a new <a class="reference internal" href="#Gio.SocketListener" title="Gio.SocketListener"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Gio.SocketListener" title="Gio.SocketListener"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketListener</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gio.SocketListener" title="Gio.SocketListener"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener</span></tt></a> with no sockets to listen for.
+New listeners can be added with e.g. <a class="reference internal" href="#Gio.SocketListener.add_address" title="Gio.SocketListener.add_address"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.add_address</span></tt></a> ()
+or <a class="reference internal" href="#Gio.SocketListener.add_inet_port" title="Gio.SocketListener.add_inet_port"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.add_inet_port</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.accept">
+<tt class="descname">accept</tt><big>(</big><em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; optional <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> object, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to ignore.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="SocketConnection.html#Gio.SocketConnection" title="Gio.SocketConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketConnection</span></tt></a> on success, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> on error.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">source_object:</th><td class="field-body">location where <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> pointer will be stored, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="SocketConnection.html#Gio.SocketConnection" title="Gio.SocketConnection"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketConnection</span></tt></a>, <strong>source_object</strong>: <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Blocks waiting for a client to connect to any of the sockets added
+to the listener. Returns a <a class="reference internal" href="SocketConnection.html#Gio.SocketConnection" title="Gio.SocketConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketConnection</span></tt></a> for the socket that was
+accepted.</p>
+<p>If <cite>source_object</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> it will be filled out with the source
+object specified when the corresponding socket or address was added
+to the listener.</p>
+<p>If <cite>cancellable</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, then the operation can be cancelled by
+triggering the cancellable object from another thread. If the operation
+was cancelled, the error <a class="reference internal" href="../enums.html#Gio.IOErrorEnum.CANCELLED" title="Gio.IOErrorEnum.CANCELLED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.CANCELLED</span></tt></a> will be returned.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.accept_async">
+<tt class="descname">accept_async</tt><big>(</big><em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a></li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; user data for the callback</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This is the asynchronous version of <a class="reference internal" href="#Gio.SocketListener.accept" title="Gio.SocketListener.accept"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.accept</span></tt></a> ().</p>
+<p>When the operation is finished <cite>callback</cite> will be
+called. You can then call <a class="reference internal" href="#Gio.SocketListener.accept_socket" title="Gio.SocketListener.accept_socket"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.accept_socket</span></tt></a> ()
+to get the result of the operation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.accept_finish">
+<tt class="descname">accept_finish</tt><big>(</big><em>result</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>result</strong> (<a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; a <a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="SocketConnection.html#Gio.SocketConnection" title="Gio.SocketConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketConnection</span></tt></a> on success, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> on error.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">source_object:</th><td class="field-body">Optional <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> identifying this source</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="SocketConnection.html#Gio.SocketConnection" title="Gio.SocketConnection"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketConnection</span></tt></a>, <strong>source_object</strong>: <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Finishes an async accept operation. See <a class="reference internal" href="#Gio.SocketListener.accept_async" title="Gio.SocketListener.accept_async"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.accept_async</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.accept_socket">
+<tt class="descname">accept_socket</tt><big>(</big><em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; optional <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> object, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to ignore.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket</span></tt></a> on success, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> on error.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">source_object:</th><td class="field-body">location where <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> pointer will be stored, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Socket</span></tt></a>, <strong>source_object</strong>: <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Blocks waiting for a client to connect to any of the sockets added
+to the listener. Returns the <a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket</span></tt></a> that was accepted.</p>
+<p>If you want to accept the high-level <a class="reference internal" href="SocketConnection.html#Gio.SocketConnection" title="Gio.SocketConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketConnection</span></tt></a>, not a <a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket</span></tt></a>,
+which is often the case, then you should use <a class="reference internal" href="#Gio.SocketListener.accept" title="Gio.SocketListener.accept"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.accept</span></tt></a> ()
+instead.</p>
+<p>If <cite>source_object</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> it will be filled out with the source
+object specified when the corresponding socket or address was added
+to the listener.</p>
+<p>If <cite>cancellable</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, then the operation can be cancelled by
+triggering the cancellable object from another thread. If the operation
+was cancelled, the error <a class="reference internal" href="../enums.html#Gio.IOErrorEnum.CANCELLED" title="Gio.IOErrorEnum.CANCELLED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOErrorEnum.CANCELLED</span></tt></a> will be returned.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.accept_socket_async">
+<tt class="descname">accept_socket_async</tt><big>(</big><em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>cancellable</strong> (<a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="Cancellable.html#Gio.Cancellable" title="Gio.Cancellable"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>callback</strong> (<a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="../callbacks.html#Gio.AsyncReadyCallback" title="Gio.AsyncReadyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt></a></li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; user data for the callback</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>This is the asynchronous version of <a class="reference internal" href="#Gio.SocketListener.accept_socket" title="Gio.SocketListener.accept_socket"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.accept_socket</span></tt></a> ().</p>
+<p>When the operation is finished <cite>callback</cite> will be
+called. You can then call <a class="reference internal" href="#Gio.SocketListener.accept_socket_finish" title="Gio.SocketListener.accept_socket_finish"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.accept_socket_finish</span></tt></a> ()
+to get the result of the operation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.accept_socket_finish">
+<tt class="descname">accept_socket_finish</tt><big>(</big><em>result</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>result</strong> (<a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; a <a class="reference internal" href="../interfaces/AsyncResult.html#Gio.AsyncResult" title="Gio.AsyncResult"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket</span></tt></a> on success, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> on error.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">source_object:</th><td class="field-body">Optional <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> identifying this source</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Socket</span></tt></a>, <strong>source_object</strong>: <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Finishes an async accept operation. See <a class="reference internal" href="#Gio.SocketListener.accept_socket_async" title="Gio.SocketListener.accept_socket_async"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.accept_socket_async</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.add_address">
+<tt class="descname">add_address</tt><big>(</big><em>address</em>, <em>type</em>, <em>protocol</em>, <em>source_object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>address</strong> (<a class="reference internal" href="SocketAddress.html#Gio.SocketAddress" title="Gio.SocketAddress"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketAddress</span></tt></a>) &#8211; a <a class="reference internal" href="SocketAddress.html#Gio.SocketAddress" title="Gio.SocketAddress"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketAddress</span></tt></a></li>
+<li><strong>type</strong> (<a class="reference internal" href="../enums.html#Gio.SocketType" title="Gio.SocketType"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketType</span></tt></a>) &#8211; a <a class="reference internal" href="../enums.html#Gio.SocketType" title="Gio.SocketType"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketType</span></tt></a></li>
+<li><strong>protocol</strong> (<a class="reference internal" href="../enums.html#Gio.SocketProtocol" title="Gio.SocketProtocol"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketProtocol</span></tt></a>) &#8211; a <a class="reference internal" href="../enums.html#Gio.SocketProtocol" title="Gio.SocketProtocol"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketProtocol</span></tt></a></li>
+<li><strong>source_object</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Optional <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> identifying this source</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> on success, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> on error.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">effective_address:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">location to store the address that was bound to, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>.</td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>effective_address</strong>: <a class="reference internal" href="SocketAddress.html#Gio.SocketAddress" title="Gio.SocketAddress"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketAddress</span></tt></a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a socket of type <cite>type</cite> and protocol <cite>protocol</cite>, binds
+it to <cite>address</cite> and adds it to the set of sockets we&#8217;re accepting
+sockets from.</p>
+<p>Note that adding an IPv6 address, depending on the platform,
+may or may not result in a listener that also accepts IPv4
+connections.  For more deterministic behavior, see
+<a class="reference internal" href="#Gio.SocketListener.add_inet_port" title="Gio.SocketListener.add_inet_port"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.add_inet_port</span></tt></a> ().</p>
+<p><cite>source_object</cite> will be passed out in the various calls
+to accept to identify this particular source, which is
+useful if you&#8217;re listening on multiple addresses and do
+different things depending on what address is connected to.</p>
+<p>If successful and <cite>effective_address</cite> is non-<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> then it will
+be set to the address that the binding actually occurred at.  This
+is helpful for determining the port number that was used for when
+requesting a binding to port 0 (ie: &#8220;any port&#8221;).  This address, if
+requested, belongs to the caller and must be freed.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.add_any_inet_port">
+<tt class="descname">add_any_inet_port</tt><big>(</big><em>source_object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>source_object</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Optional <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> identifying this source</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the port number, or 0 in case of failure.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Listens for TCP connections on any available port number for both
+IPv6 and IPv4 (if each is available).</p>
+<p>This is useful if you need to have a socket for incoming connections
+but don&#8217;t care about the specific port number.</p>
+<p><cite>source_object</cite> will be passed out in the various calls
+to accept to identify this particular source, which is
+useful if you&#8217;re listening on multiple addresses and do
+different things depending on what address is connected to.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.24.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.add_inet_port">
+<tt class="descname">add_inet_port</tt><big>(</big><em>port</em>, <em>source_object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>port</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; an IP port number (non-zero)</li>
+<li><strong>source_object</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Optional <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> identifying this source</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> on success, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> on error.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Helper function for <a class="reference internal" href="#Gio.SocketListener.add_address" title="Gio.SocketListener.add_address"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SocketListener.add_address</span></tt></a> () that
+creates a TCP/IP socket listening on IPv4 and IPv6 (if
+supported) on the specified port on all interfaces.</p>
+<p><cite>source_object</cite> will be passed out in the various calls
+to accept to identify this particular source, which is
+useful if you&#8217;re listening on multiple addresses and do
+different things depending on what address is connected to.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.add_socket">
+<tt class="descname">add_socket</tt><big>(</big><em>socket</em>, <em>source_object</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>socket</strong> (<a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Socket</span></tt></a>) &#8211; a listening <a class="reference internal" href="Socket.html#Gio.Socket" title="Gio.Socket"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket</span></tt></a></li>
+<li><strong>source_object</strong> (<a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; Optional <a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> identifying this source</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gio-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> on success, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> on error.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Adds <cite>socket</cite> to the set of sockets that we try to accept
+new clients from. The socket must be bound to a local
+address and listened to.</p>
+<p><cite>source_object</cite> will be passed out in the various calls
+to accept to identify this particular source, which is
+useful if you&#8217;re listening on multiple addresses and do
+different things depending on what address is connected to.</p>
+<p>The <cite>socket</cite> will not be automatically closed when the <cite>listener</cite> is finalized
+unless the listener held the final reference to the socket. Before GLib 2.42,
+the <cite>socket</cite> was automatically closed on finalization of the <cite>listener</cite>, even
+if references to it were held elsewhere.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.close">
+<tt class="descname">close</tt><big>(</big><big>)</big></dt>
+<dd><p>Closes all the sockets in the listener.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.set_backlog">
+<tt class="descname">set_backlog</tt><big>(</big><em>listen_backlog</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>listen_backlog</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; an integer</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the listen backlog on the sockets in the listener.</p>
+<p>See <a class="reference internal" href="Socket.html#Gio.Socket.set_listen_backlog" title="Gio.Socket.set_listen_backlog"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket.set_listen_backlog</span></tt></a> () for details</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gio.SocketListener.do_changed">
+<tt class="descname">do_changed</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gio.SocketListener.props.listen_backlog">
+<tt class="descclassname">Gio.SocketListener.props.</tt><tt class="descname">listen_backlog</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">listen-backlog</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">10</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w/c</td>
+</tr>
+</tbody>
+</table>
+<p>outstanding connections in the listen queue</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

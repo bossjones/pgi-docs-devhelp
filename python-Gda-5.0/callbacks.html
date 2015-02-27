@@ -1,0 +1,341 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Callbacks -
+    
+    Gda 5.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gda 5.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Interfaces" href="interfaces/index.html"/>
+        <link rel="prev" title="Functions" href="functions.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Gda 5.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Gda 5.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="callbacks">
+<h1>Callbacks</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gda.AttributesManagerFunc" title="Gda.AttributesManagerFunc"><tt class="xref py py-obj docutils literal"><span class="pre">AttributesManagerFunc</span></tt></a>(att_name, value, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gda.AttributesManagerSignal" title="Gda.AttributesManagerSignal"><tt class="xref py py-obj docutils literal"><span class="pre">AttributesManagerSignal</span></tt></a>(obj, att_name, value, data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gda.ServerProviderAsyncCallback" title="Gda.ServerProviderAsyncCallback"><tt class="xref py py-obj docutils literal"><span class="pre">ServerProviderAsyncCallback</span></tt></a>(provider, cnc, task_id, result_status, error, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gda.ServerProviderExecCallback" title="Gda.ServerProviderExecCallback"><tt class="xref py py-obj docutils literal"><span class="pre">ServerProviderExecCallback</span></tt></a>(provider, cnc, task_id, result_obj, error, data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gda.SqlRenderingValue" title="Gda.SqlRenderingValue"><tt class="xref py py-obj docutils literal"><span class="pre">SqlRenderingValue</span></tt></a>(value, context)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gda.SqlReservedKeywordsFunc" title="Gda.SqlReservedKeywordsFunc"><tt class="xref py py-obj docutils literal"><span class="pre">SqlReservedKeywordsFunc</span></tt></a>(word)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gda.ThreadWrapperCallback" title="Gda.ThreadWrapperCallback"><tt class="xref py py-obj docutils literal"><span class="pre">ThreadWrapperCallback</span></tt></a>(wrapper, instance, signame, n_param_values, param_values, gda_reserved, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gda.ThreadWrapperVoidFunc" title="Gda.ThreadWrapperVoidFunc"><tt class="xref py py-obj docutils literal"><span class="pre">ThreadWrapperVoidFunc</span></tt></a>(arg)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="Gda.AttributesManagerFunc">
+<tt class="descclassname">Gda.</tt><tt class="descname">AttributesManagerFunc</tt><big>(</big><em>att_name</em>, <em>value</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>att_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>value</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gda.AttributesManagerSignal">
+<tt class="descclassname">Gda.</tt><tt class="descname">AttributesManagerSignal</tt><big>(</big><em>obj</em>, <em>att_name</em>, <em>value</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>obj</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>att_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>value</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gda.ServerProviderAsyncCallback">
+<tt class="descclassname">Gda.</tt><tt class="descname">ServerProviderAsyncCallback</tt><big>(</big><em>provider</em>, <em>cnc</em>, <em>task_id</em>, <em>result_status</em>, <em>error</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>provider</strong> (<a class="reference internal" href="classes/ServerProvider.html#Gda.ServerProvider" title="Gda.ServerProvider"><tt class="xref py py-class docutils literal"><span class="pre">Gda.ServerProvider</span></tt></a>) &#8211; </li>
+<li><strong>cnc</strong> (<a class="reference internal" href="classes/Connection.html#Gda.Connection" title="Gda.Connection"><tt class="xref py py-class docutils literal"><span class="pre">Gda.Connection</span></tt></a>) &#8211; </li>
+<li><strong>task_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>result_status</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+<li><strong>error</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Function to be called by Libgda when the associated asynchronous method invoked finishes.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gda.ServerProviderExecCallback">
+<tt class="descclassname">Gda.</tt><tt class="descname">ServerProviderExecCallback</tt><big>(</big><em>provider</em>, <em>cnc</em>, <em>task_id</em>, <em>result_obj</em>, <em>error</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>provider</strong> (<a class="reference internal" href="classes/ServerProvider.html#Gda.ServerProvider" title="Gda.ServerProvider"><tt class="xref py py-class docutils literal"><span class="pre">Gda.ServerProvider</span></tt></a>) &#8211; </li>
+<li><strong>cnc</strong> (<a class="reference internal" href="classes/Connection.html#Gda.Connection" title="Gda.Connection"><tt class="xref py py-class docutils literal"><span class="pre">Gda.Connection</span></tt></a>) &#8211; </li>
+<li><strong>task_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>result_obj</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>error</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Function to be called by Libgda when the associated asynchronous method invoked finishes</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gda.SqlRenderingValue">
+<tt class="descclassname">Gda.</tt><tt class="descname">SqlRenderingValue</tt><big>(</big><em>value</em>, <em>context</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>value</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; the <a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Value</span></tt></a> to render</li>
+<li><strong>context</strong> (<a class="reference internal" href="structs/SqlRenderingContext.html#Gda.SqlRenderingContext" title="Gda.SqlRenderingContext"><tt class="xref py py-class docutils literal"><span class="pre">Gda.SqlRenderingContext</span></tt></a>) &#8211; the rendering context</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new string, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if an error occurred</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Rendering function type to render a <a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Value</span></tt></a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gda.SqlReservedKeywordsFunc">
+<tt class="descclassname">Gda.</tt><tt class="descname">SqlReservedKeywordsFunc</tt><big>(</big><em>word</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>word</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gda.ThreadWrapperCallback">
+<tt class="descclassname">Gda.</tt><tt class="descname">ThreadWrapperCallback</tt><big>(</big><em>wrapper</em>, <em>instance</em>, <em>signame</em>, <em>n_param_values</em>, <em>param_values</em>, <em>gda_reserved</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>wrapper</strong> (<a class="reference internal" href="classes/ThreadWrapper.html#Gda.ThreadWrapper" title="Gda.ThreadWrapper"><tt class="xref py py-class docutils literal"><span class="pre">Gda.ThreadWrapper</span></tt></a>) &#8211; the <a class="reference internal" href="classes/ThreadWrapper.html#Gda.ThreadWrapper" title="Gda.ThreadWrapper"><tt class="xref py py-obj docutils literal"><span class="pre">Gda.ThreadWrapper</span></tt></a></li>
+<li><strong>instance</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; a pointer to the instance which emitted the signal</li>
+<li><strong>signame</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of the signal being emitted</li>
+<li><strong>n_param_values</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; number of <a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Value</span></tt></a> in <cite>param_values</cite></li>
+<li><strong>param_values</strong> (<a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; array of <cite>n_param_values</cite> <a class="reference external" href="_devhelp/Gda-5.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Value</span></tt></a></li>
+<li><strong>gda_reserved</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; reserved</li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; a pointer to the data (which is the <cite>data</cite> argument passed to <a class="reference internal" href="classes/ThreadWrapper.html#Gda.ThreadWrapper.connect_raw" title="Gda.ThreadWrapper.connect_raw"><tt class="xref py py-obj docutils literal"><span class="pre">Gda.ThreadWrapper.connect_raw</span></tt></a> ())</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Specifies the type of function to be passed to <a class="reference internal" href="classes/ThreadWrapper.html#Gda.ThreadWrapper.connect_raw" title="Gda.ThreadWrapper.connect_raw"><tt class="xref py py-obj docutils literal"><span class="pre">Gda.ThreadWrapper.connect_raw</span></tt></a> ()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gda.ThreadWrapperVoidFunc">
+<tt class="descclassname">Gda.</tt><tt class="descname">ThreadWrapperVoidFunc</tt><big>(</big><em>arg</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>arg</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; a pointer to the data (which is the <cite>arg</cite> argument passed to <a class="reference internal" href="classes/ThreadWrapper.html#Gda.ThreadWrapper.execute_void" title="Gda.ThreadWrapper.execute_void"><tt class="xref py py-obj docutils literal"><span class="pre">Gda.ThreadWrapper.execute_void</span></tt></a> ())</td>
+</tr>
+</tbody>
+</table>
+<p>Specifies the type of function to be passed to <a class="reference internal" href="classes/ThreadWrapper.html#Gda.ThreadWrapper.execute_void" title="Gda.ThreadWrapper.execute_void"><tt class="xref py py-obj docutils literal"><span class="pre">Gda.ThreadWrapper.execute_void</span></tt></a> ().</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

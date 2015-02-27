@@ -1,0 +1,994 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Flags -
+    
+    Ggit 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Ggit 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Enums" href="enums.html"/>
+        <link rel="prev" title="Ggit.TreeEntry" href="structs/TreeEntry.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Ggit 1.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/TreeEntry.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Ggit 1.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/TreeEntry.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="flags">
+<h1>Flags</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Ggit.AttributeCheckFlags" title="Ggit.AttributeCheckFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.AttributeCheckFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.BlameFlags" title="Ggit.BlameFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.BlameFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.CheckoutNotifyFlags" title="Ggit.CheckoutNotifyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.CheckoutNotifyFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.CheckoutStrategy" title="Ggit.CheckoutStrategy"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.CheckoutStrategy</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.CreateFlags" title="Ggit.CreateFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.CreateFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.DiffFindFlags" title="Ggit.DiffFindFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.DiffFindFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.DiffFlag" title="Ggit.DiffFlag"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.DiffFlag</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.DiffFormatEmailFlags" title="Ggit.DiffFormatEmailFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.DiffFormatEmailFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.DiffOption" title="Ggit.DiffOption"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.DiffOption</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.FeatureFlags" title="Ggit.FeatureFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.FeatureFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.MergeTreeFlags" title="Ggit.MergeTreeFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.MergeTreeFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.SortMode" title="Ggit.SortMode"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.SortMode</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.StashFlags" title="Ggit.StashFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.StashFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.StatusFlags" title="Ggit.StatusFlags"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.StatusFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.StatusOption" title="Ggit.StatusOption"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.StatusOption</span></tt></a></li>
+<li><a class="reference internal" href="#Ggit.SubmoduleStatus" title="Ggit.SubmoduleStatus"><tt class="xref py py-class docutils literal"><span class="pre">Ggit.SubmoduleStatus</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Ggit.AttributeCheckFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">AttributeCheckFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Attribute check flags indicate the order in which to check for gitattributes.
+git core uses <a class="reference internal" href="#Ggit.AttributeCheckFlags.FILE_THEN_INDEX" title="Ggit.AttributeCheckFlags.FILE_THEN_INDEX"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.AttributeCheckFlags.FILE_THEN_INDEX</span></tt></a> for all operations,
+except on checkout, where it uses <a class="reference internal" href="#Ggit.AttributeCheckFlags.INDEX_THEN_FILE" title="Ggit.AttributeCheckFlags.INDEX_THEN_FILE"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.AttributeCheckFlags.INDEX_THEN_FILE</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Ggit.AttributeCheckFlags.FILE_THEN_INDEX">
+<tt class="descname">FILE_THEN_INDEX</tt><em class="property"> = 0</em></dt>
+<dd><p>check working directory, then index.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.AttributeCheckFlags.INDEX_THEN_FILE">
+<tt class="descname">INDEX_THEN_FILE</tt><em class="property"> = 1</em></dt>
+<dd><p>check index, then working directory.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.AttributeCheckFlags.INDEX_ONLY">
+<tt class="descname">INDEX_ONLY</tt><em class="property"> = 2</em></dt>
+<dd><p>check only index.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.AttributeCheckFlags.NO_SYSTEM">
+<tt class="descname">NO_SYSTEM</tt><em class="property"> = 4</em></dt>
+<dd><p>ignore system wide attributes.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.BlameFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">BlameFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<dl class="attribute">
+<dt id="Ggit.BlameFlags.NORMAL">
+<tt class="descname">NORMAL</tt><em class="property"> = 0</em></dt>
+<dd><p>Normal blame, the default.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.BlameFlags.TRACK_COPIES_SAME_FILE">
+<tt class="descname">TRACK_COPIES_SAME_FILE</tt><em class="property"> = 1</em></dt>
+<dd><p>Track lines that have moved within a file
+(like git blame -M)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.CheckoutNotifyFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">CheckoutNotifyFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<dl class="attribute">
+<dt id="Ggit.CheckoutNotifyFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutNotifyFlags.CONFLICT">
+<tt class="descname">CONFLICT</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutNotifyFlags.DIRTY">
+<tt class="descname">DIRTY</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutNotifyFlags.UPDATED">
+<tt class="descname">UPDATED</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutNotifyFlags.UNTRACKED">
+<tt class="descname">UNTRACKED</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutNotifyFlags.IGNORED">
+<tt class="descname">IGNORED</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutNotifyFlags.ALL">
+<tt class="descname">ALL</tt><em class="property"> = 65535</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.CheckoutStrategy">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">CheckoutStrategy</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.SAFE">
+<tt class="descname">SAFE</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.SAFE_CREATE">
+<tt class="descname">SAFE_CREATE</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.FORCE">
+<tt class="descname">FORCE</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.ALLOW_CONFLICTS">
+<tt class="descname">ALLOW_CONFLICTS</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.REMOVE_UNTRACKED">
+<tt class="descname">REMOVE_UNTRACKED</tt><em class="property"> = 32</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.REMOVE_IGNORED">
+<tt class="descname">REMOVE_IGNORED</tt><em class="property"> = 64</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.UPDATE_ONLY">
+<tt class="descname">UPDATE_ONLY</tt><em class="property"> = 128</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.DONT_UPDATE_INDEX">
+<tt class="descname">DONT_UPDATE_INDEX</tt><em class="property"> = 256</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.NO_REFRESH">
+<tt class="descname">NO_REFRESH</tt><em class="property"> = 512</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.SKIP_UNMERGED">
+<tt class="descname">SKIP_UNMERGED</tt><em class="property"> = 1024</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.USE_OURS">
+<tt class="descname">USE_OURS</tt><em class="property"> = 2048</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.USE_THEIRS">
+<tt class="descname">USE_THEIRS</tt><em class="property"> = 4096</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.DISABLE_PATHSPEC_MATCH">
+<tt class="descname">DISABLE_PATHSPEC_MATCH</tt><em class="property"> = 8192</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.SKIP_LOCKED_DIRECTORIES">
+<tt class="descname">SKIP_LOCKED_DIRECTORIES</tt><em class="property"> = 262144</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.DONT_OVERWRITE_IGNORED">
+<tt class="descname">DONT_OVERWRITE_IGNORED</tt><em class="property"> = 524288</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.CONFLICT_STYLE_MERGE">
+<tt class="descname">CONFLICT_STYLE_MERGE</tt><em class="property"> = 1048576</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CheckoutStrategy.CONFLICT_STYLE_DIFF3">
+<tt class="descname">CONFLICT_STYLE_DIFF3</tt><em class="property"> = 2097152</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.CreateFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">CreateFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Describes how something should be created.</p>
+<dl class="attribute">
+<dt id="Ggit.CreateFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>attempt to create.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.CreateFlags.FORCE">
+<tt class="descname">FORCE</tt><em class="property"> = 1</em></dt>
+<dd><p>force creation.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.DiffFindFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">DiffFindFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_BY_CONFIG">
+<tt class="descname">FIND_BY_CONFIG</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_IGNORE_LEADING_WHITESPACE">
+<tt class="descname">FIND_IGNORE_LEADING_WHITESPACE</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_RENAMES">
+<tt class="descname">FIND_RENAMES</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_RENAMES_FROM_REWRITES">
+<tt class="descname">FIND_RENAMES_FROM_REWRITES</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_COPIES">
+<tt class="descname">FIND_COPIES</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_COPIES_FROM_UNMODIFIED">
+<tt class="descname">FIND_COPIES_FROM_UNMODIFIED</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_REWRITES">
+<tt class="descname">FIND_REWRITES</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.BREAK_REWRITES">
+<tt class="descname">BREAK_REWRITES</tt><em class="property"> = 32</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_AND_BREAK_REWRITES">
+<tt class="descname">FIND_AND_BREAK_REWRITES</tt><em class="property"> = 48</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_FOR_UNTRACKED">
+<tt class="descname">FIND_FOR_UNTRACKED</tt><em class="property"> = 64</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_ALL">
+<tt class="descname">FIND_ALL</tt><em class="property"> = 255</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_IGNORE_WHITESPACE">
+<tt class="descname">FIND_IGNORE_WHITESPACE</tt><em class="property"> = 4096</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_DONT_IGNORE_WHITESPACE">
+<tt class="descname">FIND_DONT_IGNORE_WHITESPACE</tt><em class="property"> = 8192</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_EXACT_MATCH_ONLY">
+<tt class="descname">FIND_EXACT_MATCH_ONLY</tt><em class="property"> = 16384</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.BREAK_REWRITES_FOR_RENAMES_ONLY">
+<tt class="descname">BREAK_REWRITES_FOR_RENAMES_ONLY</tt><em class="property"> = 32768</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFindFlags.FIND_REMOVE_UNMODIFIED">
+<tt class="descname">FIND_REMOVE_UNMODIFIED</tt><em class="property"> = 65536</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.DiffFlag">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">DiffFlag</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Describes the diff file and/or delta flags</p>
+<dl class="attribute">
+<dt id="Ggit.DiffFlag.BINARY">
+<tt class="descname">BINARY</tt><em class="property"> = 1</em></dt>
+<dd><p>if the file is binary.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFlag.NOT_BINARY">
+<tt class="descname">NOT_BINARY</tt><em class="property"> = 2</em></dt>
+<dd><p>if the file is not binary.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFlag.VALID_ID">
+<tt class="descname">VALID_ID</tt><em class="property"> = 4</em></dt>
+<dd><p>if the ID is valid.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.DiffFormatEmailFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">DiffFormatEmailFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<dl class="attribute">
+<dt id="Ggit.DiffFormatEmailFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffFormatEmailFlags.EXCLUDE_SUBJECT_PATCH_MARKER">
+<tt class="descname">EXCLUDE_SUBJECT_PATCH_MARKER</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.DiffOption">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">DiffOption</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>How the diff should be generated.</p>
+<dl class="attribute">
+<dt id="Ggit.DiffOption.NORMAL">
+<tt class="descname">NORMAL</tt><em class="property"> = 0</em></dt>
+<dd><p>normal.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.REVERSE">
+<tt class="descname">REVERSE</tt><em class="property"> = 1</em></dt>
+<dd><p>reverse the sides of the diff.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.INCLUDE_IGNORED">
+<tt class="descname">INCLUDE_IGNORED</tt><em class="property"> = 2</em></dt>
+<dd><p>include ignored files.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.RECURSE_IGNORED_DIRS">
+<tt class="descname">RECURSE_IGNORED_DIRS</tt><em class="property"> = 4</em></dt>
+<dd><p>also add all files under ignored dirs.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.INCLUDE_UNTRACKED">
+<tt class="descname">INCLUDE_UNTRACKED</tt><em class="property"> = 8</em></dt>
+<dd><p>include untracked files.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.RECURSE_UNTRACKED_DIRS">
+<tt class="descname">RECURSE_UNTRACKED_DIRS</tt><em class="property"> = 16</em></dt>
+<dd><p>recurse to untracked directories.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.INCLUDE_UNMODIFIED">
+<tt class="descname">INCLUDE_UNMODIFIED</tt><em class="property"> = 32</em></dt>
+<dd><p>include unmodified files.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.INCLUDE_TYPECHANGE">
+<tt class="descname">INCLUDE_TYPECHANGE</tt><em class="property"> = 64</em></dt>
+<dd><p>enable generation of typechange detal records.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.INCLUDE_TYPECHANGE_TREES">
+<tt class="descname">INCLUDE_TYPECHANGE_TREES</tt><em class="property"> = 128</em></dt>
+<dd><p>try to label tree transitions as type changes.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.IGNORE_FILE_MODE">
+<tt class="descname">IGNORE_FILE_MODE</tt><em class="property"> = 256</em></dt>
+<dd><p>ignore file mode changes.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.IGNORE_SUBMODULES">
+<tt class="descname">IGNORE_SUBMODULES</tt><em class="property"> = 512</em></dt>
+<dd><p>ignore submodules.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.IGNORE_CASE">
+<tt class="descname">IGNORE_CASE</tt><em class="property"> = 1024</em></dt>
+<dd><p>use case insensitive filename comparison.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.DISABLE_PATHSPEC_MATCH">
+<tt class="descname">DISABLE_PATHSPEC_MATCH</tt><em class="property"> = 4096</em></dt>
+<dd><p>use exact path matching.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.SKIP_BINARY_CHECK">
+<tt class="descname">SKIP_BINARY_CHECK</tt><em class="property"> = 8192</em></dt>
+<dd><p>disable updating the binary flag in delta records.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.ENABLE_FAST_UNTRACKED_DIRS">
+<tt class="descname">ENABLE_FAST_UNTRACKED_DIRS</tt><em class="property"> = 16384</em></dt>
+<dd><p>immediately label untracked directories as
+untracked, without checking inside.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.FORCE_TEXT">
+<tt class="descname">FORCE_TEXT</tt><em class="property"> = 1048576</em></dt>
+<dd><p>force text.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.FORCE_BINARY">
+<tt class="descname">FORCE_BINARY</tt><em class="property"> = 2097152</em></dt>
+<dd><p>treat all files as binary, disabling text diffs.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.IGNORE_WHITESPACE">
+<tt class="descname">IGNORE_WHITESPACE</tt><em class="property"> = 4194304</em></dt>
+<dd><p>ignore whitespace.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.IGNORE_WHITESPACE_CHANGE">
+<tt class="descname">IGNORE_WHITESPACE_CHANGE</tt><em class="property"> = 8388608</em></dt>
+<dd><p>ignore whitespace change.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.IGNORE_WHITESPACE_EOL">
+<tt class="descname">IGNORE_WHITESPACE_EOL</tt><em class="property"> = 16777216</em></dt>
+<dd><p>ignore whitespace at end-of-line.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.SHOW_UNTRACKED_CONTENT">
+<tt class="descname">SHOW_UNTRACKED_CONTENT</tt><em class="property"> = 33554432</em></dt>
+<dd><p>include content of untracked files.
+this implies <a class="reference internal" href="#Ggit.DiffOption.INCLUDE_UNTRACKED" title="Ggit.DiffOption.INCLUDE_UNTRACKED"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.DiffOption.INCLUDE_UNTRACKED</span></tt></a> but not <a class="reference internal" href="#Ggit.DiffOption.RECURSE_UNTRACKED_DIRS" title="Ggit.DiffOption.RECURSE_UNTRACKED_DIRS"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.DiffOption.RECURSE_UNTRACKED_DIRS</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.SHOW_UNMODIFIED">
+<tt class="descname">SHOW_UNMODIFIED</tt><em class="property"> = 67108864</em></dt>
+<dd><p>show unmodified files.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.PATIENCE">
+<tt class="descname">PATIENCE</tt><em class="property"> = 268435456</em></dt>
+<dd><p>generate using the &#8220;patience diff&#8221; algorithm.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.DiffOption.MINIMAL">
+<tt class="descname">MINIMAL</tt><em class="property"> = 536870912</em></dt>
+<dd><p>take extra time to find minimal diff.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.FeatureFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">FeatureFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<dl class="attribute">
+<dt id="Ggit.FeatureFlags.THREADS">
+<tt class="descname">THREADS</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.FeatureFlags.HTTPS">
+<tt class="descname">HTTPS</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.FeatureFlags.SSH">
+<tt class="descname">SSH</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.MergeTreeFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">MergeTreeFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<dl class="attribute">
+<dt id="Ggit.MergeTreeFlags.MERGE_TREE_FIND_RENAMES">
+<tt class="descname">MERGE_TREE_FIND_RENAMES</tt><em class="property"> = 1</em></dt>
+<dd><p>detect renames.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.SortMode">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">SortMode</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>The type of sorting mode for the revision walker.</p>
+<dl class="attribute">
+<dt id="Ggit.SortMode.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>Sorts the repository contents in no particular ordering;
+this sorting is arbitrary, implementation-specific
+and subject to change at any time.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SortMode.TOPOLOGICAL">
+<tt class="descname">TOPOLOGICAL</tt><em class="property"> = 1</em></dt>
+<dd><p>Sorts the repository contents in topological order
+(parents before children); this sorting mode
+can be combined with time sorting.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SortMode.TIME">
+<tt class="descname">TIME</tt><em class="property"> = 2</em></dt>
+<dd><p>Sort the repository contents by commit time;
+this sorting mode can be combined with
+topological sorting.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SortMode.REVERSE">
+<tt class="descname">REVERSE</tt><em class="property"> = 4</em></dt>
+<dd><p>Iterate through the repository contents in reverse
+order; this sorting mode can be combined with
+any of the above.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.StashFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">StashFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Describes how a stash should be applied.</p>
+<dl class="attribute">
+<dt id="Ggit.StashFlags.DEFAULT">
+<tt class="descname">DEFAULT</tt><em class="property"> = 0</em></dt>
+<dd><p>default stash.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StashFlags.KEEP_INDEX">
+<tt class="descname">KEEP_INDEX</tt><em class="property"> = 1</em></dt>
+<dd><p>All changes already added to the index
+are left intact in the working directory.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StashFlags.INCLUDE_UNTRACKED">
+<tt class="descname">INCLUDE_UNTRACKED</tt><em class="property"> = 2</em></dt>
+<dd><p>All untracked files are also stashed and then
+cleaned up from the working directory.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StashFlags.INCLUDE_IGNORED">
+<tt class="descname">INCLUDE_IGNORED</tt><em class="property"> = 4</em></dt>
+<dd><p>All ignored files are also stashed and then
+cleaned up from the working directory.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.StatusFlags">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">StatusFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Describes a file&#8217;s status.</p>
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.CURRENT">
+<tt class="descname">CURRENT</tt><em class="property"> = 0</em></dt>
+<dd><p>file is current.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.INDEX_NEW">
+<tt class="descname">INDEX_NEW</tt><em class="property"> = 1</em></dt>
+<dd><p>file in index is new.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.INDEX_MODIFIED">
+<tt class="descname">INDEX_MODIFIED</tt><em class="property"> = 2</em></dt>
+<dd><p>file in index is modified.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.INDEX_DELETED">
+<tt class="descname">INDEX_DELETED</tt><em class="property"> = 4</em></dt>
+<dd><p>file in index is deleted.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.INDEX_RENAMED">
+<tt class="descname">INDEX_RENAMED</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.INDEX_TYPECHANGE">
+<tt class="descname">INDEX_TYPECHANGE</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.WORKING_TREE_NEW">
+<tt class="descname">WORKING_TREE_NEW</tt><em class="property"> = 128</em></dt>
+<dd><p>file in working tree is new.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.WORKING_TREE_MODIFIED">
+<tt class="descname">WORKING_TREE_MODIFIED</tt><em class="property"> = 256</em></dt>
+<dd><p>file in working tree is modified.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.WORKING_TREE_DELETED">
+<tt class="descname">WORKING_TREE_DELETED</tt><em class="property"> = 512</em></dt>
+<dd><p>file in working tree is deleted.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.WORKING_TREE_TYPECHANGE">
+<tt class="descname">WORKING_TREE_TYPECHANGE</tt><em class="property"> = 1024</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusFlags.IGNORED">
+<tt class="descname">IGNORED</tt><em class="property"> = 16384</em></dt>
+<dd><p>file is ignored.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.StatusOption">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">StatusOption</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p><a class="reference internal" href="#Ggit.StatusOption.INCLUDE_UNTRACKED" title="Ggit.StatusOption.INCLUDE_UNTRACKED"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.INCLUDE_UNTRACKED</span></tt></a>: include untracked files (default).
+<a class="reference internal" href="#Ggit.StatusOption.INCLUDE_IGNORED" title="Ggit.StatusOption.INCLUDE_IGNORED"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.INCLUDE_IGNORED</span></tt></a>: include ignored files (default).
+<a class="reference internal" href="#Ggit.StatusOption.INCLUDE_UNMODIFIED" title="Ggit.StatusOption.INCLUDE_UNMODIFIED"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.INCLUDE_UNMODIFIED</span></tt></a>: include unmodified files.
+<a class="reference internal" href="#Ggit.StatusOption.EXCLUDE_SUBMODULES" title="Ggit.StatusOption.EXCLUDE_SUBMODULES"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.EXCLUDE_SUBMODULES</span></tt></a>: exclude submodules.
+<a class="reference internal" href="#Ggit.StatusOption.RECURSE_UNTRACKED_DIRS" title="Ggit.StatusOption.RECURSE_UNTRACKED_DIRS"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.RECURSE_UNTRACKED_DIRS</span></tt></a>: search untracked directories recursively (default).
+<a class="reference internal" href="#Ggit.StatusOption.DISABLE_PATHSPEC_MATCH" title="Ggit.StatusOption.DISABLE_PATHSPEC_MATCH"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.DISABLE_PATHSPEC_MATCH</span></tt></a>: do not match path specifications.
+<a class="reference internal" href="#Ggit.StatusOption.RECURSE_IGNORED_DIRS" title="Ggit.StatusOption.RECURSE_IGNORED_DIRS"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.RECURSE_IGNORED_DIRS</span></tt></a>: search ignored directories recursively.
+<a class="reference internal" href="#Ggit.StatusOption.RENAMES_HEAD_TO_INDEX" title="Ggit.StatusOption.RENAMES_HEAD_TO_INDEX"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.RENAMES_HEAD_TO_INDEX</span></tt></a>: indicates that rename detection
+should be processed between the head and the index and enables
+the GIT_STATUS_INDEX_RENAMED as a possible status flag.
+<a class="reference internal" href="#Ggit.StatusOption.RENAMES_INDEX_TO_WORKDIR" title="Ggit.StatusOption.RENAMES_INDEX_TO_WORKDIR"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.RENAMES_INDEX_TO_WORKDIR</span></tt></a>: indicates tha rename
+detection should be run between the index and the working directory
+and enabled GIT_STATUS_WT_RENAMED as a possible status flag.
+<a class="reference internal" href="#Ggit.StatusOption.SORT_CASE_SENSITIVELY" title="Ggit.StatusOption.SORT_CASE_SENSITIVELY"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.SORT_CASE_SENSITIVELY</span></tt></a>: sort case sensitive.
+<a class="reference internal" href="#Ggit.StatusOption.SORT_CASE_INSENSITIVELY" title="Ggit.StatusOption.SORT_CASE_INSENSITIVELY"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.SORT_CASE_INSENSITIVELY</span></tt></a>: sort case insensitive.
+<a class="reference internal" href="#Ggit.StatusOption.DEFAULT" title="Ggit.StatusOption.DEFAULT"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.StatusOption.DEFAULT</span></tt></a>: default flags.
+Status options specified when using <a class="reference internal" href="classes/Repository.html#Ggit.Repository.file_status_foreach" title="Ggit.Repository.file_status_foreach"><tt class="xref py py-obj docutils literal"><span class="pre">Ggit.Repository.file_status_foreach</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Ggit.StatusOption.INCLUDE_UNTRACKED">
+<tt class="descname">INCLUDE_UNTRACKED</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.INCLUDE_IGNORED">
+<tt class="descname">INCLUDE_IGNORED</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.INCLUDE_UNMODIFIED">
+<tt class="descname">INCLUDE_UNMODIFIED</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.EXCLUDE_SUBMODULES">
+<tt class="descname">EXCLUDE_SUBMODULES</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.RECURSE_UNTRACKED_DIRS">
+<tt class="descname">RECURSE_UNTRACKED_DIRS</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.DEFAULT">
+<tt class="descname">DEFAULT</tt><em class="property"> = 19</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.DISABLE_PATHSPEC_MATCH">
+<tt class="descname">DISABLE_PATHSPEC_MATCH</tt><em class="property"> = 32</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.RECURSE_IGNORED_DIRS">
+<tt class="descname">RECURSE_IGNORED_DIRS</tt><em class="property"> = 64</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.RENAMES_HEAD_TO_INDEX">
+<tt class="descname">RENAMES_HEAD_TO_INDEX</tt><em class="property"> = 128</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.RENAMES_INDEX_TO_WORKDIR">
+<tt class="descname">RENAMES_INDEX_TO_WORKDIR</tt><em class="property"> = 256</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.SORT_CASE_SENSITIVELY">
+<tt class="descname">SORT_CASE_SENSITIVELY</tt><em class="property"> = 512</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.StatusOption.SORT_CASE_INSENSITIVELY">
+<tt class="descname">SORT_CASE_INSENSITIVELY</tt><em class="property"> = 1024</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Ggit.SubmoduleStatus">
+<em class="property">class </em><tt class="descclassname">Ggit.</tt><tt class="descname">SubmoduleStatus</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Ggit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>FIXME</p>
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.IN_HEAD">
+<tt class="descname">IN_HEAD</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.IN_INDEX">
+<tt class="descname">IN_INDEX</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.IN_CONFIG">
+<tt class="descname">IN_CONFIG</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.IN_WD">
+<tt class="descname">IN_WD</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.INDEX_ADDED">
+<tt class="descname">INDEX_ADDED</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.INDEX_DELETED">
+<tt class="descname">INDEX_DELETED</tt><em class="property"> = 32</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.INDEX_MODIFIED">
+<tt class="descname">INDEX_MODIFIED</tt><em class="property"> = 64</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.WD_UNINITIALIZED">
+<tt class="descname">WD_UNINITIALIZED</tt><em class="property"> = 128</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.WD_ADDED">
+<tt class="descname">WD_ADDED</tt><em class="property"> = 256</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.WD_DELETED">
+<tt class="descname">WD_DELETED</tt><em class="property"> = 512</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.WD_MODIFIED">
+<tt class="descname">WD_MODIFIED</tt><em class="property"> = 1024</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.WD_INDEX_MODIFIED">
+<tt class="descname">WD_INDEX_MODIFIED</tt><em class="property"> = 2048</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.WD_WD_MODIFIED">
+<tt class="descname">WD_WD_MODIFIED</tt><em class="property"> = 4096</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="Ggit.SubmoduleStatus.WD_UNTRACKED">
+<tt class="descname">WD_UNTRACKED</tt><em class="property"> = 8192</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

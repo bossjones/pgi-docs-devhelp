@@ -1,0 +1,893 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    GstRtsp 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="GstRtsp 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Interfaces" href="interfaces/index.html"/>
+        <link rel="prev" title="GstRtsp 1.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstRtsp 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstRtsp 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_connection_accept" title="GstRtsp.rtsp_connection_accept"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_connection_accept</span></tt></a>(socket, cancellable)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_connection_create" title="GstRtsp.rtsp_connection_create"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_connection_create</span></tt></a>(url)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_connection_create_from_socket" title="GstRtsp.rtsp_connection_create_from_socket"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_connection_create_from_socket</span></tt></a>(socket, ip, port, initial_buffer)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_find_header_field" title="GstRtsp.rtsp_find_header_field"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_find_header_field</span></tt></a>(header)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_find_method" title="GstRtsp.rtsp_find_method"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_find_method</span></tt></a>(method)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_header_allow_multiple" title="GstRtsp.rtsp_header_allow_multiple"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_header_allow_multiple</span></tt></a>(field)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_header_as_text" title="GstRtsp.rtsp_header_as_text"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_header_as_text</span></tt></a>(field)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_message_new" title="GstRtsp.rtsp_message_new"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_message_new</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_message_new_data" title="GstRtsp.rtsp_message_new_data"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_message_new_data</span></tt></a>(channel)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_message_new_request" title="GstRtsp.rtsp_message_new_request"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_message_new_request</span></tt></a>(method, uri)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_message_new_response" title="GstRtsp.rtsp_message_new_response"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_message_new_response</span></tt></a>(code, reason, request)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_method_as_text" title="GstRtsp.rtsp_method_as_text"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_method_as_text</span></tt></a>(method)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_options_as_text" title="GstRtsp.rtsp_options_as_text"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_options_as_text</span></tt></a>(options)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_options_from_text" title="GstRtsp.rtsp_options_from_text"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_options_from_text</span></tt></a>(options)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_range_convert_units" title="GstRtsp.rtsp_range_convert_units"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_range_convert_units</span></tt></a>(range, unit)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_range_free" title="GstRtsp.rtsp_range_free"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_range_free</span></tt></a>(range)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_range_get_times" title="GstRtsp.rtsp_range_get_times"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_range_get_times</span></tt></a>(range, min, max)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_range_parse" title="GstRtsp.rtsp_range_parse"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_range_parse</span></tt></a>(rangestr, range)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_range_to_string" title="GstRtsp.rtsp_range_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_range_to_string</span></tt></a>(range)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_status_as_text" title="GstRtsp.rtsp_status_as_text"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_status_as_text</span></tt></a>(code)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_strresult" title="GstRtsp.rtsp_strresult"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_strresult</span></tt></a>(result)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_transport_get_manager" title="GstRtsp.rtsp_transport_get_manager"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_transport_get_manager</span></tt></a>(trans, manager, option)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_transport_get_mime" title="GstRtsp.rtsp_transport_get_mime"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_transport_get_mime</span></tt></a>(trans, mime)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_transport_new" title="GstRtsp.rtsp_transport_new"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_transport_new</span></tt></a>(transport)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_transport_parse" title="GstRtsp.rtsp_transport_parse"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_transport_parse</span></tt></a>(str, transport)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_url_parse" title="GstRtsp.rtsp_url_parse"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_url_parse</span></tt></a>(urlstr)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstRtsp.rtsp_version_as_text" title="GstRtsp.rtsp_version_as_text"><tt class="xref py py-obj docutils literal"><span class="pre">rtsp_version_as_text</span></tt></a>(version)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="GstRtsp.rtsp_connection_accept">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_connection_accept</tt><big>(</big><em>socket</em>, <em>cancellable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>socket</strong> (<a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gio-2.0/classes/Socket.html#Gio.Socket" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Socket</span></tt></a>) &#8211; a socket</li>
+<li><strong>cancellable</strong> (<a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> to cancel the operation</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p><a class="reference internal" href="enums.html#GstRtsp.RTSPResult.OK" title="GstRtsp.RTSPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult.OK</span></tt></a> when <cite>conn</cite> contains a valid connection.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">conn:</th><td class="field-body">storage for a <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>conn</strong>: <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Accept a new connection on <cite>socket</cite> and create a new <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a> for
+handling communication on new socket.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_connection_create">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_connection_create</tt><big>(</big><em>url</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>url</strong> (<a class="reference internal" href="structs/RTSPUrl.html#GstRtsp.RTSPUrl" title="GstRtsp.RTSPUrl"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPUrl</span></tt></a>) &#8211; a <a class="reference internal" href="structs/RTSPUrl.html#GstRtsp.RTSPUrl" title="GstRtsp.RTSPUrl"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPUrl</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult.OK" title="GstRtsp.RTSPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult.OK</span></tt></a> when <cite>conn</cite> contains a valid connection.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">conn:</th><td class="field-body">storage for a <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>conn</strong>: <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Create a newly allocated <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a> from <cite>url</cite> and store it in <cite>conn</cite>.
+The connection will not yet attempt to connect to <cite>url</cite>, use
+<a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection.connect" title="GstRtsp.RTSPConnection.connect"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPConnection.connect</span></tt></a> ().</p>
+<p>A copy of <cite>url</cite> will be made.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_connection_create_from_socket">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_connection_create_from_socket</tt><big>(</big><em>socket</em>, <em>ip</em>, <em>port</em>, <em>initial_buffer</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>socket</strong> (<a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gio-2.0/classes/Socket.html#Gio.Socket" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Socket</span></tt></a>) &#8211; a <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gio-2.0/classes/Socket.html#Gio.Socket" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket</span></tt></a></li>
+<li><strong>ip</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the IP address of the other end</li>
+<li><strong>port</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the port used by the other end</li>
+<li><strong>initial_buffer</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.data</span></tt> already read from <cite>fd</cite></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p><a class="reference internal" href="enums.html#GstRtsp.RTSPResult.OK" title="GstRtsp.RTSPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult.OK</span></tt></a> when <cite>conn</cite> contains a valid connection.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">conn:</th><td class="field-body">storage for a <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>conn</strong>: <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <a class="reference internal" href="structs/RTSPConnection.html#GstRtsp.RTSPConnection" title="GstRtsp.RTSPConnection"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPConnection</span></tt></a> for handling communication on the existing
+socket <cite>socket</cite>. The <cite>initial_buffer</cite> contains zero terminated <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.data</span></tt> already
+read from <cite>socket</cite> which should be used before starting to read new <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.data</span></tt>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_find_header_field">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_find_header_field</tt><big>(</big><em>header</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>header</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a header string</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField" title="GstRtsp.RTSPHeaderField"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPHeaderField</span></tt></a> for <cite>header</cite> or <a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField.INVALID" title="GstRtsp.RTSPHeaderField.INVALID"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPHeaderField.INVALID</span></tt></a> if the
+header field is unknown.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField" title="GstRtsp.RTSPHeaderField"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPHeaderField</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>header</cite> to a <a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField" title="GstRtsp.RTSPHeaderField"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPHeaderField</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_find_method">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_find_method</tt><big>(</big><em>method</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>method</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a method</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a> for <cite>method</cite> or <a class="reference internal" href="flags.html#GstRtsp.RTSPMethod.INVALID" title="GstRtsp.RTSPMethod.INVALID"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMethod.INVALID</span></tt></a> if the
+method is unknown.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>method</cite> to a <a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_header_allow_multiple">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_header_allow_multiple</tt><big>(</big><em>field</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>field</strong> (<a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField" title="GstRtsp.RTSPHeaderField"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPHeaderField</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField" title="GstRtsp.RTSPHeaderField"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPHeaderField</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if multiple headers are allowed.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Check whether <cite>field</cite> may appear multiple times in a message.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_header_as_text">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_header_as_text</tt><big>(</big><em>field</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>field</strong> (<a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField" title="GstRtsp.RTSPHeaderField"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPHeaderField</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#GstRtsp.RTSPHeaderField" title="GstRtsp.RTSPHeaderField"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPHeaderField</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string representation of <cite>field</cite>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>field</cite> to a string.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_message_new">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_message_new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">msg:</th><td class="field-body">a location for the new <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>msg</strong>: <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new initialized <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a>. Free with <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage.free" title="GstRtsp.RTSPMessage.free"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage.free</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_message_new_data">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_message_new_data</tt><big>(</big><em>channel</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>channel</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the channel</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">msg:</th><td class="field-body">a location for the new <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>msg</strong>: <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.data</span></tt> <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a> with <cite>channel</cite> and store the
+result message in <cite>msg</cite>. Free with <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage.free" title="GstRtsp.RTSPMessage.free"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage.free</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_message_new_request">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_message_new_request</tt><big>(</big><em>method</em>, <em>uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>method</strong> (<a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a>) &#8211; the <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.request</span></tt> method to use</li>
+<li><strong>uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the uri of the <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.request</span></tt></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p>a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">msg:</th><td class="field-body">a location for the new <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>msg</strong>: <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a> with <cite>method</cite> and <cite>uri</cite> and store the result
+<tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.request</span></tt> message in <cite>msg</cite>. Free with <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage.free" title="GstRtsp.RTSPMessage.free"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage.free</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_message_new_response">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_message_new_response</tt><big>(</big><em>code</em>, <em>reason</em>, <em>request</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>code</strong> (<a class="reference internal" href="enums.html#GstRtsp.RTSPStatusCode" title="GstRtsp.RTSPStatusCode"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPStatusCode</span></tt></a>) &#8211; the status code</li>
+<li><strong>reason</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the status reason or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>request</strong> (<a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.request</span></tt> that triggered the <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.response</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p>a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">msg:</th><td class="field-body">a location for the new <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>msg</strong>: <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.response</span></tt> <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage" title="GstRtsp.RTSPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage</span></tt></a> with <cite>code</cite> and <cite>reason</cite> and store the
+result message in <cite>msg</cite>. Free with <a class="reference internal" href="structs/RTSPMessage.html#GstRtsp.RTSPMessage.free" title="GstRtsp.RTSPMessage.free"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMessage.free</span></tt></a> ().</p>
+<p>When <cite>reason</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, the default reason for <cite>code</cite> will be used.</p>
+<p>When <cite>request</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, the relevant headers will be copied to the new
+<tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.response</span></tt> message.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_method_as_text">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_method_as_text</tt><big>(</big><em>method</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>method</strong> (<a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a>) &#8211; a <a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string representation of <cite>method</cite>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>method</cite> to a string.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_options_as_text">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_options_as_text</tt><big>(</big><em>options</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>options</strong> (<a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a>) &#8211; one or more <a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new string of <cite>options</cite>. <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> () after usage.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>options</cite> to a string.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_options_from_text">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_options_from_text</tt><big>(</big><em>options</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>options</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a comma separated list of options</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert the comma separated list <cite>options</cite> to a <a class="reference internal" href="flags.html#GstRtsp.RTSPMethod" title="GstRtsp.RTSPMethod"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPMethod</span></tt></a> bitwise or
+of methods. This functions is the reverse of <a class="reference internal" href="#GstRtsp.rtsp_options_as_text" title="GstRtsp.rtsp_options_as_text"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.rtsp_options_as_text</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_range_convert_units">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_range_convert_units</tt><big>(</big><em>range</em>, <em>unit</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>range</strong> (<a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a>) &#8211; a <a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a></li>
+<li><strong>unit</strong> (<a class="reference internal" href="enums.html#GstRtsp.RTSPRangeUnit" title="GstRtsp.RTSPRangeUnit"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPRangeUnit</span></tt></a>) &#8211; the unit to convert the range into</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the range could be converted</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Converts the range in-place between different types of units.
+Ranges containing the special value <a class="reference internal" href="enums.html#GstRtsp.RTSPTimeType.NOW" title="GstRtsp.RTSPTimeType.NOW"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeType.NOW</span></tt></a> can not be
+converted as these are only valid for <a class="reference internal" href="enums.html#GstRtsp.RTSPRangeUnit.NPT" title="GstRtsp.RTSPRangeUnit.NPT"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPRangeUnit.NPT</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_range_free">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_range_free</tt><big>(</big><em>range</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>range</strong> (<a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a>) &#8211; a <a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Free the memory allocated by <cite>range</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_range_get_times">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_range_get_times</tt><big>(</big><em>range</em>, <em>min</em>, <em>max</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>range</strong> (<a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a>) &#8211; a <a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a></li>
+<li><strong>min</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; result minimum <tt class="xref py py-obj docutils literal"><span class="pre">Gst.ClockTime</span></tt></li>
+<li><strong>max</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; result maximum <tt class="xref py py-obj docutils literal"><span class="pre">Gst.ClockTime</span></tt></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> on success.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Retrieve the minimum and maximum values from <cite>range</cite> converted to
+<tt class="xref py py-obj docutils literal"><span class="pre">Gst.ClockTime</span></tt> in <cite>min</cite> and <cite>max</cite>.</p>
+<p>A value of <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gst-1.0/constants.html#Gst.CLOCK_TIME_NONE" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.CLOCK_TIME_NONE</span></tt></a> will be used to signal <a class="reference internal" href="enums.html#GstRtsp.RTSPTimeType.NOW" title="GstRtsp.RTSPTimeType.NOW"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeType.NOW</span></tt></a> 
+and <a class="reference internal" href="enums.html#GstRtsp.RTSPTimeType.END" title="GstRtsp.RTSPTimeType.END"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeType.END</span></tt></a> for <cite>min</cite> and <cite>max</cite> respectively.</p>
+<p>UTC times will be converted to nanoseconds since 1900.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_range_parse">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_range_parse</tt><big>(</big><em>rangestr</em>, <em>range</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>rangestr</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a range string to parse</li>
+<li><strong>range</strong> (<a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a>) &#8211; location to hold the <a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a> result</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult.OK" title="GstRtsp.RTSPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult.OK</span></tt></a> on success.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Parse <cite>rangestr</cite> to a <a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_range_to_string">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_range_to_string</tt><big>(</big><em>range</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>range</strong> (<a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a>) &#8211; a <a class="reference internal" href="structs/RTSPTimeRange.html#GstRtsp.RTSPTimeRange" title="GstRtsp.RTSPTimeRange"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTimeRange</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The string representation of <cite>range</cite>. <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> () after usage.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>range</cite> into a string representation.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_status_as_text">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_status_as_text</tt><big>(</big><em>code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>code</strong> (<a class="reference internal" href="enums.html#GstRtsp.RTSPStatusCode" title="GstRtsp.RTSPStatusCode"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPStatusCode</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#GstRtsp.RTSPStatusCode" title="GstRtsp.RTSPStatusCode"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPStatusCode</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string representation of <cite>code</cite>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>code</cite> to a string.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_strresult">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_strresult</tt><big>(</big><em>result</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>result</strong> (<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a newly allocated string. <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> () after usage.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>result</cite> in a human readable string.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_transport_get_manager">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_transport_get_manager</tt><big>(</big><em>trans</em>, <em>manager</em>, <em>option</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>trans</strong> (<a class="reference internal" href="flags.html#GstRtsp.RTSPTransMode" title="GstRtsp.RTSPTransMode"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTransMode</span></tt></a>) &#8211; a <a class="reference internal" href="flags.html#GstRtsp.RTSPTransMode" title="GstRtsp.RTSPTransMode"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransMode</span></tt></a></li>
+<li><strong>manager</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; location to hold the result</li>
+<li><strong>option</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; option index.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult.OK" title="GstRtsp.RTSPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult.OK</span></tt></a>.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Get the <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gst-1.0/classes/Element.html#Gst.Element" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Element</span></tt></a> that can handle the buffers transported over <cite>trans</cite>.</p>
+<p>It is possible that there are several managers available, use <cite>option</cite> to
+selected one.</p>
+<p><cite>manager</cite> will contain an element name or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> when no manager is
+needed/available for <cite>trans</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_transport_get_mime">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_transport_get_mime</tt><big>(</big><em>trans</em>, <em>mime</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>trans</strong> (<a class="reference internal" href="flags.html#GstRtsp.RTSPTransMode" title="GstRtsp.RTSPTransMode"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTransMode</span></tt></a>) &#8211; a <a class="reference internal" href="flags.html#GstRtsp.RTSPTransMode" title="GstRtsp.RTSPTransMode"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransMode</span></tt></a></li>
+<li><strong>mime</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; location to hold the result</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult.OK" title="GstRtsp.RTSPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult.OK</span></tt></a>.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Get the mime type of the transport mode <cite>trans</cite>. This mime type is typically
+used to generate <a class="reference external" href="_devhelp/GstRtsp-1.0/../../../python-Gst-1.0/structs/Caps.html#Gst.Caps" title="(in Gst 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gst.Caps</span></tt></a> events.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version ??: </span>This functions only deals with the <a class="reference internal" href="flags.html#GstRtsp.RTSPTransMode" title="GstRtsp.RTSPTransMode"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransMode</span></tt></a> and only
+returns the mime type for <a class="reference internal" href="flags.html#GstRtsp.RTSPProfile.AVP" title="GstRtsp.RTSPProfile.AVP"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPProfile.AVP</span></tt></a>. Use
+<a class="reference internal" href="structs/RTSPTransport.html#GstRtsp.RTSPTransport.get_media_type" title="GstRtsp.RTSPTransport.get_media_type"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransport.get_media_type</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_transport_new">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_transport_new</tt><big>(</big><em>transport</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>transport</strong> (<a class="reference internal" href="structs/RTSPTransport.html#GstRtsp.RTSPTransport" title="GstRtsp.RTSPTransport"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTransport</span></tt></a>) &#8211; location to hold the new <a class="reference internal" href="structs/RTSPTransport.html#GstRtsp.RTSPTransport" title="GstRtsp.RTSPTransport"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransport</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Allocate a new initialized <a class="reference internal" href="structs/RTSPTransport.html#GstRtsp.RTSPTransport" title="GstRtsp.RTSPTransport"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransport</span></tt></a>. Use <a class="reference internal" href="structs/RTSPTransport.html#GstRtsp.RTSPTransport.free" title="GstRtsp.RTSPTransport.free"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransport.free</span></tt></a> ()
+after usage.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_transport_parse">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_transport_parse</tt><big>(</big><em>str</em>, <em>transport</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>str</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a transport string</li>
+<li><strong>transport</strong> (<a class="reference internal" href="structs/RTSPTransport.html#GstRtsp.RTSPTransport" title="GstRtsp.RTSPTransport"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPTransport</span></tt></a>) &#8211; a <a class="reference internal" href="structs/RTSPTransport.html#GstRtsp.RTSPTransport" title="GstRtsp.RTSPTransport"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPTransport</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Parse the RTSP transport string <cite>str</cite> into <cite>transport</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_url_parse">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_url_parse</tt><big>(</big><em>urlstr</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>urlstr</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the url string to parse</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">url:</th><td class="field-body">location to hold the result.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="enums.html#GstRtsp.RTSPResult" title="GstRtsp.RTSPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPResult</span></tt></a>, <strong>url</strong>: <a class="reference internal" href="structs/RTSPUrl.html#GstRtsp.RTSPUrl" title="GstRtsp.RTSPUrl"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPUrl</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Parse the RTSP <cite>urlstr</cite> into a newly allocated <a class="reference internal" href="structs/RTSPUrl.html#GstRtsp.RTSPUrl" title="GstRtsp.RTSPUrl"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPUrl</span></tt></a>. Free after usage
+with <a class="reference internal" href="structs/RTSPUrl.html#GstRtsp.RTSPUrl.free" title="GstRtsp.RTSPUrl.free"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPUrl.free</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstRtsp.rtsp_version_as_text">
+<tt class="descclassname">GstRtsp.</tt><tt class="descname">rtsp_version_as_text</tt><big>(</big><em>version</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>version</strong> (<a class="reference internal" href="enums.html#GstRtsp.RTSPVersion" title="GstRtsp.RTSPVersion"><tt class="xref py py-class docutils literal"><span class="pre">GstRtsp.RTSPVersion</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#GstRtsp.RTSPVersion" title="GstRtsp.RTSPVersion"><tt class="xref py py-obj docutils literal"><span class="pre">GstRtsp.RTSPVersion</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string representation of <cite>version</cite>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Convert <cite>version</cite> to a string.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

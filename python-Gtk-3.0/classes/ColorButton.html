@@ -1,0 +1,918 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gtk.ColorButton -
+    
+      Classes -
+    
+    Gtk 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gtk 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gtk.ColorChooserDialog" href="ColorChooserDialog.html"/>
+        <link rel="prev" title="Gtk.Clipboard" href="Clipboard.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.ColorButton</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Clipboard.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ColorChooserDialog.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.ColorButton</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.ColorButton</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Clipboard.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ColorChooserDialog.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.ColorButton</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gtk-colorbutton">
+<h1>Gtk.ColorButton</h1>
+<p class="graphviz">
+<svg width="544pt" height="350pt"
+ viewBox="0.00 0.00 544.00 350.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 346)">
+<title>inheritance1c096db5a3</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M212,-342C212,-342 126,-342 126,-342 123,-342 120,-339 120,-336 120,-336 120,-330 120,-330 120,-327 123,-324 126,-324 126,-324 212,-324 212,-324 215,-324 218,-327 218,-330 218,-330 218,-336 218,-336 218,-339 215,-342 212,-342"/>
+<text text-anchor="middle" x="169" y="-330.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface -->
+<g id="node2" class="node"><title>Atk.ImplementorIface</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-Atk-1.0/interfaces/ImplementorIface.html#Atk.ImplementorIface" xlink:title="Atk.ImplementorIface">
+<path fill="none" stroke="#3091d1" d="M298.5,-288C298.5,-288 203.5,-288 203.5,-288 200.5,-288 197.5,-285 197.5,-282 197.5,-282 197.5,-276 197.5,-276 197.5,-273 200.5,-270 203.5,-270 203.5,-270 298.5,-270 298.5,-270 301.5,-270 304.5,-273 304.5,-276 304.5,-276 304.5,-282 304.5,-282 304.5,-285 301.5,-288 298.5,-288"/>
+<text text-anchor="middle" x="251" y="-276.7" font-family="inherit" font-size="8.50">Atk.ImplementorIface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Atk.ImplementorIface -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Atk.ImplementorIface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M181.812,-323.875C195.773,-315.022 218.185,-300.809 233.701,-290.97"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="234.992,-292.224 238.277,-288.068 233.118,-289.268 234.992,-292.224"/>
+</g>
+<!-- Gtk.Actionable -->
+<g id="node3" class="node"><title>Gtk.Actionable</title>
+<g id="a_node3"><a xlink:href="../interfaces/Actionable.html#Gtk.Actionable" xlink:title="Gtk.Actionable">
+<path fill="none" stroke="#3091d1" d="M134.5,-180C134.5,-180 69.5,-180 69.5,-180 66.5,-180 63.5,-177 63.5,-174 63.5,-174 63.5,-168 63.5,-168 63.5,-165 66.5,-162 69.5,-162 69.5,-162 134.5,-162 134.5,-162 137.5,-162 140.5,-165 140.5,-168 140.5,-168 140.5,-174 140.5,-174 140.5,-177 137.5,-180 134.5,-180"/>
+<text text-anchor="middle" x="102" y="-168.7" font-family="inherit" font-size="8.50">Gtk.Actionable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Actionable -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Actionable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M165.585,-323.846C154.701,-297.853 120.761,-216.802 107.442,-184.996"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="109.034,-184.266 105.488,-180.33 105.805,-185.618 109.034,-184.266"/>
+</g>
+<!-- Gtk.Activatable -->
+<g id="node4" class="node"><title>Gtk.Activatable</title>
+<g id="a_node4"><a xlink:href="../interfaces/Activatable.html#Gtk.Activatable" xlink:title="Gtk.Activatable">
+<path fill="none" stroke="#3091d1" d="M203,-126C203,-126 135,-126 135,-126 132,-126 129,-123 129,-120 129,-120 129,-114 129,-114 129,-111 132,-108 135,-108 135,-108 203,-108 203,-108 206,-108 209,-111 209,-114 209,-114 209,-120 209,-120 209,-123 206,-126 203,-126"/>
+<text text-anchor="middle" x="169" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Activatable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Activatable -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Activatable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M169,-323.872C169,-291.563 169,-172.019 169,-131.518"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="170.75,-131.136 169,-126.136 167.25,-131.136 170.75,-131.136"/>
+</g>
+<!-- Gtk.Buildable -->
+<g id="node5" class="node"><title>Gtk.Buildable</title>
+<g id="a_node5"><a xlink:href="../interfaces/Buildable.html#Gtk.Buildable" xlink:title="Gtk.Buildable">
+<path fill="none" stroke="#3091d1" d="M389.5,-288C389.5,-288 328.5,-288 328.5,-288 325.5,-288 322.5,-285 322.5,-282 322.5,-282 322.5,-276 322.5,-276 322.5,-273 325.5,-270 328.5,-270 328.5,-270 389.5,-270 389.5,-270 392.5,-270 395.5,-273 395.5,-276 395.5,-276 395.5,-282 395.5,-282 395.5,-285 392.5,-288 389.5,-288"/>
+<text text-anchor="middle" x="359" y="-276.7" font-family="inherit" font-size="8.50">Gtk.Buildable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Buildable -->
+<g id="edge4" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Buildable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M198.271,-323.989C232.302,-314.675 288.404,-299.321 324.518,-289.437"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="325.335,-291.028 329.696,-288.02 324.411,-287.652 325.335,-291.028"/>
+</g>
+<!-- Gtk.ColorChooser -->
+<g id="node6" class="node"><title>Gtk.ColorChooser</title>
+<g id="a_node6"><a xlink:href="../interfaces/ColorChooser.html#Gtk.ColorChooser" xlink:title="Gtk.ColorChooser">
+<path fill="none" stroke="#3091d1" d="M86,-234C86,-234 6,-234 6,-234 3,-234 0,-231 0,-228 0,-228 0,-222 0,-222 0,-219 3,-216 6,-216 6,-216 86,-216 86,-216 89,-216 92,-219 92,-222 92,-222 92,-228 92,-228 92,-231 89,-234 86,-234"/>
+<text text-anchor="middle" x="46" y="-222.7" font-family="inherit" font-size="8.50">Gtk.ColorChooser</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.ColorChooser -->
+<g id="edge5" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.ColorChooser</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M157.823,-323.873C146.145,-315.267 127.414,-301.136 112,-288 92.4812,-271.366 71.0393,-250.757 58.0504,-237.992"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="59.091,-236.56 54.3022,-234.296 56.6334,-239.052 59.091,-236.56"/>
+</g>
+<!-- Gtk.Widget -->
+<g id="node9" class="node"><title>Gtk.Widget</title>
+<g id="a_node9"><a xlink:href="Widget.html#Gtk.Widget" xlink:title="Gtk.Widget">
+<path fill="none" stroke="#75507b" d="M370,-234C370,-234 320,-234 320,-234 317,-234 314,-231 314,-228 314,-228 314,-222 314,-222 314,-219 317,-216 320,-216 320,-216 370,-216 370,-216 373,-216 376,-219 376,-222 376,-222 376,-228 376,-228 376,-231 373,-234 370,-234"/>
+<text text-anchor="middle" x="345" y="-222.7" font-family="inherit" font-size="8.50">Gtk.Widget</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface&#45;&gt;Gtk.Widget -->
+<g id="edge7" class="edge"><title>Atk.ImplementorIface&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M265.688,-269.875C281.829,-260.945 307.827,-246.564 325.627,-236.717"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="326.888,-238.02 330.416,-234.068 325.193,-234.957 326.888,-238.02"/>
+</g>
+<!-- Gtk.Button -->
+<g id="node10" class="node"><title>Gtk.Button</title>
+<g id="a_node10"><a xlink:href="Button.html#Gtk.Button" xlink:title="Gtk.Button">
+<path fill="none" stroke="#75507b" d="M160,-72C160,-72 110,-72 110,-72 107,-72 104,-69 104,-66 104,-66 104,-60 104,-60 104,-57 107,-54 110,-54 110,-54 160,-54 160,-54 163,-54 166,-57 166,-60 166,-60 166,-66 166,-66 166,-69 163,-72 160,-72"/>
+<text text-anchor="middle" x="135" y="-60.7" font-family="inherit" font-size="8.50">Gtk.Button</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Actionable&#45;&gt;Gtk.Button -->
+<g id="edge9" class="edge"><title>Gtk.Actionable&#45;&gt;Gtk.Button</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M104.213,-161.939C107.498,-150.076 113.931,-127.241 120,-108 123.297,-97.5468 127.318,-85.8011 130.366,-77.0763"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="132.118,-77.3702 132.123,-72.0728 128.815,-76.2104 132.118,-77.3702"/>
+</g>
+<!-- Gtk.Activatable&#45;&gt;Gtk.Button -->
+<g id="edge10" class="edge"><title>Gtk.Activatable&#45;&gt;Gtk.Button</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M163.688,-107.875C158.181,-99.4529 149.503,-86.1809 143.132,-76.4377"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="144.588,-75.4667 140.387,-72.2396 141.659,-77.3821 144.588,-75.4667"/>
+</g>
+<!-- Gtk.Buildable&#45;&gt;Gtk.Widget -->
+<g id="edge13" class="edge"><title>Gtk.Buildable&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M356.812,-269.875C354.606,-261.681 351.164,-248.895 348.563,-239.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="350.208,-238.613 347.218,-234.24 346.828,-239.523 350.208,-238.613"/>
+</g>
+<!-- Gtk.ColorButton -->
+<g id="node13" class="node"><title>Gtk.ColorButton</title>
+<g id="a_node13"><a xlink:href="#Gtk.ColorButton" xlink:title="Gtk.ColorButton">
+<path fill="none" stroke="#75507b" d="M121,-18C121,-18 49,-18 49,-18 46,-18 43,-15 43,-12 43,-12 43,-6 43,-6 43,-3 46,-0 49,-0 49,-0 121,-0 121,-0 124,-0 127,-3 127,-6 127,-6 127,-12 127,-12 127,-15 124,-18 121,-18"/>
+<text text-anchor="middle" x="85" y="-6.7" font-family="inherit" font-size="8.50">Gtk.ColorButton</text>
+</a>
+</g>
+</g>
+<!-- Gtk.ColorChooser&#45;&gt;Gtk.ColorButton -->
+<g id="edge14" class="edge"><title>Gtk.ColorChooser&#45;&gt;Gtk.ColorButton</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M46.8494,-215.947C48.1425,-204.094 50.7959,-181.271 54,-162 62.5776,-110.409 75.9793,-49.627 81.9511,-23.2824"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="83.7047,-23.4629 83.1082,-18.1991 80.292,-22.686 83.7047,-23.4629"/>
+</g>
+<!-- GObject.Object -->
+<g id="node7" class="node"><title>GObject.Object</title>
+<g id="a_node7"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M509,-342C509,-342 441,-342 441,-342 438,-342 435,-339 435,-336 435,-336 435,-330 435,-330 435,-327 438,-324 441,-324 441,-324 509,-324 509,-324 512,-324 515,-327 515,-330 515,-330 515,-336 515,-336 515,-339 512,-342 509,-342"/>
+<text text-anchor="middle" x="475" y="-330.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.InitiallyUnowned -->
+<g id="node8" class="node"><title>GObject.InitiallyUnowned</title>
+<g id="a_node8"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#GObject.InitiallyUnowned" xlink:title="GObject.InitiallyUnowned">
+<path fill="none" stroke="#75507b" d="M530,-288C530,-288 420,-288 420,-288 417,-288 414,-285 414,-282 414,-282 414,-276 414,-276 414,-273 417,-270 420,-270 420,-270 530,-270 530,-270 533,-270 536,-273 536,-276 536,-276 536,-282 536,-282 536,-285 533,-288 530,-288"/>
+<text text-anchor="middle" x="475" y="-276.7" font-family="inherit" font-size="8.50">GObject.InitiallyUnowned</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GObject.InitiallyUnowned -->
+<g id="edge6" class="edge"><title>GObject.Object&#45;&gt;GObject.InitiallyUnowned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M475,-323.875C475,-315.756 475,-303.131 475,-293.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="476.75,-293.24 475,-288.24 473.25,-293.24 476.75,-293.24"/>
+</g>
+<!-- GObject.InitiallyUnowned&#45;&gt;Gtk.Widget -->
+<g id="edge8" class="edge"><title>GObject.InitiallyUnowned&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M454.972,-269.989C432.137,-260.855 394.775,-245.91 370.036,-236.014"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="370.557,-234.338 365.265,-234.106 369.257,-237.588 370.557,-234.338"/>
+</g>
+<!-- Gtk.Container -->
+<g id="node12" class="node"><title>Gtk.Container</title>
+<g id="a_node12"><a xlink:href="Container.html#Gtk.Container" xlink:title="Gtk.Container">
+<path fill="none" stroke="#75507b" d="M324.5,-180C324.5,-180 261.5,-180 261.5,-180 258.5,-180 255.5,-177 255.5,-174 255.5,-174 255.5,-168 255.5,-168 255.5,-165 258.5,-162 261.5,-162 261.5,-162 324.5,-162 324.5,-162 327.5,-162 330.5,-165 330.5,-168 330.5,-168 330.5,-174 330.5,-174 330.5,-177 327.5,-180 324.5,-180"/>
+<text text-anchor="middle" x="293" y="-168.7" font-family="inherit" font-size="8.50">Gtk.Container</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Widget&#45;&gt;Gtk.Container -->
+<g id="edge15" class="edge"><title>Gtk.Widget&#45;&gt;Gtk.Container</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M336.875,-215.875C328.301,-207.301 314.701,-193.701 304.915,-183.915"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="306.013,-182.538 301.24,-180.24 303.538,-185.013 306.013,-182.538"/>
+</g>
+<!-- Gtk.Button&#45;&gt;Gtk.ColorButton -->
+<g id="edge16" class="edge"><title>Gtk.Button&#45;&gt;Gtk.ColorButton</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M127.188,-53.875C118.943,-45.3012 105.866,-31.7011 96.4563,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="97.6497,-20.6308 92.9226,-18.2396 95.1268,-23.0567 97.6497,-20.6308"/>
+</g>
+<!-- Gtk.Bin -->
+<g id="node11" class="node"><title>Gtk.Bin</title>
+<g id="a_node11"><a xlink:href="Bin.html#Gtk.Bin" xlink:title="Gtk.Bin">
+<path fill="none" stroke="#75507b" d="M288,-126C288,-126 246,-126 246,-126 243,-126 240,-123 240,-120 240,-120 240,-114 240,-114 240,-111 243,-108 246,-108 246,-108 288,-108 288,-108 291,-108 294,-111 294,-114 294,-114 294,-120 294,-120 294,-123 291,-126 288,-126"/>
+<text text-anchor="middle" x="267" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Bin</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Bin&#45;&gt;Gtk.Button -->
+<g id="edge11" class="edge"><title>Gtk.Bin&#45;&gt;Gtk.Button</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M246.664,-107.989C223.477,-98.8546 185.541,-83.9101 160.421,-74.0144"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="160.87,-72.3103 155.576,-72.1058 159.587,-75.5667 160.87,-72.3103"/>
+</g>
+<!-- Gtk.Container&#45;&gt;Gtk.Bin -->
+<g id="edge12" class="edge"><title>Gtk.Container&#45;&gt;Gtk.Bin</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M288.938,-161.875C284.802,-153.605 278.329,-140.658 273.484,-130.968"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="274.921,-129.929 271.12,-126.24 271.791,-131.494 274.921,-129.929"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="example">
+<h2>Example</h2>
+<img alt="../_images/Gtk.ColorButton.png" src="../_images/Gtk.ColorButton.png" />
+</div>
+<div class="section" id="methods">
+<span id="gtk-colorbutton-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-methods"><em>Gtk.Button (29)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-methods"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-methods"><em>Gtk.Container (27)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-methods"><em>Gtk.Widget (256)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-methods"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/Actionable.html#gtk-actionable-methods"><em>Gtk.Actionable (5)</em></a>, <a class="reference internal" href="../interfaces/Activatable.html#gtk-activatable-methods"><em>Gtk.Activatable (6)</em></a>, <a class="reference internal" href="../interfaces/ColorChooser.html#gtk-colorchooser-methods"><em>Gtk.ColorChooser (5)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.new" title="Gtk.ColorButton.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.new_with_color" title="Gtk.ColorButton.new_with_color"><tt class="xref py py-obj docutils literal"><span class="pre">new_with_color</span></tt></a>(color)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.new_with_rgba" title="Gtk.ColorButton.new_with_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">new_with_rgba</span></tt></a>(rgba)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.get_alpha" title="Gtk.ColorButton.get_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">get_alpha</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.get_color" title="Gtk.ColorButton.get_color"><tt class="xref py py-obj docutils literal"><span class="pre">get_color</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.get_title" title="Gtk.ColorButton.get_title"><tt class="xref py py-obj docutils literal"><span class="pre">get_title</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.get_use_alpha" title="Gtk.ColorButton.get_use_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">get_use_alpha</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.set_alpha" title="Gtk.ColorButton.set_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">set_alpha</span></tt></a>(alpha)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.set_color" title="Gtk.ColorButton.set_color"><tt class="xref py py-obj docutils literal"><span class="pre">set_color</span></tt></a>(color)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.set_title" title="Gtk.ColorButton.set_title"><tt class="xref py py-obj docutils literal"><span class="pre">set_title</span></tt></a>(title)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.set_use_alpha" title="Gtk.ColorButton.set_use_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">set_use_alpha</span></tt></a>(use_alpha)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gtk-colorbutton-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-vfuncs"><em>Gtk.Button (6)</em></a>, <a class="reference internal" href="Container.html#gtk-container-vfuncs"><em>Gtk.Container (10)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-vfuncs"><em>Gtk.Widget (82)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-vfuncs"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/Actionable.html#gtk-actionable-vfuncs"><em>Gtk.Actionable (4)</em></a>, <a class="reference internal" href="../interfaces/Activatable.html#gtk-activatable-vfuncs"><em>Gtk.Activatable (2)</em></a>, <a class="reference internal" href="../interfaces/ColorChooser.html#gtk-colorchooser-vfuncs"><em>Gtk.ColorChooser (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ColorButton.do_color_set" title="Gtk.ColorButton.do_color_set"><tt class="xref py py-obj docutils literal"><span class="pre">do_color_set</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gtk-colorbutton-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-props"><em>Gtk.Button (10)</em></a>, <a class="reference internal" href="Container.html#gtk-container-props"><em>Gtk.Container (3)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-props"><em>Gtk.Widget (38)</em></a>, <a class="reference internal" href="../interfaces/Actionable.html#gtk-actionable-props"><em>Gtk.Actionable (2)</em></a>, <a class="reference internal" href="../interfaces/Activatable.html#gtk-activatable-props"><em>Gtk.Activatable (2)</em></a>, <a class="reference internal" href="../interfaces/ColorChooser.html#gtk-colorchooser-props"><em>Gtk.ColorChooser (2)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.ColorButton.props.alpha" title="Gtk.ColorButton.props.alpha"><tt class="xref py py-data docutils literal"><span class="pre">alpha</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>The selected opacity value (0 fully transparent, 65535 fully opaque)</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.ColorButton.props.color" title="Gtk.ColorButton.props.color"><tt class="xref py py-data docutils literal"><span class="pre">color</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a></td>
+<td>r/w</td>
+<td>The selected color</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.ColorButton.props.title" title="Gtk.ColorButton.props.title"><tt class="xref py py-data docutils literal"><span class="pre">title</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>The title of the color selection dialog</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="style-properties">
+<span id="gtk-colorbutton-style-props"></span><h2>Style Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-style-props"><em>Gtk.Button (7)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-style-props"><em>Gtk.Widget (17)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gtk-colorbutton-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-signals"><em>Gtk.Button (6)</em></a>, <a class="reference internal" href="Container.html#gtk-container-signals"><em>Gtk.Container (4)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-signals"><em>Gtk.Widget (69)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a>, <a class="reference internal" href="../interfaces/ColorChooser.html#gtk-colorchooser-signals"><em>Gtk.ColorChooser (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.ColorButton.signals.color_set" title="Gtk.ColorButton.signals.color_set"><tt class="xref py py-func docutils literal"><span class="pre">color-set</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.ColorButton.signals.color_set" title="Gtk.ColorButton.signals.color_set"><tt class="xref py py-func docutils literal"><span class="pre">::color-set</span></tt></a> signal is emitted when the user selects a color.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gtk-colorbutton-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-fields"><em>Gtk.Button (1)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-fields"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-fields"><em>Gtk.Container (1)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-fields"><em>Gtk.Widget (1)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#gobject-initiallyunowned-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.InitiallyUnowned (3)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>button</td>
+<td><a class="reference internal" href="Button.html#Gtk.Button" title="Gtk.Button"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Button</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gtk.ColorButton">
+<em class="property">class </em><tt class="descclassname">Gtk.</tt><tt class="descname">ColorButton</tt><big>(</big><em>label=None</em>, <em>stock=None</em>, <em>use_stock=False</em>, <em>use_underline=False</em>, <em>**kwds</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Button.html#Gtk.Button" title="Gtk.Button"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Button</span></tt></a>, <a class="reference internal" href="../interfaces/ColorChooser.html#Gtk.ColorChooser" title="Gtk.ColorChooser"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.ColorChooser</span></tt></a></p>
+<p>The <a class="reference internal" href="#Gtk.ColorButton" title="Gtk.ColorButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorButton</span></tt></a> is a button which displays the currently selected
+color an allows to open a color selection dialog to change the color.
+It is suitable widget for selecting a color in a preference dialog.</p>
+<dl class="staticmethod">
+<dt id="Gtk.ColorButton.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a new color button</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new color button.</p>
+<p>This returns a widget in the form of a small button containing
+a swatch representing the current selected color. When the button
+is clicked, a color-selection dialog will open, allowing the user
+to select a color. The swatch will be updated to reflect the new
+color when the user finishes.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gtk.ColorButton.new_with_color">
+<em class="property">static </em><tt class="descname">new_with_color</tt><big>(</big><em>color</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>color</strong> (<a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Color</span></tt></a> to set the current color with</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new color button</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new color button.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="#Gtk.ColorButton.new_with_rgba" title="Gtk.ColorButton.new_with_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorButton.new_with_rgba</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gtk.ColorButton.new_with_rgba">
+<em class="property">static </em><tt class="descname">new_with_rgba</tt><big>(</big><em>rgba</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>rgba</strong> (<a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/RGBA.html#Gdk.RGBA" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.RGBA</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/RGBA.html#Gdk.RGBA" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.RGBA</span></tt></a> to set the current color with</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new color button</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new color button.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.get_alpha">
+<tt class="descname">get_alpha</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">an integer between 0 and 65535</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the current alpha value.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="../interfaces/ColorChooser.html#Gtk.ColorChooser.get_rgba" title="Gtk.ColorChooser.get_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorChooser.get_rgba</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.get_color">
+<tt class="descname">get_color</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Color</span></tt></a> to fill in with the current color</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>color</strong>: <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets <cite>color</cite> to be the current color in the <a class="reference internal" href="#Gtk.ColorButton" title="Gtk.ColorButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorButton</span></tt></a> widget.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="../interfaces/ColorChooser.html#Gtk.ColorChooser.get_rgba" title="Gtk.ColorChooser.get_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorChooser.get_rgba</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.get_title">
+<tt class="descname">get_title</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">An internal string, do not free the return value</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the title of the color selection dialog.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.get_use_alpha">
+<tt class="descname">get_use_alpha</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the color sample uses alpha channel, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> if not</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Does the color selection dialog use the alpha channel ?</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="../interfaces/ColorChooser.html#Gtk.ColorChooser.get_use_alpha" title="Gtk.ColorChooser.get_use_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorChooser.get_use_alpha</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.set_alpha">
+<tt class="descname">set_alpha</tt><big>(</big><em>alpha</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>alpha</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; an integer between 0 and 65535</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the current opacity to be <cite>alpha</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="../interfaces/ColorChooser.html#Gtk.ColorChooser.set_rgba" title="Gtk.ColorChooser.set_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorChooser.set_rgba</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.set_color">
+<tt class="descname">set_color</tt><big>(</big><em>color</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>color</strong> (<a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Color</span></tt></a> to set the current color with</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the current color to be <cite>color</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version ??: </span>Use <a class="reference internal" href="../interfaces/ColorChooser.html#Gtk.ColorChooser.set_rgba" title="Gtk.ColorChooser.set_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorChooser.set_rgba</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.set_title">
+<tt class="descname">set_title</tt><big>(</big><em>title</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>title</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; String containing new window title</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the title for the color selection dialog.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.set_use_alpha">
+<tt class="descname">set_use_alpha</tt><big>(</big><em>use_alpha</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>use_alpha</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if color button should use alpha channel, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> if not</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether or not the color button should use the alpha channel.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="../interfaces/ColorChooser.html#Gtk.ColorChooser.set_use_alpha" title="Gtk.ColorChooser.set_use_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorChooser.set_use_alpha</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ColorButton.do_color_set">
+<tt class="descname">do_color_set</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Gtk.ColorButton.signals.color_set">
+<tt class="descclassname">Gtk.ColorButton.signals.</tt><tt class="descname">color_set</tt><big>(</big><em>color_button</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">color-set</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>color_button</strong> (<a class="reference internal" href="#Gtk.ColorButton" title="Gtk.ColorButton"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.ColorButton</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.ColorButton.signals.color_set" title="Gtk.ColorButton.signals.color_set"><tt class="xref py py-func docutils literal"><span class="pre">::color-set</span></tt></a> signal is emitted when the user selects a color.
+When handling this signal, use <tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorButton.get_rgba</span></tt> () to
+find out which color was just selected.</p>
+<p>Note that this signal is only emitted when the user
+changes the color. If you need to react to programmatic color changes
+as well, use the notify <tt class="xref py py-func docutils literal"><span class="pre">::color</span></tt> signal.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gtk.ColorButton.props.alpha">
+<tt class="descclassname">Gtk.ColorButton.props.</tt><tt class="descname">alpha</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">alpha</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">65535</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The selected opacity value (0 fully transparent, 65535 fully opaque).</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.ColorButton.props.color">
+<tt class="descclassname">Gtk.ColorButton.props.</tt><tt class="descname">color</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">color</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The selected color.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="#Gtk.ColorButton" title="Gtk.ColorButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ColorButton</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:rgba</span></tt> instead.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.ColorButton.props.title">
+<tt class="descclassname">Gtk.ColorButton.props.</tt><tt class="descname">title</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">title</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">'Pick</span> <span class="pre">a</span> <span class="pre">Color'</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The title of the color selection dialog</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.4.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

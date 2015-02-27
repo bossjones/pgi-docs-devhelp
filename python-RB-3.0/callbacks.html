@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Callbacks -
+    
+    RB 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="RB 3.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Interfaces" href="interfaces/index.html"/>
+        <link rel="prev" title="Functions" href="functions.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">RB 3.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">RB 3.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="callbacks">
+<h1>Callbacks</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.AsyncCopyCallback" title="RB.AsyncCopyCallback"><tt class="xref py py-obj docutils literal"><span class="pre">AsyncCopyCallback</span></tt></a>(copy, success, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.AsyncCopyProgressCallback" title="RB.AsyncCopyProgressCallback"><tt class="xref py py-obj docutils literal"><span class="pre">AsyncCopyProgressCallback</span></tt></a>(copy, position, total, data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.BrowserSourceFeatureFunc" title="RB.BrowserSourceFeatureFunc"><tt class="xref py py-obj docutils literal"><span class="pre">BrowserSourceFeatureFunc</span></tt></a>(source)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.BrowserSourceStringFunc" title="RB.BrowserSourceStringFunc"><tt class="xref py py-obj docutils literal"><span class="pre">BrowserSourceStringFunc</span></tt></a>(source)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.ChunkLoaderCallback" title="RB.ChunkLoaderCallback"><tt class="xref py py-obj docutils literal"><span class="pre">ChunkLoaderCallback</span></tt></a>(loader, data, total, user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.DelayedSyncFunc" title="RB.DelayedSyncFunc"><tt class="xref py py-obj docutils literal"><span class="pre">DelayedSyncFunc</span></tt></a>(settings, data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.ExtDBRequestCallback" title="RB.ExtDBRequestCallback"><tt class="xref py py-obj docutils literal"><span class="pre">ExtDBRequestCallback</span></tt></a>(key, filename, data, user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.MediaPlayerSourceDeleteCallback" title="RB.MediaPlayerSourceDeleteCallback"><tt class="xref py py-obj docutils literal"><span class="pre">MediaPlayerSourceDeleteCallback</span></tt></a>(source, data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.PlayOrderQueryFunc" title="RB.PlayOrderQueryFunc"><tt class="xref py py-obj docutils literal"><span class="pre">PlayOrderQueryFunc</span></tt></a>(porder)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.PlayerFeatureFunc" title="RB.PlayerFeatureFunc"><tt class="xref py py-obj docutils literal"><span class="pre">PlayerFeatureFunc</span></tt></a>(player)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.RhythmDBEntryTypeBooleanFunc" title="RB.RhythmDBEntryTypeBooleanFunc"><tt class="xref py py-obj docutils literal"><span class="pre">RhythmDBEntryTypeBooleanFunc</span></tt></a>(entry_type, entry)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.RhythmDBEntryTypeStringFunc" title="RB.RhythmDBEntryTypeStringFunc"><tt class="xref py py-obj docutils literal"><span class="pre">RhythmDBEntryTypeStringFunc</span></tt></a>(entry_type, entry)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.SegmentedBarValueFormatter" title="RB.SegmentedBarValueFormatter"><tt class="xref py py-obj docutils literal"><span class="pre">SegmentedBarValueFormatter</span></tt></a>(percent, data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.SourceAddCallback" title="RB.SourceAddCallback"><tt class="xref py py-obj docutils literal"><span class="pre">SourceAddCallback</span></tt></a>(source, uri, data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.SourceFeatureFunc" title="RB.SourceFeatureFunc"><tt class="xref py py-obj docutils literal"><span class="pre">SourceFeatureFunc</span></tt></a>(source)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#RB.SourceStringFunc" title="RB.SourceStringFunc"><tt class="xref py py-obj docutils literal"><span class="pre">SourceStringFunc</span></tt></a>(source)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#RB.UriRecurseFunc" title="RB.UriRecurseFunc"><tt class="xref py py-obj docutils literal"><span class="pre">UriRecurseFunc</span></tt></a>(file, info, data)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="RB.AsyncCopyCallback">
+<tt class="descclassname">RB.</tt><tt class="descname">AsyncCopyCallback</tt><big>(</big><em>copy</em>, <em>success</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>copy</strong> (<a class="reference internal" href="classes/AsyncCopy.html#RB.AsyncCopy" title="RB.AsyncCopy"><tt class="xref py py-class docutils literal"><span class="pre">RB.AsyncCopy</span></tt></a>) &#8211; </li>
+<li><strong>success</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.AsyncCopyProgressCallback">
+<tt class="descclassname">RB.</tt><tt class="descname">AsyncCopyProgressCallback</tt><big>(</big><em>copy</em>, <em>position</em>, <em>total</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>copy</strong> (<a class="reference internal" href="classes/AsyncCopy.html#RB.AsyncCopy" title="RB.AsyncCopy"><tt class="xref py py-class docutils literal"><span class="pre">RB.AsyncCopy</span></tt></a>) &#8211; </li>
+<li><strong>position</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>total</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.BrowserSourceFeatureFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">BrowserSourceFeatureFunc</tt><big>(</big><em>source</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>source</strong> (<a class="reference internal" href="classes/BrowserSource.html#RB.BrowserSource" title="RB.BrowserSource"><tt class="xref py py-class docutils literal"><span class="pre">RB.BrowserSource</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.BrowserSourceStringFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">BrowserSourceStringFunc</tt><big>(</big><em>source</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>source</strong> (<a class="reference internal" href="classes/BrowserSource.html#RB.BrowserSource" title="RB.BrowserSource"><tt class="xref py py-class docutils literal"><span class="pre">RB.BrowserSource</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.ChunkLoaderCallback">
+<tt class="descclassname">RB.</tt><tt class="descname">ChunkLoaderCallback</tt><big>(</big><em>loader</em>, <em>data</em>, <em>total</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>loader</strong> (<a class="reference internal" href="classes/ChunkLoader.html#RB.ChunkLoader" title="RB.ChunkLoader"><tt class="xref py py-class docutils literal"><span class="pre">RB.ChunkLoader</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="_devhelp/RB-3.0/../../../python-GLib-2.0/structs/Bytes.html#GLib.Bytes" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Bytes</span></tt></a>) &#8211; </li>
+<li><strong>total</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.DelayedSyncFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">DelayedSyncFunc</tt><big>(</big><em>settings</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>settings</strong> (<a class="reference external" href="_devhelp/RB-3.0/../../../python-Gio-2.0/classes/Settings.html#Gio.Settings" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Settings</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.ExtDBRequestCallback">
+<tt class="descclassname">RB.</tt><tt class="descname">ExtDBRequestCallback</tt><big>(</big><em>key</em>, <em>filename</em>, <em>data</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>key</strong> (<a class="reference internal" href="structs/ExtDBKey.html#RB.ExtDBKey" title="RB.ExtDBKey"><tt class="xref py py-class docutils literal"><span class="pre">RB.ExtDBKey</span></tt></a>) &#8211; </li>
+<li><strong>filename</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="_devhelp/RB-3.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.MediaPlayerSourceDeleteCallback">
+<tt class="descclassname">RB.</tt><tt class="descname">MediaPlayerSourceDeleteCallback</tt><big>(</big><em>source</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/MediaPlayerSource.html#RB.MediaPlayerSource" title="RB.MediaPlayerSource"><tt class="xref py py-class docutils literal"><span class="pre">RB.MediaPlayerSource</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.PlayOrderQueryFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">PlayOrderQueryFunc</tt><big>(</big><em>porder</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>porder</strong> (<a class="reference internal" href="classes/PlayOrder.html#RB.PlayOrder" title="RB.PlayOrder"><tt class="xref py py-class docutils literal"><span class="pre">RB.PlayOrder</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.PlayerFeatureFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">PlayerFeatureFunc</tt><big>(</big><em>player</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>player</strong> (<a class="reference internal" href="interfaces/Player.html#RB.Player" title="RB.Player"><tt class="xref py py-class docutils literal"><span class="pre">RB.Player</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.RhythmDBEntryTypeBooleanFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">RhythmDBEntryTypeBooleanFunc</tt><big>(</big><em>entry_type</em>, <em>entry</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entry_type</strong> (<a class="reference internal" href="classes/RhythmDBEntryType.html#RB.RhythmDBEntryType" title="RB.RhythmDBEntryType"><tt class="xref py py-class docutils literal"><span class="pre">RB.RhythmDBEntryType</span></tt></a>) &#8211; </li>
+<li><strong>entry</strong> (<a class="reference internal" href="structs/RhythmDBEntry.html#RB.RhythmDBEntry" title="RB.RhythmDBEntry"><tt class="xref py py-class docutils literal"><span class="pre">RB.RhythmDBEntry</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.RhythmDBEntryTypeStringFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">RhythmDBEntryTypeStringFunc</tt><big>(</big><em>entry_type</em>, <em>entry</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entry_type</strong> (<a class="reference internal" href="classes/RhythmDBEntryType.html#RB.RhythmDBEntryType" title="RB.RhythmDBEntryType"><tt class="xref py py-class docutils literal"><span class="pre">RB.RhythmDBEntryType</span></tt></a>) &#8211; </li>
+<li><strong>entry</strong> (<a class="reference internal" href="structs/RhythmDBEntry.html#RB.RhythmDBEntry" title="RB.RhythmDBEntry"><tt class="xref py py-class docutils literal"><span class="pre">RB.RhythmDBEntry</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.SegmentedBarValueFormatter">
+<tt class="descclassname">RB.</tt><tt class="descname">SegmentedBarValueFormatter</tt><big>(</big><em>percent</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>percent</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.SourceAddCallback">
+<tt class="descclassname">RB.</tt><tt class="descname">SourceAddCallback</tt><big>(</big><em>source</em>, <em>uri</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>source</strong> (<a class="reference internal" href="classes/Source.html#RB.Source" title="RB.Source"><tt class="xref py py-class docutils literal"><span class="pre">RB.Source</span></tt></a>) &#8211; </li>
+<li><strong>uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.SourceFeatureFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">SourceFeatureFunc</tt><big>(</big><em>source</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>source</strong> (<a class="reference internal" href="classes/Source.html#RB.Source" title="RB.Source"><tt class="xref py py-class docutils literal"><span class="pre">RB.Source</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.SourceStringFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">SourceStringFunc</tt><big>(</big><em>source</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>source</strong> (<a class="reference internal" href="classes/Source.html#RB.Source" title="RB.Source"><tt class="xref py py-class docutils literal"><span class="pre">RB.Source</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="RB.UriRecurseFunc">
+<tt class="descclassname">RB.</tt><tt class="descname">UriRecurseFunc</tt><big>(</big><em>file</em>, <em>info</em>, <em>data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>file</strong> (<a class="reference external" href="_devhelp/RB-3.0/../../../python-Gio-2.0/interfaces/File.html#Gio.File" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.File</span></tt></a>) &#8211; </li>
+<li><strong>info</strong> (<a class="reference external" href="_devhelp/RB-3.0/../../../python-Gio-2.0/classes/FileInfo.html#Gio.FileInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileInfo</span></tt></a>) &#8211; </li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

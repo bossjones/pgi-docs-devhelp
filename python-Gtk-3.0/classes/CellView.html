@@ -1,0 +1,1095 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gtk.CellView -
+    
+      Classes -
+    
+    Gtk 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gtk 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gtk.CheckButton" href="CheckButton.html"/>
+        <link rel="prev" title="Gtk.CellRendererToggle" href="CellRendererToggle.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.CellView</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="CellRendererToggle.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="CheckButton.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.CellView</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.CellView</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="CellRendererToggle.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="CheckButton.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.CellView</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gtk-cellview">
+<h1>Gtk.CellView</h1>
+<p class="graphviz">
+<svg width="452pt" height="188pt"
+ viewBox="0.00 0.00 451.50 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
+<title>inheritance25f45cb216</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M151.5,-180C151.5,-180 65.5,-180 65.5,-180 62.5,-180 59.5,-177 59.5,-174 59.5,-174 59.5,-168 59.5,-168 59.5,-165 62.5,-162 65.5,-162 65.5,-162 151.5,-162 151.5,-162 154.5,-162 157.5,-165 157.5,-168 157.5,-168 157.5,-174 157.5,-174 157.5,-177 154.5,-180 151.5,-180"/>
+<text text-anchor="middle" x="108.5" y="-168.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface -->
+<g id="node2" class="node"><title>Atk.ImplementorIface</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-Atk-1.0/interfaces/ImplementorIface.html#Atk.ImplementorIface" xlink:title="Atk.ImplementorIface">
+<path fill="none" stroke="#3091d1" d="M297,-126C297,-126 202,-126 202,-126 199,-126 196,-123 196,-120 196,-120 196,-114 196,-114 196,-111 199,-108 202,-108 202,-108 297,-108 297,-108 300,-108 303,-111 303,-114 303,-114 303,-120 303,-120 303,-123 300,-126 297,-126"/>
+<text text-anchor="middle" x="249.5" y="-114.7" font-family="inherit" font-size="8.50">Atk.ImplementorIface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Atk.ImplementorIface -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Atk.ImplementorIface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M130.222,-161.989C155.093,-152.817 195.851,-137.786 222.68,-127.891"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="223.435,-129.478 227.521,-126.106 222.224,-126.194 223.435,-129.478"/>
+</g>
+<!-- Gtk.Buildable -->
+<g id="node3" class="node"><title>Gtk.Buildable</title>
+<g id="a_node3"><a xlink:href="../interfaces/Buildable.html#Gtk.Buildable" xlink:title="Gtk.Buildable">
+<path fill="none" stroke="#3091d1" d="M172,-126C172,-126 111,-126 111,-126 108,-126 105,-123 105,-120 105,-120 105,-114 105,-114 105,-111 108,-108 111,-108 111,-108 172,-108 172,-108 175,-108 178,-111 178,-114 178,-114 178,-120 178,-120 178,-123 175,-126 172,-126"/>
+<text text-anchor="middle" x="141.5" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Buildable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Buildable -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Buildable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M113.656,-161.875C118.953,-153.529 127.272,-140.42 133.439,-130.702"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="135.069,-131.399 136.271,-126.24 132.114,-129.524 135.069,-131.399"/>
+</g>
+<!-- Gtk.CellLayout -->
+<g id="node4" class="node"><title>Gtk.CellLayout</title>
+<g id="a_node4"><a xlink:href="../interfaces/CellLayout.html#Gtk.CellLayout" xlink:title="Gtk.CellLayout">
+<path fill="none" stroke="#3091d1" d="M71,-72C71,-72 6,-72 6,-72 3,-72 0,-69 0,-66 0,-66 0,-60 0,-60 0,-57 3,-54 6,-54 6,-54 71,-54 71,-54 74,-54 77,-57 77,-60 77,-60 77,-66 77,-66 77,-69 74,-72 71,-72"/>
+<text text-anchor="middle" x="38.5" y="-60.7" font-family="inherit" font-size="8.50">Gtk.CellLayout</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.CellLayout -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.CellLayout</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M103.007,-161.682C90.7907,-143.183 61.3084,-98.5385 46.8198,-76.5985"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="48.1829,-75.487 43.9673,-72.279 45.2623,-77.4157 48.1829,-75.487"/>
+</g>
+<!-- Gtk.Orientable -->
+<g id="node5" class="node"><title>Gtk.Orientable</title>
+<g id="a_node5"><a xlink:href="../interfaces/Orientable.html#Gtk.Orientable" xlink:title="Gtk.Orientable">
+<path fill="none" stroke="#3091d1" d="M167.5,-72C167.5,-72 101.5,-72 101.5,-72 98.5,-72 95.5,-69 95.5,-66 95.5,-66 95.5,-60 95.5,-60 95.5,-57 98.5,-54 101.5,-54 101.5,-54 167.5,-54 167.5,-54 170.5,-54 173.5,-57 173.5,-60 173.5,-60 173.5,-66 173.5,-66 173.5,-69 170.5,-72 167.5,-72"/>
+<text text-anchor="middle" x="134.5" y="-60.7" font-family="inherit" font-size="8.50">Gtk.Orientable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Orientable -->
+<g id="edge4" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Orientable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M103.886,-161.745C97.7576,-149.642 88.4778,-126.509 95.5,-108 100.354,-95.2052 110.82,-83.7445 119.688,-75.7296"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="121.258,-76.6831 123.882,-72.081 118.961,-74.0426 121.258,-76.6831"/>
+</g>
+<!-- Gtk.Widget -->
+<g id="node8" class="node"><title>Gtk.Widget</title>
+<g id="a_node8"><a xlink:href="Widget.html#Gtk.Widget" xlink:title="Gtk.Widget">
+<path fill="none" stroke="#75507b" d="M260.5,-72C260.5,-72 210.5,-72 210.5,-72 207.5,-72 204.5,-69 204.5,-66 204.5,-66 204.5,-60 204.5,-60 204.5,-57 207.5,-54 210.5,-54 210.5,-54 260.5,-54 260.5,-54 263.5,-54 266.5,-57 266.5,-60 266.5,-60 266.5,-66 266.5,-66 266.5,-69 263.5,-72 260.5,-72"/>
+<text text-anchor="middle" x="235.5" y="-60.7" font-family="inherit" font-size="8.50">Gtk.Widget</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface&#45;&gt;Gtk.Widget -->
+<g id="edge6" class="edge"><title>Atk.ImplementorIface&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M247.312,-107.875C245.106,-99.6806 241.664,-86.8948 239.063,-77.2353"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="240.708,-76.6127 237.718,-72.2396 237.328,-77.5226 240.708,-76.6127"/>
+</g>
+<!-- Gtk.Buildable&#45;&gt;Gtk.Widget -->
+<g id="edge8" class="edge"><title>Gtk.Buildable&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M156.188,-107.875C172.329,-98.9455 198.327,-84.5639 216.127,-74.7168"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="217.388,-76.0196 220.916,-72.0679 215.693,-72.957 217.388,-76.0196"/>
+</g>
+<!-- Gtk.CellView -->
+<g id="node9" class="node"><title>Gtk.CellView</title>
+<g id="a_node9"><a xlink:href="#Gtk.CellView" xlink:title="Gtk.CellView">
+<path fill="none" stroke="#75507b" d="M163,-18C163,-18 106,-18 106,-18 103,-18 100,-15 100,-12 100,-12 100,-6 100,-6 100,-3 103,-0 106,-0 106,-0 163,-0 163,-0 166,-0 169,-3 169,-6 169,-6 169,-12 169,-12 169,-15 166,-18 163,-18"/>
+<text text-anchor="middle" x="134.5" y="-6.7" font-family="inherit" font-size="8.50">Gtk.CellView</text>
+</a>
+</g>
+</g>
+<!-- Gtk.CellLayout&#45;&gt;Gtk.CellView -->
+<g id="edge9" class="edge"><title>Gtk.CellLayout&#45;&gt;Gtk.CellView</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M53.5,-53.875C70.1262,-44.8692 96.9904,-30.3177 115.179,-20.4653"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="116.042,-21.9882 119.605,-18.0679 114.375,-18.9106 116.042,-21.9882"/>
+</g>
+<!-- Gtk.Orientable&#45;&gt;Gtk.CellView -->
+<g id="edge10" class="edge"><title>Gtk.Orientable&#45;&gt;Gtk.CellView</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M134.5,-53.875C134.5,-45.7564 134.5,-33.1312 134.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="136.25,-23.2395 134.5,-18.2396 132.75,-23.2396 136.25,-23.2395"/>
+</g>
+<!-- GObject.Object -->
+<g id="node6" class="node"><title>GObject.Object</title>
+<g id="a_node6"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M416.5,-180C416.5,-180 348.5,-180 348.5,-180 345.5,-180 342.5,-177 342.5,-174 342.5,-174 342.5,-168 342.5,-168 342.5,-165 345.5,-162 348.5,-162 348.5,-162 416.5,-162 416.5,-162 419.5,-162 422.5,-165 422.5,-168 422.5,-168 422.5,-174 422.5,-174 422.5,-177 419.5,-180 416.5,-180"/>
+<text text-anchor="middle" x="382.5" y="-168.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.InitiallyUnowned -->
+<g id="node7" class="node"><title>GObject.InitiallyUnowned</title>
+<g id="a_node7"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#GObject.InitiallyUnowned" xlink:title="GObject.InitiallyUnowned">
+<path fill="none" stroke="#75507b" d="M437.5,-126C437.5,-126 327.5,-126 327.5,-126 324.5,-126 321.5,-123 321.5,-120 321.5,-120 321.5,-114 321.5,-114 321.5,-111 324.5,-108 327.5,-108 327.5,-108 437.5,-108 437.5,-108 440.5,-108 443.5,-111 443.5,-114 443.5,-114 443.5,-120 443.5,-120 443.5,-123 440.5,-126 437.5,-126"/>
+<text text-anchor="middle" x="382.5" y="-114.7" font-family="inherit" font-size="8.50">GObject.InitiallyUnowned</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GObject.InitiallyUnowned -->
+<g id="edge5" class="edge"><title>GObject.Object&#45;&gt;GObject.InitiallyUnowned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M382.5,-161.875C382.5,-153.756 382.5,-141.131 382.5,-131.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="384.25,-131.24 382.5,-126.24 380.75,-131.24 384.25,-131.24"/>
+</g>
+<!-- GObject.InitiallyUnowned&#45;&gt;Gtk.Widget -->
+<g id="edge7" class="edge"><title>GObject.InitiallyUnowned&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M359.853,-107.989C333.924,-98.8166 291.432,-83.7855 263.461,-73.891"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="263.712,-72.1235 258.415,-72.1058 262.545,-75.4232 263.712,-72.1235"/>
+</g>
+<!-- Gtk.Widget&#45;&gt;Gtk.CellView -->
+<g id="edge11" class="edge"><title>Gtk.Widget&#45;&gt;Gtk.CellView</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M219.719,-53.875C202.227,-44.8692 173.963,-30.3177 154.827,-20.4653"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="155.417,-18.8008 150.17,-18.0679 153.815,-21.9126 155.417,-18.8008"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="gtk-cellview-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Widget.html#gtk-widget-methods"><em>Gtk.Widget (256)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-methods"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/CellLayout.html#gtk-celllayout-methods"><em>Gtk.CellLayout (9)</em></a>, <a class="reference internal" href="../interfaces/Orientable.html#gtk-orientable-methods"><em>Gtk.Orientable (2)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.CellView.new" title="Gtk.CellView.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.CellView.new_with_context" title="Gtk.CellView.new_with_context"><tt class="xref py py-obj docutils literal"><span class="pre">new_with_context</span></tt></a>(area, context)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.CellView.new_with_markup" title="Gtk.CellView.new_with_markup"><tt class="xref py py-obj docutils literal"><span class="pre">new_with_markup</span></tt></a>(markup)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.CellView.new_with_pixbuf" title="Gtk.CellView.new_with_pixbuf"><tt class="xref py py-obj docutils literal"><span class="pre">new_with_pixbuf</span></tt></a>(pixbuf)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.CellView.new_with_text" title="Gtk.CellView.new_with_text"><tt class="xref py py-obj docutils literal"><span class="pre">new_with_text</span></tt></a>(text)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.get_displayed_row" title="Gtk.CellView.get_displayed_row"><tt class="xref py py-obj docutils literal"><span class="pre">get_displayed_row</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.get_draw_sensitive" title="Gtk.CellView.get_draw_sensitive"><tt class="xref py py-obj docutils literal"><span class="pre">get_draw_sensitive</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.get_fit_model" title="Gtk.CellView.get_fit_model"><tt class="xref py py-obj docutils literal"><span class="pre">get_fit_model</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.get_model" title="Gtk.CellView.get_model"><tt class="xref py py-obj docutils literal"><span class="pre">get_model</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.get_size_of_row" title="Gtk.CellView.get_size_of_row"><tt class="xref py py-obj docutils literal"><span class="pre">get_size_of_row</span></tt></a>(path)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.set_background_color" title="Gtk.CellView.set_background_color"><tt class="xref py py-obj docutils literal"><span class="pre">set_background_color</span></tt></a>(color)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.set_background_rgba" title="Gtk.CellView.set_background_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">set_background_rgba</span></tt></a>(rgba)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.set_displayed_row" title="Gtk.CellView.set_displayed_row"><tt class="xref py py-obj docutils literal"><span class="pre">set_displayed_row</span></tt></a>(path)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.set_draw_sensitive" title="Gtk.CellView.set_draw_sensitive"><tt class="xref py py-obj docutils literal"><span class="pre">set_draw_sensitive</span></tt></a>(draw_sensitive)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.set_fit_model" title="Gtk.CellView.set_fit_model"><tt class="xref py py-obj docutils literal"><span class="pre">set_fit_model</span></tt></a>(fit_model)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.CellView.set_model" title="Gtk.CellView.set_model"><tt class="xref py py-obj docutils literal"><span class="pre">set_model</span></tt></a>(model)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gtk-cellview-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Widget.html#gtk-widget-vfuncs"><em>Gtk.Widget (82)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-vfuncs"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/CellLayout.html#gtk-celllayout-vfuncs"><em>Gtk.CellLayout (9)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gtk-cellview-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Widget.html#gtk-widget-props"><em>Gtk.Widget (38)</em></a>, <a class="reference internal" href="../interfaces/Orientable.html#gtk-orientable-props"><em>Gtk.Orientable (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.CellView.props.background" title="Gtk.CellView.props.background"><tt class="xref py py-data docutils literal"><span class="pre">background</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>w</td>
+<td>Background color as a string</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.CellView.props.background_gdk" title="Gtk.CellView.props.background_gdk"><tt class="xref py py-data docutils literal"><span class="pre">background-gdk</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a></td>
+<td>r/w</td>
+<td>Background color as a <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Color</span></tt></a></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.CellView.props.background_rgba" title="Gtk.CellView.props.background_rgba"><tt class="xref py py-data docutils literal"><span class="pre">background-rgba</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/RGBA.html#Gdk.RGBA" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.RGBA</span></tt></a></td>
+<td>r/w</td>
+<td>Background color as a <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/RGBA.html#Gdk.RGBA" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.RGBA</span></tt></a></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.CellView.props.background_set" title="Gtk.CellView.props.background_set"><tt class="xref py py-data docutils literal"><span class="pre">background-set</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether this tag affects the background color</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.CellView.props.cell_area" title="Gtk.CellView.props.cell_area"><tt class="xref py py-data docutils literal"><span class="pre">cell-area</span></tt></a></td>
+<td><a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.CellArea</span></tt></a></td>
+<td>r/w</td>
+<td>The <a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellArea</span></tt></a> used to layout cells</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.CellView.props.cell_area_context" title="Gtk.CellView.props.cell_area_context"><tt class="xref py py-data docutils literal"><span class="pre">cell-area-context</span></tt></a></td>
+<td><a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a></td>
+<td>r/w</td>
+<td>The <a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a> used to compute the geometry of the cell view</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.CellView.props.draw_sensitive" title="Gtk.CellView.props.draw_sensitive"><tt class="xref py py-data docutils literal"><span class="pre">draw-sensitive</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether to force cells to be drawn in a sensitive state</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.CellView.props.fit_model" title="Gtk.CellView.props.fit_model"><tt class="xref py py-data docutils literal"><span class="pre">fit-model</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether to request enough space for every row in the model</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.CellView.props.model" title="Gtk.CellView.props.model"><tt class="xref py py-data docutils literal"><span class="pre">model</span></tt></a></td>
+<td><a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a></td>
+<td>r/w</td>
+<td>The model for cell view</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="style-properties">
+<span id="gtk-cellview-style-props"></span><h2>Style Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Widget.html#gtk-widget-style-props"><em>Gtk.Widget (17)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gtk-cellview-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Widget.html#gtk-widget-signals"><em>Gtk.Widget (69)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gtk-cellview-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Widget.html#gtk-widget-fields"><em>Gtk.Widget (1)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#gobject-initiallyunowned-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.InitiallyUnowned (3)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gtk.CellView">
+<em class="property">class </em><tt class="descclassname">Gtk.</tt><tt class="descname">CellView</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a>, <a class="reference internal" href="../interfaces/CellLayout.html#Gtk.CellLayout" title="Gtk.CellLayout"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.CellLayout</span></tt></a>, <a class="reference internal" href="../interfaces/Orientable.html#Gtk.Orientable" title="Gtk.Orientable"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Orientable</span></tt></a></p>
+<p>A <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> displays a single row of a <a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a> using a <a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellArea</span></tt></a> 
+and <a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a>. A <a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a> can be provided to the
+<a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> at construction time in order to keep the cellview in context
+of a group of cell views, this ensures that the renderers displayed will
+be properly aligned with eachother (like the aligned cells in the menus
+of <a class="reference internal" href="ComboBox.html#Gtk.ComboBox" title="Gtk.ComboBox"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ComboBox</span></tt></a> ).</p>
+<p><a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> is <a class="reference internal" href="../interfaces/Orientable.html#Gtk.Orientable" title="Gtk.Orientable"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Orientable</span></tt></a> in order to decide in which orientation
+the underlying <a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a> should be allocated. Taking the <a class="reference internal" href="ComboBox.html#Gtk.ComboBox" title="Gtk.ComboBox"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ComboBox</span></tt></a> 
+menu as an example, cellviews should be oriented horizontally if the menus are
+listed top-to-bottom and thus all share the same width but may have separate
+individual heights (left-to-right menus should be allocated vertically since
+they all share the same height but may have variable widths).</p>
+<dl class="staticmethod">
+<dt id="Gtk.CellView.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A newly created <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gtk.CellView.new_with_context">
+<em class="property">static </em><tt class="descname">new_with_context</tt><big>(</big><em>area</em>, <em>context</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>area</strong> (<a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.CellArea</span></tt></a>) &#8211; the <a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellArea</span></tt></a> to layout cells</li>
+<li><strong>context</strong> (<a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a>) &#8211; the <a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a> in which to calculate cell geometry</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A newly created <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget with a specific <a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellArea</span></tt></a>
+to layout cells and a specific <a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a>.</p>
+<p>Specifying the same context for a handfull of cells lets
+the underlying area synchronize the geometry for those cells,
+in this way alignments with cellviews for other rows are
+possible.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gtk.CellView.new_with_markup">
+<em class="property">static </em><tt class="descname">new_with_markup</tt><big>(</big><em>markup</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>markup</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the text to display in the cell view</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A newly created <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget, adds a <a class="reference internal" href="CellRendererText.html#Gtk.CellRendererText" title="Gtk.CellRendererText"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellRendererText</span></tt></a>
+to it, and makes it show <cite>markup</cite>. The text can be
+marked up with the [Pango text markup language][PangoMarkupFormat].</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gtk.CellView.new_with_pixbuf">
+<em class="property">static </em><tt class="descname">new_with_pixbuf</tt><big>(</big><em>pixbuf</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pixbuf</strong> (<a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GdkPixbuf-2.0/classes/Pixbuf.html#GdkPixbuf.Pixbuf" title="(in GdkPixbuf 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GdkPixbuf.Pixbuf</span></tt></a>) &#8211; the image to display in the cell view</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A newly created <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget, adds a <a class="reference internal" href="CellRendererPixbuf.html#Gtk.CellRendererPixbuf" title="Gtk.CellRendererPixbuf"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellRendererPixbuf</span></tt></a>
+to it, and makes it show <cite>pixbuf</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Gtk.CellView.new_with_text">
+<em class="property">static </em><tt class="descname">new_with_text</tt><big>(</big><em>text</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>text</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the text to display in the cell view</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A newly created <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> widget, adds a <a class="reference internal" href="CellRendererText.html#Gtk.CellRendererText" title="Gtk.CellRendererText"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellRendererText</span></tt></a>
+to it, and makes it show <cite>text</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.get_displayed_row">
+<tt class="descname">get_displayed_row</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the currently displayed row or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../structs/TreePath.html#Gtk.TreePath" title="Gtk.TreePath"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.TreePath</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns a <a class="reference internal" href="../structs/TreePath.html#Gtk.TreePath" title="Gtk.TreePath"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreePath</span></tt></a> referring to the currently
+displayed row. If no row is currently displayed,
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> is returned.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.get_draw_sensitive">
+<tt class="descname">get_draw_sensitive</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">whether <cite>cell_view</cite> draws all of its
+cells in a sensitive state</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets whether <cite>cell_view</cite> is configured to draw all of its
+cells in a sensitive state.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.get_fit_model">
+<tt class="descname">get_fit_model</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">whether <cite>cell_view</cite> requests space to fit
+the entire <a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets whether <cite>cell_view</cite> is configured to request space
+to fit the entire <a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.get_model">
+<tt class="descname">get_model</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a> used or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Returns the model for <cite>cell_view</cite>. If no model is used <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> is
+returned.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.16.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.get_size_of_row">
+<tt class="descname">get_size_of_row</tt><big>(</big><em>path</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>path</strong> (<a class="reference internal" href="../structs/TreePath.html#Gtk.TreePath" title="Gtk.TreePath"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.TreePath</span></tt></a>) &#8211; a <a class="reference internal" href="../structs/TreePath.html#Gtk.TreePath" title="Gtk.TreePath"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreePath</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">requisition:</th><td class="field-body">return location for the size</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>requisition</strong>: <a class="reference internal" href="../structs/Requisition.html#Gtk.Requisition" title="Gtk.Requisition"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Requisition</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Sets <cite>requisition</cite> to the size needed by <cite>cell_view</cite> to display
+the model row pointed to by <cite>path</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.0: </span>Combo box formerly used this to calculate the
+sizes for cellviews, now you can achieve this by either using
+the <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> <a class="reference internal" href="#Gtk.CellView.props.fit_model" title="Gtk.CellView.props.fit_model"><tt class="xref py py-data docutils literal"><span class="pre">:fit-model</span></tt></a> property or by setting the currently
+displayed row of the <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> and using <a class="reference internal" href="Widget.html#Gtk.Widget.get_preferred_size" title="Gtk.Widget.get_preferred_size"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Widget.get_preferred_size</span></tt></a> ().</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.set_background_color">
+<tt class="descname">set_background_color</tt><big>(</big><em>color</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>color</strong> (<a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a>) &#8211; the new background color</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the background color of <cite>view</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="#Gtk.CellView.set_background_rgba" title="Gtk.CellView.set_background_rgba"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView.set_background_rgba</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.set_background_rgba">
+<tt class="descname">set_background_rgba</tt><big>(</big><em>rgba</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>rgba</strong> (<a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/RGBA.html#Gdk.RGBA" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.RGBA</span></tt></a>) &#8211; the new background color</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the background color of <cite>cell_view</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.set_displayed_row">
+<tt class="descname">set_displayed_row</tt><big>(</big><em>path</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>path</strong> (<a class="reference internal" href="../structs/TreePath.html#Gtk.TreePath" title="Gtk.TreePath"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.TreePath</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="../structs/TreePath.html#Gtk.TreePath" title="Gtk.TreePath"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreePath</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> to unset.</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the row of the model that is currently displayed
+by the <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a>. If the path is unset, then the
+contents of the cellview “stick” at their last value;
+this is not normally a desired result, but may be
+a needed intermediate state if say, the model for
+the <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> becomes temporarily empty.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.set_draw_sensitive">
+<tt class="descname">set_draw_sensitive</tt><big>(</big><em>draw_sensitive</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>draw_sensitive</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; whether to draw all cells in a sensitive state.</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether <cite>cell_view</cite> should draw all of its
+cells in a sensitive state, this is used by <a class="reference internal" href="ComboBox.html#Gtk.ComboBox" title="Gtk.ComboBox"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ComboBox</span></tt></a> menus
+to ensure that rows with insensitive cells that contain
+children appear sensitive in the parent menu item.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.set_fit_model">
+<tt class="descname">set_fit_model</tt><big>(</big><em>fit_model</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fit_model</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; whether <cite>cell_view</cite> should request space for the whole model.</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether <cite>cell_view</cite> should request space to fit the entire <a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a>.</p>
+<p>This is used by <a class="reference internal" href="ComboBox.html#Gtk.ComboBox" title="Gtk.ComboBox"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ComboBox</span></tt></a> to ensure that the cell view displayed on
+the combo box’s button always gets enough space and does not resize
+when selection changes.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.CellView.set_model">
+<tt class="descname">set_model</tt><big>(</big><em>model</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>model</strong> (<a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the model for <cite>cell_view</cite>.  If <cite>cell_view</cite> already has a model
+set, it will remove it before setting the new model.  If <cite>model</cite> is
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, then it will unset the old model.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.6.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gtk.CellView.props.background">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">background</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">background</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">w</td>
+</tr>
+</tbody>
+</table>
+<p>Background color as a string</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.background_gdk">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">background_gdk</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">background-gdk</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.Color</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The background color as a <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/Color.html#Gdk.Color" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.Color</span></tt></a></p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 3.4: </span>Use <a class="reference internal" href="#Gtk.CellView" title="Gtk.CellView"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView</span></tt></a> <a class="reference internal" href="#Gtk.CellView.props.background_rgba" title="Gtk.CellView.props.background_rgba"><tt class="xref py py-data docutils literal"><span class="pre">:background-rgba</span></tt></a> instead.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.background_rgba">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">background_rgba</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">background-rgba</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/RGBA.html#Gdk.RGBA" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gdk.RGBA</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The background color as a <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-Gdk-3.0/structs/RGBA.html#Gdk.RGBA" title="(in Gdk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gdk.RGBA</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 3.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.background_set">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">background_set</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">background-set</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether this tag affects the background color</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.cell_area">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">cell_area</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">cell-area</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.CellArea</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="CellArea.html#Gtk.CellArea" title="Gtk.CellArea"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellArea</span></tt></a> rendering cells</p>
+<p>If no area is specified when creating the cell view with <a class="reference internal" href="#Gtk.CellView.new_with_context" title="Gtk.CellView.new_with_context"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellView.new_with_context</span></tt></a> ()
+a horizontally oriented <a class="reference internal" href="CellAreaBox.html#Gtk.CellAreaBox" title="Gtk.CellAreaBox"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaBox</span></tt></a> will be used.</p>
+<p>since 3.0</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.cell_area_context">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">cell_area_context</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">cell-area-context</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="CellAreaContext.html#Gtk.CellAreaContext" title="Gtk.CellAreaContext"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.CellAreaContext</span></tt></a> used to compute the geometry of the cell view.</p>
+<p>A group of cell views can be assigned the same context in order to
+ensure the sizes and cell alignments match across all the views with
+the same context.</p>
+<p><a class="reference internal" href="ComboBox.html#Gtk.ComboBox" title="Gtk.ComboBox"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ComboBox</span></tt></a> menus uses this to assign the same context to all cell views
+in the menu items for a single menu (each submenu creates its own
+context since the size of each submenu does not depend on parent
+or sibling menus).</p>
+<p>since 3.0</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.draw_sensitive">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">draw_sensitive</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">draw-sensitive</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether all cells should be draw as sensitive for this view regardless
+of the actual cell properties (used to make menus with submenus appear
+sensitive when the items in submenus might be insensitive).</p>
+<p>since 3.0</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.fit_model">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">fit_model</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">fit-model</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the view should request enough space to always fit
+the size of every row in the model (used by the combo box to
+ensure the combo box size doesnt change when different items
+are selected).</p>
+<p>since 3.0</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.CellView.props.model">
+<tt class="descclassname">Gtk.CellView.props.</tt><tt class="descname">model</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">model</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../interfaces/TreeModel.html#Gtk.TreeModel" title="Gtk.TreeModel"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.TreeModel</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The model for cell view</p>
+<p>since 2.10</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

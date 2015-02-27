@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Callbacks -
+    
+    GstVideo 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="GstVideo 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Interfaces" href="interfaces/index.html"/>
+        <link rel="prev" title="Functions" href="functions.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstVideo 1.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstVideo 1.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="callbacks">
+<h1>Callbacks</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstVideo.VideoConvertSampleCallback" title="GstVideo.VideoConvertSampleCallback"><tt class="xref py py-obj docutils literal"><span class="pre">VideoConvertSampleCallback</span></tt></a>(sample, error, user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstVideo.VideoFormatPack" title="GstVideo.VideoFormatPack"><tt class="xref py py-obj docutils literal"><span class="pre">VideoFormatPack</span></tt></a>(info, flags, src, sstride, data, stride, chroma_site, y, width)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstVideo.VideoFormatUnpack" title="GstVideo.VideoFormatUnpack"><tt class="xref py py-obj docutils literal"><span class="pre">VideoFormatUnpack</span></tt></a>(info, flags, dest, data, stride, x, y, width)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstVideo.VideoGLTextureUpload" title="GstVideo.VideoGLTextureUpload"><tt class="xref py py-obj docutils literal"><span class="pre">VideoGLTextureUpload</span></tt></a>(meta, texture_id)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="GstVideo.VideoConvertSampleCallback">
+<tt class="descclassname">GstVideo.</tt><tt class="descname">VideoConvertSampleCallback</tt><big>(</big><em>sample</em>, <em>error</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>sample</strong> (<a class="reference external" href="_devhelp/GstVideo-1.0/../../../python-Gst-1.0/structs/Sample.html#Gst.Sample" title="(in Gst 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gst.Sample</span></tt></a>) &#8211; </li>
+<li><strong>error</strong> (<a class="reference external" href="_devhelp/GstVideo-1.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstVideo.VideoFormatPack">
+<tt class="descclassname">GstVideo.</tt><tt class="descname">VideoFormatPack</tt><big>(</big><em>info</em>, <em>flags</em>, <em>src</em>, <em>sstride</em>, <em>data</em>, <em>stride</em>, <em>chroma_site</em>, <em>y</em>, <em>width</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>info</strong> (<a class="reference internal" href="structs/VideoFormatInfo.html#GstVideo.VideoFormatInfo" title="GstVideo.VideoFormatInfo"><tt class="xref py py-class docutils literal"><span class="pre">GstVideo.VideoFormatInfo</span></tt></a>) &#8211; a <a class="reference internal" href="structs/VideoFormatInfo.html#GstVideo.VideoFormatInfo" title="GstVideo.VideoFormatInfo"><tt class="xref py py-obj docutils literal"><span class="pre">GstVideo.VideoFormatInfo</span></tt></a></li>
+<li><strong>flags</strong> (<a class="reference internal" href="flags.html#GstVideo.VideoPackFlags" title="GstVideo.VideoPackFlags"><tt class="xref py py-class docutils literal"><span class="pre">GstVideo.VideoPackFlags</span></tt></a>) &#8211; flags to control the packing</li>
+<li><strong>src</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; a source array</li>
+<li><strong>sstride</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the source array stride</li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; pointers to the destination data planes</li>
+<li><strong>stride</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; strides of the destination planes</li>
+<li><strong>chroma_site</strong> (<a class="reference internal" href="flags.html#GstVideo.VideoChromaSite" title="GstVideo.VideoChromaSite"><tt class="xref py py-class docutils literal"><span class="pre">GstVideo.VideoChromaSite</span></tt></a>) &#8211; the chroma siting of the target when subsampled (not used)</li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the y position in the image to pack to</li>
+<li><strong>width</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the amount of pixels to pack.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Packs <cite>width</cite> pixels from <cite>src</cite> to the given planes and strides in the
+format <cite>info</cite>. The pixels from source have each component interleaved
+and will be packed into the planes in <cite>data</cite>.</p>
+<p>This function operates on pack_lines lines, meaning that <cite>src</cite> should
+contain at least pack_lines lines with a stride of <cite>sstride</cite> and <cite>y</cite> 
+should be a multiple of pack_lines.</p>
+<p>Subsampled formats will use the horizontally cosited component in the
+destination. Subsampling should be performed before packing.</p>
+<p>Because tis function does not have a x coordinate, it is not possible to
+pack pixels starting from an unaligned position. For tiled images this
+means that packing should start from a tile coordinate. For subsampled
+formats this means that a complete pixel need to be packed.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstVideo.VideoFormatUnpack">
+<tt class="descclassname">GstVideo.</tt><tt class="descname">VideoFormatUnpack</tt><big>(</big><em>info</em>, <em>flags</em>, <em>dest</em>, <em>data</em>, <em>stride</em>, <em>x</em>, <em>y</em>, <em>width</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>info</strong> (<a class="reference internal" href="structs/VideoFormatInfo.html#GstVideo.VideoFormatInfo" title="GstVideo.VideoFormatInfo"><tt class="xref py py-class docutils literal"><span class="pre">GstVideo.VideoFormatInfo</span></tt></a>) &#8211; a <a class="reference internal" href="structs/VideoFormatInfo.html#GstVideo.VideoFormatInfo" title="GstVideo.VideoFormatInfo"><tt class="xref py py-obj docutils literal"><span class="pre">GstVideo.VideoFormatInfo</span></tt></a></li>
+<li><strong>flags</strong> (<a class="reference internal" href="flags.html#GstVideo.VideoPackFlags" title="GstVideo.VideoPackFlags"><tt class="xref py py-class docutils literal"><span class="pre">GstVideo.VideoPackFlags</span></tt></a>) &#8211; flags to control the unpacking</li>
+<li><strong>dest</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; a destination array</li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; pointers to the data planes</li>
+<li><strong>stride</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; strides of the planes</li>
+<li><strong>x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the x position in the image to start from</li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the y position in the image to start from</li>
+<li><strong>width</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the amount of pixels to unpack.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Unpacks <cite>width</cite> pixels from the given planes and strides containing data of
+format <cite>info</cite>. The pixels will be unpacked into <cite>dest</cite> which each component
+interleaved. <cite>dest</cite> should at least be big enough to hold <cite>width</cite> *
+n_components * size(unpack_format) bytes.</p>
+<p>For subsampled formats, the components will be duplicated in the destination
+array. Reconstruction of the missing components can be performed in a
+separate step after unpacking.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstVideo.VideoGLTextureUpload">
+<tt class="descclassname">GstVideo.</tt><tt class="descname">VideoGLTextureUpload</tt><big>(</big><em>meta</em>, <em>texture_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>meta</strong> (<a class="reference internal" href="structs/VideoGLTextureUploadMeta.html#GstVideo.VideoGLTextureUploadMeta" title="GstVideo.VideoGLTextureUploadMeta"><tt class="xref py py-class docutils literal"><span class="pre">GstVideo.VideoGLTextureUploadMeta</span></tt></a>) &#8211; </li>
+<li><strong>texture_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

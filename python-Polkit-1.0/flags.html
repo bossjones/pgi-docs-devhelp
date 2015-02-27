@@ -1,0 +1,197 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Flags -
+    
+    Polkit 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Polkit 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Enums" href="enums.html"/>
+        <link rel="prev" title="Hierarchy" href="hierarchy.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Polkit 1.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="hierarchy.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Polkit 1.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="hierarchy.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="flags">
+<h1>Flags</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Polkit.AuthorityFeatures" title="Polkit.AuthorityFeatures"><tt class="xref py py-class docutils literal"><span class="pre">Polkit.AuthorityFeatures</span></tt></a></li>
+<li><a class="reference internal" href="#Polkit.CheckAuthorizationFlags" title="Polkit.CheckAuthorizationFlags"><tt class="xref py py-class docutils literal"><span class="pre">Polkit.CheckAuthorizationFlags</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Polkit.AuthorityFeatures">
+<em class="property">class </em><tt class="descclassname">Polkit.</tt><tt class="descname">AuthorityFeatures</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Polkit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags describing features supported by the Authority implementation.</p>
+<dl class="attribute">
+<dt id="Polkit.AuthorityFeatures.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Polkit.AuthorityFeatures.TEMPORARY_AUTHORIZATION">
+<tt class="descname">TEMPORARY_AUTHORIZATION</tt><em class="property"> = 1</em></dt>
+<dd><p>The authority supports temporary authorizations
+that can be obtained through authentication.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Polkit.CheckAuthorizationFlags">
+<em class="property">class </em><tt class="descclassname">Polkit.</tt><tt class="descname">CheckAuthorizationFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Polkit-1.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Possible flags when checking authorizations.</p>
+<dl class="attribute">
+<dt id="Polkit.CheckAuthorizationFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Polkit.CheckAuthorizationFlags.ALLOW_USER_INTERACTION">
+<tt class="descname">ALLOW_USER_INTERACTION</tt><em class="property"> = 1</em></dt>
+<dd><p>If the subject can obtain the authorization
+through authentication, and an authentication agent is available, then attempt to do so. Note, this
+means that the method used for checking authorization is likely to block for a long time.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

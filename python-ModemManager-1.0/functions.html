@@ -1,0 +1,1704 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    ModemManager 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="ModemManager 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Callbacks" href="callbacks.html"/>
+        <link rel="prev" title="ModemManager 1.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">ModemManager 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">ModemManager 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.bearer_allowed_auth_build_string_from_mask" title="ModemManager.bearer_allowed_auth_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">bearer_allowed_auth_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.bearer_ip_family_build_string_from_mask" title="ModemManager.bearer_ip_family_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">bearer_ip_family_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.bearer_ip_method_get_string" title="ModemManager.bearer_ip_method_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">bearer_ip_method_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.cdma_activation_error_quark" title="ModemManager.cdma_activation_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">cdma_activation_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.connection_error_quark" title="ModemManager.connection_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">connection_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.core_error_quark" title="ModemManager.core_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">core_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.firmware_image_type_get_string" title="ModemManager.firmware_image_type_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">firmware_image_type_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_bearer_interface_info" title="ModemManager.gdbus_bearer_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_bearer_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_bearer_override_properties" title="ModemManager.gdbus_bearer_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_bearer_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem3gpp_interface_info" title="ModemManager.gdbus_modem3gpp_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem3gpp_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem3gpp_override_properties" title="ModemManager.gdbus_modem3gpp_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem3gpp_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem3gpp_ussd_interface_info" title="ModemManager.gdbus_modem3gpp_ussd_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem3gpp_ussd_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem3gpp_ussd_override_properties" title="ModemManager.gdbus_modem3gpp_ussd_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem3gpp_ussd_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_cdma_interface_info" title="ModemManager.gdbus_modem_cdma_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_cdma_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_cdma_override_properties" title="ModemManager.gdbus_modem_cdma_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_cdma_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_firmware_interface_info" title="ModemManager.gdbus_modem_firmware_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_firmware_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_firmware_override_properties" title="ModemManager.gdbus_modem_firmware_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_firmware_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_interface_info" title="ModemManager.gdbus_modem_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_location_interface_info" title="ModemManager.gdbus_modem_location_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_location_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_location_override_properties" title="ModemManager.gdbus_modem_location_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_location_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_messaging_interface_info" title="ModemManager.gdbus_modem_messaging_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_messaging_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_messaging_override_properties" title="ModemManager.gdbus_modem_messaging_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_messaging_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_oma_interface_info" title="ModemManager.gdbus_modem_oma_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_oma_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_oma_override_properties" title="ModemManager.gdbus_modem_oma_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_oma_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_override_properties" title="ModemManager.gdbus_modem_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_signal_interface_info" title="ModemManager.gdbus_modem_signal_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_signal_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_signal_override_properties" title="ModemManager.gdbus_modem_signal_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_signal_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_simple_interface_info" title="ModemManager.gdbus_modem_simple_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_simple_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_simple_override_properties" title="ModemManager.gdbus_modem_simple_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_simple_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_time_interface_info" title="ModemManager.gdbus_modem_time_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_time_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_modem_time_override_properties" title="ModemManager.gdbus_modem_time_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_modem_time_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_org_freedesktop_modem_manager1_interface_info" title="ModemManager.gdbus_org_freedesktop_modem_manager1_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_org_freedesktop_modem_manager1_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_org_freedesktop_modem_manager1_override_properties" title="ModemManager.gdbus_org_freedesktop_modem_manager1_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_org_freedesktop_modem_manager1_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_sim_interface_info" title="ModemManager.gdbus_sim_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_sim_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_sim_override_properties" title="ModemManager.gdbus_sim_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_sim_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_sms_interface_info" title="ModemManager.gdbus_sms_interface_info"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_sms_interface_info</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.gdbus_sms_override_properties" title="ModemManager.gdbus_sms_override_properties"><tt class="xref py py-obj docutils literal"><span class="pre">gdbus_sms_override_properties</span></tt></a>(klass, property_id_begin)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.message_error_quark" title="ModemManager.message_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">message_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.mobile_equipment_error_quark" title="ModemManager.mobile_equipment_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">mobile_equipment_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_3gpp_facility_build_string_from_mask" title="ModemManager.modem_3gpp_facility_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">modem_3gpp_facility_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_3gpp_network_availability_get_string" title="ModemManager.modem_3gpp_network_availability_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_3gpp_network_availability_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_3gpp_registration_state_get_string" title="ModemManager.modem_3gpp_registration_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_3gpp_registration_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_3gpp_subscription_state_get_string" title="ModemManager.modem_3gpp_subscription_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_3gpp_subscription_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_3gpp_ussd_session_state_get_string" title="ModemManager.modem_3gpp_ussd_session_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_3gpp_ussd_session_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_access_technology_build_string_from_mask" title="ModemManager.modem_access_technology_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">modem_access_technology_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_band_get_string" title="ModemManager.modem_band_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_band_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_capability_build_string_from_mask" title="ModemManager.modem_capability_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">modem_capability_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_cdma_activation_state_get_string" title="ModemManager.modem_cdma_activation_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_cdma_activation_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_cdma_registration_state_get_string" title="ModemManager.modem_cdma_registration_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_cdma_registration_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_cdma_rm_protocol_get_string" title="ModemManager.modem_cdma_rm_protocol_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_cdma_rm_protocol_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_contacts_storage_get_string" title="ModemManager.modem_contacts_storage_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_contacts_storage_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_location_source_build_string_from_mask" title="ModemManager.modem_location_source_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">modem_location_source_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_lock_get_string" title="ModemManager.modem_lock_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_lock_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_mode_build_string_from_mask" title="ModemManager.modem_mode_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">modem_mode_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_port_type_get_string" title="ModemManager.modem_port_type_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_port_type_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_power_state_get_string" title="ModemManager.modem_power_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_power_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_state_change_reason_get_string" title="ModemManager.modem_state_change_reason_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_state_change_reason_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_state_failed_reason_get_string" title="ModemManager.modem_state_failed_reason_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_state_failed_reason_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.modem_state_get_string" title="ModemManager.modem_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">modem_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.oma_feature_build_string_from_mask" title="ModemManager.oma_feature_build_string_from_mask"><tt class="xref py py-obj docutils literal"><span class="pre">oma_feature_build_string_from_mask</span></tt></a>(mask)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.oma_session_state_failed_reason_get_string" title="ModemManager.oma_session_state_failed_reason_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">oma_session_state_failed_reason_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.oma_session_state_get_string" title="ModemManager.oma_session_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">oma_session_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.oma_session_type_get_string" title="ModemManager.oma_session_type_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">oma_session_type_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.serial_error_quark" title="ModemManager.serial_error_quark"><tt class="xref py py-obj docutils literal"><span class="pre">serial_error_quark</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.sms_cdma_service_category_get_string" title="ModemManager.sms_cdma_service_category_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">sms_cdma_service_category_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.sms_cdma_teleservice_id_get_string" title="ModemManager.sms_cdma_teleservice_id_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">sms_cdma_teleservice_id_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.sms_delivery_state_get_string" title="ModemManager.sms_delivery_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">sms_delivery_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.sms_pdu_type_get_string" title="ModemManager.sms_pdu_type_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">sms_pdu_type_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.sms_state_get_string" title="ModemManager.sms_state_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">sms_state_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#ModemManager.sms_storage_get_string" title="ModemManager.sms_storage_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">sms_storage_get_string</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#ModemManager.sms_validity_type_get_string" title="ModemManager.sms_validity_type_get_string"><tt class="xref py py-obj docutils literal"><span class="pre">sms_validity_type_get_string</span></tt></a>(val)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="ModemManager.bearer_allowed_auth_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">bearer_allowed_auth_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.BearerAllowedAuth" title="ModemManager.BearerAllowedAuth"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.BearerAllowedAuth</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.BearerAllowedAuth" title="ModemManager.BearerAllowedAuth"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.BearerAllowedAuth</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.BearerAllowedAuth" title="ModemManager.BearerAllowedAuth"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.BearerAllowedAuth</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.bearer_ip_family_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">bearer_ip_family_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.BearerIpFamily" title="ModemManager.BearerIpFamily"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.BearerIpFamily</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.BearerIpFamily" title="ModemManager.BearerIpFamily"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.BearerIpFamily</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.BearerIpFamily" title="ModemManager.BearerIpFamily"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.BearerIpFamily</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.bearer_ip_method_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">bearer_ip_method_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.BearerIpMethod" title="ModemManager.BearerIpMethod"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.BearerIpMethod</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.BearerIpMethod" title="ModemManager.BearerIpMethod"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.BearerIpMethod</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.BearerIpMethod" title="ModemManager.BearerIpMethod"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.BearerIpMethod</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.cdma_activation_error_quark">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">cdma_activation_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.connection_error_quark">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">connection_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.core_error_quark">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">core_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.firmware_image_type_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">firmware_image_type_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.FirmwareImageType" title="ModemManager.FirmwareImageType"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.FirmwareImageType</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.FirmwareImageType" title="ModemManager.FirmwareImageType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.FirmwareImageType</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.FirmwareImageType" title="ModemManager.FirmwareImageType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.FirmwareImageType</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_bearer_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_bearer_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Bearer D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_bearer_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_bearer_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusBearer.html#ModemManager.GdbusBearer" title="ModemManager.GdbusBearer"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusBearer</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem3gpp_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem3gpp_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Modem3gpp D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem3gpp_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem3gpp_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModem3gpp.html#ModemManager.GdbusModem3gpp" title="ModemManager.GdbusModem3gpp"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModem3gpp</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem3gpp_ussd_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem3gpp_ussd_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Modem3gpp.Ussd D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem3gpp_ussd_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem3gpp_ussd_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModem3gppUssd.html#ModemManager.GdbusModem3gppUssd" title="ModemManager.GdbusModem3gppUssd"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModem3gppUssd</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_cdma_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_cdma_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.ModemCdma D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_cdma_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_cdma_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemCdma.html#ModemManager.GdbusModemCdma" title="ModemManager.GdbusModemCdma"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemCdma</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_firmware_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_firmware_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Firmware D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_firmware_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_firmware_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemFirmware.html#ModemManager.GdbusModemFirmware" title="ModemManager.GdbusModemFirmware"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemFirmware</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_location_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_location_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Location D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_location_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_location_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemLocation.html#ModemManager.GdbusModemLocation" title="ModemManager.GdbusModemLocation"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemLocation</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_messaging_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_messaging_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Messaging D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_messaging_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_messaging_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemMessaging.html#ModemManager.GdbusModemMessaging" title="ModemManager.GdbusModemMessaging"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemMessaging</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_oma_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_oma_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Oma D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_oma_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_oma_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemOma.html#ModemManager.GdbusModemOma" title="ModemManager.GdbusModemOma"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemOma</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModem.html#ModemManager.GdbusModem" title="ModemManager.GdbusModem"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModem</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_signal_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_signal_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Signal D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_signal_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_signal_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemSignal.html#ModemManager.GdbusModemSignal" title="ModemManager.GdbusModemSignal"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemSignal</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_simple_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_simple_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Simple D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_simple_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_simple_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemSimple.html#ModemManager.GdbusModemSimple" title="ModemManager.GdbusModemSimple"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemSimple</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_time_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_time_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Modem.Time D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_modem_time_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_modem_time_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusModemTime.html#ModemManager.GdbusModemTime" title="ModemManager.GdbusModemTime"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusModemTime</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_org_freedesktop_modem_manager1_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_org_freedesktop_modem_manager1_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1 D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_org_freedesktop_modem_manager1_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_org_freedesktop_modem_manager1_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusOrgFreedesktopModemManager1.html#ModemManager.GdbusOrgFreedesktopModemManager1" title="ModemManager.GdbusOrgFreedesktopModemManager1"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusOrgFreedesktopModemManager1</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_sim_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_sim_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Sim D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_sim_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_sim_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusSim.html#ModemManager.GdbusSim" title="ModemManager.GdbusSim"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusSim</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_sms_interface_info">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_sms_interface_info</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">A <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>. Do not free.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets a machine-readable description of the org.freedesktop.ModemManager1.Sms D-Bus interface.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.gdbus_sms_override_properties">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">gdbus_sms_override_properties</tt><big>(</big><em>klass</em>, <em>property_id_begin</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>klass</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GObject.ObjectClass</span></tt>) &#8211; The class structure for a <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> -derived class.</li>
+<li><strong>property_id_begin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The property id to assign to the first overridden property.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The last property id.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Overrides all <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> properties in the <a class="reference internal" href="interfaces/GdbusSms.html#ModemManager.GdbusSms" title="ModemManager.GdbusSms"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.GdbusSms</span></tt></a> interface for a concrete class.
+The properties are overridden in the order they are defined.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.message_error_quark">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">message_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.mobile_equipment_error_quark">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">mobile_equipment_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_3gpp_facility_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_3gpp_facility_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.Modem3gppFacility" title="ModemManager.Modem3gppFacility"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.Modem3gppFacility</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.Modem3gppFacility" title="ModemManager.Modem3gppFacility"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppFacility</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.Modem3gppFacility" title="ModemManager.Modem3gppFacility"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppFacility</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_3gpp_network_availability_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_3gpp_network_availability_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.Modem3gppNetworkAvailability" title="ModemManager.Modem3gppNetworkAvailability"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.Modem3gppNetworkAvailability</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.Modem3gppNetworkAvailability" title="ModemManager.Modem3gppNetworkAvailability"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppNetworkAvailability</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.Modem3gppNetworkAvailability" title="ModemManager.Modem3gppNetworkAvailability"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppNetworkAvailability</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_3gpp_registration_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_3gpp_registration_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.Modem3gppRegistrationState" title="ModemManager.Modem3gppRegistrationState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.Modem3gppRegistrationState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.Modem3gppRegistrationState" title="ModemManager.Modem3gppRegistrationState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppRegistrationState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.Modem3gppRegistrationState" title="ModemManager.Modem3gppRegistrationState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppRegistrationState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_3gpp_subscription_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_3gpp_subscription_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.Modem3gppSubscriptionState" title="ModemManager.Modem3gppSubscriptionState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.Modem3gppSubscriptionState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.Modem3gppSubscriptionState" title="ModemManager.Modem3gppSubscriptionState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppSubscriptionState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.Modem3gppSubscriptionState" title="ModemManager.Modem3gppSubscriptionState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppSubscriptionState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_3gpp_ussd_session_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_3gpp_ussd_session_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.Modem3gppUssdSessionState" title="ModemManager.Modem3gppUssdSessionState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.Modem3gppUssdSessionState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.Modem3gppUssdSessionState" title="ModemManager.Modem3gppUssdSessionState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppUssdSessionState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.Modem3gppUssdSessionState" title="ModemManager.Modem3gppUssdSessionState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.Modem3gppUssdSessionState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_access_technology_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_access_technology_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.ModemAccessTechnology" title="ModemManager.ModemAccessTechnology"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemAccessTechnology</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.ModemAccessTechnology" title="ModemManager.ModemAccessTechnology"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemAccessTechnology</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.ModemAccessTechnology" title="ModemManager.ModemAccessTechnology"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemAccessTechnology</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_band_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_band_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemBand" title="ModemManager.ModemBand"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemBand</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemBand" title="ModemManager.ModemBand"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemBand</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemBand" title="ModemManager.ModemBand"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemBand</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_capability_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_capability_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.ModemCapability" title="ModemManager.ModemCapability"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemCapability</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.ModemCapability" title="ModemManager.ModemCapability"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCapability</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.ModemCapability" title="ModemManager.ModemCapability"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCapability</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_cdma_activation_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_cdma_activation_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemCdmaActivationState" title="ModemManager.ModemCdmaActivationState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemCdmaActivationState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemCdmaActivationState" title="ModemManager.ModemCdmaActivationState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCdmaActivationState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemCdmaActivationState" title="ModemManager.ModemCdmaActivationState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCdmaActivationState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_cdma_registration_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_cdma_registration_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemCdmaRegistrationState" title="ModemManager.ModemCdmaRegistrationState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemCdmaRegistrationState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemCdmaRegistrationState" title="ModemManager.ModemCdmaRegistrationState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCdmaRegistrationState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemCdmaRegistrationState" title="ModemManager.ModemCdmaRegistrationState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCdmaRegistrationState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_cdma_rm_protocol_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_cdma_rm_protocol_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemCdmaRmProtocol" title="ModemManager.ModemCdmaRmProtocol"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemCdmaRmProtocol</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemCdmaRmProtocol" title="ModemManager.ModemCdmaRmProtocol"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCdmaRmProtocol</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemCdmaRmProtocol" title="ModemManager.ModemCdmaRmProtocol"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemCdmaRmProtocol</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_contacts_storage_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_contacts_storage_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemContactsStorage" title="ModemManager.ModemContactsStorage"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemContactsStorage</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemContactsStorage" title="ModemManager.ModemContactsStorage"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemContactsStorage</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemContactsStorage" title="ModemManager.ModemContactsStorage"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemContactsStorage</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_location_source_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_location_source_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.ModemLocationSource" title="ModemManager.ModemLocationSource"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemLocationSource</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.ModemLocationSource" title="ModemManager.ModemLocationSource"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemLocationSource</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.ModemLocationSource" title="ModemManager.ModemLocationSource"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemLocationSource</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_lock_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_lock_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemLock" title="ModemManager.ModemLock"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemLock</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemLock" title="ModemManager.ModemLock"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemLock</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemLock" title="ModemManager.ModemLock"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemLock</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_mode_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_mode_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.ModemMode" title="ModemManager.ModemMode"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemMode</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.ModemMode" title="ModemManager.ModemMode"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemMode</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.ModemMode" title="ModemManager.ModemMode"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemMode</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_port_type_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_port_type_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemPortType" title="ModemManager.ModemPortType"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemPortType</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemPortType" title="ModemManager.ModemPortType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemPortType</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemPortType" title="ModemManager.ModemPortType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemPortType</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_power_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_power_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemPowerState" title="ModemManager.ModemPowerState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemPowerState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemPowerState" title="ModemManager.ModemPowerState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemPowerState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemPowerState" title="ModemManager.ModemPowerState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemPowerState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_state_change_reason_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_state_change_reason_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemStateChangeReason" title="ModemManager.ModemStateChangeReason"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemStateChangeReason</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemStateChangeReason" title="ModemManager.ModemStateChangeReason"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemStateChangeReason</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemStateChangeReason" title="ModemManager.ModemStateChangeReason"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemStateChangeReason</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_state_failed_reason_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_state_failed_reason_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemStateFailedReason" title="ModemManager.ModemStateFailedReason"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemStateFailedReason</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemStateFailedReason" title="ModemManager.ModemStateFailedReason"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemStateFailedReason</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemStateFailedReason" title="ModemManager.ModemStateFailedReason"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemStateFailedReason</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.modem_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">modem_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.ModemState" title="ModemManager.ModemState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.ModemState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.ModemState" title="ModemManager.ModemState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.ModemState" title="ModemManager.ModemState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.ModemState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.oma_feature_build_string_from_mask">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">oma_feature_build_string_from_mask</tt><big>(</big><em>mask</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mask</strong> (<a class="reference internal" href="flags.html#ModemManager.OmaFeature" title="ModemManager.OmaFeature"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.OmaFeature</span></tt></a>) &#8211; bitmask of <a class="reference internal" href="flags.html#ModemManager.OmaFeature" title="ModemManager.OmaFeature"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaFeature</span></tt></a> values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the list of nicknames, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if none given. The returned value should be freed with <a class="reference external" href="_devhelp/ModemManager-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Builds a string containing a comma-separated list of nicknames for
+each <a class="reference internal" href="flags.html#ModemManager.OmaFeature" title="ModemManager.OmaFeature"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaFeature</span></tt></a> in <cite>mask</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.oma_session_state_failed_reason_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">oma_session_state_failed_reason_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.OmaSessionStateFailedReason" title="ModemManager.OmaSessionStateFailedReason"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.OmaSessionStateFailedReason</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.OmaSessionStateFailedReason" title="ModemManager.OmaSessionStateFailedReason"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaSessionStateFailedReason</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.OmaSessionStateFailedReason" title="ModemManager.OmaSessionStateFailedReason"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaSessionStateFailedReason</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.oma_session_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">oma_session_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.OmaSessionState" title="ModemManager.OmaSessionState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.OmaSessionState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.OmaSessionState" title="ModemManager.OmaSessionState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaSessionState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.OmaSessionState" title="ModemManager.OmaSessionState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaSessionState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.oma_session_type_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">oma_session_type_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.OmaSessionType" title="ModemManager.OmaSessionType"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.OmaSessionType</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.OmaSessionType" title="ModemManager.OmaSessionType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaSessionType</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.OmaSessionType" title="ModemManager.OmaSessionType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.OmaSessionType</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.serial_error_quark">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">serial_error_quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.sms_cdma_service_category_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">sms_cdma_service_category_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.SmsCdmaServiceCategory" title="ModemManager.SmsCdmaServiceCategory"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.SmsCdmaServiceCategory</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.SmsCdmaServiceCategory" title="ModemManager.SmsCdmaServiceCategory"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsCdmaServiceCategory</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.SmsCdmaServiceCategory" title="ModemManager.SmsCdmaServiceCategory"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsCdmaServiceCategory</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.sms_cdma_teleservice_id_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">sms_cdma_teleservice_id_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.SmsCdmaTeleserviceId" title="ModemManager.SmsCdmaTeleserviceId"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.SmsCdmaTeleserviceId</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.SmsCdmaTeleserviceId" title="ModemManager.SmsCdmaTeleserviceId"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsCdmaTeleserviceId</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.SmsCdmaTeleserviceId" title="ModemManager.SmsCdmaTeleserviceId"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsCdmaTeleserviceId</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.sms_delivery_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">sms_delivery_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.SmsDeliveryState" title="ModemManager.SmsDeliveryState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.SmsDeliveryState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.SmsDeliveryState" title="ModemManager.SmsDeliveryState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsDeliveryState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.SmsDeliveryState" title="ModemManager.SmsDeliveryState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsDeliveryState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.sms_pdu_type_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">sms_pdu_type_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.SmsPduType" title="ModemManager.SmsPduType"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.SmsPduType</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.SmsPduType" title="ModemManager.SmsPduType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsPduType</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.SmsPduType" title="ModemManager.SmsPduType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsPduType</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.sms_state_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">sms_state_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.SmsState" title="ModemManager.SmsState"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.SmsState</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.SmsState" title="ModemManager.SmsState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsState</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.SmsState" title="ModemManager.SmsState"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsState</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.sms_storage_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">sms_storage_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.SmsStorage" title="ModemManager.SmsStorage"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.SmsStorage</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.SmsStorage" title="ModemManager.SmsStorage"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsStorage</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.SmsStorage" title="ModemManager.SmsStorage"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsStorage</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="ModemManager.sms_validity_type_get_string">
+<tt class="descclassname">ModemManager.</tt><tt class="descname">sms_validity_type_get_string</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference internal" href="enums.html#ModemManager.SmsValidityType" title="ModemManager.SmsValidityType"><tt class="xref py py-class docutils literal"><span class="pre">ModemManager.SmsValidityType</span></tt></a>) &#8211; a <a class="reference internal" href="enums.html#ModemManager.SmsValidityType" title="ModemManager.SmsValidityType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsValidityType</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a string with the nickname, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if not found. Do not free the returned value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the nickname string for the <a class="reference internal" href="enums.html#ModemManager.SmsValidityType" title="ModemManager.SmsValidityType"><tt class="xref py py-obj docutils literal"><span class="pre">ModemManager.SmsValidityType</span></tt></a> specified at <cite>val</cite>.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

@@ -1,0 +1,1469 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Flags -
+    
+    Gio 2.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gio 2.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Enums" href="enums.html"/>
+        <link rel="prev" title="Gio.UnixMountPoint" href="structs/UnixMountPoint.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Gio 2.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/UnixMountPoint.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Gio 2.0</a> &raquo;</li>
+      
+    <li>Flags</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/UnixMountPoint.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="enums.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Flags</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="flags">
+<h1>Flags</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Gio.AppInfoCreateFlags" title="Gio.AppInfoCreateFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AppInfoCreateFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.ApplicationFlags" title="Gio.ApplicationFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.ApplicationFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.AskPasswordFlags" title="Gio.AskPasswordFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AskPasswordFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.BusNameOwnerFlags" title="Gio.BusNameOwnerFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.BusNameOwnerFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.BusNameWatcherFlags" title="Gio.BusNameWatcherFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.BusNameWatcherFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.ConverterFlags" title="Gio.ConverterFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.ConverterFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusCallFlags" title="Gio.DBusCallFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusCallFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusCapabilityFlags" title="Gio.DBusCapabilityFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusCapabilityFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusConnectionFlags" title="Gio.DBusConnectionFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusConnectionFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusInterfaceSkeletonFlags" title="Gio.DBusInterfaceSkeletonFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceSkeletonFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusMessageFlags" title="Gio.DBusMessageFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusMessageFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusObjectManagerClientFlags" title="Gio.DBusObjectManagerClientFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusObjectManagerClientFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusPropertyInfoFlags" title="Gio.DBusPropertyInfoFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusPropertyInfoFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusProxyFlags" title="Gio.DBusProxyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusSendMessageFlags" title="Gio.DBusSendMessageFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusSendMessageFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusServerFlags" title="Gio.DBusServerFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusServerFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusSignalFlags" title="Gio.DBusSignalFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusSignalFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DBusSubtreeFlags" title="Gio.DBusSubtreeFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusSubtreeFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.DriveStartFlags" title="Gio.DriveStartFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DriveStartFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.FileAttributeInfoFlags" title="Gio.FileAttributeInfoFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileAttributeInfoFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.FileCopyFlags" title="Gio.FileCopyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileCopyFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.FileCreateFlags" title="Gio.FileCreateFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileCreateFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.FileMeasureFlags" title="Gio.FileMeasureFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileMeasureFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.FileMonitorFlags" title="Gio.FileMonitorFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileMonitorFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.FileQueryInfoFlags" title="Gio.FileQueryInfoFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.FileQueryInfoFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.IOStreamSpliceFlags" title="Gio.IOStreamSpliceFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.IOStreamSpliceFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.MountMountFlags" title="Gio.MountMountFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.MountMountFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.MountUnmountFlags" title="Gio.MountUnmountFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.MountUnmountFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.OutputStreamSpliceFlags" title="Gio.OutputStreamSpliceFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.OutputStreamSpliceFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.ResourceFlags" title="Gio.ResourceFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.ResourceFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.ResourceLookupFlags" title="Gio.ResourceLookupFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.ResourceLookupFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.SettingsBindFlags" title="Gio.SettingsBindFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SettingsBindFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.SocketMsgFlags" title="Gio.SocketMsgFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SocketMsgFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.SubprocessFlags" title="Gio.SubprocessFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.SubprocessFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.TestDBusFlags" title="Gio.TestDBusFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.TestDBusFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.TlsCertificateFlags" title="Gio.TlsCertificateFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.TlsCertificateFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.TlsDatabaseVerifyFlags" title="Gio.TlsDatabaseVerifyFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.TlsDatabaseVerifyFlags</span></tt></a></li>
+<li><a class="reference internal" href="#Gio.TlsPasswordFlags" title="Gio.TlsPasswordFlags"><tt class="xref py py-class docutils literal"><span class="pre">Gio.TlsPasswordFlags</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Gio.AppInfoCreateFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">AppInfoCreateFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when creating a <a class="reference internal" href="interfaces/AppInfo.html#Gio.AppInfo" title="Gio.AppInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AppInfo</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Gio.AppInfoCreateFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.AppInfoCreateFlags.NEEDS_TERMINAL">
+<tt class="descname">NEEDS_TERMINAL</tt><em class="property"> = 1</em></dt>
+<dd><p>Application opens in a terminal window.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.AppInfoCreateFlags.SUPPORTS_URIS">
+<tt class="descname">SUPPORTS_URIS</tt><em class="property"> = 2</em></dt>
+<dd><p>Application supports URI arguments.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.AppInfoCreateFlags.SUPPORTS_STARTUP_NOTIFICATION">
+<tt class="descname">SUPPORTS_STARTUP_NOTIFICATION</tt><em class="property"> = 4</em></dt>
+<dd><p>Application supports startup notification.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.ApplicationFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">ApplicationFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used to define the behaviour of a <a class="reference internal" href="classes/Application.html#Gio.Application" title="Gio.Application"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Application</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.28.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.ApplicationFlags.FLAGS_NONE">
+<tt class="descname">FLAGS_NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>Default</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ApplicationFlags.IS_SERVICE">
+<tt class="descname">IS_SERVICE</tt><em class="property"> = 1</em></dt>
+<dd><p>Run as a service. In this mode, registration
+fails if the service is already running, and the application
+will initially wait up to 10 seconds for an initial activation
+message to arrive.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ApplicationFlags.IS_LAUNCHER">
+<tt class="descname">IS_LAUNCHER</tt><em class="property"> = 2</em></dt>
+<dd><p>Don&#8217;t try to become the primary instance.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ApplicationFlags.HANDLES_OPEN">
+<tt class="descname">HANDLES_OPEN</tt><em class="property"> = 4</em></dt>
+<dd><p>This application handles opening files (in
+the primary instance). Note that this flag only affects the default
+implementation of local_command_line(), and has no effect if
+<a class="reference internal" href="#Gio.ApplicationFlags.HANDLES_COMMAND_LINE" title="Gio.ApplicationFlags.HANDLES_COMMAND_LINE"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.ApplicationFlags.HANDLES_COMMAND_LINE</span></tt></a> is given.
+See <a class="reference internal" href="classes/Application.html#Gio.Application.run" title="Gio.Application.run"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Application.run</span></tt></a> () for details.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ApplicationFlags.HANDLES_COMMAND_LINE">
+<tt class="descname">HANDLES_COMMAND_LINE</tt><em class="property"> = 8</em></dt>
+<dd><p>This application handles command line
+arguments (in the primary instance). Note that this flag only affect
+the default implementation of local_command_line().
+See <a class="reference internal" href="classes/Application.html#Gio.Application.run" title="Gio.Application.run"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Application.run</span></tt></a> () for details.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ApplicationFlags.SEND_ENVIRONMENT">
+<tt class="descname">SEND_ENVIRONMENT</tt><em class="property"> = 16</em></dt>
+<dd><p>Send the environment of the
+launching process to the primary instance. Set this flag if your
+application is expected to behave differently depending on certain
+environment variables. For instance, an editor might be expected
+to use the GIT_COMMITTER_NAME environment variable
+when editing a git commit message. The environment is available
+to the <a class="reference internal" href="classes/Application.html#Gio.Application" title="Gio.Application"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Application</span></tt></a> <a class="reference internal" href="classes/Application.html#Gio.Application.signals.command_line" title="Gio.Application.signals.command_line"><tt class="xref py py-func docutils literal"><span class="pre">::command-line</span></tt></a> signal handler, via
+<a class="reference internal" href="classes/ApplicationCommandLine.html#Gio.ApplicationCommandLine.getenv" title="Gio.ApplicationCommandLine.getenv"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.ApplicationCommandLine.getenv</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ApplicationFlags.NON_UNIQUE">
+<tt class="descname">NON_UNIQUE</tt><em class="property"> = 32</em></dt>
+<dd><p>Make no attempts to do any of the typical
+single-instance application negotiation, even if the application
+ID is given.  The application neither attempts to become the
+owner of the application ID nor does it check if an existing
+owner already exists.  Everything occurs in the local process.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30..</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.AskPasswordFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">AskPasswordFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p><a class="reference internal" href="#Gio.AskPasswordFlags" title="Gio.AskPasswordFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.AskPasswordFlags</span></tt></a> are used to request specific information from the
+user, or to notify the user of their choices in an authentication
+situation.</p>
+<dl class="attribute">
+<dt id="Gio.AskPasswordFlags.NEED_PASSWORD">
+<tt class="descname">NEED_PASSWORD</tt><em class="property"> = 1</em></dt>
+<dd><p>operation requires a password.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.AskPasswordFlags.NEED_USERNAME">
+<tt class="descname">NEED_USERNAME</tt><em class="property"> = 2</em></dt>
+<dd><p>operation requires a username.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.AskPasswordFlags.NEED_DOMAIN">
+<tt class="descname">NEED_DOMAIN</tt><em class="property"> = 4</em></dt>
+<dd><p>operation requires a domain.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.AskPasswordFlags.SAVING_SUPPORTED">
+<tt class="descname">SAVING_SUPPORTED</tt><em class="property"> = 8</em></dt>
+<dd><p>operation supports saving settings.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.AskPasswordFlags.ANONYMOUS_SUPPORTED">
+<tt class="descname">ANONYMOUS_SUPPORTED</tt><em class="property"> = 16</em></dt>
+<dd><p>operation supports anonymous users.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.BusNameOwnerFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">BusNameOwnerFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used in <a class="reference internal" href="functions.html#Gio.bus_own_name" title="Gio.bus_own_name"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.bus_own_name</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.BusNameOwnerFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.BusNameOwnerFlags.ALLOW_REPLACEMENT">
+<tt class="descname">ALLOW_REPLACEMENT</tt><em class="property"> = 1</em></dt>
+<dd><p>Allow another message bus connection to claim the name.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.BusNameOwnerFlags.REPLACE">
+<tt class="descname">REPLACE</tt><em class="property"> = 2</em></dt>
+<dd><p>If another message bus connection owns the name and have
+specified <a class="reference internal" href="#Gio.BusNameOwnerFlags.ALLOW_REPLACEMENT" title="Gio.BusNameOwnerFlags.ALLOW_REPLACEMENT"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.BusNameOwnerFlags.ALLOW_REPLACEMENT</span></tt></a>, then take the name from the other connection.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.BusNameWatcherFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">BusNameWatcherFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used in <a class="reference internal" href="functions.html#Gio.bus_watch_name" title="Gio.bus_watch_name"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.bus_watch_name</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.BusNameWatcherFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.BusNameWatcherFlags.AUTO_START">
+<tt class="descname">AUTO_START</tt><em class="property"> = 1</em></dt>
+<dd><p>If no-one owns the name when
+beginning to watch the name, ask the bus to launch an owner for the
+name.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.ConverterFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">ConverterFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when calling a <a class="reference internal" href="interfaces/Converter.html#Gio.Converter.convert" title="Gio.Converter.convert"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Converter.convert</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.24.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.ConverterFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ConverterFlags.INPUT_AT_END">
+<tt class="descname">INPUT_AT_END</tt><em class="property"> = 1</em></dt>
+<dd><p>At end of input data</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ConverterFlags.FLUSH">
+<tt class="descname">FLUSH</tt><em class="property"> = 2</em></dt>
+<dd><p>Flush data</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusCallFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusCallFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used in <a class="reference internal" href="classes/DBusConnection.html#Gio.DBusConnection.call" title="Gio.DBusConnection.call"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection.call</span></tt></a> () and similar APIs.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusCallFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusCallFlags.NO_AUTO_START">
+<tt class="descname">NO_AUTO_START</tt><em class="property"> = 1</em></dt>
+<dd><p>The bus must not launch
+an owner for the destination name in response to this method
+invocation.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusCapabilityFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusCapabilityFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Capabilities negotiated with the remote peer.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusCapabilityFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusCapabilityFlags.UNIX_FD_PASSING">
+<tt class="descname">UNIX_FD_PASSING</tt><em class="property"> = 1</em></dt>
+<dd><p>The connection
+supports exchanging UNIX file descriptors with the remote peer.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusConnectionFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusConnectionFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when creating a new <a class="reference internal" href="classes/DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusConnectionFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusConnectionFlags.AUTHENTICATION_CLIENT">
+<tt class="descname">AUTHENTICATION_CLIENT</tt><em class="property"> = 1</em></dt>
+<dd><p>Perform authentication against server.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusConnectionFlags.AUTHENTICATION_SERVER">
+<tt class="descname">AUTHENTICATION_SERVER</tt><em class="property"> = 2</em></dt>
+<dd><p>Perform authentication against client.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusConnectionFlags.AUTHENTICATION_ALLOW_ANONYMOUS">
+<tt class="descname">AUTHENTICATION_ALLOW_ANONYMOUS</tt><em class="property"> = 4</em></dt>
+<dd><p>When
+authenticating as a server, allow the anonymous authentication
+method.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusConnectionFlags.MESSAGE_BUS_CONNECTION">
+<tt class="descname">MESSAGE_BUS_CONNECTION</tt><em class="property"> = 8</em></dt>
+<dd><p>Pass this flag if connecting to a peer that is a
+message bus. This means that the Hello() method will be invoked as part of the connection setup.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusConnectionFlags.DELAY_MESSAGE_PROCESSING">
+<tt class="descname">DELAY_MESSAGE_PROCESSING</tt><em class="property"> = 16</em></dt>
+<dd><p>If set, processing of D-Bus messages is
+delayed until <a class="reference internal" href="classes/DBusConnection.html#Gio.DBusConnection.start_message_processing" title="Gio.DBusConnection.start_message_processing"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection.start_message_processing</span></tt></a> () is called.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusInterfaceSkeletonFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusInterfaceSkeletonFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags describing the behavior of a <a class="reference internal" href="classes/DBusInterfaceSkeleton.html#Gio.DBusInterfaceSkeleton" title="Gio.DBusInterfaceSkeleton"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusInterfaceSkeleton</span></tt></a> instance.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusInterfaceSkeletonFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusInterfaceSkeletonFlags.HANDLE_METHOD_INVOCATIONS_IN_THREAD">
+<tt class="descname">HANDLE_METHOD_INVOCATIONS_IN_THREAD</tt><em class="property"> = 1</em></dt>
+<dd><p>Each method invocation is handled in
+a thread dedicated to the invocation. This means that the method implementation can use blocking IO
+without blocking any other part of the process. It also means that the method implementation must
+use locking to access data structures used by other threads.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusMessageFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusMessageFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Message flags used in <a class="reference internal" href="classes/DBusMessage.html#Gio.DBusMessage" title="Gio.DBusMessage"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusMessage</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusMessageFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusMessageFlags.NO_REPLY_EXPECTED">
+<tt class="descname">NO_REPLY_EXPECTED</tt><em class="property"> = 1</em></dt>
+<dd><p>A reply is not expected.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusMessageFlags.NO_AUTO_START">
+<tt class="descname">NO_AUTO_START</tt><em class="property"> = 2</em></dt>
+<dd><p>The bus must not launch an
+owner for the destination name in response to this message.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusObjectManagerClientFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusObjectManagerClientFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when constructing a <a class="reference internal" href="classes/DBusObjectManagerClient.html#Gio.DBusObjectManagerClient" title="Gio.DBusObjectManagerClient"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusObjectManagerClient</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusObjectManagerClientFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusObjectManagerClientFlags.DO_NOT_AUTO_START">
+<tt class="descname">DO_NOT_AUTO_START</tt><em class="property"> = 1</em></dt>
+<dd><p>If not set and the
+manager is for a well-known name, then request the bus to launch
+an owner for the name if no-one owns the name. This flag can only
+be used in managers for well-known names.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusPropertyInfoFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusPropertyInfoFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags describing the access control of a D-Bus property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusPropertyInfoFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusPropertyInfoFlags.READABLE">
+<tt class="descname">READABLE</tt><em class="property"> = 1</em></dt>
+<dd><p>Property is readable.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusPropertyInfoFlags.WRITABLE">
+<tt class="descname">WRITABLE</tt><em class="property"> = 2</em></dt>
+<dd><p>Property is writable.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusProxyFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusProxyFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when constructing an instance of a <a class="reference internal" href="classes/DBusProxy.html#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> derived class.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusProxyFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusProxyFlags.DO_NOT_LOAD_PROPERTIES">
+<tt class="descname">DO_NOT_LOAD_PROPERTIES</tt><em class="property"> = 1</em></dt>
+<dd><p>Don&#8217;t load properties.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusProxyFlags.DO_NOT_CONNECT_SIGNALS">
+<tt class="descname">DO_NOT_CONNECT_SIGNALS</tt><em class="property"> = 2</em></dt>
+<dd><p>Don&#8217;t connect to signals on the remote object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusProxyFlags.DO_NOT_AUTO_START">
+<tt class="descname">DO_NOT_AUTO_START</tt><em class="property"> = 4</em></dt>
+<dd><p>If not set and the proxy if for a well-known name,
+then request the bus to launch an owner for the name if no-one owns the name. This flag can
+only be used in proxies for well-known names.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusProxyFlags.GET_INVALIDATED_PROPERTIES">
+<tt class="descname">GET_INVALIDATED_PROPERTIES</tt><em class="property"> = 8</em></dt>
+<dd><p>If set, the property value for any invalidated property will be (asynchronously) retrieved upon receiving the <a class="reference external" href="http://dbus.freedesktop.org/doc/dbus-specification.html#standard-interfaces-properties">PropertiesChanged</a> D-Bus signal and the property will not cause emission of the <a class="reference internal" href="classes/DBusProxy.html#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="classes/DBusProxy.html#Gio.DBusProxy.signals.g_properties_changed" title="Gio.DBusProxy.signals.g_properties_changed"><tt class="xref py py-func docutils literal"><span class="pre">::g-properties-changed</span></tt></a> signal. When the value is received the <a class="reference internal" href="classes/DBusProxy.html#Gio.DBusProxy" title="Gio.DBusProxy"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a> <a class="reference internal" href="classes/DBusProxy.html#Gio.DBusProxy.signals.g_properties_changed" title="Gio.DBusProxy.signals.g_properties_changed"><tt class="xref py py-func docutils literal"><span class="pre">::g-properties-changed</span></tt></a> signal is emitted for the property along with the retrieved value.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32..</span></p>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusProxyFlags.DO_NOT_AUTO_START_AT_CONSTRUCTION">
+<tt class="descname">DO_NOT_AUTO_START_AT_CONSTRUCTION</tt><em class="property"> = 16</em></dt>
+<dd><p>If the proxy is for a well-known name,
+do not ask the bus to launch an owner during proxy initialization, but allow it to be
+autostarted by a method call. This flag is only meaningful in proxies for well-known names,
+and only if %G_DBUS_PROXY_FLAGS_DO_NOT_AUTOSTART is not also specified.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusSendMessageFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusSendMessageFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when sending <a class="reference internal" href="classes/DBusMessage.html#Gio.DBusMessage" title="Gio.DBusMessage"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusMessages</span></tt></a> on a <a class="reference internal" href="classes/DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusSendMessageFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusSendMessageFlags.PRESERVE_SERIAL">
+<tt class="descname">PRESERVE_SERIAL</tt><em class="property"> = 1</em></dt>
+<dd><p>Do not automatically
+assign a serial number from the <a class="reference internal" href="classes/DBusConnection.html#Gio.DBusConnection" title="Gio.DBusConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a> object when
+sending a message.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusServerFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusServerFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when creating a <a class="reference internal" href="classes/DBusServer.html#Gio.DBusServer" title="Gio.DBusServer"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusServer</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusServerFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusServerFlags.RUN_IN_THREAD">
+<tt class="descname">RUN_IN_THREAD</tt><em class="property"> = 1</em></dt>
+<dd><p>All <a class="reference internal" href="classes/DBusServer.html#Gio.DBusServer" title="Gio.DBusServer"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusServer</span></tt></a> <a class="reference internal" href="classes/DBusServer.html#Gio.DBusServer.signals.new_connection" title="Gio.DBusServer.signals.new_connection"><tt class="xref py py-func docutils literal"><span class="pre">::new-connection</span></tt></a>
+signals will run in separated dedicated threads (see signal for
+details).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusServerFlags.AUTHENTICATION_ALLOW_ANONYMOUS">
+<tt class="descname">AUTHENTICATION_ALLOW_ANONYMOUS</tt><em class="property"> = 2</em></dt>
+<dd><p>Allow the anonymous
+authentication method.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusSignalFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusSignalFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when subscribing to signals via <a class="reference internal" href="classes/DBusConnection.html#Gio.DBusConnection.signal_subscribe" title="Gio.DBusConnection.signal_subscribe"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection.signal_subscribe</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusSignalFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusSignalFlags.NO_MATCH_RULE">
+<tt class="descname">NO_MATCH_RULE</tt><em class="property"> = 1</em></dt>
+<dd><p>Don&#8217;t actually send the AddMatch
+D-Bus call for this signal subscription.  This gives you more control
+over which match rules you add (but you must add them manually).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusSignalFlags.MATCH_ARG0_NAMESPACE">
+<tt class="descname">MATCH_ARG0_NAMESPACE</tt><em class="property"> = 2</em></dt>
+<dd><p>Match first arguments that
+contain a bus or interface name with the given namespace.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusSignalFlags.MATCH_ARG0_PATH">
+<tt class="descname">MATCH_ARG0_PATH</tt><em class="property"> = 4</em></dt>
+<dd><p>Match first arguments that
+contain an object path that is either equivalent to the given path,
+or one of the paths is a subpath of the other.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DBusSubtreeFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DBusSubtreeFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags passed to <a class="reference internal" href="classes/DBusConnection.html#Gio.DBusConnection.register_subtree" title="Gio.DBusConnection.register_subtree"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.DBusConnection.register_subtree</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.26.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DBusSubtreeFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.DBusSubtreeFlags.DISPATCH_TO_UNENUMERATED_NODES">
+<tt class="descname">DISPATCH_TO_UNENUMERATED_NODES</tt><em class="property"> = 1</em></dt>
+<dd><p>Method calls to objects not in the enumerated range
+will still be dispatched. This is useful if you want
+to dynamically spawn objects in the subtree.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.DriveStartFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">DriveStartFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when starting a drive.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.DriveStartFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.FileAttributeInfoFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">FileAttributeInfoFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags specifying the behaviour of an attribute.</p>
+<dl class="attribute">
+<dt id="Gio.FileAttributeInfoFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>no flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileAttributeInfoFlags.COPY_WITH_FILE">
+<tt class="descname">COPY_WITH_FILE</tt><em class="property"> = 1</em></dt>
+<dd><p>copy the attribute values when the file is copied.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileAttributeInfoFlags.COPY_WHEN_MOVED">
+<tt class="descname">COPY_WHEN_MOVED</tt><em class="property"> = 2</em></dt>
+<dd><p>copy the attribute values when the file is moved.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.FileCopyFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">FileCopyFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when copying or moving files.</p>
+<dl class="attribute">
+<dt id="Gio.FileCopyFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCopyFlags.OVERWRITE">
+<tt class="descname">OVERWRITE</tt><em class="property"> = 1</em></dt>
+<dd><p>Overwrite any existing files</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCopyFlags.BACKUP">
+<tt class="descname">BACKUP</tt><em class="property"> = 2</em></dt>
+<dd><p>Make a backup of any existing files.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCopyFlags.NOFOLLOW_SYMLINKS">
+<tt class="descname">NOFOLLOW_SYMLINKS</tt><em class="property"> = 4</em></dt>
+<dd><p>Don&#8217;t follow symlinks.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCopyFlags.ALL_METADATA">
+<tt class="descname">ALL_METADATA</tt><em class="property"> = 8</em></dt>
+<dd><p>Copy all file metadata instead of just default set used for copy (see <a class="reference internal" href="classes/FileInfo.html#Gio.FileInfo" title="Gio.FileInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileInfo</span></tt></a> ).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCopyFlags.NO_FALLBACK_FOR_MOVE">
+<tt class="descname">NO_FALLBACK_FOR_MOVE</tt><em class="property"> = 16</em></dt>
+<dd><p>Don&#8217;t use copy and delete fallback if native move not supported.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCopyFlags.TARGET_DEFAULT_PERMS">
+<tt class="descname">TARGET_DEFAULT_PERMS</tt><em class="property"> = 32</em></dt>
+<dd><p>Leaves target file with default perms, instead of setting the source file perms.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.FileCreateFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">FileCreateFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when an operation may create a file.</p>
+<dl class="attribute">
+<dt id="Gio.FileCreateFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCreateFlags.PRIVATE">
+<tt class="descname">PRIVATE</tt><em class="property"> = 1</em></dt>
+<dd><p>Create a file that can only be
+accessed by the current user.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileCreateFlags.REPLACE_DESTINATION">
+<tt class="descname">REPLACE_DESTINATION</tt><em class="property"> = 2</em></dt>
+<dd><p>Replace the destination
+as if it didn&#8217;t exist before. Don&#8217;t try to keep any old
+permissions, replace instead of following links. This
+is generally useful if you&#8217;re doing a &#8220;copy over&#8221;
+rather than a &#8220;save new version of&#8221; replace operation.
+You can think of it as &#8220;unlink destination&#8221; before
+writing to it, although the implementation may not
+be exactly like that.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.20.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.FileMeasureFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">FileMeasureFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags that can be used with <tt class="xref py py-obj docutils literal"><span class="pre">Gio.File.measure_disk_usage</span></tt> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.38.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.FileMeasureFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileMeasureFlags.REPORT_ANY_ERROR">
+<tt class="descname">REPORT_ANY_ERROR</tt><em class="property"> = 2</em></dt>
+<dd><p>Report any error encountered
+while traversing the directory tree.  Normally errors are only
+reported for the toplevel file.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileMeasureFlags.APPARENT_SIZE">
+<tt class="descname">APPARENT_SIZE</tt><em class="property"> = 4</em></dt>
+<dd><p>Tally usage based on apparent file
+sizes.  Normally, the block-size is used, if available, as this is a
+more accurate representation of disk space used.
+Compare with `du &#8211;apparent-size`.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileMeasureFlags.NO_XDEV">
+<tt class="descname">NO_XDEV</tt><em class="property"> = 8</em></dt>
+<dd><p>Do not cross mount point boundaries.
+Compare with `du -x`.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.FileMonitorFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">FileMonitorFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used to set what a <a class="reference internal" href="classes/FileMonitor.html#Gio.FileMonitor" title="Gio.FileMonitor"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileMonitor</span></tt></a> will watch for.</p>
+<dl class="attribute">
+<dt id="Gio.FileMonitorFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileMonitorFlags.WATCH_MOUNTS">
+<tt class="descname">WATCH_MOUNTS</tt><em class="property"> = 1</em></dt>
+<dd><p>Watch for mount events.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileMonitorFlags.SEND_MOVED">
+<tt class="descname">SEND_MOVED</tt><em class="property"> = 2</em></dt>
+<dd><p>Pair DELETED and CREATED events caused
+by file renames (moves) and send a single <a class="reference internal" href="enums.html#Gio.FileMonitorEvent.MOVED" title="Gio.FileMonitorEvent.MOVED"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileMonitorEvent.MOVED</span></tt></a>
+event instead (NB: not supported on all backends; the default
+behaviour -without specifying this flag- is to send single DELETED
+and CREATED events).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileMonitorFlags.WATCH_HARD_LINKS">
+<tt class="descname">WATCH_HARD_LINKS</tt><em class="property"> = 4</em></dt>
+<dd><p>Watch for changes to the file made
+via another hard link.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.36..</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.FileQueryInfoFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">FileQueryInfoFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when querying a <a class="reference internal" href="classes/FileInfo.html#Gio.FileInfo" title="Gio.FileInfo"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.FileInfo</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Gio.FileQueryInfoFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.FileQueryInfoFlags.NOFOLLOW_SYMLINKS">
+<tt class="descname">NOFOLLOW_SYMLINKS</tt><em class="property"> = 1</em></dt>
+<dd><p>Don&#8217;t follow symlinks.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.IOStreamSpliceFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">IOStreamSpliceFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p><a class="reference internal" href="#Gio.IOStreamSpliceFlags" title="Gio.IOStreamSpliceFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.IOStreamSpliceFlags</span></tt></a> determine how streams should be spliced.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.28.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.IOStreamSpliceFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>Do not close either stream.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.IOStreamSpliceFlags.CLOSE_STREAM1">
+<tt class="descname">CLOSE_STREAM1</tt><em class="property"> = 1</em></dt>
+<dd><p>Close the first stream after
+the splice.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.IOStreamSpliceFlags.CLOSE_STREAM2">
+<tt class="descname">CLOSE_STREAM2</tt><em class="property"> = 2</em></dt>
+<dd><p>Close the second stream after
+the splice.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.IOStreamSpliceFlags.WAIT_FOR_BOTH">
+<tt class="descname">WAIT_FOR_BOTH</tt><em class="property"> = 4</em></dt>
+<dd><p>Wait for both splice operations to finish
+before calling the callback.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.MountMountFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">MountMountFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when mounting a mount.</p>
+<dl class="attribute">
+<dt id="Gio.MountMountFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.MountUnmountFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">MountUnmountFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when an unmounting a mount.</p>
+<dl class="attribute">
+<dt id="Gio.MountUnmountFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.MountUnmountFlags.FORCE">
+<tt class="descname">FORCE</tt><em class="property"> = 1</em></dt>
+<dd><p>Unmount even if there are outstanding
+file operations on the mount.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.OutputStreamSpliceFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">OutputStreamSpliceFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p><a class="reference internal" href="#Gio.OutputStreamSpliceFlags" title="Gio.OutputStreamSpliceFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.OutputStreamSpliceFlags</span></tt></a> determine how streams should be spliced.</p>
+<dl class="attribute">
+<dt id="Gio.OutputStreamSpliceFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>Do not close either stream.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.OutputStreamSpliceFlags.CLOSE_SOURCE">
+<tt class="descname">CLOSE_SOURCE</tt><em class="property"> = 1</em></dt>
+<dd><p>Close the source stream after
+the splice.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.OutputStreamSpliceFlags.CLOSE_TARGET">
+<tt class="descname">CLOSE_TARGET</tt><em class="property"> = 2</em></dt>
+<dd><p>Close the target stream after
+the splice.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.ResourceFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">ResourceFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p><a class="reference internal" href="#Gio.ResourceFlags" title="Gio.ResourceFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.ResourceFlags</span></tt></a> give information about a particular file inside a resource
+bundle.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.ResourceFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.ResourceFlags.COMPRESSED">
+<tt class="descname">COMPRESSED</tt><em class="property"> = 1</em></dt>
+<dd><p>The file is compressed.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.ResourceLookupFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">ResourceLookupFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p><a class="reference internal" href="#Gio.ResourceLookupFlags" title="Gio.ResourceLookupFlags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.ResourceLookupFlags</span></tt></a> determine how resource path lookups are handled.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.ResourceLookupFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags set.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.SettingsBindFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">SettingsBindFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used when creating a binding. These flags determine in which
+direction the binding works. The default is to synchronize in both
+directions.</p>
+<dl class="attribute">
+<dt id="Gio.SettingsBindFlags.DEFAULT">
+<tt class="descname">DEFAULT</tt><em class="property"> = 0</em></dt>
+<dd><p>Equivalent to `G_SETTINGS_BIND_GET|G_SETTINGS_BIND_SET`</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SettingsBindFlags.GET">
+<tt class="descname">GET</tt><em class="property"> = 1</em></dt>
+<dd><p>Update the <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> property when the setting changes.
+It is an error to use this flag if the property is not writable.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SettingsBindFlags.SET">
+<tt class="descname">SET</tt><em class="property"> = 2</em></dt>
+<dd><p>Update the setting when the <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> property changes.
+It is an error to use this flag if the property is not readable.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SettingsBindFlags.NO_SENSITIVITY">
+<tt class="descname">NO_SENSITIVITY</tt><em class="property"> = 4</em></dt>
+<dd><p>Do not try to bind a &#8220;sensitivity&#8221; property to the writability of the setting</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SettingsBindFlags.GET_NO_CHANGES">
+<tt class="descname">GET_NO_CHANGES</tt><em class="property"> = 8</em></dt>
+<dd><p>When set in addition to <a class="reference internal" href="#Gio.SettingsBindFlags.GET" title="Gio.SettingsBindFlags.GET"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SettingsBindFlags.GET</span></tt></a>, set the <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> property
+value initially from the setting, but do not listen for changes of the setting</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SettingsBindFlags.INVERT_BOOLEAN">
+<tt class="descname">INVERT_BOOLEAN</tt><em class="property"> = 16</em></dt>
+<dd><p>When passed to <a class="reference internal" href="classes/Settings.html#Gio.Settings.bind" title="Gio.Settings.bind"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Settings.bind</span></tt></a> (), uses a pair of mapping functions that invert
+the boolean value when mapping between the setting and the property.  The setting and property must both
+be booleans.  You cannot pass this flag to <tt class="xref py py-obj docutils literal"><span class="pre">Gio.Settings.bind_with_mapping</span></tt> ().</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.SocketMsgFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">SocketMsgFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags used in <a class="reference internal" href="classes/Socket.html#Gio.Socket.receive_message" title="Gio.Socket.receive_message"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket.receive_message</span></tt></a> () and <a class="reference internal" href="classes/Socket.html#Gio.Socket.send_message" title="Gio.Socket.send_message"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Socket.send_message</span></tt></a> ().
+The flags listed in the enum are some commonly available flags, but the
+values used for them are the same as on the platform, and any other flags
+are passed in/out as is. So to use a platform specific flag, just include
+the right system header and pass in the flag.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.22.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.SocketMsgFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SocketMsgFlags.OOB">
+<tt class="descname">OOB</tt><em class="property"> = 1</em></dt>
+<dd><p>Request to send/receive out of band data.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SocketMsgFlags.PEEK">
+<tt class="descname">PEEK</tt><em class="property"> = 2</em></dt>
+<dd><p>Read data from the socket without removing it from
+the queue.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SocketMsgFlags.DONTROUTE">
+<tt class="descname">DONTROUTE</tt><em class="property"> = 4</em></dt>
+<dd><p>Don&#8217;t use a gateway to send out the packet,
+only send to hosts on directly connected networks.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.SubprocessFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">SubprocessFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags to define the behaviour of a <a class="reference internal" href="classes/Subprocess.html#Gio.Subprocess" title="Gio.Subprocess"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Subprocess</span></tt></a>.</p>
+<p>Note that the default for stdin is to redirect from /dev/null.  For
+stdout and stderr the default are for them to inherit the
+corresponding descriptor from the calling process.</p>
+<p>Note that it is a programmer error to mix &#8216;incompatible&#8217; flags.  For
+example, you may not request both <a class="reference internal" href="#Gio.SubprocessFlags.STDOUT_PIPE" title="Gio.SubprocessFlags.STDOUT_PIPE"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SubprocessFlags.STDOUT_PIPE</span></tt></a> and
+<a class="reference internal" href="#Gio.SubprocessFlags.STDOUT_SILENCE" title="Gio.SubprocessFlags.STDOUT_SILENCE"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.SubprocessFlags.STDOUT_SILENCE</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.40.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.STDIN_PIPE">
+<tt class="descname">STDIN_PIPE</tt><em class="property"> = 1</em></dt>
+<dd><p>create a pipe for the stdin of the
+spawned process that can be accessed with
+<a class="reference internal" href="classes/Subprocess.html#Gio.Subprocess.get_stdin_pipe" title="Gio.Subprocess.get_stdin_pipe"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Subprocess.get_stdin_pipe</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.STDIN_INHERIT">
+<tt class="descname">STDIN_INHERIT</tt><em class="property"> = 2</em></dt>
+<dd><p>stdin is inherited from the
+calling process.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.STDOUT_PIPE">
+<tt class="descname">STDOUT_PIPE</tt><em class="property"> = 4</em></dt>
+<dd><p>create a pipe for the stdout of the
+spawned process that can be accessed with
+<a class="reference internal" href="classes/Subprocess.html#Gio.Subprocess.get_stdout_pipe" title="Gio.Subprocess.get_stdout_pipe"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Subprocess.get_stdout_pipe</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.STDOUT_SILENCE">
+<tt class="descname">STDOUT_SILENCE</tt><em class="property"> = 8</em></dt>
+<dd><p>silence the stdout of the spawned
+process (ie: redirect to /dev/null).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.STDERR_PIPE">
+<tt class="descname">STDERR_PIPE</tt><em class="property"> = 16</em></dt>
+<dd><p>create a pipe for the stderr of the
+spawned process that can be accessed with
+<a class="reference internal" href="classes/Subprocess.html#Gio.Subprocess.get_stderr_pipe" title="Gio.Subprocess.get_stderr_pipe"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.Subprocess.get_stderr_pipe</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.STDERR_SILENCE">
+<tt class="descname">STDERR_SILENCE</tt><em class="property"> = 32</em></dt>
+<dd><p>silence the stderr of the spawned
+process (ie: redirect to /dev/null).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.STDERR_MERGE">
+<tt class="descname">STDERR_MERGE</tt><em class="property"> = 64</em></dt>
+<dd><p>merge the stderr of the spawned
+process with whatever the stdout happens to be.  This is a good way
+of directing both streams to a common log file, for example.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.SubprocessFlags.INHERIT_FDS">
+<tt class="descname">INHERIT_FDS</tt><em class="property"> = 128</em></dt>
+<dd><p>spawned processes will inherit the
+file descriptors of their parent, unless those descriptors have
+been explicitly marked as close-on-exec.  This flag has no effect
+over the &#8220;standard&#8221; file descriptors (stdin, stdout, stderr).</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.TestDBusFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">TestDBusFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags to define future <a class="reference internal" href="classes/TestDBus.html#Gio.TestDBus" title="Gio.TestDBus"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.TestDBus</span></tt></a> behaviour.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.34.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.TestDBusFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.TlsCertificateFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">TlsCertificateFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>A set of flags describing TLS certification validation. This can be
+used to set which validation steps to perform (eg, with
+<a class="reference internal" href="interfaces/TlsClientConnection.html#Gio.TlsClientConnection.set_validation_flags" title="Gio.TlsClientConnection.set_validation_flags"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.TlsClientConnection.set_validation_flags</span></tt></a> ()), or to describe why
+a particular certificate was rejected (eg, in
+<a class="reference internal" href="classes/TlsConnection.html#Gio.TlsConnection" title="Gio.TlsConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.TlsConnection</span></tt></a> <a class="reference internal" href="classes/TlsConnection.html#Gio.TlsConnection.signals.accept_certificate" title="Gio.TlsConnection.signals.accept_certificate"><tt class="xref py py-func docutils literal"><span class="pre">::accept-certificate</span></tt></a> ).</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.28.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.UNKNOWN_CA">
+<tt class="descname">UNKNOWN_CA</tt><em class="property"> = 1</em></dt>
+<dd><p>The signing certificate authority is
+not known.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.BAD_IDENTITY">
+<tt class="descname">BAD_IDENTITY</tt><em class="property"> = 2</em></dt>
+<dd><p>The certificate does not match the
+expected identity of the site that it was retrieved from.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.NOT_ACTIVATED">
+<tt class="descname">NOT_ACTIVATED</tt><em class="property"> = 4</em></dt>
+<dd><p>The certificate&#8217;s activation time
+is still in the future</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.EXPIRED">
+<tt class="descname">EXPIRED</tt><em class="property"> = 8</em></dt>
+<dd><p>The certificate has expired</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.REVOKED">
+<tt class="descname">REVOKED</tt><em class="property"> = 16</em></dt>
+<dd><p>The certificate has been revoked
+according to the <a class="reference internal" href="classes/TlsConnection.html#Gio.TlsConnection" title="Gio.TlsConnection"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.TlsConnection</span></tt></a> &#8216;s certificate revocation list.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.INSECURE">
+<tt class="descname">INSECURE</tt><em class="property"> = 32</em></dt>
+<dd><p>The certificate&#8217;s algorithm is
+considered insecure.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.GENERIC_ERROR">
+<tt class="descname">GENERIC_ERROR</tt><em class="property"> = 64</em></dt>
+<dd><p>Some other error occurred validating
+the certificate</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsCertificateFlags.VALIDATE_ALL">
+<tt class="descname">VALIDATE_ALL</tt><em class="property"> = 127</em></dt>
+<dd><p>the combination of all of the above
+flags</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.TlsDatabaseVerifyFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">TlsDatabaseVerifyFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Flags for <a class="reference internal" href="classes/TlsDatabase.html#Gio.TlsDatabase.verify_chain" title="Gio.TlsDatabase.verify_chain"><tt class="xref py py-obj docutils literal"><span class="pre">Gio.TlsDatabase.verify_chain</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.TlsDatabaseVerifyFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No verification flags</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Gio.TlsPasswordFlags">
+<em class="property">class </em><tt class="descclassname">Gio.</tt><tt class="descname">TlsPasswordFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Gio-2.0/../../../python-GObject-2.0/flags.html#GObject.GFlags" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GFlags</span></tt></a></p>
+<p>Various flags for the password.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.30.</span></p>
+</div>
+<dl class="attribute">
+<dt id="Gio.TlsPasswordFlags.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>No flags</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsPasswordFlags.RETRY">
+<tt class="descname">RETRY</tt><em class="property"> = 2</em></dt>
+<dd><p>The password was wrong, and the user should retry.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsPasswordFlags.MANY_TRIES">
+<tt class="descname">MANY_TRIES</tt><em class="property"> = 4</em></dt>
+<dd><p>Hint to the user that the password has been
+wrong many times, and the user may not have many chances left.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Gio.TlsPasswordFlags.FINAL_TRY">
+<tt class="descname">FINAL_TRY</tt><em class="property"> = 8</em></dt>
+<dd><p>Hint to the user that this is the last try to get
+this password right.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

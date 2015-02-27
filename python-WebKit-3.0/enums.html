@@ -1,0 +1,923 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    WebKit 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="WebKit 3.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Constants" href="constants.html"/>
+        <link rel="prev" title="Flags" href="flags.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">WebKit 3.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="flags.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">WebKit 3.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="flags.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#WebKit.CacheModel" title="WebKit.CacheModel"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.CacheModel</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.ContextMenuAction" title="WebKit.ContextMenuAction"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.ContextMenuAction</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.DownloadError" title="WebKit.DownloadError"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.DownloadError</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.DownloadStatus" title="WebKit.DownloadStatus"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.DownloadStatus</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.EditingBehavior" title="WebKit.EditingBehavior"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.EditingBehavior</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.InsertAction" title="WebKit.InsertAction"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.InsertAction</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.LoadStatus" title="WebKit.LoadStatus"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.LoadStatus</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.NavigationResponse" title="WebKit.NavigationResponse"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.NavigationResponse</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.NetworkError" title="WebKit.NetworkError"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.NetworkError</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.PluginError" title="WebKit.PluginError"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.PluginError</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.PolicyError" title="WebKit.PolicyError"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.PolicyError</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.SelectionAffinity" title="WebKit.SelectionAffinity"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.SelectionAffinity</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.WebNavigationReason" title="WebKit.WebNavigationReason"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.WebNavigationReason</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.WebViewTargetInfo" title="WebKit.WebViewTargetInfo"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.WebViewTargetInfo</span></tt></a></li>
+<li><a class="reference internal" href="#WebKit.WebViewViewMode" title="WebKit.WebViewViewMode"><tt class="xref py py-class docutils literal"><span class="pre">WebKit.WebViewViewMode</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="WebKit.CacheModel">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">CacheModel</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used for determining the webview cache model.</p>
+<dl class="attribute">
+<dt id="WebKit.CacheModel.DEFAULT">
+<tt class="descname">DEFAULT</tt><em class="property"> = 0</em></dt>
+<dd><p>The default cache model. This is
+<a class="reference internal" href="#WebKit.CacheModel.WEB_BROWSER" title="WebKit.CacheModel.WEB_BROWSER"><tt class="xref py py-obj docutils literal"><span class="pre">WebKit.CacheModel.WEB_BROWSER</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.CacheModel.DOCUMENT_VIEWER">
+<tt class="descname">DOCUMENT_VIEWER</tt><em class="property"> = 1</em></dt>
+<dd><p>Disable the cache completely, which
+substantially reduces memory usage. Useful for applications that only
+access a single local file, with no navigation to other pages. No remote
+resources will be cached.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.CacheModel.WEB_BROWSER">
+<tt class="descname">WEB_BROWSER</tt><em class="property"> = 2</em></dt>
+<dd><p>Improve document load speed substantially
+by caching a very large number of resources and previously viewed content.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.CacheModel.DOCUMENT_BROWSER">
+<tt class="descname">DOCUMENT_BROWSER</tt><em class="property"> = 3</em></dt>
+<dd><p>A cache model optimized for viewing
+a series of local files &#8211; for example, a documentation viewer or a website
+designer. WebKit will cache a moderate number of resources.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.ContextMenuAction">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">ContextMenuAction</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote actions of items in the default context menu.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.NO_ACTION">
+<tt class="descname">NO_ACTION</tt><em class="property"> = 0</em></dt>
+<dd><p>No action, used by separator menu items.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.OPEN_LINK">
+<tt class="descname">OPEN_LINK</tt><em class="property"> = 1</em></dt>
+<dd><p>Open current link.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.OPEN_LINK_IN_NEW_WINDOW">
+<tt class="descname">OPEN_LINK_IN_NEW_WINDOW</tt><em class="property"> = 2</em></dt>
+<dd><p>Open current link in a new window.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.DOWNLOAD_LINK_TO_DISK">
+<tt class="descname">DOWNLOAD_LINK_TO_DISK</tt><em class="property"> = 3</em></dt>
+<dd><p>Download link destination.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.COPY_LINK_TO_CLIPBOARD">
+<tt class="descname">COPY_LINK_TO_CLIPBOARD</tt><em class="property"> = 4</em></dt>
+<dd><p>Copy link location to the clipboard.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.OPEN_IMAGE_IN_NEW_WINDOW">
+<tt class="descname">OPEN_IMAGE_IN_NEW_WINDOW</tt><em class="property"> = 5</em></dt>
+<dd><p>Open current image in a new window.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.DOWNLOAD_IMAGE_TO_DISK">
+<tt class="descname">DOWNLOAD_IMAGE_TO_DISK</tt><em class="property"> = 6</em></dt>
+<dd><p>Download current image.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.COPY_IMAGE_TO_CLIPBOARD">
+<tt class="descname">COPY_IMAGE_TO_CLIPBOARD</tt><em class="property"> = 7</em></dt>
+<dd><p>Copy current image to the clipboard.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.COPY_IMAGE_URL_TO_CLIPBOARD">
+<tt class="descname">COPY_IMAGE_URL_TO_CLIPBOARD</tt><em class="property"> = 8</em></dt>
+<dd><p>Copy curent image location to the clipboard.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.OPEN_FRAME_IN_NEW_WINDOW">
+<tt class="descname">OPEN_FRAME_IN_NEW_WINDOW</tt><em class="property"> = 9</em></dt>
+<dd><p>Open current frame in a new window.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.GO_BACK">
+<tt class="descname">GO_BACK</tt><em class="property"> = 10</em></dt>
+<dd><p>Load the previous history item.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.GO_FORWARD">
+<tt class="descname">GO_FORWARD</tt><em class="property"> = 11</em></dt>
+<dd><p>Load the next history item.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.STOP">
+<tt class="descname">STOP</tt><em class="property"> = 12</em></dt>
+<dd><p>Stop any ongoing loading operation.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.RELOAD">
+<tt class="descname">RELOAD</tt><em class="property"> = 13</em></dt>
+<dd><p>Reload the conents of current view.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.COPY">
+<tt class="descname">COPY</tt><em class="property"> = 14</em></dt>
+<dd><p>Copy current selection the clipboard.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.CUT">
+<tt class="descname">CUT</tt><em class="property"> = 15</em></dt>
+<dd><p>Cut current selection to the clipboard.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.PASTE">
+<tt class="descname">PASTE</tt><em class="property"> = 16</em></dt>
+<dd><p>Paste clipboard contents.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.DELETE">
+<tt class="descname">DELETE</tt><em class="property"> = 17</em></dt>
+<dd><p>Delete current selection.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.SELECT_ALL">
+<tt class="descname">SELECT_ALL</tt><em class="property"> = 18</em></dt>
+<dd><p>Select all text.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.INPUT_METHODS">
+<tt class="descname">INPUT_METHODS</tt><em class="property"> = 19</em></dt>
+<dd><p>Input methods menu.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.UNICODE">
+<tt class="descname">UNICODE</tt><em class="property"> = 20</em></dt>
+<dd><p>Unicode menu.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.SPELLING_GUESS">
+<tt class="descname">SPELLING_GUESS</tt><em class="property"> = 21</em></dt>
+<dd><p>Guess spelling.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.NO_GUESSES_FOUND">
+<tt class="descname">NO_GUESSES_FOUND</tt><em class="property"> = 22</em></dt>
+<dd><p>No guesses found.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.IGNORE_SPELLING">
+<tt class="descname">IGNORE_SPELLING</tt><em class="property"> = 23</em></dt>
+<dd><p>Ignore spelling.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.LEARN_SPELLING">
+<tt class="descname">LEARN_SPELLING</tt><em class="property"> = 24</em></dt>
+<dd><p>Learn spelling.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.IGNORE_GRAMMAR">
+<tt class="descname">IGNORE_GRAMMAR</tt><em class="property"> = 25</em></dt>
+<dd><p>Ignore grammar.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.FONT_MENU">
+<tt class="descname">FONT_MENU</tt><em class="property"> = 26</em></dt>
+<dd><p>Font menu.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.BOLD">
+<tt class="descname">BOLD</tt><em class="property"> = 27</em></dt>
+<dd><p>Bold.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.ITALIC">
+<tt class="descname">ITALIC</tt><em class="property"> = 28</em></dt>
+<dd><p>Italic.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.UNDERLINE">
+<tt class="descname">UNDERLINE</tt><em class="property"> = 29</em></dt>
+<dd><p>Underline.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.OUTLINE">
+<tt class="descname">OUTLINE</tt><em class="property"> = 30</em></dt>
+<dd><p>Outline.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.INSPECT_ELEMENT">
+<tt class="descname">INSPECT_ELEMENT</tt><em class="property"> = 31</em></dt>
+<dd><p>Open current element in the inspector.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.OPEN_MEDIA_IN_NEW_WINDOW">
+<tt class="descname">OPEN_MEDIA_IN_NEW_WINDOW</tt><em class="property"> = 32</em></dt>
+<dd><p>Open current media element in a new window.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.COPY_MEDIA_LINK_TO_CLIPBOARD">
+<tt class="descname">COPY_MEDIA_LINK_TO_CLIPBOARD</tt><em class="property"> = 33</em></dt>
+<dd><p>Copy media link location in to the clipboard.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.TOGGLE_MEDIA_CONTROLS">
+<tt class="descname">TOGGLE_MEDIA_CONTROLS</tt><em class="property"> = 34</em></dt>
+<dd><p>Enable or disable media controls.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.TOGGLE_MEDIA_LOOP">
+<tt class="descname">TOGGLE_MEDIA_LOOP</tt><em class="property"> = 35</em></dt>
+<dd><p>Enable or disable media loop.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.ENTER_VIDEO_FULLSCREEN">
+<tt class="descname">ENTER_VIDEO_FULLSCREEN</tt><em class="property"> = 36</em></dt>
+<dd><p>Show current video element in fullscreen mode.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.MEDIA_PLAY_PAUSE">
+<tt class="descname">MEDIA_PLAY_PAUSE</tt><em class="property"> = 37</em></dt>
+<dd><p>Play or pause current media element.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.ContextMenuAction.MEDIA_MUTE">
+<tt class="descname">MEDIA_MUTE</tt><em class="property"> = 38</em></dt>
+<dd><p>Mute current media element.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.DownloadError">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">DownloadError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various download errors.</p>
+<dl class="attribute">
+<dt id="WebKit.DownloadError.CANCELLED_BY_USER">
+<tt class="descname">CANCELLED_BY_USER</tt><em class="property"> = 0</em></dt>
+<dd><p>The download failed due to user cancellation.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.DownloadError.DESTINATION">
+<tt class="descname">DESTINATION</tt><em class="property"> = 1</em></dt>
+<dd><p>The download failed due to disk write failure.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.DownloadError.NETWORK">
+<tt class="descname">NETWORK</tt><em class="property"> = 2</em></dt>
+<dd><p>The download failed due to a network error.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.DownloadStatus">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">DownloadStatus</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various states of a download.</p>
+<dl class="attribute">
+<dt id="WebKit.DownloadStatus.ERROR">
+<tt class="descname">ERROR</tt><em class="property"> = -1</em></dt>
+<dd><p>The download failed because of an error other than user cancellation.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.DownloadStatus.CREATED">
+<tt class="descname">CREATED</tt><em class="property"> = 0</em></dt>
+<dd><p>The download has not started yet.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.DownloadStatus.STARTED">
+<tt class="descname">STARTED</tt><em class="property"> = 1</em></dt>
+<dd><p>The download has started, but has not completed yet.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.DownloadStatus.CANCELLED">
+<tt class="descname">CANCELLED</tt><em class="property"> = 2</em></dt>
+<dd><p>The user canceled the download.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.DownloadStatus.FINISHED">
+<tt class="descname">FINISHED</tt><em class="property"> = 3</em></dt>
+<dd><p>The download completed successfully.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.EditingBehavior">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">EditingBehavior</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used for determining the editing behavior of editable elements.</p>
+<dl class="attribute">
+<dt id="WebKit.EditingBehavior.MAC">
+<tt class="descname">MAC</tt><em class="property"> = 0</em></dt>
+<dd><p>Editing behavior mimicking OS X user interfaces.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.EditingBehavior.WINDOWS">
+<tt class="descname">WINDOWS</tt><em class="property"> = 1</em></dt>
+<dd><p>Editing behavior mimicking Windows user interfaces.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.EditingBehavior.UNIX">
+<tt class="descname">UNIX</tt><em class="property"> = 2</em></dt>
+<dd><p>Editing behavior mimicking free desktop user interfaces.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.InsertAction">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">InsertAction</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="WebKit.InsertAction.TYPED">
+<tt class="descname">TYPED</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.InsertAction.PASTED">
+<tt class="descname">PASTED</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.InsertAction.DROPPED">
+<tt class="descname">DROPPED</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.LoadStatus">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">LoadStatus</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="WebKit.LoadStatus.PROVISIONAL">
+<tt class="descname">PROVISIONAL</tt><em class="property"> = 0</em></dt>
+<dd><p>No data has been received yet, empty
+structures have been allocated to perform the load; the load may
+still fail for transport issues such as not being able to resolve a
+name, or connect to a port.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.LoadStatus.COMMITTED">
+<tt class="descname">COMMITTED</tt><em class="property"> = 1</em></dt>
+<dd><p>The first data chunk has arrived, meaning
+that the necessary transport requirements are stabilished, and the
+load is being performed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.LoadStatus.FINISHED">
+<tt class="descname">FINISHED</tt><em class="property"> = 2</em></dt>
+<dd><p>This state means that everything that was
+required to display the page has been loaded.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.LoadStatus.FIRST_VISUALLY_NON_EMPTY_LAYOUT">
+<tt class="descname">FIRST_VISUALLY_NON_EMPTY_LAYOUT</tt><em class="property"> = 3</em></dt>
+<dd><p>The first layout with
+actual visible content happened; one or more layouts may have
+happened before that caused nothing to be visible on the screen,
+because the data available at the time was not significant enough.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.LoadStatus.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 4</em></dt>
+<dd><p>This state means that some error occurred
+during the page load that prevented it from being completed. You
+can connect to the <a class="reference internal" href="classes/WebView.html#WebKit.WebView" title="WebKit.WebView"><tt class="xref py py-obj docutils literal"><span class="pre">WebKit.WebView</span></tt></a> <a class="reference internal" href="classes/WebView.html#WebKit.WebView.signals.load_error" title="WebKit.WebView.signals.load_error"><tt class="xref py py-func docutils literal"><span class="pre">::load-error</span></tt></a> signal if you want to
+know precisely what kind of error occurred.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.NavigationResponse">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">NavigationResponse</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various responses to a navigation policy decision.</p>
+<dl class="attribute">
+<dt id="WebKit.NavigationResponse.ACCEPT">
+<tt class="descname">ACCEPT</tt><em class="property"> = 0</em></dt>
+<dd><p>Instruct WebKit to allow the navigation.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.NavigationResponse.IGNORE">
+<tt class="descname">IGNORE</tt><em class="property"> = 1</em></dt>
+<dd><p>Instruct WebKit to ignore the navigation.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.NavigationResponse.DOWNLOAD">
+<tt class="descname">DOWNLOAD</tt><em class="property"> = 2</em></dt>
+<dd><p>Instruct WebKit to start a download of the destination instead.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.NetworkError">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">NetworkError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various network errors.</p>
+<dl class="staticmethod">
+<dt id="WebKit.NetworkError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.NetworkError.TRANSPORT">
+<tt class="descname">TRANSPORT</tt><em class="property"> = 300</em></dt>
+<dd><p>Load failure due to transport error</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.NetworkError.UNKNOWN_PROTOCOL">
+<tt class="descname">UNKNOWN_PROTOCOL</tt><em class="property"> = 301</em></dt>
+<dd><p>Load failure due to unknown protocol</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.NetworkError.CANCELLED">
+<tt class="descname">CANCELLED</tt><em class="property"> = 302</em></dt>
+<dd><p>Load failure due to cancellation</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.NetworkError.FILE_DOES_NOT_EXIST">
+<tt class="descname">FILE_DOES_NOT_EXIST</tt><em class="property"> = 303</em></dt>
+<dd><p>Load failure due to missing file</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.NetworkError.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 399</em></dt>
+<dd><p>Generic load failure</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.PluginError">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">PluginError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various plugin errors.</p>
+<dl class="staticmethod">
+<dt id="WebKit.PluginError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PluginError.CANNOT_FIND_PLUGIN">
+<tt class="descname">CANNOT_FIND_PLUGIN</tt><em class="property"> = 200</em></dt>
+<dd><p>Load failure due to missing plugin</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PluginError.CANNOT_LOAD_PLUGIN">
+<tt class="descname">CANNOT_LOAD_PLUGIN</tt><em class="property"> = 201</em></dt>
+<dd><p>Load failure due to inability to load plugin</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PluginError.JAVA_UNAVAILABLE">
+<tt class="descname">JAVA_UNAVAILABLE</tt><em class="property"> = 202</em></dt>
+<dd><p>Load failue due to missing Java support that is required to load plugin</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PluginError.CONNECTION_CANCELLED">
+<tt class="descname">CONNECTION_CANCELLED</tt><em class="property"> = 203</em></dt>
+<dd><p>Load failure due to connection cancellation</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PluginError.WILL_HANDLE_LOAD">
+<tt class="descname">WILL_HANDLE_LOAD</tt><em class="property"> = 204</em></dt>
+<dd><p>Load failure since plugin handles the load</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PluginError.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 299</em></dt>
+<dd><p>Generic plugin load failure</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.PolicyError">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">PolicyError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various policy errors.</p>
+<dl class="staticmethod">
+<dt id="WebKit.PolicyError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PolicyError.CANNOT_SHOW_MIME_TYPE">
+<tt class="descname">CANNOT_SHOW_MIME_TYPE</tt><em class="property"> = 100</em></dt>
+<dd><p>Load failure due to unsupported mime type</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PolicyError.CANNOT_SHOW_URL">
+<tt class="descname">CANNOT_SHOW_URL</tt><em class="property"> = 101</em></dt>
+<dd><p>Load failure due to URI that can not be shown</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PolicyError.FRAME_LOAD_INTERRUPTED_BY_POLICY_CHANGE">
+<tt class="descname">FRAME_LOAD_INTERRUPTED_BY_POLICY_CHANGE</tt><em class="property"> = 102</em></dt>
+<dd><p>Load failure due to frame load interruption by policy change</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PolicyError.CANNOT_USE_RESTRICTED_PORT">
+<tt class="descname">CANNOT_USE_RESTRICTED_PORT</tt><em class="property"> = 103</em></dt>
+<dd><p>Load failure due to port restriction</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.PolicyError.FAILED">
+<tt class="descname">FAILED</tt><em class="property"> = 199</em></dt>
+<dd><p>Generic load failure due to policy error</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.SelectionAffinity">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">SelectionAffinity</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="WebKit.SelectionAffinity.UPSTREAM">
+<tt class="descname">UPSTREAM</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.SelectionAffinity.DOWNSTREAM">
+<tt class="descname">DOWNSTREAM</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.WebNavigationReason">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">WebNavigationReason</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various navigation reasons.</p>
+<dl class="attribute">
+<dt id="WebKit.WebNavigationReason.LINK_CLICKED">
+<tt class="descname">LINK_CLICKED</tt><em class="property"> = 0</em></dt>
+<dd><p>The navigation was triggered by clicking a link.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebNavigationReason.FORM_SUBMITTED">
+<tt class="descname">FORM_SUBMITTED</tt><em class="property"> = 1</em></dt>
+<dd><p>The navigation was triggered by submitting a form.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebNavigationReason.BACK_FORWARD">
+<tt class="descname">BACK_FORWARD</tt><em class="property"> = 2</em></dt>
+<dd><p>The navigation was triggered by navigating forward or backward.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebNavigationReason.RELOAD">
+<tt class="descname">RELOAD</tt><em class="property"> = 3</em></dt>
+<dd><p>The navigation was triggered by reloading.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebNavigationReason.FORM_RESUBMITTED">
+<tt class="descname">FORM_RESUBMITTED</tt><em class="property"> = 4</em></dt>
+<dd><p>The navigation was triggered by resubmitting a form.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebNavigationReason.OTHER">
+<tt class="descname">OTHER</tt><em class="property"> = 5</em></dt>
+<dd><p>The navigation was triggered by some other action.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.WebViewTargetInfo">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">WebViewTargetInfo</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the info value of various selection types. These can be used
+to interpret the data WebKitGTK+ publishes via <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-Gtk-3.0/classes/Clipboard.html#Gtk.Clipboard" title="(in Gtk 3.0 v3.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Clipboard</span></tt></a> and drag-and-drop.</p>
+<dl class="attribute">
+<dt id="WebKit.WebViewTargetInfo.HTML">
+<tt class="descname">HTML</tt><em class="property"> = 0</em></dt>
+<dd><p>Rich markup data</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewTargetInfo.TEXT">
+<tt class="descname">TEXT</tt><em class="property"> = 1</em></dt>
+<dd><p>Text data</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewTargetInfo.IMAGE">
+<tt class="descname">IMAGE</tt><em class="property"> = 2</em></dt>
+<dd><p>Image data</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewTargetInfo.URI_LIST">
+<tt class="descname">URI_LIST</tt><em class="property"> = 3</em></dt>
+<dd><p>URI list data</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewTargetInfo.NETSCAPE_URL">
+<tt class="descname">NETSCAPE_URL</tt><em class="property"> = 4</em></dt>
+<dd><p>A single URL in the Netscape protocol</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="WebKit.WebViewViewMode">
+<em class="property">class </em><tt class="descclassname">WebKit.</tt><tt class="descname">WebViewViewMode</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/WebKit-3.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Enum values used to denote the various types of view modes. See the
+<a class="reference internal" href="classes/WebView.html#WebKit.WebView" title="WebKit.WebView"><tt class="xref py py-obj docutils literal"><span class="pre">WebKit.WebView</span></tt></a> <a class="reference internal" href="classes/WebView.html#WebKit.WebView.props.view_mode" title="WebKit.WebView.props.view_mode"><tt class="xref py py-data docutils literal"><span class="pre">:view-mode</span></tt></a> property.</p>
+<dl class="attribute">
+<dt id="WebKit.WebViewViewMode.WINDOWED">
+<tt class="descname">WINDOWED</tt><em class="property"> = 0</em></dt>
+<dd><p>Windowed view mode</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewViewMode.FLOATING">
+<tt class="descname">FLOATING</tt><em class="property"> = 1</em></dt>
+<dd><p>Floating view mode</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewViewMode.FULLSCREEN">
+<tt class="descname">FULLSCREEN</tt><em class="property"> = 2</em></dt>
+<dd><p>Fullscreen view mode</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewViewMode.MAXIMIZED">
+<tt class="descname">MAXIMIZED</tt><em class="property"> = 3</em></dt>
+<dd><p>Maximized view mode</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="WebKit.WebViewViewMode.MINIMIZED">
+<tt class="descname">MINIMIZED</tt><em class="property"> = 4</em></dt>
+<dd><p>Minimized view mode</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

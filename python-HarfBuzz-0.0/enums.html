@@ -1,0 +1,1380 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    HarfBuzz 0.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="HarfBuzz 0.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Constants" href="constants.html"/>
+        <link rel="prev" title="Flags" href="flags.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">HarfBuzz 0.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="flags.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">HarfBuzz 0.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="flags.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#HarfBuzz.buffer_content_type_t" title="HarfBuzz.buffer_content_type_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.buffer_content_type_t</span></tt></a></li>
+<li><a class="reference internal" href="#HarfBuzz.buffer_serialize_format_t" title="HarfBuzz.buffer_serialize_format_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.buffer_serialize_format_t</span></tt></a></li>
+<li><a class="reference internal" href="#HarfBuzz.direction_t" title="HarfBuzz.direction_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.direction_t</span></tt></a></li>
+<li><a class="reference internal" href="#HarfBuzz.memory_mode_t" title="HarfBuzz.memory_mode_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.memory_mode_t</span></tt></a></li>
+<li><a class="reference internal" href="#HarfBuzz.ot_layout_glyph_class_t" title="HarfBuzz.ot_layout_glyph_class_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.ot_layout_glyph_class_t</span></tt></a></li>
+<li><a class="reference internal" href="#HarfBuzz.script_t" title="HarfBuzz.script_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.script_t</span></tt></a></li>
+<li><a class="reference internal" href="#HarfBuzz.unicode_combining_class_t" title="HarfBuzz.unicode_combining_class_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.unicode_combining_class_t</span></tt></a></li>
+<li><a class="reference internal" href="#HarfBuzz.unicode_general_category_t" title="HarfBuzz.unicode_general_category_t"><tt class="xref py py-class docutils literal"><span class="pre">HarfBuzz.unicode_general_category_t</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="HarfBuzz.buffer_content_type_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">buffer_content_type_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.buffer_content_type_t.INVALID">
+<tt class="descname">INVALID</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.buffer_content_type_t.UNICODE">
+<tt class="descname">UNICODE</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.buffer_content_type_t.GLYPHS">
+<tt class="descname">GLYPHS</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="HarfBuzz.buffer_serialize_format_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">buffer_serialize_format_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.buffer_serialize_format_t.INVALID">
+<tt class="descname">INVALID</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.buffer_serialize_format_t.JSON">
+<tt class="descname">JSON</tt><em class="property"> = 1246973774</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.buffer_serialize_format_t.TEXT">
+<tt class="descname">TEXT</tt><em class="property"> = 1413830740</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="HarfBuzz.direction_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">direction_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.direction_t.INVALID">
+<tt class="descname">INVALID</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.direction_t.LTR">
+<tt class="descname">LTR</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.direction_t.RTL">
+<tt class="descname">RTL</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.direction_t.TTB">
+<tt class="descname">TTB</tt><em class="property"> = 6</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.direction_t.BTT">
+<tt class="descname">BTT</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="HarfBuzz.memory_mode_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">memory_mode_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.memory_mode_t.DUPLICATE">
+<tt class="descname">DUPLICATE</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.memory_mode_t.READONLY">
+<tt class="descname">READONLY</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.memory_mode_t.WRITABLE">
+<tt class="descname">WRITABLE</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.memory_mode_t.READONLY_MAY_MAKE_WRITABLE">
+<tt class="descname">READONLY_MAY_MAKE_WRITABLE</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="HarfBuzz.ot_layout_glyph_class_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">ot_layout_glyph_class_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.ot_layout_glyph_class_t.UNCLASSIFIED">
+<tt class="descname">UNCLASSIFIED</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.ot_layout_glyph_class_t.BASE_GLYPH">
+<tt class="descname">BASE_GLYPH</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.ot_layout_glyph_class_t.LIGATURE">
+<tt class="descname">LIGATURE</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.ot_layout_glyph_class_t.MARK">
+<tt class="descname">MARK</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.ot_layout_glyph_class_t.COMPONENT">
+<tt class="descname">COMPONENT</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="HarfBuzz.script_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">script_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.INVALID">
+<tt class="descname">INVALID</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CAUCASIAN_ALBANIAN">
+<tt class="descname">CAUCASIAN_ALBANIAN</tt><em class="property"> = 1097295970</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.ARABIC">
+<tt class="descname">ARABIC</tt><em class="property"> = 1098015074</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.IMPERIAL_ARAMAIC">
+<tt class="descname">IMPERIAL_ARAMAIC</tt><em class="property"> = 1098018153</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.ARMENIAN">
+<tt class="descname">ARMENIAN</tt><em class="property"> = 1098018158</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.AVESTAN">
+<tt class="descname">AVESTAN</tt><em class="property"> = 1098281844</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BALINESE">
+<tt class="descname">BALINESE</tt><em class="property"> = 1113681001</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BAMUM">
+<tt class="descname">BAMUM</tt><em class="property"> = 1113681269</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BASSA_VAH">
+<tt class="descname">BASSA_VAH</tt><em class="property"> = 1113682803</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BATAK">
+<tt class="descname">BATAK</tt><em class="property"> = 1113683051</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BENGALI">
+<tt class="descname">BENGALI</tt><em class="property"> = 1113943655</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BOPOMOFO">
+<tt class="descname">BOPOMOFO</tt><em class="property"> = 1114599535</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BRAHMI">
+<tt class="descname">BRAHMI</tt><em class="property"> = 1114792296</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BRAILLE">
+<tt class="descname">BRAILLE</tt><em class="property"> = 1114792297</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BUGINESE">
+<tt class="descname">BUGINESE</tt><em class="property"> = 1114990441</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.BUHID">
+<tt class="descname">BUHID</tt><em class="property"> = 1114990692</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CHAKMA">
+<tt class="descname">CHAKMA</tt><em class="property"> = 1130457965</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CANADIAN_SYLLABICS">
+<tt class="descname">CANADIAN_SYLLABICS</tt><em class="property"> = 1130458739</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CARIAN">
+<tt class="descname">CARIAN</tt><em class="property"> = 1130459753</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CHAM">
+<tt class="descname">CHAM</tt><em class="property"> = 1130914157</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CHEROKEE">
+<tt class="descname">CHEROKEE</tt><em class="property"> = 1130915186</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.COPTIC">
+<tt class="descname">COPTIC</tt><em class="property"> = 1131376756</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CYPRIOT">
+<tt class="descname">CYPRIOT</tt><em class="property"> = 1131442804</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CYRILLIC">
+<tt class="descname">CYRILLIC</tt><em class="property"> = 1132032620</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.DEVANAGARI">
+<tt class="descname">DEVANAGARI</tt><em class="property"> = 1147500129</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.DESERET">
+<tt class="descname">DESERET</tt><em class="property"> = 1148416628</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.DUPLOYAN">
+<tt class="descname">DUPLOYAN</tt><em class="property"> = 1148547180</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.EGYPTIAN_HIEROGLYPHS">
+<tt class="descname">EGYPTIAN_HIEROGLYPHS</tt><em class="property"> = 1164409200</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.ELBASAN">
+<tt class="descname">ELBASAN</tt><em class="property"> = 1164730977</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.ETHIOPIC">
+<tt class="descname">ETHIOPIC</tt><em class="property"> = 1165256809</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.GEORGIAN">
+<tt class="descname">GEORGIAN</tt><em class="property"> = 1197830002</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.GLAGOLITIC">
+<tt class="descname">GLAGOLITIC</tt><em class="property"> = 1198285159</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.GOTHIC">
+<tt class="descname">GOTHIC</tt><em class="property"> = 1198486632</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.GRANTHA">
+<tt class="descname">GRANTHA</tt><em class="property"> = 1198678382</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.GREEK">
+<tt class="descname">GREEK</tt><em class="property"> = 1198679403</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.GUJARATI">
+<tt class="descname">GUJARATI</tt><em class="property"> = 1198877298</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.GURMUKHI">
+<tt class="descname">GURMUKHI</tt><em class="property"> = 1198879349</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.HANGUL">
+<tt class="descname">HANGUL</tt><em class="property"> = 1214344807</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.HAN">
+<tt class="descname">HAN</tt><em class="property"> = 1214344809</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.HANUNOO">
+<tt class="descname">HANUNOO</tt><em class="property"> = 1214344815</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.HEBREW">
+<tt class="descname">HEBREW</tt><em class="property"> = 1214603890</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.HIRAGANA">
+<tt class="descname">HIRAGANA</tt><em class="property"> = 1214870113</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.PAHAWH_HMONG">
+<tt class="descname">PAHAWH_HMONG</tt><em class="property"> = 1215131239</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OLD_ITALIC">
+<tt class="descname">OLD_ITALIC</tt><em class="property"> = 1232363884</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.JAVANESE">
+<tt class="descname">JAVANESE</tt><em class="property"> = 1247901281</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KAYAH_LI">
+<tt class="descname">KAYAH_LI</tt><em class="property"> = 1264675945</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KATAKANA">
+<tt class="descname">KATAKANA</tt><em class="property"> = 1264676449</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KHAROSHTHI">
+<tt class="descname">KHAROSHTHI</tt><em class="property"> = 1265131890</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KHMER">
+<tt class="descname">KHMER</tt><em class="property"> = 1265134962</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KHOJKI">
+<tt class="descname">KHOJKI</tt><em class="property"> = 1265135466</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KANNADA">
+<tt class="descname">KANNADA</tt><em class="property"> = 1265525857</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KAITHI">
+<tt class="descname">KAITHI</tt><em class="property"> = 1265920105</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TAI_THAM">
+<tt class="descname">TAI_THAM</tt><em class="property"> = 1281453665</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LAO">
+<tt class="descname">LAO</tt><em class="property"> = 1281453935</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LATIN">
+<tt class="descname">LATIN</tt><em class="property"> = 1281455214</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LEPCHA">
+<tt class="descname">LEPCHA</tt><em class="property"> = 1281716323</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LIMBU">
+<tt class="descname">LIMBU</tt><em class="property"> = 1281977698</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LINEAR_A">
+<tt class="descname">LINEAR_A</tt><em class="property"> = 1281977953</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LINEAR_B">
+<tt class="descname">LINEAR_B</tt><em class="property"> = 1281977954</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LISU">
+<tt class="descname">LISU</tt><em class="property"> = 1281979253</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LYCIAN">
+<tt class="descname">LYCIAN</tt><em class="property"> = 1283023721</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.LYDIAN">
+<tt class="descname">LYDIAN</tt><em class="property"> = 1283023977</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MAHAJANI">
+<tt class="descname">MAHAJANI</tt><em class="property"> = 1298229354</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MANDAIC">
+<tt class="descname">MANDAIC</tt><em class="property"> = 1298230884</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MANICHAEAN">
+<tt class="descname">MANICHAEAN</tt><em class="property"> = 1298230889</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MENDE_KIKAKUI">
+<tt class="descname">MENDE_KIKAKUI</tt><em class="property"> = 1298493028</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MEROITIC_CURSIVE">
+<tt class="descname">MEROITIC_CURSIVE</tt><em class="property"> = 1298494051</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MEROITIC_HIEROGLYPHS">
+<tt class="descname">MEROITIC_HIEROGLYPHS</tt><em class="property"> = 1298494063</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MALAYALAM">
+<tt class="descname">MALAYALAM</tt><em class="property"> = 1298954605</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MODI">
+<tt class="descname">MODI</tt><em class="property"> = 1299145833</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MONGOLIAN">
+<tt class="descname">MONGOLIAN</tt><em class="property"> = 1299148391</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MRO">
+<tt class="descname">MRO</tt><em class="property"> = 1299345263</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MEETEI_MAYEK">
+<tt class="descname">MEETEI_MAYEK</tt><em class="property"> = 1299473769</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MYANMAR">
+<tt class="descname">MYANMAR</tt><em class="property"> = 1299803506</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OLD_NORTH_ARABIAN">
+<tt class="descname">OLD_NORTH_ARABIAN</tt><em class="property"> = 1315009122</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.NABATAEAN">
+<tt class="descname">NABATAEAN</tt><em class="property"> = 1315070324</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.NKO">
+<tt class="descname">NKO</tt><em class="property"> = 1315663727</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OGHAM">
+<tt class="descname">OGHAM</tt><em class="property"> = 1332175213</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OL_CHIKI">
+<tt class="descname">OL_CHIKI</tt><em class="property"> = 1332503403</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OLD_TURKIC">
+<tt class="descname">OLD_TURKIC</tt><em class="property"> = 1332898664</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.ORIYA">
+<tt class="descname">ORIYA</tt><em class="property"> = 1332902241</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OSMANYA">
+<tt class="descname">OSMANYA</tt><em class="property"> = 1332964705</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.PALMYRENE">
+<tt class="descname">PALMYRENE</tt><em class="property"> = 1348562029</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.PAU_CIN_HAU">
+<tt class="descname">PAU_CIN_HAU</tt><em class="property"> = 1348564323</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OLD_PERMIC">
+<tt class="descname">OLD_PERMIC</tt><em class="property"> = 1348825709</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.PHAGS_PA">
+<tt class="descname">PHAGS_PA</tt><em class="property"> = 1349017959</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.INSCRIPTIONAL_PAHLAVI">
+<tt class="descname">INSCRIPTIONAL_PAHLAVI</tt><em class="property"> = 1349020777</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.PSALTER_PAHLAVI">
+<tt class="descname">PSALTER_PAHLAVI</tt><em class="property"> = 1349020784</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.PHOENICIAN">
+<tt class="descname">PHOENICIAN</tt><em class="property"> = 1349021304</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.MIAO">
+<tt class="descname">MIAO</tt><em class="property"> = 1349284452</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.INSCRIPTIONAL_PARTHIAN">
+<tt class="descname">INSCRIPTIONAL_PARTHIAN</tt><em class="property"> = 1349678185</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.REJANG">
+<tt class="descname">REJANG</tt><em class="property"> = 1382706791</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.RUNIC">
+<tt class="descname">RUNIC</tt><em class="property"> = 1383427698</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SAMARITAN">
+<tt class="descname">SAMARITAN</tt><em class="property"> = 1398893938</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OLD_SOUTH_ARABIAN">
+<tt class="descname">OLD_SOUTH_ARABIAN</tt><em class="property"> = 1398895202</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SAURASHTRA">
+<tt class="descname">SAURASHTRA</tt><em class="property"> = 1398895986</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SHAVIAN">
+<tt class="descname">SHAVIAN</tt><em class="property"> = 1399349623</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SHARADA">
+<tt class="descname">SHARADA</tt><em class="property"> = 1399353956</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SIDDHAM">
+<tt class="descname">SIDDHAM</tt><em class="property"> = 1399415908</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.KHUDAWADI">
+<tt class="descname">KHUDAWADI</tt><em class="property"> = 1399418468</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SINHALA">
+<tt class="descname">SINHALA</tt><em class="property"> = 1399418472</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SORA_SOMPENG">
+<tt class="descname">SORA_SOMPENG</tt><em class="property"> = 1399812705</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SUNDANESE">
+<tt class="descname">SUNDANESE</tt><em class="property"> = 1400204900</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SYLOTI_NAGRI">
+<tt class="descname">SYLOTI_NAGRI</tt><em class="property"> = 1400466543</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.SYRIAC">
+<tt class="descname">SYRIAC</tt><em class="property"> = 1400468067</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TAGBANWA">
+<tt class="descname">TAGBANWA</tt><em class="property"> = 1415669602</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TAKRI">
+<tt class="descname">TAKRI</tt><em class="property"> = 1415670642</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TAI_LE">
+<tt class="descname">TAI_LE</tt><em class="property"> = 1415670885</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.NEW_TAI_LUE">
+<tt class="descname">NEW_TAI_LUE</tt><em class="property"> = 1415670901</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TAMIL">
+<tt class="descname">TAMIL</tt><em class="property"> = 1415671148</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TAI_VIET">
+<tt class="descname">TAI_VIET</tt><em class="property"> = 1415673460</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TELUGU">
+<tt class="descname">TELUGU</tt><em class="property"> = 1415933045</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TIFINAGH">
+<tt class="descname">TIFINAGH</tt><em class="property"> = 1415999079</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TAGALOG">
+<tt class="descname">TAGALOG</tt><em class="property"> = 1416064103</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.THAANA">
+<tt class="descname">THAANA</tt><em class="property"> = 1416126817</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.THAI">
+<tt class="descname">THAI</tt><em class="property"> = 1416126825</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TIBETAN">
+<tt class="descname">TIBETAN</tt><em class="property"> = 1416192628</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.TIRHUTA">
+<tt class="descname">TIRHUTA</tt><em class="property"> = 1416196712</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.UGARITIC">
+<tt class="descname">UGARITIC</tt><em class="property"> = 1432838514</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.VAI">
+<tt class="descname">VAI</tt><em class="property"> = 1449224553</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.WARANG_CITI">
+<tt class="descname">WARANG_CITI</tt><em class="property"> = 1466004065</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.OLD_PERSIAN">
+<tt class="descname">OLD_PERSIAN</tt><em class="property"> = 1483761007</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.CUNEIFORM">
+<tt class="descname">CUNEIFORM</tt><em class="property"> = 1483961720</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.YI">
+<tt class="descname">YI</tt><em class="property"> = 1500080489</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.INHERITED">
+<tt class="descname">INHERITED</tt><em class="property"> = 1516858984</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.COMMON">
+<tt class="descname">COMMON</tt><em class="property"> = 1517910393</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.script_t.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 1517976186</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="HarfBuzz.unicode_combining_class_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">unicode_combining_class_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.NOT_REORDERED">
+<tt class="descname">NOT_REORDERED</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.OVERLAY">
+<tt class="descname">OVERLAY</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.NUKTA">
+<tt class="descname">NUKTA</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.KANA_VOICING">
+<tt class="descname">KANA_VOICING</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.VIRAMA">
+<tt class="descname">VIRAMA</tt><em class="property"> = 9</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC10">
+<tt class="descname">CCC10</tt><em class="property"> = 10</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC11">
+<tt class="descname">CCC11</tt><em class="property"> = 11</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC12">
+<tt class="descname">CCC12</tt><em class="property"> = 12</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC13">
+<tt class="descname">CCC13</tt><em class="property"> = 13</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC14">
+<tt class="descname">CCC14</tt><em class="property"> = 14</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC15">
+<tt class="descname">CCC15</tt><em class="property"> = 15</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC16">
+<tt class="descname">CCC16</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC17">
+<tt class="descname">CCC17</tt><em class="property"> = 17</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC18">
+<tt class="descname">CCC18</tt><em class="property"> = 18</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC19">
+<tt class="descname">CCC19</tt><em class="property"> = 19</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC20">
+<tt class="descname">CCC20</tt><em class="property"> = 20</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC21">
+<tt class="descname">CCC21</tt><em class="property"> = 21</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC22">
+<tt class="descname">CCC22</tt><em class="property"> = 22</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC23">
+<tt class="descname">CCC23</tt><em class="property"> = 23</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC24">
+<tt class="descname">CCC24</tt><em class="property"> = 24</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC25">
+<tt class="descname">CCC25</tt><em class="property"> = 25</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC26">
+<tt class="descname">CCC26</tt><em class="property"> = 26</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC27">
+<tt class="descname">CCC27</tt><em class="property"> = 27</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC28">
+<tt class="descname">CCC28</tt><em class="property"> = 28</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC29">
+<tt class="descname">CCC29</tt><em class="property"> = 29</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC30">
+<tt class="descname">CCC30</tt><em class="property"> = 30</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC31">
+<tt class="descname">CCC31</tt><em class="property"> = 31</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC32">
+<tt class="descname">CCC32</tt><em class="property"> = 32</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC33">
+<tt class="descname">CCC33</tt><em class="property"> = 33</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC34">
+<tt class="descname">CCC34</tt><em class="property"> = 34</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC35">
+<tt class="descname">CCC35</tt><em class="property"> = 35</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC36">
+<tt class="descname">CCC36</tt><em class="property"> = 36</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC84">
+<tt class="descname">CCC84</tt><em class="property"> = 84</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC91">
+<tt class="descname">CCC91</tt><em class="property"> = 91</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC103">
+<tt class="descname">CCC103</tt><em class="property"> = 103</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC107">
+<tt class="descname">CCC107</tt><em class="property"> = 107</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC118">
+<tt class="descname">CCC118</tt><em class="property"> = 118</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC122">
+<tt class="descname">CCC122</tt><em class="property"> = 122</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC129">
+<tt class="descname">CCC129</tt><em class="property"> = 129</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC130">
+<tt class="descname">CCC130</tt><em class="property"> = 130</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.CCC133">
+<tt class="descname">CCC133</tt><em class="property"> = 132</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.ATTACHED_BELOW_LEFT">
+<tt class="descname">ATTACHED_BELOW_LEFT</tt><em class="property"> = 200</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.ATTACHED_BELOW">
+<tt class="descname">ATTACHED_BELOW</tt><em class="property"> = 202</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.ATTACHED_ABOVE">
+<tt class="descname">ATTACHED_ABOVE</tt><em class="property"> = 214</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.ATTACHED_ABOVE_RIGHT">
+<tt class="descname">ATTACHED_ABOVE_RIGHT</tt><em class="property"> = 216</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.BELOW_LEFT">
+<tt class="descname">BELOW_LEFT</tt><em class="property"> = 218</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.BELOW">
+<tt class="descname">BELOW</tt><em class="property"> = 220</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.BELOW_RIGHT">
+<tt class="descname">BELOW_RIGHT</tt><em class="property"> = 222</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.LEFT">
+<tt class="descname">LEFT</tt><em class="property"> = 224</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.RIGHT">
+<tt class="descname">RIGHT</tt><em class="property"> = 226</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.ABOVE_LEFT">
+<tt class="descname">ABOVE_LEFT</tt><em class="property"> = 228</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.ABOVE">
+<tt class="descname">ABOVE</tt><em class="property"> = 230</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.ABOVE_RIGHT">
+<tt class="descname">ABOVE_RIGHT</tt><em class="property"> = 232</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.DOUBLE_BELOW">
+<tt class="descname">DOUBLE_BELOW</tt><em class="property"> = 233</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.DOUBLE_ABOVE">
+<tt class="descname">DOUBLE_ABOVE</tt><em class="property"> = 234</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.IOTA_SUBSCRIPT">
+<tt class="descname">IOTA_SUBSCRIPT</tt><em class="property"> = 240</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_combining_class_t.INVALID">
+<tt class="descname">INVALID</tt><em class="property"> = 255</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="HarfBuzz.unicode_general_category_t">
+<em class="property">class </em><tt class="descclassname">HarfBuzz.</tt><tt class="descname">unicode_general_category_t</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/HarfBuzz-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.CONTROL">
+<tt class="descname">CONTROL</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.FORMAT">
+<tt class="descname">FORMAT</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.UNASSIGNED">
+<tt class="descname">UNASSIGNED</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.PRIVATE_USE">
+<tt class="descname">PRIVATE_USE</tt><em class="property"> = 3</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.SURROGATE">
+<tt class="descname">SURROGATE</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.LOWERCASE_LETTER">
+<tt class="descname">LOWERCASE_LETTER</tt><em class="property"> = 5</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.MODIFIER_LETTER">
+<tt class="descname">MODIFIER_LETTER</tt><em class="property"> = 6</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.OTHER_LETTER">
+<tt class="descname">OTHER_LETTER</tt><em class="property"> = 7</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.TITLECASE_LETTER">
+<tt class="descname">TITLECASE_LETTER</tt><em class="property"> = 8</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.UPPERCASE_LETTER">
+<tt class="descname">UPPERCASE_LETTER</tt><em class="property"> = 9</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.SPACING_MARK">
+<tt class="descname">SPACING_MARK</tt><em class="property"> = 10</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.ENCLOSING_MARK">
+<tt class="descname">ENCLOSING_MARK</tt><em class="property"> = 11</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.NON_SPACING_MARK">
+<tt class="descname">NON_SPACING_MARK</tt><em class="property"> = 12</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.DECIMAL_NUMBER">
+<tt class="descname">DECIMAL_NUMBER</tt><em class="property"> = 13</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.LETTER_NUMBER">
+<tt class="descname">LETTER_NUMBER</tt><em class="property"> = 14</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.OTHER_NUMBER">
+<tt class="descname">OTHER_NUMBER</tt><em class="property"> = 15</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.CONNECT_PUNCTUATION">
+<tt class="descname">CONNECT_PUNCTUATION</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.DASH_PUNCTUATION">
+<tt class="descname">DASH_PUNCTUATION</tt><em class="property"> = 17</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.CLOSE_PUNCTUATION">
+<tt class="descname">CLOSE_PUNCTUATION</tt><em class="property"> = 18</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.FINAL_PUNCTUATION">
+<tt class="descname">FINAL_PUNCTUATION</tt><em class="property"> = 19</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.INITIAL_PUNCTUATION">
+<tt class="descname">INITIAL_PUNCTUATION</tt><em class="property"> = 20</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.OTHER_PUNCTUATION">
+<tt class="descname">OTHER_PUNCTUATION</tt><em class="property"> = 21</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.OPEN_PUNCTUATION">
+<tt class="descname">OPEN_PUNCTUATION</tt><em class="property"> = 22</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.CURRENCY_SYMBOL">
+<tt class="descname">CURRENCY_SYMBOL</tt><em class="property"> = 23</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.MODIFIER_SYMBOL">
+<tt class="descname">MODIFIER_SYMBOL</tt><em class="property"> = 24</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.MATH_SYMBOL">
+<tt class="descname">MATH_SYMBOL</tt><em class="property"> = 25</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.OTHER_SYMBOL">
+<tt class="descname">OTHER_SYMBOL</tt><em class="property"> = 26</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.LINE_SEPARATOR">
+<tt class="descname">LINE_SEPARATOR</tt><em class="property"> = 27</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.PARAGRAPH_SEPARATOR">
+<tt class="descname">PARAGRAPH_SEPARATOR</tt><em class="property"> = 28</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="HarfBuzz.unicode_general_category_t.SPACE_SEPARATOR">
+<tt class="descname">SPACE_SEPARATOR</tt><em class="property"> = 29</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

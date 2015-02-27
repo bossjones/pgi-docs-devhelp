@@ -1,0 +1,646 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Soup.Date -
+    
+      Structures -
+    
+    Soup 2.4
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Soup 2.4 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Structures" href="index.html"/>
+        <link rel="next" title="Soup.MessageBody" href="MessageBody.html"/>
+        <link rel="prev" title="Soup.Cookie" href="Cookie.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Soup 2.4</a> &raquo;</li>
+      
+          <li><a href="index.html">Structures</a> &raquo;</li>
+      
+    <li>Soup.Date</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Cookie.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="MessageBody.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Soup.Date</a><ul>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Soup 2.4</a> &raquo;</li>
+      
+          <li><a href="index.html">Structures</a> &raquo;</li>
+      
+    <li>Soup.Date</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Cookie.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="MessageBody.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Soup.Date</a><ul>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="soup-date">
+<h1>Soup.Date</h1>
+<div class="section" id="fields">
+<span id="soup-date-fields"></span><h2>Fields</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>day</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>day of the month, 1 to 31</td>
+</tr>
+<tr class="row-odd"><td>hour</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>hour of the day, 0 to 23</td>
+</tr>
+<tr class="row-even"><td>minute</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>minute, 0 to 59</td>
+</tr>
+<tr class="row-odd"><td>month</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>the month, 1 to 12</td>
+</tr>
+<tr class="row-even"><td>offset</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>offset from UTC</td>
+</tr>
+<tr class="row-odd"><td>second</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>second, 0 to 59 (or up to 61 in the case of leap seconds)</td>
+</tr>
+<tr class="row-even"><td>utc</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the date is in UTC</td>
+</tr>
+<tr class="row-odd"><td>year</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>the year, 1 to 9999</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="methods">
+<h2>Methods</h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Soup.Date.new" title="Soup.Date.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(year, month, day, hour, minute, second)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Soup.Date.new_from_now" title="Soup.Date.new_from_now"><tt class="xref py py-obj docutils literal"><span class="pre">new_from_now</span></tt></a>(offset_seconds)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Soup.Date.new_from_string" title="Soup.Date.new_from_string"><tt class="xref py py-obj docutils literal"><span class="pre">new_from_string</span></tt></a>(date_string)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Soup.Date.new_from_time_t" title="Soup.Date.new_from_time_t"><tt class="xref py py-obj docutils literal"><span class="pre">new_from_time_t</span></tt></a>(when)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Date.copy" title="Soup.Date.copy"><tt class="xref py py-obj docutils literal"><span class="pre">copy</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Date.free" title="Soup.Date.free"><tt class="xref py py-obj docutils literal"><span class="pre">free</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_day" title="Soup.Date.get_day"><tt class="xref py py-obj docutils literal"><span class="pre">get_day</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_hour" title="Soup.Date.get_hour"><tt class="xref py py-obj docutils literal"><span class="pre">get_hour</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_minute" title="Soup.Date.get_minute"><tt class="xref py py-obj docutils literal"><span class="pre">get_minute</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_month" title="Soup.Date.get_month"><tt class="xref py py-obj docutils literal"><span class="pre">get_month</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_offset" title="Soup.Date.get_offset"><tt class="xref py py-obj docutils literal"><span class="pre">get_offset</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_second" title="Soup.Date.get_second"><tt class="xref py py-obj docutils literal"><span class="pre">get_second</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_utc" title="Soup.Date.get_utc"><tt class="xref py py-obj docutils literal"><span class="pre">get_utc</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Date.get_year" title="Soup.Date.get_year"><tt class="xref py py-obj docutils literal"><span class="pre">get_year</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Date.is_past" title="Soup.Date.is_past"><tt class="xref py py-obj docutils literal"><span class="pre">is_past</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Date.to_string" title="Soup.Date.to_string"><tt class="xref py py-obj docutils literal"><span class="pre">to_string</span></tt></a>(format)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Soup.Date.to_time_t" title="Soup.Date.to_time_t"><tt class="xref py py-obj docutils literal"><span class="pre">to_time_t</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Soup.Date.to_timeval" title="Soup.Date.to_timeval"><tt class="xref py py-obj docutils literal"><span class="pre">to_timeval</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Soup.Date">
+<em class="property">class </em><tt class="descclassname">Soup.</tt><tt class="descname">Date</tt></dt>
+<dd><p>A date and time. The date is assumed to be in the (proleptic)
+Gregorian calendar. The time is in UTC if <cite>utc</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>. Otherwise,
+the time is a local time, and <cite>offset</cite> gives the offset from UTC in
+minutes (such that adding <cite>offset</cite> to the time would give the
+correct UTC time). If <cite>utc</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> and <cite>offset</cite> is 0, then the
+<a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a> represents a &#8220;floating&#8221; time with no associated timezone
+information.</p>
+<dl class="staticmethod">
+<dt id="Soup.Date.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>year</em>, <em>month</em>, <em>day</em>, <em>hour</em>, <em>minute</em>, <em>second</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>year</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the year (1-9999)</li>
+<li><strong>month</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the month (1-12)</li>
+<li><strong>day</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the day of the month (1-31, as appropriate for <cite>month</cite> )</li>
+<li><strong>hour</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the hour (0-23)</li>
+<li><strong>minute</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the minute (0-59)</li>
+<li><strong>second</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the second (0-59, or up to 61 for leap seconds)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new <a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Date</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a <a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a> representing the indicated time, UTC.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Soup.Date.new_from_now">
+<em class="property">static </em><tt class="descname">new_from_now</tt><big>(</big><em>offset_seconds</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>offset_seconds</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; offset from current time</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new <a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Date</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a <a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a> representing a time <cite>offset_seconds</cite> after the
+current time (or before it, if <cite>offset_seconds</cite> is negative). If
+offset_seconds is 0, returns the current time.</p>
+<p>If <cite>offset_seconds</cite> would indicate a time not expressible as a
+<tt class="docutils literal"><span class="pre">time_t</span></tt>, the return value will be clamped into range.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Soup.Date.new_from_string">
+<em class="property">static </em><tt class="descname">new_from_string</tt><big>(</big><em>date_string</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>date_string</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the date in some plausible format</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new <a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if <cite>date_string</cite> could not
+be parsed.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Date</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Parses <cite>date_string</cite> and tries to extract a date from it. This
+recognizes all of the &#8220;HTTP-date&#8221; formats from RFC 2616, all ISO
+8601 formats containing both a time and a date, RFC 2822 dates,
+and reasonable approximations thereof. (Eg, it is lenient about
+whitespace, leading &#8220;0&#8221;s, etc.)</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Soup.Date.new_from_time_t">
+<em class="property">static </em><tt class="descname">new_from_time_t</tt><big>(</big><em>when</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>when</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; a <tt class="docutils literal"><span class="pre">time_t</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a new <a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Date</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a <a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date</span></tt></a> corresponding to <cite>when</cite></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.copy">
+<tt class="descname">copy</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Soup.Date" title="Soup.Date"><tt class="xref py py-class docutils literal"><span class="pre">Soup.Date</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Copies <cite>date</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.24.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.free">
+<tt class="descname">free</tt><big>(</big><big>)</big></dt>
+<dd><p>Frees <cite>date</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.24.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_day">
+<tt class="descname">get_day</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> &#8216;s day</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s day.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_hour">
+<tt class="descname">get_hour</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> &#8216;s hour</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s hour.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_minute">
+<tt class="descname">get_minute</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> &#8216;s minute</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s minute.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_month">
+<tt class="descname">get_month</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> &#8216;s month</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s month.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_offset">
+<tt class="descname">get_offset</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> &#8216;s offset from UTC. If <a class="reference internal" href="#Soup.Date.get_utc" title="Soup.Date.get_utc"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date.get_utc</span></tt></a> ()
+returns <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> but <a class="reference internal" href="#Soup.Date.get_offset" title="Soup.Date.get_offset"><tt class="xref py py-obj docutils literal"><span class="pre">Soup.Date.get_offset</span></tt></a> () returns 0, that means the
+date is a &#8220;floating&#8221; time with no associated offset information.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s offset from UTC.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_second">
+<tt class="descname">get_second</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> &#8216;s second</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s second.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_utc">
+<tt class="descname">get_utc</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if <cite>date</cite> is UTC.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s UTC flag</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.get_year">
+<tt class="descname">get_year</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> &#8216;s year</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets <cite>date</cite> &#8216;s year.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.32.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.is_past">
+<tt class="descname">is_past</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if <cite>date</cite> is in the past</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Determines if <cite>date</cite> is in the past.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.24.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.to_string">
+<tt class="descname">to_string</tt><big>(</big><em>format</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>format</strong> (<a class="reference internal" href="../enums.html#Soup.DateFormat" title="Soup.DateFormat"><tt class="xref py py-class docutils literal"><span class="pre">Soup.DateFormat</span></tt></a>) &#8211; the format to generate the date in</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> as a string</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts <cite>date</cite> to a string in the format described by <cite>format</cite>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.to_time_t">
+<tt class="descname">to_time_t</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><cite>date</cite> as a <tt class="docutils literal"><span class="pre">time_t</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts <cite>date</cite> to a <tt class="docutils literal"><span class="pre">time_t</span></tt>.</p>
+<p>If <cite>date</cite> is not representable as a <tt class="docutils literal"><span class="pre">time_t</span></tt>, it will be
+clamped into range. (In particular, some HTTP cookies have
+expiration dates after &#8220;Y2.038k&#8221; (2038-01-19T03 <tt class="xref py py-data docutils literal"><span class="pre">:14:07Z</span></tt> ).)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Soup.Date.to_timeval">
+<tt class="descname">to_timeval</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GLib-2.0/structs/TimeVal.html#GLib.TimeVal" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.TimeVal</span></tt></a> structure in which to store the converted time.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>time</strong>: <a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GLib-2.0/structs/TimeVal.html#GLib.TimeVal" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.TimeVal</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Converts <cite>date</cite> to a <a class="reference external" href="../_devhelp/Soup-2.4/../../../python-GLib-2.0/structs/TimeVal.html#GLib.TimeVal" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.TimeVal</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.24.</span></p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

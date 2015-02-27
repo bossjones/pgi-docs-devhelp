@@ -1,0 +1,694 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Mx.Draggable -
+    
+      Interfaces -
+    
+    Mx 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Mx 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Interfaces" href="index.html"/>
+        <link rel="next" title="Mx.Droppable" href="Droppable.html"/>
+        <link rel="prev" title="Interfaces" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Mx 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Interfaces</a> &raquo;</li>
+      
+    <li>Mx.Draggable</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Droppable.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Mx.Draggable</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Mx 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Interfaces</a> &raquo;</li>
+      
+    <li>Mx.Draggable</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Droppable.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Mx.Draggable</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="mx-draggable">
+<h1>Mx.Draggable</h1>
+<p class="graphviz">
+<svg width="106pt" height="80pt"
+ viewBox="0.00 0.00 106.00 80.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 76)">
+<title>inheritance1a826a8e57</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Mx-1.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M92,-72C92,-72 6,-72 6,-72 3,-72 0,-69 0,-66 0,-66 0,-60 0,-60 0,-57 3,-54 6,-54 6,-54 92,-54 92,-54 95,-54 98,-57 98,-60 98,-60 98,-66 98,-66 98,-69 95,-72 92,-72"/>
+<text text-anchor="middle" x="49" y="-60.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Mx.Draggable -->
+<g id="node2" class="node"><title>Mx.Draggable</title>
+<g id="a_node2"><a xlink:href="#Mx.Draggable" xlink:title="Mx.Draggable">
+<path fill="none" stroke="#3091d1" d="M80,-18C80,-18 18,-18 18,-18 15,-18 12,-15 12,-12 12,-12 12,-6 12,-6 12,-3 15,-0 18,-0 18,-0 80,-0 80,-0 83,-0 86,-3 86,-6 86,-6 86,-12 86,-12 86,-15 83,-18 80,-18"/>
+<text text-anchor="middle" x="49" y="-6.7" font-family="inherit" font-size="8.50">Mx.Draggable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Mx.Draggable -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Mx.Draggable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M49,-53.875C49,-45.7564 49,-33.1312 49,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="50.7501,-23.2395 49,-18.2396 47.2501,-23.2396 50.7501,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="mx-draggable-methods"></span><h2>Methods</h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.disable" title="Mx.Draggable.disable"><tt class="xref py py-obj docutils literal"><span class="pre">disable</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.enable" title="Mx.Draggable.enable"><tt class="xref py py-obj docutils literal"><span class="pre">enable</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.get_axis" title="Mx.Draggable.get_axis"><tt class="xref py py-obj docutils literal"><span class="pre">get_axis</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.get_drag_actor" title="Mx.Draggable.get_drag_actor"><tt class="xref py py-obj docutils literal"><span class="pre">get_drag_actor</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.get_drag_threshold" title="Mx.Draggable.get_drag_threshold"><tt class="xref py py-obj docutils literal"><span class="pre">get_drag_threshold</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.is_enabled" title="Mx.Draggable.is_enabled"><tt class="xref py py-obj docutils literal"><span class="pre">is_enabled</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.set_axis" title="Mx.Draggable.set_axis"><tt class="xref py py-obj docutils literal"><span class="pre">set_axis</span></tt></a>(axis)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.set_drag_actor" title="Mx.Draggable.set_drag_actor"><tt class="xref py py-obj docutils literal"><span class="pre">set_drag_actor</span></tt></a>(actor)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.set_drag_threshold" title="Mx.Draggable.set_drag_threshold"><tt class="xref py py-obj docutils literal"><span class="pre">set_drag_threshold</span></tt></a>(threshold)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="mx-draggable-vfuncs"></span><h2>Virtual Methods</h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.do_disable" title="Mx.Draggable.do_disable"><tt class="xref py py-obj docutils literal"><span class="pre">do_disable</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.do_drag_begin" title="Mx.Draggable.do_drag_begin"><tt class="xref py py-obj docutils literal"><span class="pre">do_drag_begin</span></tt></a>(event_x, event_y, event_button, modifiers)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.do_drag_end" title="Mx.Draggable.do_drag_end"><tt class="xref py py-obj docutils literal"><span class="pre">do_drag_end</span></tt></a>(event_x, event_y)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.do_drag_motion" title="Mx.Draggable.do_drag_motion"><tt class="xref py py-obj docutils literal"><span class="pre">do_drag_motion</span></tt></a>(delta_x, delta_y)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Mx.Draggable.do_enable" title="Mx.Draggable.do_enable"><tt class="xref py py-obj docutils literal"><span class="pre">do_enable</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="mx-draggable-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Mx.Draggable.props.axis" title="Mx.Draggable.props.axis"><tt class="xref py py-data docutils literal"><span class="pre">axis</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Mx.DragAxis" title="Mx.DragAxis"><tt class="xref py py-class docutils literal"><span class="pre">Mx.DragAxis</span></tt></a></td>
+<td>r/w</td>
+<td>The axis along which the dragging should be performed</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Mx.Draggable.props.drag_actor" title="Mx.Draggable.props.drag_actor"><tt class="xref py py-data docutils literal"><span class="pre">drag-actor</span></tt></a></td>
+<td><a class="reference external" href="../_devhelp/Mx-1.0/../../../python-Clutter-1.0/classes/Actor.html#Clutter.Actor" title="(in Clutter 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></td>
+<td>r/w</td>
+<td>An actor to use in place of the draggable while dragging.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Mx.Draggable.props.drag_enabled" title="Mx.Draggable.props.drag_enabled"><tt class="xref py py-data docutils literal"><span class="pre">drag-enabled</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the Draggable is enabled</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Mx.Draggable.props.drag_threshold" title="Mx.Draggable.props.drag_threshold"><tt class="xref py py-data docutils literal"><span class="pre">drag-threshold</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>The amount of pixels required to start dragging</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="mx-draggable-signals"></span><h2>Signals</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Mx.Draggable.signals.drag_begin" title="Mx.Draggable.signals.drag_begin"><tt class="xref py py-func docutils literal"><span class="pre">drag-begin</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Mx.Draggable.signals.drag_end" title="Mx.Draggable.signals.drag_end"><tt class="xref py py-func docutils literal"><span class="pre">drag-end</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Mx.Draggable.signals.drag_motion" title="Mx.Draggable.signals.drag_motion"><tt class="xref py py-func docutils literal"><span class="pre">drag-motion</span></tt></a></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="mx-draggable-fields"></span><h2>Fields</h2>
+<p>None</p>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Mx.Draggable">
+<em class="property">class </em><tt class="descclassname">Mx.</tt><tt class="descname">Draggable</tt></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Mx-1.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GInterface</span></tt></a></p>
+<p>This is an opaque structure whose members cannot be directly accessed.</p>
+<dl class="method">
+<dt id="Mx.Draggable.disable">
+<tt class="descname">disable</tt><big>(</big><big>)</big></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.enable">
+<tt class="descname">enable</tt><big>(</big><big>)</big></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.get_axis">
+<tt class="descname">get_axis</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Mx.DragAxis" title="Mx.DragAxis"><tt class="xref py py-class docutils literal"><span class="pre">Mx.DragAxis</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.get_drag_actor">
+<tt class="descname">get_drag_actor</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference external" href="../_devhelp/Mx-1.0/../../../python-Clutter-1.0/classes/Actor.html#Clutter.Actor" title="(in Clutter 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a>, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Mx-1.0/../../../python-Clutter-1.0/classes/Actor.html#Clutter.Actor" title="(in Clutter 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>FIXME</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.get_drag_threshold">
+<tt class="descname">get_drag_threshold</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.is_enabled">
+<tt class="descname">is_enabled</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.set_axis">
+<tt class="descname">set_axis</tt><big>(</big><em>axis</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>axis</strong> (<a class="reference internal" href="../enums.html#Mx.DragAxis" title="Mx.DragAxis"><tt class="xref py py-class docutils literal"><span class="pre">Mx.DragAxis</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.set_drag_actor">
+<tt class="descname">set_drag_actor</tt><big>(</big><em>actor</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>actor</strong> (<a class="reference external" href="../_devhelp/Mx-1.0/../../../python-Clutter-1.0/classes/Actor.html#Clutter.Actor" title="(in Clutter 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.set_drag_threshold">
+<tt class="descname">set_drag_threshold</tt><big>(</big><em>threshold</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>threshold</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.do_disable">
+<tt class="descname">do_disable</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.do_drag_begin">
+<tt class="descname">do_drag_begin</tt><big>(</big><em>event_x</em>, <em>event_y</em>, <em>event_button</em>, <em>modifiers</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>event_x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>event_y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>event_button</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>modifiers</strong> (<a class="reference external" href="../_devhelp/Mx-1.0/../../../python-Clutter-1.0/flags.html#Clutter.ModifierType" title="(in Clutter 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.ModifierType</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.do_drag_end">
+<tt class="descname">do_drag_end</tt><big>(</big><em>event_x</em>, <em>event_y</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>event_x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>event_y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.do_drag_motion">
+<tt class="descname">do_drag_motion</tt><big>(</big><em>delta_x</em>, <em>delta_y</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>delta_x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>delta_y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Mx.Draggable.do_enable">
+<tt class="descname">do_enable</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Mx.Draggable.signals.drag_begin">
+<tt class="descclassname">Mx.Draggable.signals.</tt><tt class="descname">drag_begin</tt><big>(</big><em>draggable</em>, <em>object</em>, <em>p0</em>, <em>p1</em>, <em>p2</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">drag-begin</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Mx-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>draggable</strong> (<a class="reference internal" href="#Mx.Draggable" title="Mx.Draggable"><tt class="xref py py-class docutils literal"><span class="pre">Mx.Draggable</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>p1</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>p2</strong> (<a class="reference external" href="../_devhelp/Mx-1.0/../../../python-Clutter-1.0/flags.html#Clutter.ModifierType" title="(in Clutter 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.ModifierType</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Mx.Draggable.signals.drag_end">
+<tt class="descclassname">Mx.Draggable.signals.</tt><tt class="descname">drag_end</tt><big>(</big><em>draggable</em>, <em>object</em>, <em>p0</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">drag-end</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Mx-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>draggable</strong> (<a class="reference internal" href="#Mx.Draggable" title="Mx.Draggable"><tt class="xref py py-class docutils literal"><span class="pre">Mx.Draggable</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Mx.Draggable.signals.drag_motion">
+<tt class="descclassname">Mx.Draggable.signals.</tt><tt class="descname">drag_motion</tt><big>(</big><em>draggable</em>, <em>object</em>, <em>p0</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">drag-motion</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Mx-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>draggable</strong> (<a class="reference internal" href="#Mx.Draggable" title="Mx.Draggable"><tt class="xref py py-class docutils literal"><span class="pre">Mx.Draggable</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>object</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+<li><strong>p0</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Mx.Draggable.props.axis">
+<tt class="descclassname">Mx.Draggable.props.</tt><tt class="descname">axis</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">axis</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Mx.DragAxis" title="Mx.DragAxis"><tt class="xref py py-class docutils literal"><span class="pre">Mx.DragAxis</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Mx.DragAxis.NONE" title="Mx.DragAxis.NONE"><tt class="xref py py-obj docutils literal"><span class="pre">Mx.DragAxis.NONE</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The axis along which the dragging should be performed</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Mx.Draggable.props.drag_actor">
+<tt class="descclassname">Mx.Draggable.props.</tt><tt class="descname">drag_actor</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">drag-actor</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="../_devhelp/Mx-1.0/../../../python-Clutter-1.0/classes/Actor.html#Clutter.Actor" title="(in Clutter 1.0 v1.0)"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>An actor to use in place of the draggable while dragging.</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Mx.Draggable.props.drag_enabled">
+<tt class="descclassname">Mx.Draggable.props.</tt><tt class="descname">drag_enabled</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">drag-enabled</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the Draggable is enabled</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Mx.Draggable.props.drag_threshold">
+<tt class="descclassname">Mx.Draggable.props.</tt><tt class="descname">drag_threshold</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">drag-threshold</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The amount of pixels required to start dragging</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

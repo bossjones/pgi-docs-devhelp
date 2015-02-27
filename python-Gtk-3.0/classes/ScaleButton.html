@@ -1,0 +1,957 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Gtk.ScaleButton -
+    
+      Classes -
+    
+    Gtk 3.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gtk 3.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Gtk.ScaleButtonAccessible" href="ScaleButtonAccessible.html"/>
+        <link rel="prev" title="Gtk.ScaleAccessible" href="ScaleAccessible.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.ScaleButton</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ScaleAccessible.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ScaleButtonAccessible.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.ScaleButton</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Gtk 3.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Gtk.ScaleButton</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ScaleAccessible.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="ScaleButtonAccessible.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Gtk.ScaleButton</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#style-properties">Style Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="gtk-scalebutton">
+<h1>Gtk.ScaleButton</h1>
+<p class="graphviz">
+<svg width="540pt" height="350pt"
+ viewBox="0.00 0.00 540.00 350.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 346)">
+<title>inheritance81760ff8f2</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M208,-342C208,-342 122,-342 122,-342 119,-342 116,-339 116,-336 116,-336 116,-330 116,-330 116,-327 119,-324 122,-324 122,-324 208,-324 208,-324 211,-324 214,-327 214,-330 214,-330 214,-336 214,-336 214,-339 211,-342 208,-342"/>
+<text text-anchor="middle" x="165" y="-330.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface -->
+<g id="node2" class="node"><title>Atk.ImplementorIface</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-Atk-1.0/interfaces/ImplementorIface.html#Atk.ImplementorIface" xlink:title="Atk.ImplementorIface">
+<path fill="none" stroke="#3091d1" d="M294.5,-288C294.5,-288 199.5,-288 199.5,-288 196.5,-288 193.5,-285 193.5,-282 193.5,-282 193.5,-276 193.5,-276 193.5,-273 196.5,-270 199.5,-270 199.5,-270 294.5,-270 294.5,-270 297.5,-270 300.5,-273 300.5,-276 300.5,-276 300.5,-282 300.5,-282 300.5,-285 297.5,-288 294.5,-288"/>
+<text text-anchor="middle" x="247" y="-276.7" font-family="inherit" font-size="8.50">Atk.ImplementorIface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Atk.ImplementorIface -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Atk.ImplementorIface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M177.812,-323.875C191.773,-315.022 214.185,-300.809 229.701,-290.97"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="230.992,-292.224 234.277,-288.068 229.118,-289.268 230.992,-292.224"/>
+</g>
+<!-- Gtk.Actionable -->
+<g id="node3" class="node"><title>Gtk.Actionable</title>
+<g id="a_node3"><a xlink:href="../interfaces/Actionable.html#Gtk.Actionable" xlink:title="Gtk.Actionable">
+<path fill="none" stroke="#3091d1" d="M130.5,-180C130.5,-180 65.5,-180 65.5,-180 62.5,-180 59.5,-177 59.5,-174 59.5,-174 59.5,-168 59.5,-168 59.5,-165 62.5,-162 65.5,-162 65.5,-162 130.5,-162 130.5,-162 133.5,-162 136.5,-165 136.5,-168 136.5,-168 136.5,-174 136.5,-174 136.5,-177 133.5,-180 130.5,-180"/>
+<text text-anchor="middle" x="98" y="-168.7" font-family="inherit" font-size="8.50">Gtk.Actionable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Actionable -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Actionable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M161.585,-323.846C150.701,-297.853 116.761,-216.802 103.442,-184.996"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="105.034,-184.266 101.488,-180.33 101.805,-185.618 105.034,-184.266"/>
+</g>
+<!-- Gtk.Activatable -->
+<g id="node4" class="node"><title>Gtk.Activatable</title>
+<g id="a_node4"><a xlink:href="../interfaces/Activatable.html#Gtk.Activatable" xlink:title="Gtk.Activatable">
+<path fill="none" stroke="#3091d1" d="M199,-126C199,-126 131,-126 131,-126 128,-126 125,-123 125,-120 125,-120 125,-114 125,-114 125,-111 128,-108 131,-108 131,-108 199,-108 199,-108 202,-108 205,-111 205,-114 205,-114 205,-120 205,-120 205,-123 202,-126 199,-126"/>
+<text text-anchor="middle" x="165" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Activatable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Activatable -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Activatable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M165,-323.872C165,-291.563 165,-172.019 165,-131.518"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="166.75,-131.136 165,-126.136 163.25,-131.136 166.75,-131.136"/>
+</g>
+<!-- Gtk.Buildable -->
+<g id="node5" class="node"><title>Gtk.Buildable</title>
+<g id="a_node5"><a xlink:href="../interfaces/Buildable.html#Gtk.Buildable" xlink:title="Gtk.Buildable">
+<path fill="none" stroke="#3091d1" d="M385.5,-288C385.5,-288 324.5,-288 324.5,-288 321.5,-288 318.5,-285 318.5,-282 318.5,-282 318.5,-276 318.5,-276 318.5,-273 321.5,-270 324.5,-270 324.5,-270 385.5,-270 385.5,-270 388.5,-270 391.5,-273 391.5,-276 391.5,-276 391.5,-282 391.5,-282 391.5,-285 388.5,-288 385.5,-288"/>
+<text text-anchor="middle" x="355" y="-276.7" font-family="inherit" font-size="8.50">Gtk.Buildable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Buildable -->
+<g id="edge4" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Buildable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M194.271,-323.989C228.302,-314.675 284.404,-299.321 320.518,-289.437"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="321.335,-291.028 325.696,-288.02 320.411,-287.652 321.335,-291.028"/>
+</g>
+<!-- Gtk.Orientable -->
+<g id="node6" class="node"><title>Gtk.Orientable</title>
+<g id="a_node6"><a xlink:href="../interfaces/Orientable.html#Gtk.Orientable" xlink:title="Gtk.Orientable">
+<path fill="none" stroke="#3091d1" d="M72,-234C72,-234 6,-234 6,-234 3,-234 0,-231 0,-228 0,-228 0,-222 0,-222 0,-219 3,-216 6,-216 6,-216 72,-216 72,-216 75,-216 78,-219 78,-222 78,-222 78,-228 78,-228 78,-231 75,-234 72,-234"/>
+<text text-anchor="middle" x="39" y="-222.7" font-family="inherit" font-size="8.50">Gtk.Orientable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Gtk.Orientable -->
+<g id="edge5" class="edge"><title>GObject.GInterface&#45;&gt;Gtk.Orientable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M153.415,-323.913C141.315,-315.34 121.916,-301.236 106,-288 86.1229,-271.47 64.3733,-250.832 51.2082,-238.033"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="52.2103,-236.566 47.4097,-234.326 49.7657,-239.071 52.2103,-236.566"/>
+</g>
+<!-- Gtk.Widget -->
+<g id="node9" class="node"><title>Gtk.Widget</title>
+<g id="a_node9"><a xlink:href="Widget.html#Gtk.Widget" xlink:title="Gtk.Widget">
+<path fill="none" stroke="#75507b" d="M366,-234C366,-234 316,-234 316,-234 313,-234 310,-231 310,-228 310,-228 310,-222 310,-222 310,-219 313,-216 316,-216 316,-216 366,-216 366,-216 369,-216 372,-219 372,-222 372,-222 372,-228 372,-228 372,-231 369,-234 366,-234"/>
+<text text-anchor="middle" x="341" y="-222.7" font-family="inherit" font-size="8.50">Gtk.Widget</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface&#45;&gt;Gtk.Widget -->
+<g id="edge7" class="edge"><title>Atk.ImplementorIface&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M261.688,-269.875C277.829,-260.945 303.827,-246.564 321.627,-236.717"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="322.888,-238.02 326.416,-234.068 321.193,-234.957 322.888,-238.02"/>
+</g>
+<!-- Gtk.Button -->
+<g id="node10" class="node"><title>Gtk.Button</title>
+<g id="a_node10"><a xlink:href="Button.html#Gtk.Button" xlink:title="Gtk.Button">
+<path fill="none" stroke="#75507b" d="M156,-72C156,-72 106,-72 106,-72 103,-72 100,-69 100,-66 100,-66 100,-60 100,-60 100,-57 103,-54 106,-54 106,-54 156,-54 156,-54 159,-54 162,-57 162,-60 162,-60 162,-66 162,-66 162,-69 159,-72 156,-72"/>
+<text text-anchor="middle" x="131" y="-60.7" font-family="inherit" font-size="8.50">Gtk.Button</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Actionable&#45;&gt;Gtk.Button -->
+<g id="edge9" class="edge"><title>Gtk.Actionable&#45;&gt;Gtk.Button</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M100.213,-161.939C103.498,-150.076 109.931,-127.241 116,-108 119.297,-97.5468 123.318,-85.8011 126.366,-77.0763"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="128.118,-77.3702 128.123,-72.0728 124.815,-76.2104 128.118,-77.3702"/>
+</g>
+<!-- Gtk.Activatable&#45;&gt;Gtk.Button -->
+<g id="edge10" class="edge"><title>Gtk.Activatable&#45;&gt;Gtk.Button</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M159.688,-107.875C154.181,-99.4529 145.503,-86.1809 139.132,-76.4377"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="140.588,-75.4667 136.387,-72.2396 137.659,-77.3821 140.588,-75.4667"/>
+</g>
+<!-- Gtk.Buildable&#45;&gt;Gtk.Widget -->
+<g id="edge13" class="edge"><title>Gtk.Buildable&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M352.812,-269.875C350.606,-261.681 347.164,-248.895 344.563,-239.235"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="346.208,-238.613 343.218,-234.24 342.828,-239.523 346.208,-238.613"/>
+</g>
+<!-- Gtk.ScaleButton -->
+<g id="node13" class="node"><title>Gtk.ScaleButton</title>
+<g id="a_node13"><a xlink:href="#Gtk.ScaleButton" xlink:title="Gtk.ScaleButton">
+<path fill="none" stroke="#75507b" d="M117.5,-18C117.5,-18 44.5,-18 44.5,-18 41.5,-18 38.5,-15 38.5,-12 38.5,-12 38.5,-6 38.5,-6 38.5,-3 41.5,-0 44.5,-0 44.5,-0 117.5,-0 117.5,-0 120.5,-0 123.5,-3 123.5,-6 123.5,-6 123.5,-12 123.5,-12 123.5,-15 120.5,-18 117.5,-18"/>
+<text text-anchor="middle" x="81" y="-6.7" font-family="inherit" font-size="8.50">Gtk.ScaleButton</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Orientable&#45;&gt;Gtk.ScaleButton -->
+<g id="edge15" class="edge"><title>Gtk.Orientable&#45;&gt;Gtk.ScaleButton</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M40.3584,-215.962C42.3737,-204.129 46.3148,-181.329 50,-162 59.7944,-110.627 72.5669,-49.7319 78.1639,-23.3203"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="79.9193,-23.4781 79.2456,-18.2236 76.4956,-22.7513 79.9193,-23.4781"/>
+</g>
+<!-- GObject.Object -->
+<g id="node7" class="node"><title>GObject.Object</title>
+<g id="a_node7"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M505,-342C505,-342 437,-342 437,-342 434,-342 431,-339 431,-336 431,-336 431,-330 431,-330 431,-327 434,-324 437,-324 437,-324 505,-324 505,-324 508,-324 511,-327 511,-330 511,-330 511,-336 511,-336 511,-339 508,-342 505,-342"/>
+<text text-anchor="middle" x="471" y="-330.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.InitiallyUnowned -->
+<g id="node8" class="node"><title>GObject.InitiallyUnowned</title>
+<g id="a_node8"><a xlink:href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#GObject.InitiallyUnowned" xlink:title="GObject.InitiallyUnowned">
+<path fill="none" stroke="#75507b" d="M526,-288C526,-288 416,-288 416,-288 413,-288 410,-285 410,-282 410,-282 410,-276 410,-276 410,-273 413,-270 416,-270 416,-270 526,-270 526,-270 529,-270 532,-273 532,-276 532,-276 532,-282 532,-282 532,-285 529,-288 526,-288"/>
+<text text-anchor="middle" x="471" y="-276.7" font-family="inherit" font-size="8.50">GObject.InitiallyUnowned</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GObject.InitiallyUnowned -->
+<g id="edge6" class="edge"><title>GObject.Object&#45;&gt;GObject.InitiallyUnowned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M471,-323.875C471,-315.756 471,-303.131 471,-293.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="472.75,-293.24 471,-288.24 469.25,-293.24 472.75,-293.24"/>
+</g>
+<!-- GObject.InitiallyUnowned&#45;&gt;Gtk.Widget -->
+<g id="edge8" class="edge"><title>GObject.InitiallyUnowned&#45;&gt;Gtk.Widget</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M450.972,-269.989C428.137,-260.855 390.775,-245.91 366.036,-236.014"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="366.557,-234.338 361.265,-234.106 365.257,-237.588 366.557,-234.338"/>
+</g>
+<!-- Gtk.Container -->
+<g id="node12" class="node"><title>Gtk.Container</title>
+<g id="a_node12"><a xlink:href="Container.html#Gtk.Container" xlink:title="Gtk.Container">
+<path fill="none" stroke="#75507b" d="M320.5,-180C320.5,-180 257.5,-180 257.5,-180 254.5,-180 251.5,-177 251.5,-174 251.5,-174 251.5,-168 251.5,-168 251.5,-165 254.5,-162 257.5,-162 257.5,-162 320.5,-162 320.5,-162 323.5,-162 326.5,-165 326.5,-168 326.5,-168 326.5,-174 326.5,-174 326.5,-177 323.5,-180 320.5,-180"/>
+<text text-anchor="middle" x="289" y="-168.7" font-family="inherit" font-size="8.50">Gtk.Container</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Widget&#45;&gt;Gtk.Container -->
+<g id="edge14" class="edge"><title>Gtk.Widget&#45;&gt;Gtk.Container</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M332.875,-215.875C324.301,-207.301 310.701,-193.701 300.915,-183.915"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="302.013,-182.538 297.24,-180.24 299.538,-185.013 302.013,-182.538"/>
+</g>
+<!-- Gtk.Button&#45;&gt;Gtk.ScaleButton -->
+<g id="edge16" class="edge"><title>Gtk.Button&#45;&gt;Gtk.ScaleButton</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M123.188,-53.875C114.943,-45.3012 101.866,-31.7011 92.4563,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="93.6497,-20.6308 88.9226,-18.2396 91.1268,-23.0567 93.6497,-20.6308"/>
+</g>
+<!-- Gtk.Bin -->
+<g id="node11" class="node"><title>Gtk.Bin</title>
+<g id="a_node11"><a xlink:href="Bin.html#Gtk.Bin" xlink:title="Gtk.Bin">
+<path fill="none" stroke="#75507b" d="M284,-126C284,-126 242,-126 242,-126 239,-126 236,-123 236,-120 236,-120 236,-114 236,-114 236,-111 239,-108 242,-108 242,-108 284,-108 284,-108 287,-108 290,-111 290,-114 290,-114 290,-120 290,-120 290,-123 287,-126 284,-126"/>
+<text text-anchor="middle" x="263" y="-114.7" font-family="inherit" font-size="8.50">Gtk.Bin</text>
+</a>
+</g>
+</g>
+<!-- Gtk.Bin&#45;&gt;Gtk.Button -->
+<g id="edge11" class="edge"><title>Gtk.Bin&#45;&gt;Gtk.Button</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M242.664,-107.989C219.477,-98.8546 181.541,-83.9101 156.421,-74.0144"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="156.87,-72.3103 151.576,-72.1058 155.587,-75.5667 156.87,-72.3103"/>
+</g>
+<!-- Gtk.Container&#45;&gt;Gtk.Bin -->
+<g id="edge12" class="edge"><title>Gtk.Container&#45;&gt;Gtk.Bin</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M284.938,-161.875C280.802,-153.605 274.329,-140.658 269.484,-130.968"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="270.921,-129.929 267.12,-126.24 267.791,-131.494 270.921,-129.929"/>
+</g>
+</g>
+</svg>
+</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Subclasses:</th><td class="field-body"><a class="reference internal" href="VolumeButton.html#Gtk.VolumeButton" title="Gtk.VolumeButton"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.VolumeButton</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="methods">
+<span id="gtk-scalebutton-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-methods"><em>Gtk.Button (29)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-methods"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-methods"><em>Gtk.Container (27)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-methods"><em>Gtk.Widget (256)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-methods"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/Actionable.html#gtk-actionable-methods"><em>Gtk.Actionable (5)</em></a>, <a class="reference internal" href="../interfaces/Activatable.html#gtk-activatable-methods"><em>Gtk.Activatable (6)</em></a>, <a class="reference internal" href="../interfaces/Orientable.html#gtk-orientable-methods"><em>Gtk.Orientable (2)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.new" title="Gtk.ScaleButton.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(size, min, max, step, icons)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.get_adjustment" title="Gtk.ScaleButton.get_adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">get_adjustment</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.get_minus_button" title="Gtk.ScaleButton.get_minus_button"><tt class="xref py py-obj docutils literal"><span class="pre">get_minus_button</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.get_plus_button" title="Gtk.ScaleButton.get_plus_button"><tt class="xref py py-obj docutils literal"><span class="pre">get_plus_button</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.get_popup" title="Gtk.ScaleButton.get_popup"><tt class="xref py py-obj docutils literal"><span class="pre">get_popup</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.get_value" title="Gtk.ScaleButton.get_value"><tt class="xref py py-obj docutils literal"><span class="pre">get_value</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.set_adjustment" title="Gtk.ScaleButton.set_adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">set_adjustment</span></tt></a>(adjustment)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.set_icons" title="Gtk.ScaleButton.set_icons"><tt class="xref py py-obj docutils literal"><span class="pre">set_icons</span></tt></a>(icons)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.set_value" title="Gtk.ScaleButton.set_value"><tt class="xref py py-obj docutils literal"><span class="pre">set_value</span></tt></a>(value)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="gtk-scalebutton-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-vfuncs"><em>Gtk.Button (6)</em></a>, <a class="reference internal" href="Container.html#gtk-container-vfuncs"><em>Gtk.Container (10)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-vfuncs"><em>Gtk.Widget (82)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Buildable.html#gtk-buildable-vfuncs"><em>Gtk.Buildable (10)</em></a>, <a class="reference internal" href="../interfaces/Actionable.html#gtk-actionable-vfuncs"><em>Gtk.Actionable (4)</em></a>, <a class="reference internal" href="../interfaces/Activatable.html#gtk-activatable-vfuncs"><em>Gtk.Activatable (2)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gtk.ScaleButton.do_value_changed" title="Gtk.ScaleButton.do_value_changed"><tt class="xref py py-obj docutils literal"><span class="pre">do_value_changed</span></tt></a>(value)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="gtk-scalebutton-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-props"><em>Gtk.Button (10)</em></a>, <a class="reference internal" href="Container.html#gtk-container-props"><em>Gtk.Container (3)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-props"><em>Gtk.Widget (38)</em></a>, <a class="reference internal" href="../interfaces/Actionable.html#gtk-actionable-props"><em>Gtk.Actionable (2)</em></a>, <a class="reference internal" href="../interfaces/Activatable.html#gtk-activatable-props"><em>Gtk.Activatable (2)</em></a>, <a class="reference internal" href="../interfaces/Orientable.html#gtk-orientable-props"><em>Gtk.Orientable (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.ScaleButton.props.adjustment" title="Gtk.ScaleButton.props.adjustment"><tt class="xref py py-data docutils literal"><span class="pre">adjustment</span></tt></a></td>
+<td><a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a></td>
+<td>r/w</td>
+<td>The <a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a> that contains the current value of this scale button object</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.ScaleButton.props.icons" title="Gtk.ScaleButton.props.icons"><tt class="xref py py-data docutils literal"><span class="pre">icons</span></tt></a></td>
+<td>[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+<td>r/w</td>
+<td>List of icon names</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.ScaleButton.props.size" title="Gtk.ScaleButton.props.size"><tt class="xref py py-data docutils literal"><span class="pre">size</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Gtk.IconSize" title="Gtk.IconSize"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.IconSize</span></tt></a></td>
+<td>r/w</td>
+<td>The icon size</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.ScaleButton.props.value" title="Gtk.ScaleButton.props.value"><tt class="xref py py-data docutils literal"><span class="pre">value</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a></td>
+<td>r/w</td>
+<td>The value of the scale</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="style-properties">
+<span id="gtk-scalebutton-style-props"></span><h2>Style Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-style-props"><em>Gtk.Button (7)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-style-props"><em>Gtk.Widget (17)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="gtk-scalebutton-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-signals"><em>Gtk.Button (6)</em></a>, <a class="reference internal" href="Container.html#gtk-container-signals"><em>Gtk.Container (4)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-signals"><em>Gtk.Widget (69)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.ScaleButton.signals.popdown" title="Gtk.ScaleButton.signals.popdown"><tt class="xref py py-func docutils literal"><span class="pre">popdown</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.ScaleButton.signals.popdown" title="Gtk.ScaleButton.signals.popdown"><tt class="xref py py-func docutils literal"><span class="pre">::popdown</span></tt></a> signal is a [keybinding signal][GtkBindingSignal] which gets emitted to popdown the scale widget.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Gtk.ScaleButton.signals.popup" title="Gtk.ScaleButton.signals.popup"><tt class="xref py py-func docutils literal"><span class="pre">popup</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.ScaleButton.signals.popup" title="Gtk.ScaleButton.signals.popup"><tt class="xref py py-func docutils literal"><span class="pre">::popup</span></tt></a> signal is a [keybinding signal][GtkBindingSignal] which gets emitted to popup the scale widget.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Gtk.ScaleButton.signals.value_changed" title="Gtk.ScaleButton.signals.value_changed"><tt class="xref py py-func docutils literal"><span class="pre">value-changed</span></tt></a></td>
+<td>The <a class="reference internal" href="#Gtk.ScaleButton.signals.value_changed" title="Gtk.ScaleButton.signals.value_changed"><tt class="xref py py-func docutils literal"><span class="pre">::value-changed</span></tt></a> signal is emitted when the value field has changed.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="gtk-scalebutton-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Button.html#gtk-button-fields"><em>Gtk.Button (1)</em></a>, <a class="reference internal" href="Bin.html#gtk-bin-fields"><em>Gtk.Bin (1)</em></a>, <a class="reference internal" href="Container.html#gtk-container-fields"><em>Gtk.Container (1)</em></a>, <a class="reference internal" href="Widget.html#gtk-widget-fields"><em>Gtk.Widget (1)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#gobject-initiallyunowned-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.InitiallyUnowned (3)</em></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent</td>
+<td><a class="reference internal" href="Button.html#Gtk.Button" title="Gtk.Button"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Button</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Gtk.ScaleButton">
+<em class="property">class </em><tt class="descclassname">Gtk.</tt><tt class="descname">ScaleButton</tt><big>(</big><em>label=None</em>, <em>stock=None</em>, <em>use_stock=False</em>, <em>use_underline=False</em>, <em>**kwds</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Button.html#Gtk.Button" title="Gtk.Button"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Button</span></tt></a>, <a class="reference internal" href="../interfaces/Orientable.html#Gtk.Orientable" title="Gtk.Orientable"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Orientable</span></tt></a></p>
+<p><a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a> provides a button which pops up a scale widget.
+This kind of widget is commonly used for volume controls in multimedia
+applications, and GTK+ provides a <a class="reference internal" href="VolumeButton.html#Gtk.VolumeButton" title="Gtk.VolumeButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.VolumeButton</span></tt></a> subclass that
+is tailored for this use case.</p>
+<dl class="staticmethod">
+<dt id="Gtk.ScaleButton.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>size</em>, <em>min</em>, <em>max</em>, <em>step</em>, <em>icons</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>size</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; a stock icon size</li>
+<li><strong>min</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; the minimum value of the scale (usually 0)</li>
+<li><strong>max</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; the maximum value of the scale (usually 100)</li>
+<li><strong>step</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; the stepping of value when a scroll-wheel event,
+or up/down arrow event occurs (usually 2)</li>
+<li><strong>icons</strong> ([<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>] or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>-terminated
+array of icon names, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if you want to set the list
+later with <a class="reference internal" href="#Gtk.ScaleButton.set_icons" title="Gtk.ScaleButton.set_icons"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton.set_icons</span></tt></a> ()</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a new <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a>, with a range between <cite>min</cite> and <cite>max</cite>, with
+a stepping of <cite>step</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.get_adjustment">
+<tt class="descname">get_adjustment</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the adjustment associated with the scale</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the <a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a> associated with the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a> ’s scale.
+See <a class="reference internal" href="Range.html#Gtk.Range.get_adjustment" title="Gtk.Range.get_adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Range.get_adjustment</span></tt></a> () for details.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.get_minus_button">
+<tt class="descname">get_minus_button</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the minus button of the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the minus button of the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.14.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.get_plus_button">
+<tt class="descname">get_plus_button</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the plus button of the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the plus button of the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.14.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.get_popup">
+<tt class="descname">get_popup</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the popup of the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Widget.html#Gtk.Widget" title="Gtk.Widget"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Widget</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the popup of the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.14.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.get_value">
+<tt class="descname">get_value</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">current value of the scale button</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the current value of the scale button.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.set_adjustment">
+<tt class="descname">set_adjustment</tt><big>(</big><em>adjustment</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>adjustment</strong> (<a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a>) &#8211; a <a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the <a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a> to be used as a model
+for the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a> ’s scale.
+See <a class="reference internal" href="Range.html#Gtk.Range.set_adjustment" title="Gtk.Range.set_adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Range.set_adjustment</span></tt></a> () for details.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.set_icons">
+<tt class="descname">set_icons</tt><big>(</big><em>icons</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>icons</strong> ([<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]) &#8211; a <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>-terminated array of icon names</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the icons to be used by the scale button.
+For details, see the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a> <a class="reference internal" href="#Gtk.ScaleButton.props.icons" title="Gtk.ScaleButton.props.icons"><tt class="xref py py-data docutils literal"><span class="pre">:icons</span></tt></a> property.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.set_value">
+<tt class="descname">set_value</tt><big>(</big><em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>value</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; new value of the scale button</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the current value of the scale; if the value is outside
+the minimum or maximum range values, it will be clamped to fit
+inside them. The scale button emits the <a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a> <a class="reference internal" href="#Gtk.ScaleButton.signals.value_changed" title="Gtk.ScaleButton.signals.value_changed"><tt class="xref py py-func docutils literal"><span class="pre">::value-changed</span></tt></a>
+signal if the value changes.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Gtk.ScaleButton.do_value_changed">
+<tt class="descname">do_value_changed</tt><big>(</big><em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>value</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Gtk.ScaleButton.signals.popdown">
+<tt class="descclassname">Gtk.ScaleButton.signals.</tt><tt class="descname">popdown</tt><big>(</big><em>scale_button</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">popdown</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>scale_button</strong> (<a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.ScaleButton.signals.popdown" title="Gtk.ScaleButton.signals.popdown"><tt class="xref py py-func docutils literal"><span class="pre">::popdown</span></tt></a> signal is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to popdown the scale widget.</p>
+<p>The default binding for this signal is Escape.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gtk.ScaleButton.signals.popup">
+<tt class="descclassname">Gtk.ScaleButton.signals.</tt><tt class="descname">popup</tt><big>(</big><em>scale_button</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">popup</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.ACTION" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">ACTION</span></tt></a>, <a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>scale_button</strong> (<a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.ScaleButton.signals.popup" title="Gtk.ScaleButton.signals.popup"><tt class="xref py py-func docutils literal"><span class="pre">::popup</span></tt></a> signal is a
+[keybinding signal][GtkBindingSignal]
+which gets emitted to popup the scale widget.</p>
+<p>The default bindings for this signal are Space, Enter and Return.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gtk.ScaleButton.signals.value_changed">
+<tt class="descclassname">Gtk.ScaleButton.signals.</tt><tt class="descname">value_changed</tt><big>(</big><em>scale_button</em>, <em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">value-changed</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Gtk-3.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>scale_button</strong> (<a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>value</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; the new value</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Gtk.ScaleButton.signals.value_changed" title="Gtk.ScaleButton.signals.value_changed"><tt class="xref py py-func docutils literal"><span class="pre">::value-changed</span></tt></a> signal is emitted when the value field has
+changed.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Gtk.ScaleButton.props.adjustment">
+<tt class="descclassname">Gtk.ScaleButton.props.</tt><tt class="descname">adjustment</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">adjustment</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="Adjustment.html#Gtk.Adjustment" title="Gtk.Adjustment"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.Adjustment</span></tt></a> that contains the current value of this scale button object</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.ScaleButton.props.icons">
+<tt class="descclassname">Gtk.ScaleButton.props.</tt><tt class="descname">icons</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">icons</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">[]</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The names of the icons to be used by the scale button.
+The first item in the array will be used in the button
+when the current value is the lowest value, the second
+item for the highest value. All the subsequent icons will
+be used for all the other values, spread evenly over the
+range of values.</p>
+<p>If there&#8217;s only one icon name in the <cite>icons</cite> array, it will
+be used for all the values. If only two icon names are in
+the <cite>icons</cite> array, the first one will be used for the bottom
+50% of the scale, and the second one for the top 50%.</p>
+<p>It is recommended to use at least 3 icons so that the
+<a class="reference internal" href="#Gtk.ScaleButton" title="Gtk.ScaleButton"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.ScaleButton</span></tt></a> reflects the current value of the scale
+better for the users.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 2.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.ScaleButton.props.size">
+<tt class="descclassname">Gtk.ScaleButton.props.</tt><tt class="descname">size</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">size</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gtk.IconSize" title="Gtk.IconSize"><tt class="xref py py-class docutils literal"><span class="pre">Gtk.IconSize</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Gtk.IconSize.SMALL_TOOLBAR" title="Gtk.IconSize.SMALL_TOOLBAR"><tt class="xref py py-obj docutils literal"><span class="pre">Gtk.IconSize.SMALL_TOOLBAR</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The icon size</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Gtk.ScaleButton.props.value">
+<tt class="descclassname">Gtk.ScaleButton.props.</tt><tt class="descname">value</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">value</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0.0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The value of the scale</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

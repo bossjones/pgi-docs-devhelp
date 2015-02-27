@@ -1,0 +1,825 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Clutter.Animator -
+    
+      Classes -
+    
+    Clutter 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Clutter 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Clutter.Backend" href="Backend.html"/>
+        <link rel="prev" title="Clutter.Animation" href="Animation.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.Animator</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Animation.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Backend.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.Animator</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.Animator</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="Animation.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Backend.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.Animator</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="clutter-animator">
+<h1>Clutter.Animator</h1>
+<p class="graphviz">
+<svg width="200pt" height="134pt"
+ viewBox="0.00 0.00 200.00 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritanceb076599035</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M92,-126C92,-126 6,-126 6,-126 3,-126 7.10543e-15,-123 7.10543e-15,-120 7.10543e-15,-120 7.10543e-15,-114 7.10543e-15,-114 7.10543e-15,-111 3,-108 6,-108 6,-108 92,-108 92,-108 95,-108 98,-111 98,-114 98,-114 98,-120 98,-120 98,-123 95,-126 92,-126"/>
+<text text-anchor="middle" x="49" y="-114.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Scriptable -->
+<g id="node2" class="node"><title>Clutter.Scriptable</title>
+<g id="a_node2"><a xlink:href="../interfaces/Scriptable.html#Clutter.Scriptable" xlink:title="Clutter.Scriptable">
+<path fill="none" stroke="#3091d1" d="M88,-72C88,-72 10,-72 10,-72 7,-72 4,-69 4,-66 4,-66 4,-60 4,-60 4,-57 7,-54 10,-54 10,-54 88,-54 88,-54 91,-54 94,-57 94,-60 94,-60 94,-66 94,-66 94,-69 91,-72 88,-72"/>
+<text text-anchor="middle" x="49" y="-60.7" font-family="inherit" font-size="8.50">Clutter.Scriptable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Clutter.Scriptable -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Clutter.Scriptable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M49,-107.875C49,-99.7564 49,-87.1312 49,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="50.7501,-77.2395 49,-72.2396 47.2501,-77.2396 50.7501,-77.2395"/>
+</g>
+<!-- Clutter.Animator -->
+<g id="node4" class="node"><title>Clutter.Animator</title>
+<g id="a_node4"><a xlink:href="#Clutter.Animator" xlink:title="Clutter.Animator">
+<path fill="none" stroke="#75507b" d="M137,-18C137,-18 63,-18 63,-18 60,-18 57,-15 57,-12 57,-12 57,-6 57,-6 57,-3 60,-0 63,-0 63,-0 137,-0 137,-0 140,-0 143,-3 143,-6 143,-6 143,-12 143,-12 143,-15 140,-18 137,-18"/>
+<text text-anchor="middle" x="100" y="-6.7" font-family="inherit" font-size="8.50">Clutter.Animator</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Scriptable&#45;&gt;Clutter.Animator -->
+<g id="edge3" class="edge"><title>Clutter.Scriptable&#45;&gt;Clutter.Animator</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M56.9688,-53.875C65.3777,-45.3012 78.7163,-31.7011 88.3146,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="89.6672,-23.0346 91.9189,-18.2396 87.1684,-20.5839 89.6672,-23.0346"/>
+</g>
+<!-- GObject.Object -->
+<g id="node3" class="node"><title>GObject.Object</title>
+<g id="a_node3"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M186,-72C186,-72 118,-72 118,-72 115,-72 112,-69 112,-66 112,-66 112,-60 112,-60 112,-57 115,-54 118,-54 118,-54 186,-54 186,-54 189,-54 192,-57 192,-60 192,-60 192,-66 192,-66 192,-69 189,-72 186,-72"/>
+<text text-anchor="middle" x="152" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Clutter.Animator -->
+<g id="edge2" class="edge"><title>GObject.Object&#45;&gt;Clutter.Animator</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M143.875,-53.875C135.301,-45.3012 121.701,-31.7011 111.915,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="113.013,-20.5377 108.24,-18.2396 110.538,-23.0126 113.013,-20.5377"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="clutter-animator-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-methods"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Clutter.Animator.new" title="Clutter.Animator.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.compute_value" title="Clutter.Animator.compute_value"><tt class="xref py py-obj docutils literal"><span class="pre">compute_value</span></tt></a>(object, property_name, progress, value)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.get_duration" title="Clutter.Animator.get_duration"><tt class="xref py py-obj docutils literal"><span class="pre">get_duration</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.get_keys" title="Clutter.Animator.get_keys"><tt class="xref py py-obj docutils literal"><span class="pre">get_keys</span></tt></a>(object, property_name, progress)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.get_timeline" title="Clutter.Animator.get_timeline"><tt class="xref py py-obj docutils literal"><span class="pre">get_timeline</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.property_get_ease_in" title="Clutter.Animator.property_get_ease_in"><tt class="xref py py-obj docutils literal"><span class="pre">property_get_ease_in</span></tt></a>(object, property_name)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.property_get_interpolation" title="Clutter.Animator.property_get_interpolation"><tt class="xref py py-obj docutils literal"><span class="pre">property_get_interpolation</span></tt></a>(object, property_name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.property_set_ease_in" title="Clutter.Animator.property_set_ease_in"><tt class="xref py py-obj docutils literal"><span class="pre">property_set_ease_in</span></tt></a>(object, property_name, ease_in)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.property_set_interpolation" title="Clutter.Animator.property_set_interpolation"><tt class="xref py py-obj docutils literal"><span class="pre">property_set_interpolation</span></tt></a>(object, property_name, interpolation)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.remove_key" title="Clutter.Animator.remove_key"><tt class="xref py py-obj docutils literal"><span class="pre">remove_key</span></tt></a>(object, property_name, progress)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.set_duration" title="Clutter.Animator.set_duration"><tt class="xref py py-obj docutils literal"><span class="pre">set_duration</span></tt></a>(duration)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.set_key" title="Clutter.Animator.set_key"><tt class="xref py py-obj docutils literal"><span class="pre">set_key</span></tt></a>(object, property_name, mode, progress, value)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.set_timeline" title="Clutter.Animator.set_timeline"><tt class="xref py py-obj docutils literal"><span class="pre">set_timeline</span></tt></a>(timeline)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Animator.start" title="Clutter.Animator.start"><tt class="xref py py-obj docutils literal"><span class="pre">start</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="clutter-animator-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-vfuncs"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="clutter-animator-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Animator.props.duration" title="Clutter.Animator.props.duration"><tt class="xref py py-data docutils literal"><span class="pre">duration</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>The duration of the animation</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Animator.props.timeline" title="Clutter.Animator.props.timeline"><tt class="xref py py-data docutils literal"><span class="pre">timeline</span></tt></a></td>
+<td><a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+<td>r/w</td>
+<td>The timeline of the animation</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="clutter-animator-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="clutter-animator-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Clutter.Animator">
+<em class="property">class </em><tt class="descclassname">Clutter.</tt><tt class="descname">Animator</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>, <a class="reference internal" href="../interfaces/Scriptable.html#Clutter.Scriptable" title="Clutter.Scriptable"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Scriptable</span></tt></a></p>
+<p>The <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> structure contains only private data and
+should be accessed using the provided API</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Clutter.Animator.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a new <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Animator</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> instance</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.compute_value">
+<tt class="descname">compute_value</tt><big>(</big><em>object</em>, <em>property_name</em>, <em>progress</em>, <em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a></li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of the property on object to check</li>
+<li><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; a value between 0.0 and 1.0</li>
+<li><strong>value</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; an initialized value to store the computed result</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the computation yields has a value, otherwise (when
+an error occurs or the progress is before any of the keys) <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> is
+returned and the <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Value</span></tt></a> is left untouched</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Compute the value for a managed property at a given progress.</p>
+<p>If the property is an ease-in property, the current value of the property
+on the object will be used as the starting point for computation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.get_duration">
+<tt class="descname">get_duration</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the duration of the animation, in milliseconds</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the current duration of an animator</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.get_keys">
+<tt class="descname">get_keys</tt><big>(</big><em>object</em>, <em>property_name</em>, <em>progress</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> to search for, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all objects</li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a specific property name to query for,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all properties</li>
+<li><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; a specific progress to search for, or a negative value for all
+progresses</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a
+list of <a class="reference internal" href="../structs/AnimatorKey.html#Clutter.AnimatorKey" title="Clutter.AnimatorKey"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimatorKey</span></tt></a> s; the contents of the list are owned
+by the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a>, but you should free the returned list when done,
+using <tt class="xref py py-obj docutils literal"><span class="pre">GLib.List.free</span></tt> ()</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">[<a class="reference internal" href="../structs/AnimatorKey.html#Clutter.AnimatorKey" title="Clutter.AnimatorKey"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.AnimatorKey</span></tt></a>]</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Returns a list of pointers to opaque structures with accessor functions
+that describe the keys added to an animator.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.get_timeline">
+<tt class="descname">get_timeline</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> that drives the animator</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Get the timeline hooked up for driving the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.property_get_ease_in">
+<tt class="descname">property_get_ease_in</tt><big>(</big><em>object</em>, <em>property_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a></li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a property on object</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the property is eased in</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Checks if a property value is to be eased into the animation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.property_get_interpolation">
+<tt class="descname">property_get_interpolation</tt><big>(</big><em>object</em>, <em>property_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a></li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a property on object</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a <a class="reference internal" href="../enums.html#Clutter.Interpolation" title="Clutter.Interpolation"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Interpolation</span></tt></a> value.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="../enums.html#Clutter.Interpolation" title="Clutter.Interpolation"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Interpolation</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Get the interpolation used by animator for a property on a particular
+object.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.property_set_ease_in">
+<tt class="descname">property_set_ease_in</tt><big>(</big><em>object</em>, <em>property_name</em>, <em>ease_in</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a></li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a property on object</li>
+<li><strong>ease_in</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; we are going to be easing in this property</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether a property value is to be eased into the animation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.property_set_interpolation">
+<tt class="descname">property_set_interpolation</tt><big>(</big><em>object</em>, <em>property_name</em>, <em>interpolation</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a></li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of a property on object</li>
+<li><strong>interpolation</strong> (<a class="reference internal" href="../enums.html#Clutter.Interpolation" title="Clutter.Interpolation"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Interpolation</span></tt></a>) &#8211; the <a class="reference internal" href="../enums.html#Clutter.Interpolation" title="Clutter.Interpolation"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Interpolation</span></tt></a> to use</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Set the interpolation method to use, <a class="reference internal" href="../enums.html#Clutter.Interpolation.LINEAR" title="Clutter.Interpolation.LINEAR"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Interpolation.LINEAR</span></tt></a> causes
+the values to linearly change between the values, and
+<a class="reference internal" href="../enums.html#Clutter.Interpolation.CUBIC" title="Clutter.Interpolation.CUBIC"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Interpolation.CUBIC</span></tt></a> causes the values to smoothly change between
+the values.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.remove_key">
+<tt class="descname">remove_key</tt><big>(</big><em>object</em>, <em>property_name</em>, <em>progress</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a> to search for, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all</li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a specific property name to query for,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> for all</li>
+<li><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; a specific progress to search for or a negative value
+for all</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Removes all keys matching the conditions specificed in the arguments.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.set_duration">
+<tt class="descname">set_duration</tt><big>(</big><em>duration</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>duration</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; milliseconds a run of the animator should last.</td>
+</tr>
+</tbody>
+</table>
+<p>Runs the timeline of the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> with a duration in msecs
+as specified.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.set_key">
+<tt class="descname">set_key</tt><big>(</big><em>object</em>, <em>property_name</em>, <em>mode</em>, <em>progress</em>, <em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; a <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object</span></tt></a></li>
+<li><strong>property_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the property to specify a key for</li>
+<li><strong>mode</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the id of the alpha function to use</li>
+<li><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; the normalized range at which stage of the animation this
+value applies</li>
+<li><strong>value</strong> (<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/structs/Value.html#GObject.Value" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Value</span></tt></a>) &#8211; the value property_name should have at progress.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The animator instance</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Animator</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets a single key in the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> for the <cite>property_name</cite> of
+<cite>object</cite> at <cite>progress</cite>.</p>
+<p>See also: <tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator.set</span></tt> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.set_timeline">
+<tt class="descname">set_timeline</tt><big>(</big><em>timeline</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeline</strong> (<a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>) &#8211; a <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets an external timeline that will be used for driving the animation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Animator.start">
+<tt class="descname">start</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> that drives
+the animator. The returned timeline is owned by the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a>
+and it should not be unreferenced</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Start the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a>, this is a thin wrapper that rewinds
+and starts the animators current timeline.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Clutter.Animator.props.duration">
+<tt class="descclassname">Clutter.Animator.props.</tt><tt class="descname">duration</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">duration</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">2000</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The duration of the <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> used by the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a>
+to drive the animation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Animator.props.timeline">
+<tt class="descclassname">Clutter.Animator.props.</tt><tt class="descname">timeline</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">timeline</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="Timeline.html#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> used by the <a class="reference internal" href="#Clutter.Animator" title="Clutter.Animator"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Animator</span></tt></a> to drive the
+animation</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.12: </span>Use <a class="reference internal" href="KeyframeTransition.html#Clutter.KeyframeTransition" title="Clutter.KeyframeTransition"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.KeyframeTransition</span></tt></a> instead</p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

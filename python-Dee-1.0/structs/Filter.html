@@ -1,0 +1,483 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Dee.Filter -
+    
+      Structures -
+    
+    Dee 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Dee 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Structures" href="index.html"/>
+        <link rel="next" title="Dee.FilterModelPrivate" href="FilterModelPrivate.html"/>
+        <link rel="prev" title="Dee.ClientPrivate" href="ClientPrivate.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Dee 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Structures</a> &raquo;</li>
+      
+    <li>Dee.Filter</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ClientPrivate.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="FilterModelPrivate.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Dee.Filter</a><ul>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Dee 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Structures</a> &raquo;</li>
+      
+    <li>Dee.Filter</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="ClientPrivate.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="FilterModelPrivate.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Dee.Filter</a><ul>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="dee-filter">
+<h1>Dee.Filter</h1>
+<div class="section" id="fields">
+<span id="dee-filter-fields"></span><h2>Fields</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>destroy</td>
+<td><tt class="xref py py-class docutils literal"><span class="pre">GLib.DestroyNotify</span></tt></td>
+<td>r/w</td>
+<td>Callback for freeing the <cite>user_data</cite>  <cite>userdata</cite> (closure): Free form user data associated with the filter. This pointer will be passed to <cite>map_func</cite> and <cite>map_notify</cite></td>
+</tr>
+<tr class="row-odd"><td>map_func</td>
+<td><a class="reference internal" href="../callbacks.html#Dee.FilterMapFunc" title="Dee.FilterMapFunc"><tt class="xref py py-class docutils literal"><span class="pre">Dee.FilterMapFunc</span></tt></a></td>
+<td>r/w</td>
+<td>The #DeeModelMapFunc used to construct the initial contents of a <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a></td>
+</tr>
+<tr class="row-even"><td>map_notify</td>
+<td><a class="reference internal" href="../callbacks.html#Dee.FilterMapNotify" title="Dee.FilterMapNotify"><tt class="xref py py-class docutils literal"><span class="pre">Dee.FilterMapNotify</span></tt></a></td>
+<td>r/w</td>
+<td>Callback invoked when the original model changes</td>
+</tr>
+<tr class="row-odd"><td>userdata</td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a></td>
+<td>r/w</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="methods">
+<h2>Methods</h2>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Dee.Filter.new" title="Dee.Filter.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(map_func, map_notify, *userdata)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Dee.Filter.new_collator" title="Dee.Filter.new_collator"><tt class="xref py py-obj docutils literal"><span class="pre">new_collator</span></tt></a>(column)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Dee.Filter.new_collator_desc" title="Dee.Filter.new_collator_desc"><tt class="xref py py-obj docutils literal"><span class="pre">new_collator_desc</span></tt></a>(column)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Dee.Filter.new_for_any_column" title="Dee.Filter.new_for_any_column"><tt class="xref py py-obj docutils literal"><span class="pre">new_for_any_column</span></tt></a>(column, value)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Dee.Filter.new_for_key_column" title="Dee.Filter.new_for_key_column"><tt class="xref py py-obj docutils literal"><span class="pre">new_for_key_column</span></tt></a>(column, key)</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Dee.Filter.new_regex" title="Dee.Filter.new_regex"><tt class="xref py py-obj docutils literal"><span class="pre">new_regex</span></tt></a>(column, regex)</td>
+</tr>
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Dee.Filter.new_sort" title="Dee.Filter.new_sort"><tt class="xref py py-obj docutils literal"><span class="pre">new_sort</span></tt></a>(cmp_row, *cmp_user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Dee.Filter.map" title="Dee.Filter.map"><tt class="xref py py-obj docutils literal"><span class="pre">map</span></tt></a>(orig_model, filter_model)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Dee.Filter.notify" title="Dee.Filter.notify"><tt class="xref py py-obj docutils literal"><span class="pre">notify</span></tt></a>(orig_iter, orig_model, filter_model)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Dee.Filter">
+<em class="property">class </em><tt class="descclassname">Dee.</tt><tt class="descname">Filter</tt></dt>
+<dd><p>Structure encapsulating the mapping logic used to construct a <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a></p>
+<dl class="staticmethod">
+<dt id="Dee.Filter.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>map_func</em>, <em>map_notify</em>, <em>*userdata</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>map_func</strong> (<a class="reference internal" href="../callbacks.html#Dee.FilterMapFunc" title="Dee.FilterMapFunc"><tt class="xref py py-class docutils literal"><span class="pre">Dee.FilterMapFunc</span></tt></a>) &#8211; The <a class="reference internal" href="../callbacks.html#Dee.FilterMapFunc" title="Dee.FilterMapFunc"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterMapFunc</span></tt></a> to use for the filter</li>
+<li><strong>map_notify</strong> (<a class="reference internal" href="../callbacks.html#Dee.FilterMapNotify" title="Dee.FilterMapNotify"><tt class="xref py py-class docutils literal"><span class="pre">Dee.FilterMapNotify</span></tt></a>) &#8211; The <a class="reference internal" href="../callbacks.html#Dee.FilterMapNotify" title="Dee.FilterMapNotify"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterMapNotify</span></tt></a> to use for the filter</li>
+<li><strong>userdata</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; The user data to pass to <cite>map_func</cite> and <cite>map_notify</cite></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A pointer to an uninitialized <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> struct.
+This struct will zeroed and configured with the filter
+parameters</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><strong>out_filter</strong>: <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Filter</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> with the given parameters. This call will zero
+the <cite>out_filter</cite> struct.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Dee.Filter.new_collator">
+<em class="property">static </em><tt class="descname">new_collator</tt><big>(</big><em>column</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>column</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The index of a column containing the strings to sort after</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A pointer to an uninitialized <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> struct.
+This struct will zeroed and configured with the filter
+parameters</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><strong>out_filter</strong>: <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Filter</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Create a <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> that takes string values from a column in the model
+and builds a <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a> with the rows sorted according to the
+collation rules of the current locale.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Dee.Filter.new_collator_desc">
+<em class="property">static </em><tt class="descname">new_collator_desc</tt><big>(</big><em>column</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>column</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The index of a column containing the strings to sort after</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A pointer to an uninitialized <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> struct.
+This struct will zeroed and configured with the filter
+parameters</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><strong>out_filter</strong>: <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Filter</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Create a <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> that takes string values from a column in the model
+and builds a <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a> with the rows sorted descending according to the
+collation rules of the current locale.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Dee.Filter.new_for_any_column">
+<em class="property">static </em><tt class="descname">new_for_any_column</tt><big>(</big><em>column</em>, <em>value</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>column</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The index of a column containing the string to match</li>
+<li><strong>value</strong> (<a class="reference external" href="../_devhelp/Dee-1.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; A <a class="reference external" href="../_devhelp/Dee-1.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant</span></tt></a> value columns must match exactly.
+The matching semantics are those of <a class="reference external" href="../_devhelp/Dee-1.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant.equal" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.equal</span></tt></a> (). If <cite>value</cite>
+is floating the ownership will be transfered to the filter</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A pointer to an uninitialized <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> struct.
+This struct will zeroed and configured with the filter
+parameters</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><strong>out_filter</strong>: <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Filter</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> that only includes rows from the original model
+which match a variant value in a given column. A <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a>
+created with this filter will be ordered in accordance with its parent model.</p>
+<p>This method will work on any column, disregarding its schema, since the
+value comparison is done using <a class="reference external" href="../_devhelp/Dee-1.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant.equal" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.Variant.equal</span></tt></a> (). This means you can use
+this filter as a convenient fallback when there is no predefined filter
+for your column type if raw performance is not paramount.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Dee.Filter.new_for_key_column">
+<em class="property">static </em><tt class="descname">new_for_key_column</tt><big>(</big><em>column</em>, <em>key</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>column</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The index of a column containing the string key to match</li>
+<li><strong>key</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A pointer to an uninitialized <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> struct.
+This struct will zeroed and configured with the filter
+parameters</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><strong>out_filter</strong>: <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Filter</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> that only includes rows from the original model
+which has an exact match on some string column. A <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a> created
+with this filter will be ordered in accordance with its parent model.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Dee.Filter.new_regex">
+<em class="property">static </em><tt class="descname">new_regex</tt><big>(</big><em>column</em>, <em>regex</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>column</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; The index of a column containing the string to match</li>
+<li><strong>regex</strong> (<a class="reference external" href="../_devhelp/Dee-1.0/../../../python-GLib-2.0/structs/Regex.html#GLib.Regex" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Regex</span></tt></a>) &#8211; The regular expression <cite>column</cite> must match</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A pointer to an uninitialized <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> struct.
+This struct will zeroed and configured with the filter
+parameters</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><strong>out_filter</strong>: <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Filter</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> that only includes rows from the original model
+which match a regular expression on some string column. A <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a>
+created with this filter will be ordered in accordance with its parent model.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Dee.Filter.new_sort">
+<em class="property">static </em><tt class="descname">new_sort</tt><big>(</big><em>cmp_row</em>, <em>*cmp_user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>cmp_row</strong> (<a class="reference internal" href="../callbacks.html#Dee.CompareRowFunc" title="Dee.CompareRowFunc"><tt class="xref py py-class docutils literal"><span class="pre">Dee.CompareRowFunc</span></tt></a>) &#8211; A <a class="reference internal" href="../callbacks.html#Dee.CompareRowFunc" title="Dee.CompareRowFunc"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.CompareRowFunc</span></tt></a> to use for sorting</li>
+<li><strong>cmp_user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; User data passed to <cite>cmp_row</cite></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A pointer to an uninitialized <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> struct.
+This struct will zeroed and configured with the filter
+parameters</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><strong>out_filter</strong>: <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Filter</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a> sorting a model according to a <a class="reference internal" href="../callbacks.html#Dee.CompareRowFunc" title="Dee.CompareRowFunc"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.CompareRowFunc</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Dee.Filter.map">
+<tt class="descname">map</tt><big>(</big><em>orig_model</em>, <em>filter_model</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>orig_model</strong> (<a class="reference internal" href="../interfaces/Model.html#Dee.Model" title="Dee.Model"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Model</span></tt></a>) &#8211; The model that is being filtered</li>
+<li><strong>filter_model</strong> (<a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-class docutils literal"><span class="pre">Dee.FilterModel</span></tt></a>) &#8211; The <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a> that holds the
+filtered subset of <cite>orig_model</cite></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Call the <a class="reference internal" href="../callbacks.html#Dee.FilterMapFunc" title="Dee.FilterMapFunc"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterMapFunc</span></tt></a> function of a <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a>.
+When using a <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a> you should not call this method yourself.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Dee.Filter.notify">
+<tt class="descname">notify</tt><big>(</big><em>orig_iter</em>, <em>orig_model</em>, <em>filter_model</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>orig_iter</strong> (<a class="reference internal" href="ModelIter.html#Dee.ModelIter" title="Dee.ModelIter"><tt class="xref py py-class docutils literal"><span class="pre">Dee.ModelIter</span></tt></a>) &#8211; The <a class="reference internal" href="ModelIter.html#Dee.ModelIter" title="Dee.ModelIter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.ModelIter</span></tt></a> added to <cite>orig_model</cite></li>
+<li><strong>orig_model</strong> (<a class="reference internal" href="../interfaces/Model.html#Dee.Model" title="Dee.Model"><tt class="xref py py-class docutils literal"><span class="pre">Dee.Model</span></tt></a>) &#8211; The model that is being filtered</li>
+<li><strong>filter_model</strong> (<a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-class docutils literal"><span class="pre">Dee.FilterModel</span></tt></a>) &#8211; The <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a> that holds the
+filtered subset of <cite>orig_model</cite></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">The return value from the <a class="reference internal" href="../callbacks.html#Dee.FilterMapNotify" title="Dee.FilterMapNotify"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterMapNotify</span></tt></a>. That is; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>
+if <cite>orig_iter</cite> was added to <cite>filter_model</cite></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Call the <a class="reference internal" href="../callbacks.html#Dee.FilterMapNotify" title="Dee.FilterMapNotify"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterMapNotify</span></tt></a> function of a <a class="reference internal" href="#Dee.Filter" title="Dee.Filter"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.Filter</span></tt></a>.
+When using a <a class="reference internal" href="../classes/FilterModel.html#Dee.FilterModel" title="Dee.FilterModel"><tt class="xref py py-obj docutils literal"><span class="pre">Dee.FilterModel</span></tt></a> you should not call this method yourself.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

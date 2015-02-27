@@ -1,0 +1,923 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    Zeitgeist 2.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Zeitgeist 2.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Interfaces" href="interfaces/index.html"/>
+        <link rel="prev" title="Zeitgeist 2.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Zeitgeist 2.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Zeitgeist 2.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="interfaces/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.data_sources_from_variant" title="Zeitgeist.data_sources_from_variant"><tt class="xref py py-obj docutils literal"><span class="pre">data_sources_from_variant</span></tt></a>(sources_variant)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.data_sources_to_variant" title="Zeitgeist.data_sources_to_variant"><tt class="xref py py-obj docutils literal"><span class="pre">data_sources_to_variant</span></tt></a>(sources)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.events_from_variant" title="Zeitgeist.events_from_variant"><tt class="xref py py-obj docutils literal"><span class="pre">events_from_variant</span></tt></a>(vevents)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.events_to_variant" title="Zeitgeist.events_to_variant"><tt class="xref py py-obj docutils literal"><span class="pre">events_to_variant</span></tt></a>(events)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.events_to_variant_with_limit" title="Zeitgeist.events_to_variant_with_limit"><tt class="xref py py-obj docutils literal"><span class="pre">events_to_variant_with_limit</span></tt></a>(events, limit)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.interpretation_for_mimetype" title="Zeitgeist.interpretation_for_mimetype"><tt class="xref py py-obj docutils literal"><span class="pre">interpretation_for_mimetype</span></tt></a>(mimetype)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.manifestation_for_uri" title="Zeitgeist.manifestation_for_uri"><tt class="xref py py-obj docutils literal"><span class="pre">manifestation_for_uri</span></tt></a>(uri)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.register_mimetype" title="Zeitgeist.register_mimetype"><tt class="xref py py-obj docutils literal"><span class="pre">register_mimetype</span></tt></a>(mimetype, interpretation_uri)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.register_mimetype_regex" title="Zeitgeist.register_mimetype_regex"><tt class="xref py py-obj docutils literal"><span class="pre">register_mimetype_regex</span></tt></a>(mimetype_regex, interpretation_uri)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.register_uri_scheme" title="Zeitgeist.register_uri_scheme"><tt class="xref py py-obj docutils literal"><span class="pre">register_uri_scheme</span></tt></a>(uri_scheme, manifestation_type)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.result_type_is_sort_order_asc" title="Zeitgeist.result_type_is_sort_order_asc"><tt class="xref py py-obj docutils literal"><span class="pre">result_type_is_sort_order_asc</span></tt></a>(result_type)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.symbol_get_all_children" title="Zeitgeist.symbol_get_all_children"><tt class="xref py py-obj docutils literal"><span class="pre">symbol_get_all_children</span></tt></a>(symbol_uri)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.symbol_get_all_parents" title="Zeitgeist.symbol_get_all_parents"><tt class="xref py py-obj docutils literal"><span class="pre">symbol_get_all_parents</span></tt></a>(symbol_uri)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.symbol_get_children" title="Zeitgeist.symbol_get_children"><tt class="xref py py-obj docutils literal"><span class="pre">symbol_get_children</span></tt></a>(symbol_uri)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.symbol_get_description" title="Zeitgeist.symbol_get_description"><tt class="xref py py-obj docutils literal"><span class="pre">symbol_get_description</span></tt></a>(symbol_uri)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.symbol_get_display_name" title="Zeitgeist.symbol_get_display_name"><tt class="xref py py-obj docutils literal"><span class="pre">symbol_get_display_name</span></tt></a>(symbol_uri)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.symbol_get_parents" title="Zeitgeist.symbol_get_parents"><tt class="xref py py-obj docutils literal"><span class="pre">symbol_get_parents</span></tt></a>(symbol_uri)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.symbol_is_a" title="Zeitgeist.symbol_is_a"><tt class="xref py py-obj docutils literal"><span class="pre">symbol_is_a</span></tt></a>(symbol_uri, parent_uri)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_from_date" title="Zeitgeist.timestamp_from_date"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_from_date</span></tt></a>(date)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_from_dmy" title="Zeitgeist.timestamp_from_dmy"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_from_dmy</span></tt></a>(day, month, year)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_from_iso8601" title="Zeitgeist.timestamp_from_iso8601"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_from_iso8601</span></tt></a>(datetime)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_from_now" title="Zeitgeist.timestamp_from_now"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_from_now</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_from_timeval" title="Zeitgeist.timestamp_from_timeval"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_from_timeval</span></tt></a>(timeval)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_next_midnight" title="Zeitgeist.timestamp_next_midnight"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_next_midnight</span></tt></a>(timestamp)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_prev_midnight" title="Zeitgeist.timestamp_prev_midnight"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_prev_midnight</span></tt></a>(timestamp)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_to_date" title="Zeitgeist.timestamp_to_date"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_to_date</span></tt></a>(timestamp)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_to_iso8601" title="Zeitgeist.timestamp_to_iso8601"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_to_iso8601</span></tt></a>(timestamp)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.timestamp_to_timeval" title="Zeitgeist.timestamp_to_timeval"><tt class="xref py py-obj docutils literal"><span class="pre">timestamp_to_timeval</span></tt></a>(timestamp)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_backup_database" title="Zeitgeist.utils_backup_database"><tt class="xref py py-obj docutils literal"><span class="pre">utils_backup_database</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_get_data_path" title="Zeitgeist.utils_get_data_path"><tt class="xref py py-obj docutils literal"><span class="pre">utils_get_data_path</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_get_database_file_backup_path" title="Zeitgeist.utils_get_database_file_backup_path"><tt class="xref py py-obj docutils literal"><span class="pre">utils_get_database_file_backup_path</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_get_database_file_path" title="Zeitgeist.utils_get_database_file_path"><tt class="xref py py-obj docutils literal"><span class="pre">utils_get_database_file_path</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_get_database_file_retire_name" title="Zeitgeist.utils_get_database_file_retire_name"><tt class="xref py py-obj docutils literal"><span class="pre">utils_get_database_file_retire_name</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_get_default_data_path" title="Zeitgeist.utils_get_default_data_path"><tt class="xref py py-obj docutils literal"><span class="pre">utils_get_default_data_path</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_get_local_extensions_path" title="Zeitgeist.utils_get_local_extensions_path"><tt class="xref py py-obj docutils literal"><span class="pre">utils_get_local_extensions_path</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_is_empty_string" title="Zeitgeist.utils_is_empty_string"><tt class="xref py py-obj docutils literal"><span class="pre">utils_is_empty_string</span></tt></a>(s)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_log_may_read_directly" title="Zeitgeist.utils_log_may_read_directly"><tt class="xref py py-obj docutils literal"><span class="pre">utils_log_may_read_directly</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_parse_negation" title="Zeitgeist.utils_parse_negation"><tt class="xref py py-obj docutils literal"><span class="pre">utils_parse_negation</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_parse_noexpand" title="Zeitgeist.utils_parse_noexpand"><tt class="xref py py-obj docutils literal"><span class="pre">utils_parse_noexpand</span></tt></a>(val)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_parse_wildcard" title="Zeitgeist.utils_parse_wildcard"><tt class="xref py py-obj docutils literal"><span class="pre">utils_parse_wildcard</span></tt></a>(val)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_set_database_file_path" title="Zeitgeist.utils_set_database_file_path"><tt class="xref py py-obj docutils literal"><span class="pre">utils_set_database_file_path</span></tt></a>(path)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Zeitgeist.utils_using_in_memory_database" title="Zeitgeist.utils_using_in_memory_database"><tt class="xref py py-obj docutils literal"><span class="pre">utils_using_in_memory_database</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="Zeitgeist.data_sources_from_variant">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">data_sources_from_variant</tt><big>(</big><em>sources_variant</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>sources_variant</strong> (<a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference internal" href="classes/DataSource.html#Zeitgeist.DataSource" title="Zeitgeist.DataSource"><tt class="xref py py-class docutils literal"><span class="pre">Zeitgeist.DataSource</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.data_sources_to_variant">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">data_sources_to_variant</tt><big>(</big><em>sources</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>sources</strong> ({<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>: <a class="reference internal" href="classes/DataSource.html#Zeitgeist.DataSource" title="Zeitgeist.DataSource"><tt class="xref py py-class docutils literal"><span class="pre">Zeitgeist.DataSource</span></tt></a>}) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.events_from_variant">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">events_from_variant</tt><big>(</big><em>vevents</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>vevents</strong> (<a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference internal" href="classes/Event.html#Zeitgeist.Event" title="Zeitgeist.Event"><tt class="xref py py-class docutils literal"><span class="pre">Zeitgeist.Event</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.events_to_variant">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">events_to_variant</tt><big>(</big><em>events</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>events</strong> ([<a class="reference internal" href="classes/Event.html#Zeitgeist.Event" title="Zeitgeist.Event"><tt class="xref py py-class docutils literal"><span class="pre">Zeitgeist.Event</span></tt></a>]) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.events_to_variant_with_limit">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">events_to_variant_with_limit</tt><big>(</big><em>events</em>, <em>limit</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>events</strong> ([<a class="reference internal" href="classes/Event.html#Zeitgeist.Event" title="Zeitgeist.Event"><tt class="xref py py-class docutils literal"><span class="pre">Zeitgeist.Event</span></tt></a>]) &#8211; </li>
+<li><strong>limit</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.interpretation_for_mimetype">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">interpretation_for_mimetype</tt><big>(</big><em>mimetype</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mimetype</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.manifestation_for_uri">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">manifestation_for_uri</tt><big>(</big><em>uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.register_mimetype">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">register_mimetype</tt><big>(</big><em>mimetype</em>, <em>interpretation_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>mimetype</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>interpretation_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.register_mimetype_regex">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">register_mimetype_regex</tt><big>(</big><em>mimetype_regex</em>, <em>interpretation_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>mimetype_regex</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>interpretation_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.register_uri_scheme">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">register_uri_scheme</tt><big>(</big><em>uri_scheme</em>, <em>manifestation_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>uri_scheme</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>manifestation_type</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.result_type_is_sort_order_asc">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">result_type_is_sort_order_asc</tt><big>(</big><em>result_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>result_type</strong> (<a class="reference internal" href="enums.html#Zeitgeist.ResultType" title="Zeitgeist.ResultType"><tt class="xref py py-class docutils literal"><span class="pre">Zeitgeist.ResultType</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.symbol_get_all_children">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">symbol_get_all_children</tt><big>(</big><em>symbol_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>symbol_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.symbol_get_all_parents">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">symbol_get_all_parents</tt><big>(</big><em>symbol_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>symbol_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.symbol_get_children">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">symbol_get_children</tt><big>(</big><em>symbol_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>symbol_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.symbol_get_description">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">symbol_get_description</tt><big>(</big><em>symbol_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>symbol_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.symbol_get_display_name">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">symbol_get_display_name</tt><big>(</big><em>symbol_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>symbol_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.symbol_get_parents">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">symbol_get_parents</tt><big>(</big><em>symbol_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>symbol_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.symbol_is_a">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">symbol_is_a</tt><big>(</big><em>symbol_uri</em>, <em>parent_uri</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>symbol_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>parent_uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_from_date">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_from_date</tt><big>(</big><em>date</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>date</strong> (<a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/Date.html#GLib.Date" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Date</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_from_dmy">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_from_dmy</tt><big>(</big><em>day</em>, <em>month</em>, <em>year</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>day</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>month</strong> (<a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/enums.html#GLib.DateMonth" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.DateMonth</span></tt></a>) &#8211; </li>
+<li><strong>year</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_from_iso8601">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_from_iso8601</tt><big>(</big><em>datetime</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>datetime</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_from_now">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_from_now</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_from_timeval">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_from_timeval</tt><big>(</big><em>timeval</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeval</strong> (<a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/TimeVal.html#GLib.TimeVal" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.TimeVal</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_next_midnight">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_next_midnight</tt><big>(</big><em>timestamp</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timestamp</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_prev_midnight">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_prev_midnight</tt><big>(</big><em>timestamp</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timestamp</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_to_date">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_to_date</tt><big>(</big><em>timestamp</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timestamp</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>result</strong>: <a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/Date.html#GLib.Date" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Date</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_to_iso8601">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_to_iso8601</tt><big>(</big><em>timestamp</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timestamp</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.timestamp_to_timeval">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">timestamp_to_timeval</tt><big>(</big><em>timestamp</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timestamp</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>result</strong>: <a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/structs/TimeVal.html#GLib.TimeVal" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.TimeVal</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_backup_database">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_backup_database</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Zeitgeist-2.0/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_get_data_path">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_get_data_path</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_get_database_file_backup_path">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_get_database_file_backup_path</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_get_database_file_path">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_get_database_file_path</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_get_database_file_retire_name">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_get_database_file_retire_name</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_get_default_data_path">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_get_default_data_path</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_get_local_extensions_path">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_get_local_extensions_path</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_is_empty_string">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_is_empty_string</tt><big>(</big><em>s</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>s</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_log_may_read_directly">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_log_may_read_directly</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_parse_negation">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_parse_negation</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>val</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_parse_noexpand">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_parse_noexpand</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>val</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_parse_wildcard">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_parse_wildcard</tt><big>(</big><em>val</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>val</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>val</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_set_database_file_path">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_set_database_file_path</tt><big>(</big><em>path</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Zeitgeist.utils_using_in_memory_database">
+<tt class="descclassname">Zeitgeist.</tt><tt class="descname">utils_using_in_memory_database</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

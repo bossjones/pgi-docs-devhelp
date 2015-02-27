@@ -1,0 +1,394 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    CryptUI 0.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="CryptUI 0.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Symbol Mapping" href="mapping.html"/>
+        <link rel="prev" title="CryptUI.KeysetClass" href="structs/KeysetClass.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">CryptUI 0.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/KeysetClass.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="mapping.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">CryptUI 0.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/KeysetClass.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="mapping.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#CryptUI.EncType" title="CryptUI.EncType"><tt class="xref py py-class docutils literal"><span class="pre">CryptUI.EncType</span></tt></a></li>
+<li><a class="reference internal" href="#CryptUI.KeyChooserMode" title="CryptUI.KeyChooserMode"><tt class="xref py py-class docutils literal"><span class="pre">CryptUI.KeyChooserMode</span></tt></a></li>
+<li><a class="reference internal" href="#CryptUI.KeyFlags" title="CryptUI.KeyFlags"><tt class="xref py py-class docutils literal"><span class="pre">CryptUI.KeyFlags</span></tt></a></li>
+<li><a class="reference internal" href="#CryptUI.KeyStoreMode" title="CryptUI.KeyStoreMode"><tt class="xref py py-class docutils literal"><span class="pre">CryptUI.KeyStoreMode</span></tt></a></li>
+<li><a class="reference internal" href="#CryptUI.Location" title="CryptUI.Location"><tt class="xref py py-class docutils literal"><span class="pre">CryptUI.Location</span></tt></a></li>
+<li><a class="reference internal" href="#CryptUI.Validity" title="CryptUI.Validity"><tt class="xref py py-class docutils literal"><span class="pre">CryptUI.Validity</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="CryptUI.EncType">
+<em class="property">class </em><tt class="descclassname">CryptUI.</tt><tt class="descname">EncType</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/CryptUI-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Used in key properties to indicate what kind of key it is</p>
+<p>Never ever change a values already present. These values are used
+across applications, DBus etc...</p>
+<dl class="attribute">
+<dt id="CryptUI.EncType.NONE">
+<tt class="descname">NONE</tt><em class="property"> = 0</em></dt>
+<dd><p>the key is none of the below types</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.EncType.SYMMETRIC">
+<tt class="descname">SYMMETRIC</tt><em class="property"> = 1</em></dt>
+<dd><p>the key&#8217;s type is symmetric</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.EncType.PUBLIC">
+<tt class="descname">PUBLIC</tt><em class="property"> = 2</em></dt>
+<dd><p>the key&#8217;s type is public</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.EncType.PRIVATE">
+<tt class="descname">PRIVATE</tt><em class="property"> = 3</em></dt>
+<dd><p>the key&#8217;s type is private</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.EncType.MAXVALUE">
+<tt class="descname">MAXVALUE</tt><em class="property"> = 4</em></dt>
+<dd><p>for internal use only</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="CryptUI.KeyChooserMode">
+<em class="property">class </em><tt class="descclassname">CryptUI.</tt><tt class="descname">KeyChooserMode</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/CryptUI-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="CryptUI.KeyChooserMode.RECIPIENTS">
+<tt class="descname">RECIPIENTS</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyChooserMode.SIGNER">
+<tt class="descname">SIGNER</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyChooserMode.SUPPORT_SYMMETRIC">
+<tt class="descname">SUPPORT_SYMMETRIC</tt><em class="property"> = 4</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyChooserMode.MUSTSIGN">
+<tt class="descname">MUSTSIGN</tt><em class="property"> = 16</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="CryptUI.KeyFlags">
+<em class="property">class </em><tt class="descclassname">CryptUI.</tt><tt class="descname">KeyFlags</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/CryptUI-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Used in key properties to indicate a key&#8217;s status.  These values are
+logically OR&#8217;d together.</p>
+<p>Never ever change a values already present. These values are used
+across applications, DBus etc...</p>
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.IS_VALID">
+<tt class="descname">IS_VALID</tt><em class="property"> = 1</em></dt>
+<dd><p>whether the key is valid</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.CAN_ENCRYPT">
+<tt class="descname">CAN_ENCRYPT</tt><em class="property"> = 2</em></dt>
+<dd><p>whether the key can encrypt</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.CAN_SIGN">
+<tt class="descname">CAN_SIGN</tt><em class="property"> = 4</em></dt>
+<dd><p>whether the key can sign</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.EXPIRED">
+<tt class="descname">EXPIRED</tt><em class="property"> = 256</em></dt>
+<dd><p>whether the key is expired</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.REVOKED">
+<tt class="descname">REVOKED</tt><em class="property"> = 512</em></dt>
+<dd><p>whether the key is revoked</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.DISABLED">
+<tt class="descname">DISABLED</tt><em class="property"> = 1024</em></dt>
+<dd><p>whether the key is disabled</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.TRUSTED">
+<tt class="descname">TRUSTED</tt><em class="property"> = 4096</em></dt>
+<dd><p>whether the key is trusted</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyFlags.EXPORTABLE">
+<tt class="descname">EXPORTABLE</tt><em class="property"> = 1048576</em></dt>
+<dd><p>whether the key is exportable</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="CryptUI.KeyStoreMode">
+<em class="property">class </em><tt class="descclassname">CryptUI.</tt><tt class="descname">KeyStoreMode</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/CryptUI-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<dl class="attribute">
+<dt id="CryptUI.KeyStoreMode.ALL">
+<tt class="descname">ALL</tt><em class="property"> = 0</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyStoreMode.SELECTED">
+<tt class="descname">SELECTED</tt><em class="property"> = 1</em></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.KeyStoreMode.RESULTS">
+<tt class="descname">RESULTS</tt><em class="property"> = 2</em></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="CryptUI.Location">
+<em class="property">class </em><tt class="descclassname">CryptUI.</tt><tt class="descname">Location</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/CryptUI-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Indicates where a key is located.</p>
+<p>Never ever change a values already present. These values are used
+across applications, DBus etc...</p>
+<dl class="attribute">
+<dt id="CryptUI.Location.INVALID">
+<tt class="descname">INVALID</tt><em class="property"> = 0</em></dt>
+<dd><p>An invalid key</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Location.MISSING">
+<tt class="descname">MISSING</tt><em class="property"> = 10</em></dt>
+<dd><p>A key we don&#8217;t know anything about</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Location.SEARCHING">
+<tt class="descname">SEARCHING</tt><em class="property"> = 20</em></dt>
+<dd><p>A key we&#8217;re searching for but haven&#8217;t found yet</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Location.REMOTE">
+<tt class="descname">REMOTE</tt><em class="property"> = 50</em></dt>
+<dd><p>A key that we&#8217;ve found is present remotely</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Location.LOCAL">
+<tt class="descname">LOCAL</tt><em class="property"> = 100</em></dt>
+<dd><p>A key on the local machine</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="CryptUI.Validity">
+<em class="property">class </em><tt class="descclassname">CryptUI.</tt><tt class="descname">Validity</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/CryptUI-0.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>What the validity of the key is.</p>
+<p>Never ever change a values already present. These values are used
+across applications, DBus etc...</p>
+<dl class="attribute">
+<dt id="CryptUI.Validity.REVOKED">
+<tt class="descname">REVOKED</tt><em class="property"> = -3</em></dt>
+<dd><p>the key is revoked</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Validity.DISABLED">
+<tt class="descname">DISABLED</tt><em class="property"> = -2</em></dt>
+<dd><p>the key is disabled</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Validity.NEVER">
+<tt class="descname">NEVER</tt><em class="property"> = -1</em></dt>
+<dd><p>the key has never been valid</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Validity.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 0</em></dt>
+<dd><p>the key&#8217;s validity is unknown</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Validity.MARGINAL">
+<tt class="descname">MARGINAL</tt><em class="property"> = 1</em></dt>
+<dd><p>the key&#8217;s validity is marginal</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Validity.FULL">
+<tt class="descname">FULL</tt><em class="property"> = 5</em></dt>
+<dd><p>the key&#8217;s validity is full</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="CryptUI.Validity.ULTIMATE">
+<tt class="descname">ULTIMATE</tt><em class="property"> = 10</em></dt>
+<dd><p>the key&#8217;s validity is ultimate</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

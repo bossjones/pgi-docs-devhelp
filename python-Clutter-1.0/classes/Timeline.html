@@ -1,0 +1,1803 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Clutter.Timeline -
+    
+      Classes -
+    
+    Clutter 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Clutter 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Clutter.Transition" href="Transition.html"/>
+        <link rel="prev" title="Clutter.TextureNode" href="TextureNode.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.Timeline</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="TextureNode.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Transition.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.Timeline</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.Timeline</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="TextureNode.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="Transition.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.Timeline</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="clutter-timeline">
+<h1>Clutter.Timeline</h1>
+<p class="graphviz">
+<svg width="200pt" height="134pt"
+ viewBox="0.00 0.00 200.00 134.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>inheritancea7607baf1a</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M92,-126C92,-126 6,-126 6,-126 3,-126 7.10543e-15,-123 7.10543e-15,-120 7.10543e-15,-120 7.10543e-15,-114 7.10543e-15,-114 7.10543e-15,-111 3,-108 6,-108 6,-108 92,-108 92,-108 95,-108 98,-111 98,-114 98,-114 98,-120 98,-120 98,-123 95,-126 92,-126"/>
+<text text-anchor="middle" x="49" y="-114.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Scriptable -->
+<g id="node2" class="node"><title>Clutter.Scriptable</title>
+<g id="a_node2"><a xlink:href="../interfaces/Scriptable.html#Clutter.Scriptable" xlink:title="Clutter.Scriptable">
+<path fill="none" stroke="#3091d1" d="M88,-72C88,-72 10,-72 10,-72 7,-72 4,-69 4,-66 4,-66 4,-60 4,-60 4,-57 7,-54 10,-54 10,-54 88,-54 88,-54 91,-54 94,-57 94,-60 94,-60 94,-66 94,-66 94,-69 91,-72 88,-72"/>
+<text text-anchor="middle" x="49" y="-60.7" font-family="inherit" font-size="8.50">Clutter.Scriptable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Clutter.Scriptable -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Clutter.Scriptable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M49,-107.875C49,-99.7564 49,-87.1312 49,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="50.7501,-77.2395 49,-72.2396 47.2501,-77.2396 50.7501,-77.2395"/>
+</g>
+<!-- Clutter.Timeline -->
+<g id="node4" class="node"><title>Clutter.Timeline</title>
+<g id="a_node4"><a xlink:href="#Clutter.Timeline" xlink:title="Clutter.Timeline">
+<path fill="none" stroke="#75507b" d="M135.5,-18C135.5,-18 64.5,-18 64.5,-18 61.5,-18 58.5,-15 58.5,-12 58.5,-12 58.5,-6 58.5,-6 58.5,-3 61.5,-0 64.5,-0 64.5,-0 135.5,-0 135.5,-0 138.5,-0 141.5,-3 141.5,-6 141.5,-6 141.5,-12 141.5,-12 141.5,-15 138.5,-18 135.5,-18"/>
+<text text-anchor="middle" x="100" y="-6.7" font-family="inherit" font-size="8.50">Clutter.Timeline</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Scriptable&#45;&gt;Clutter.Timeline -->
+<g id="edge3" class="edge"><title>Clutter.Scriptable&#45;&gt;Clutter.Timeline</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M56.9688,-53.875C65.3777,-45.3012 78.7163,-31.7011 88.3146,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="89.6672,-23.0346 91.9189,-18.2396 87.1684,-20.5839 89.6672,-23.0346"/>
+</g>
+<!-- GObject.Object -->
+<g id="node3" class="node"><title>GObject.Object</title>
+<g id="a_node3"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M186,-72C186,-72 118,-72 118,-72 115,-72 112,-69 112,-66 112,-66 112,-60 112,-60 112,-57 115,-54 118,-54 118,-54 186,-54 186,-54 189,-54 192,-57 192,-60 192,-60 192,-66 192,-66 192,-69 189,-72 186,-72"/>
+<text text-anchor="middle" x="152" y="-60.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;Clutter.Timeline -->
+<g id="edge2" class="edge"><title>GObject.Object&#45;&gt;Clutter.Timeline</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M143.875,-53.875C135.301,-45.3012 121.701,-31.7011 111.915,-21.9146"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="113.013,-20.5377 108.24,-18.2396 110.538,-23.0126 113.013,-20.5377"/>
+</g>
+</g>
+</svg>
+</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Subclasses:</th><td class="field-body"><a class="reference internal" href="Transition.html#Clutter.Transition" title="Clutter.Transition"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Transition</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="methods">
+<span id="clutter-timeline-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-methods"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Clutter.Timeline.new" title="Clutter.Timeline.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>(msecs)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.add_marker" title="Clutter.Timeline.add_marker"><tt class="xref py py-obj docutils literal"><span class="pre">add_marker</span></tt></a>(marker_name, progress)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.add_marker_at_time" title="Clutter.Timeline.add_marker_at_time"><tt class="xref py py-obj docutils literal"><span class="pre">add_marker_at_time</span></tt></a>(marker_name, msecs)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.advance" title="Clutter.Timeline.advance"><tt class="xref py py-obj docutils literal"><span class="pre">advance</span></tt></a>(msecs)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.advance_to_marker" title="Clutter.Timeline.advance_to_marker"><tt class="xref py py-obj docutils literal"><span class="pre">advance_to_marker</span></tt></a>(marker_name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.clone" title="Clutter.Timeline.clone"><tt class="xref py py-obj docutils literal"><span class="pre">clone</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_auto_reverse" title="Clutter.Timeline.get_auto_reverse"><tt class="xref py py-obj docutils literal"><span class="pre">get_auto_reverse</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_cubic_bezier_progress" title="Clutter.Timeline.get_cubic_bezier_progress"><tt class="xref py py-obj docutils literal"><span class="pre">get_cubic_bezier_progress</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_current_repeat" title="Clutter.Timeline.get_current_repeat"><tt class="xref py py-obj docutils literal"><span class="pre">get_current_repeat</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_delay" title="Clutter.Timeline.get_delay"><tt class="xref py py-obj docutils literal"><span class="pre">get_delay</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_delta" title="Clutter.Timeline.get_delta"><tt class="xref py py-obj docutils literal"><span class="pre">get_delta</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_direction" title="Clutter.Timeline.get_direction"><tt class="xref py py-obj docutils literal"><span class="pre">get_direction</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_duration" title="Clutter.Timeline.get_duration"><tt class="xref py py-obj docutils literal"><span class="pre">get_duration</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_duration_hint" title="Clutter.Timeline.get_duration_hint"><tt class="xref py py-obj docutils literal"><span class="pre">get_duration_hint</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_elapsed_time" title="Clutter.Timeline.get_elapsed_time"><tt class="xref py py-obj docutils literal"><span class="pre">get_elapsed_time</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_loop" title="Clutter.Timeline.get_loop"><tt class="xref py py-obj docutils literal"><span class="pre">get_loop</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_progress" title="Clutter.Timeline.get_progress"><tt class="xref py py-obj docutils literal"><span class="pre">get_progress</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_progress_mode" title="Clutter.Timeline.get_progress_mode"><tt class="xref py py-obj docutils literal"><span class="pre">get_progress_mode</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_repeat_count" title="Clutter.Timeline.get_repeat_count"><tt class="xref py py-obj docutils literal"><span class="pre">get_repeat_count</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.get_step_progress" title="Clutter.Timeline.get_step_progress"><tt class="xref py py-obj docutils literal"><span class="pre">get_step_progress</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.has_marker" title="Clutter.Timeline.has_marker"><tt class="xref py py-obj docutils literal"><span class="pre">has_marker</span></tt></a>(marker_name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.is_playing" title="Clutter.Timeline.is_playing"><tt class="xref py py-obj docutils literal"><span class="pre">is_playing</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.list_markers" title="Clutter.Timeline.list_markers"><tt class="xref py py-obj docutils literal"><span class="pre">list_markers</span></tt></a>(msecs)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.pause" title="Clutter.Timeline.pause"><tt class="xref py py-obj docutils literal"><span class="pre">pause</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.remove_marker" title="Clutter.Timeline.remove_marker"><tt class="xref py py-obj docutils literal"><span class="pre">remove_marker</span></tt></a>(marker_name)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.rewind" title="Clutter.Timeline.rewind"><tt class="xref py py-obj docutils literal"><span class="pre">rewind</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_auto_reverse" title="Clutter.Timeline.set_auto_reverse"><tt class="xref py py-obj docutils literal"><span class="pre">set_auto_reverse</span></tt></a>(reverse)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_cubic_bezier_progress" title="Clutter.Timeline.set_cubic_bezier_progress"><tt class="xref py py-obj docutils literal"><span class="pre">set_cubic_bezier_progress</span></tt></a>(c_1, c_2)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_delay" title="Clutter.Timeline.set_delay"><tt class="xref py py-obj docutils literal"><span class="pre">set_delay</span></tt></a>(msecs)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_direction" title="Clutter.Timeline.set_direction"><tt class="xref py py-obj docutils literal"><span class="pre">set_direction</span></tt></a>(direction)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_duration" title="Clutter.Timeline.set_duration"><tt class="xref py py-obj docutils literal"><span class="pre">set_duration</span></tt></a>(msecs)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_loop" title="Clutter.Timeline.set_loop"><tt class="xref py py-obj docutils literal"><span class="pre">set_loop</span></tt></a>(loop)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_progress_func" title="Clutter.Timeline.set_progress_func"><tt class="xref py py-obj docutils literal"><span class="pre">set_progress_func</span></tt></a>(func, *data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_progress_mode" title="Clutter.Timeline.set_progress_mode"><tt class="xref py py-obj docutils literal"><span class="pre">set_progress_mode</span></tt></a>(mode)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_repeat_count" title="Clutter.Timeline.set_repeat_count"><tt class="xref py py-obj docutils literal"><span class="pre">set_repeat_count</span></tt></a>(count)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.set_step_progress" title="Clutter.Timeline.set_step_progress"><tt class="xref py py-obj docutils literal"><span class="pre">set_step_progress</span></tt></a>(n_steps, step_mode)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.skip" title="Clutter.Timeline.skip"><tt class="xref py py-obj docutils literal"><span class="pre">skip</span></tt></a>(msecs)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.start" title="Clutter.Timeline.start"><tt class="xref py py-obj docutils literal"><span class="pre">start</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.stop" title="Clutter.Timeline.stop"><tt class="xref py py-obj docutils literal"><span class="pre">stop</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="clutter-timeline-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-vfuncs"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.do_completed" title="Clutter.Timeline.do_completed"><tt class="xref py py-obj docutils literal"><span class="pre">do_completed</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.do_marker_reached" title="Clutter.Timeline.do_marker_reached"><tt class="xref py py-obj docutils literal"><span class="pre">do_marker_reached</span></tt></a>(marker_name, msecs)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.do_new_frame" title="Clutter.Timeline.do_new_frame"><tt class="xref py py-obj docutils literal"><span class="pre">do_new_frame</span></tt></a>(msecs)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.do_paused" title="Clutter.Timeline.do_paused"><tt class="xref py py-obj docutils literal"><span class="pre">do_paused</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.do_started" title="Clutter.Timeline.do_started"><tt class="xref py py-obj docutils literal"><span class="pre">do_started</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Timeline.do_stopped" title="Clutter.Timeline.do_stopped"><tt class="xref py py-obj docutils literal"><span class="pre">do_stopped</span></tt></a>(is_finished)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="clutter-timeline-props"></span><h2>Properties</h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Timeline.props.auto_reverse" title="Clutter.Timeline.props.auto_reverse"><tt class="xref py py-data docutils literal"><span class="pre">auto-reverse</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the direction should be reversed when reaching the end</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Timeline.props.delay" title="Clutter.Timeline.props.delay"><tt class="xref py py-data docutils literal"><span class="pre">delay</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>Delay before start</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Timeline.props.direction" title="Clutter.Timeline.props.direction"><tt class="xref py py-data docutils literal"><span class="pre">direction</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Clutter.TimelineDirection" title="Clutter.TimelineDirection"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.TimelineDirection</span></tt></a></td>
+<td>r/w</td>
+<td>Direction of the timeline</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Timeline.props.duration" title="Clutter.Timeline.props.duration"><tt class="xref py py-data docutils literal"><span class="pre">duration</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>Duration of the timeline in milliseconds</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Timeline.props.loop" title="Clutter.Timeline.props.loop"><tt class="xref py py-data docutils literal"><span class="pre">loop</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Should the timeline automatically restart</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Timeline.props.progress_mode" title="Clutter.Timeline.props.progress_mode"><tt class="xref py py-data docutils literal"><span class="pre">progress-mode</span></tt></a></td>
+<td><a class="reference internal" href="../enums.html#Clutter.AnimationMode" title="Clutter.AnimationMode"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.AnimationMode</span></tt></a></td>
+<td>r/w</td>
+<td>How the timeline should compute the progress</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Timeline.props.repeat_count" title="Clutter.Timeline.props.repeat_count"><tt class="xref py py-data docutils literal"><span class="pre">repeat-count</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+<td>r/w</td>
+<td>How many times the timeline should repeat</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="clutter-timeline-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Timeline.signals.completed" title="Clutter.Timeline.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">completed</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.completed" title="Clutter.Timeline.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a> signal is emitted when the timeline&#8217;s elapsed time reaches the value of the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.duration" title="Clutter.Timeline.props.duration"><tt class="xref py py-data docutils literal"><span class="pre">:duration</span></tt></a>  property.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Timeline.signals.marker_reached" title="Clutter.Timeline.signals.marker_reached"><tt class="xref py py-func docutils literal"><span class="pre">marker-reached</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Timeline.signals.marker_reached" title="Clutter.Timeline.signals.marker_reached"><tt class="xref py py-func docutils literal"><span class="pre">::marker-reached</span></tt></a> signal is emitted each time a timeline reaches a marker set with <a class="reference internal" href="#Clutter.Timeline.add_marker_at_time" title="Clutter.Timeline.add_marker_at_time"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.add_marker_at_time</span></tt></a> ().</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">new-frame</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">::new-frame</span></tt></a> signal is emitted for each timeline running timeline before a new frame is drawn to give animations a chance to update the scene.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Timeline.signals.paused" title="Clutter.Timeline.signals.paused"><tt class="xref py py-func docutils literal"><span class="pre">paused</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Timeline.signals.paused" title="Clutter.Timeline.signals.paused"><tt class="xref py py-func docutils literal"><span class="pre">::paused</span></tt></a> signal is emitted when <a class="reference internal" href="#Clutter.Timeline.pause" title="Clutter.Timeline.pause"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.pause</span></tt></a> () is invoked.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Timeline.signals.started" title="Clutter.Timeline.signals.started"><tt class="xref py py-func docutils literal"><span class="pre">started</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Timeline.signals.started" title="Clutter.Timeline.signals.started"><tt class="xref py py-func docutils literal"><span class="pre">::started</span></tt></a> signal is emitted when the timeline starts its run.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Timeline.signals.stopped" title="Clutter.Timeline.signals.stopped"><tt class="xref py py-func docutils literal"><span class="pre">stopped</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.stopped" title="Clutter.Timeline.signals.stopped"><tt class="xref py py-func docutils literal"><span class="pre">::stopped</span></tt></a> signal is emitted when the timeline has been stopped, either because <a class="reference internal" href="#Clutter.Timeline.stop" title="Clutter.Timeline.stop"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.stop</span></tt></a> () has been called, or because it has been exhausted.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="clutter-timeline-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Clutter.Timeline">
+<em class="property">class </em><tt class="descclassname">Clutter.</tt><tt class="descname">Timeline</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>, <a class="reference internal" href="../interfaces/Scriptable.html#Clutter.Scriptable" title="Clutter.Scriptable"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Scriptable</span></tt></a></p>
+<p>The <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> structure contains only private data
+and should be accessed using the provided API</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.2.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Clutter.Timeline.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; Duration of the timeline in milliseconds</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the newly created <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> instance. Use
+<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.unref" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.unref</span></tt></a> () when done using it</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> with a duration of <cite>msecs</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.add_marker">
+<tt class="descname">add_marker</tt><big>(</big><em>marker_name</em>, <em>progress</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>marker_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the unique name for this marker</li>
+<li><strong>progress</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>) &#8211; the normalized value of the position of the martke</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Adds a named marker that will be hit when the timeline has reached
+the specified <cite>progress</cite>.</p>
+<p>Markers are unique string identifiers for a given position on the
+timeline. Once <cite>timeline</cite> reaches the given <cite>progress</cite> of its duration,
+if will emit a <a class="reference internal" href="#Clutter.Timeline.signals.marker_reached" title="Clutter.Timeline.signals.marker_reached"><tt class="xref py py-func docutils literal"><span class="pre">::marker-reached</span></tt></a> signal for each marker attached to
+that particular point.</p>
+<p>A marker can be removed with <a class="reference internal" href="#Clutter.Timeline.remove_marker" title="Clutter.Timeline.remove_marker"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.remove_marker</span></tt></a> (). The
+timeline can be advanced to a marker using
+<a class="reference internal" href="#Clutter.Timeline.advance_to_marker" title="Clutter.Timeline.advance_to_marker"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.advance_to_marker</span></tt></a> ().</p>
+<p>See also: <a class="reference internal" href="#Clutter.Timeline.add_marker_at_time" title="Clutter.Timeline.add_marker_at_time"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.add_marker_at_time</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.14.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.add_marker_at_time">
+<tt class="descname">add_marker_at_time</tt><big>(</big><em>marker_name</em>, <em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>marker_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the unique name for this marker</li>
+<li><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; position of the marker in milliseconds</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Adds a named marker that will be hit when the timeline has been
+running for <cite>msecs</cite> milliseconds.</p>
+<p>Markers are unique string identifiers for a given position on the
+timeline. Once <cite>timeline</cite> reaches the given <cite>msecs</cite>, it will emit
+a <a class="reference internal" href="#Clutter.Timeline.signals.marker_reached" title="Clutter.Timeline.signals.marker_reached"><tt class="xref py py-func docutils literal"><span class="pre">::marker-reached</span></tt></a> signal for each marker attached to that position.</p>
+<p>A marker can be removed with <a class="reference internal" href="#Clutter.Timeline.remove_marker" title="Clutter.Timeline.remove_marker"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.remove_marker</span></tt></a> (). The
+timeline can be advanced to a marker using
+<a class="reference internal" href="#Clutter.Timeline.advance_to_marker" title="Clutter.Timeline.advance_to_marker"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.advance_to_marker</span></tt></a> ().</p>
+<p>See also: <a class="reference internal" href="#Clutter.Timeline.add_marker" title="Clutter.Timeline.add_marker"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.add_marker</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.advance">
+<tt class="descname">advance</tt><big>(</big><em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; Time to advance to</td>
+</tr>
+</tbody>
+</table>
+<p>Advance timeline to the requested point. The point is given as a
+time in milliseconds since the timeline started.</p>
+<p>The <cite>timeline</cite> will not emit the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">::new-frame</span></tt></a>
+signal for the given time. The first <a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">::new-frame</span></tt></a> signal after the call to
+<a class="reference internal" href="#Clutter.Timeline.advance" title="Clutter.Timeline.advance"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.advance</span></tt></a> () will be emit the skipped markers.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.advance_to_marker">
+<tt class="descname">advance_to_marker</tt><big>(</big><em>marker_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>marker_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of the marker</td>
+</tr>
+</tbody>
+</table>
+<p>Advances <cite>timeline</cite> to the time of the given <cite>marker_name</cite>.</p>
+<p>Like <a class="reference internal" href="#Clutter.Timeline.advance" title="Clutter.Timeline.advance"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.advance</span></tt></a> (), this function will not
+emit the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">::new-frame</span></tt></a> for the time where <cite>marker_name</cite>
+is set, nor it will emit <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.marker_reached" title="Clutter.Timeline.signals.marker_reached"><tt class="xref py py-func docutils literal"><span class="pre">::marker-reached</span></tt></a> for
+<cite>marker_name</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.clone">
+<tt class="descname">clone</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a new <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>, cloned
+from <cite>timeline</cite></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Create a new <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> instance which has property values
+matching that of supplied timeline. The cloned timeline will not
+be started and will not be positioned to the current position of
+the original <cite>timeline</cite> : you will have to start it with
+<a class="reference internal" href="#Clutter.Timeline.start" title="Clutter.Timeline.start"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.start</span></tt></a> ().</p>
+<p>The only cloned properties are:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.duration" title="Clutter.Timeline.props.duration"><tt class="xref py py-data docutils literal"><span class="pre">:duration</span></tt></a></li>
+<li><a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.loop" title="Clutter.Timeline.props.loop"><tt class="xref py py-data docutils literal"><span class="pre">:loop</span></tt></a></li>
+<li><a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.delay" title="Clutter.Timeline.props.delay"><tt class="xref py py-data docutils literal"><span class="pre">:delay</span></tt></a></li>
+<li><a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.direction" title="Clutter.Timeline.props.direction"><tt class="xref py py-data docutils literal"><span class="pre">:direction</span></tt></a></li>
+</ul>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use <a class="reference internal" href="#Clutter.Timeline.new" title="Clutter.Timeline.new"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.new</span></tt></a> () or <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object.new" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.Object.new</span></tt></a> ()
+instead</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_auto_reverse">
+<tt class="descname">get_auto_reverse</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the timeline should automatically reverse, and
+<a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the value set by <a class="reference internal" href="#Clutter.Timeline.set_auto_reverse" title="Clutter.Timeline.set_auto_reverse"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_auto_reverse</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_cubic_bezier_progress">
+<tt class="descname">get_cubic_bezier_progress</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the <cite>timeline</cite> is using a cubic bezier progress
+more, and <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">c_1:</th><td class="field-body">return location for the first control
+point of the cubic bezier, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">c_2:</th><td class="field-body">return location for the second control
+point of the cubic bezier, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>c_1</strong>: <a class="reference internal" href="../structs/Point.html#Clutter.Point" title="Clutter.Point"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Point</span></tt></a>, <strong>c_2</strong>: <a class="reference internal" href="../structs/Point.html#Clutter.Point" title="Clutter.Point"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Point</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the control points for the cubic bezier progress mode.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_current_repeat">
+<tt class="descname">get_current_repeat</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the current repeat</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the current repeat for a timeline.</p>
+<p>Repeats start at 0.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_delay">
+<tt class="descname">get_delay</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the delay in milliseconds.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the delay set using <a class="reference internal" href="#Clutter.Timeline.set_delay" title="Clutter.Timeline.set_delay"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_delay</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_delta">
+<tt class="descname">get_delta</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the amount of time in milliseconds elapsed since the
+last frame</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the amount of time elapsed since the last
+<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">::new-frame</span></tt></a> signal.</p>
+<p>This function is only useful inside handlers for the <a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">::new-frame</span></tt></a>
+signal, and its behaviour is undefined if the timeline is not
+playing.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_direction">
+<tt class="descname">get_direction</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the direction of the timeline</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Clutter.TimelineDirection" title="Clutter.TimelineDirection"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.TimelineDirection</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the direction of the timeline set with
+<a class="reference internal" href="#Clutter.Timeline.set_direction" title="Clutter.Timeline.set_direction"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_direction</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_duration">
+<tt class="descname">get_duration</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the duration of the timeline, in milliseconds.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the duration of a <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> in milliseconds.
+See <a class="reference internal" href="#Clutter.Timeline.set_duration" title="Clutter.Timeline.set_duration"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_duration</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_duration_hint">
+<tt class="descname">get_duration_hint</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the full duration of the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the full duration of the <cite>timeline</cite>, taking into account the
+current value of the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.repeat_count" title="Clutter.Timeline.props.repeat_count"><tt class="xref py py-data docutils literal"><span class="pre">:repeat-count</span></tt></a> property.</p>
+<p>If the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.repeat_count" title="Clutter.Timeline.props.repeat_count"><tt class="xref py py-data docutils literal"><span class="pre">:repeat-count</span></tt></a> property is set to -1, this function
+will return <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/constants.html#GObject.G_MAXINT64" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GObject.G_MAXINT64</span></tt></a>.</p>
+<p>The returned value is to be considered a hint, and it&#8217;s only valid
+as long as the <cite>timeline</cite> hasn&#8217;t been changed.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_elapsed_time">
+<tt class="descname">get_elapsed_time</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">current elapsed time in milliseconds.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Request the current time position of the timeline.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_loop">
+<tt class="descname">get_loop</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the timeline is looping</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets whether <cite>timeline</cite> is looping</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use <a class="reference internal" href="#Clutter.Timeline.get_repeat_count" title="Clutter.Timeline.get_repeat_count"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.get_repeat_count</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_progress">
+<tt class="descname">get_progress</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the normalized current position in the timeline.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>The position of the timeline in a normalized [-1, 2] interval.</p>
+<p>The return value of this function is determined by the progress
+mode set using <a class="reference internal" href="#Clutter.Timeline.set_progress_mode" title="Clutter.Timeline.set_progress_mode"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_progress_mode</span></tt></a> (), or by the
+progress function set using <a class="reference internal" href="#Clutter.Timeline.set_progress_func" title="Clutter.Timeline.set_progress_func"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_progress_func</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_progress_mode">
+<tt class="descname">get_progress_mode</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="../enums.html#Clutter.AnimationMode" title="Clutter.AnimationMode"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Clutter.AnimationMode" title="Clutter.AnimationMode"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.AnimationMode</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the progress mode set using <a class="reference internal" href="#Clutter.Timeline.set_progress_mode" title="Clutter.Timeline.set_progress_mode"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_progress_mode</span></tt></a> ()
+or <a class="reference internal" href="#Clutter.Timeline.set_progress_func" title="Clutter.Timeline.set_progress_func"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_progress_func</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_repeat_count">
+<tt class="descname">get_repeat_count</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the number of repeats</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the number set using <a class="reference internal" href="#Clutter.Timeline.set_repeat_count" title="Clutter.Timeline.set_repeat_count"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_repeat_count</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.get_step_progress">
+<tt class="descname">get_step_progress</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the <cite>timeline</cite> is using a step progress
+mode, and <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">n_steps:</th><td class="field-body">return location for the number of steps, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">step_mode:</th><td class="field-body">return location for the value change policy,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>, <strong>n_steps</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>, <strong>step_mode</strong>: <a class="reference internal" href="../enums.html#Clutter.StepMode" title="Clutter.StepMode"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.StepMode</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the parameters of the step progress mode used by <cite>timeline</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.has_marker">
+<tt class="descname">has_marker</tt><big>(</big><em>marker_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>marker_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of the marker</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the marker was found</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Checks whether <cite>timeline</cite> has a marker set with the given name.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.is_playing">
+<tt class="descname">is_playing</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if timeline is currently playing</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Queries state of a <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.list_markers">
+<tt class="descname">list_markers</tt><big>(</big><em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the time to check, or -1</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a newly allocated, <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> terminated string array containing the names
+of the markers. Use <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GLib-2.0/functions.html#GLib.strfreev" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.strfreev</span></tt></a> () when done.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the list of markers at time <cite>msecs</cite>. If <cite>msecs</cite> is a
+negative integer, all the markers attached to <cite>timeline</cite> will be
+returned.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.pause">
+<tt class="descname">pause</tt><big>(</big><big>)</big></dt>
+<dd><p>Pauses the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> on current frame</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.remove_marker">
+<tt class="descname">remove_marker</tt><big>(</big><em>marker_name</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>marker_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of the marker to remove</td>
+</tr>
+</tbody>
+</table>
+<p>Removes <cite>marker_name</cite>, if found, from <cite>timeline</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.rewind">
+<tt class="descname">rewind</tt><big>(</big><big>)</big></dt>
+<dd><p>Rewinds <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> to the first frame if its direction is
+<a class="reference internal" href="../enums.html#Clutter.TimelineDirection.FORWARD" title="Clutter.TimelineDirection.FORWARD"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TimelineDirection.FORWARD</span></tt></a> and the last frame if it is
+<a class="reference internal" href="../enums.html#Clutter.TimelineDirection.BACKWARD" title="Clutter.TimelineDirection.BACKWARD"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TimelineDirection.BACKWARD</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_auto_reverse">
+<tt class="descname">set_auto_reverse</tt><big>(</big><em>reverse</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>reverse</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the <cite>timeline</cite> should reverse the direction</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether <cite>timeline</cite> should reverse the direction after the
+emission of the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.completed" title="Clutter.Timeline.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a> signal.</p>
+<p>Setting the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.auto_reverse" title="Clutter.Timeline.props.auto_reverse"><tt class="xref py py-data docutils literal"><span class="pre">:auto-reverse</span></tt></a> property to <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> is the
+equivalent of connecting a callback to the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.completed" title="Clutter.Timeline.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a>
+signal and changing the direction of the timeline from that callback;
+for instance, this code:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="k">static</span> <span class="kt">void</span>
+<span class="nf">reverse_timeline</span> <span class="p">(</span><span class="n">ClutterTimeline</span> <span class="o">*</span><span class="n">timeline</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">ClutterTimelineDirection</span> <span class="n">dir</span> <span class="o">=</span> <span class="n">clutter_timeline_get_direction</span> <span class="p">(</span><span class="n">timeline</span><span class="p">);</span>
+
+  <span class="k">if</span> <span class="p">(</span><span class="n">dir</span> <span class="o">==</span> <span class="n">CLUTTER_TIMELINE_FORWARD</span><span class="p">)</span>
+    <span class="n">dir</span> <span class="o">=</span> <span class="n">CLUTTER_TIMELINE_BACKWARD</span><span class="p">;</span>
+  <span class="k">else</span>
+    <span class="n">dir</span> <span class="o">=</span> <span class="n">CLUTTER_TIMELINE_FORWARD</span><span class="p">;</span>
+
+  <span class="n">clutter_timeline_set_direction</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="n">dir</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="p">...</span>
+  <span class="n">timeline</span> <span class="o">=</span> <span class="n">clutter_timeline_new</span> <span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+  <span class="n">clutter_timeline_set_repeat_count</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+  <span class="n">g_signal_connect</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="s">&quot;completed&quot;</span><span class="p">,</span>
+                    <span class="n">G_CALLBACK</span> <span class="p">(</span><span class="n">reverse_timeline</span><span class="p">),</span>
+                    <span class="nb">NULL</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>can be effectively replaced by:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="n">timeline</span> <span class="o">=</span> <span class="n">clutter_timeline_new</span> <span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+<span class="n">clutter_timeline_set_repeat_count</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+<span class="n">clutter_timeline_set_auto_reverse</span> <span class="p">(</span><span class="n">timeline</span><span class="p">);</span>
+</pre></div>
+</div>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_cubic_bezier_progress">
+<tt class="descname">set_cubic_bezier_progress</tt><big>(</big><em>c_1</em>, <em>c_2</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>c_1</strong> (<a class="reference internal" href="../structs/Point.html#Clutter.Point" title="Clutter.Point"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Point</span></tt></a>) &#8211; the first control point for the cubic bezier</li>
+<li><strong>c_2</strong> (<a class="reference internal" href="../structs/Point.html#Clutter.Point" title="Clutter.Point"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Point</span></tt></a>) &#8211; the second control point for the cubic bezier</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.progress_mode" title="Clutter.Timeline.props.progress_mode"><tt class="xref py py-data docutils literal"><span class="pre">:progress-mode</span></tt></a> of <cite>timeline</cite>
+to <a class="reference internal" href="../enums.html#Clutter.AnimationMode.CUBIC_BEZIER" title="Clutter.AnimationMode.CUBIC_BEZIER"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode.CUBIC_BEZIER</span></tt></a>, and sets the two control
+points for the cubic bezier.</p>
+<p>The cubic bezier curve is between (0, 0) and (1, 1). The X coordinate
+of the two control points must be in the [ 0, 1 ] range, while the
+Y coordinate of the two control points can exceed this range.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_delay">
+<tt class="descname">set_delay</tt><big>(</big><em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; delay in milliseconds</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the delay, in milliseconds, before <cite>timeline</cite> should start.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_direction">
+<tt class="descname">set_direction</tt><big>(</big><em>direction</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>direction</strong> (<a class="reference internal" href="../enums.html#Clutter.TimelineDirection" title="Clutter.TimelineDirection"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.TimelineDirection</span></tt></a>) &#8211; the direction of the timeline</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the direction of <cite>timeline</cite>, either <a class="reference internal" href="../enums.html#Clutter.TimelineDirection.FORWARD" title="Clutter.TimelineDirection.FORWARD"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TimelineDirection.FORWARD</span></tt></a> or
+<a class="reference internal" href="../enums.html#Clutter.TimelineDirection.BACKWARD" title="Clutter.TimelineDirection.BACKWARD"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TimelineDirection.BACKWARD</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_duration">
+<tt class="descname">set_duration</tt><big>(</big><em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; duration of the timeline in milliseconds</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the duration of the timeline, in milliseconds. The speed
+of the timeline depends on the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:fps</span></tt> setting.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_loop">
+<tt class="descname">set_loop</tt><big>(</big><em>loop</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>loop</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for enable looping</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether <cite>timeline</cite> should loop.</p>
+<p>This function is equivalent to calling <a class="reference internal" href="#Clutter.Timeline.set_repeat_count" title="Clutter.Timeline.set_repeat_count"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_repeat_count</span></tt></a> ()
+with -1 if <cite>loop</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>, and with 0 if <cite>loop</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a>.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use <a class="reference internal" href="#Clutter.Timeline.set_repeat_count" title="Clutter.Timeline.set_repeat_count"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.set_repeat_count</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_progress_func">
+<tt class="descname">set_progress_func</tt><big>(</big><em>func</em>, <em>*data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>func</strong> (<a class="reference internal" href="../callbacks.html#Clutter.TimelineProgressFunc" title="Clutter.TimelineProgressFunc"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.TimelineProgressFunc</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; a progress function, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; data to pass to <cite>func</cite></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets a custom progress function for <cite>timeline</cite>. The progress function will
+be called by <a class="reference internal" href="#Clutter.Timeline.get_progress" title="Clutter.Timeline.get_progress"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.get_progress</span></tt></a> () and will be used to compute
+the progress value based on the elapsed time and the total duration of the
+timeline.</p>
+<p>If <cite>func</cite> is not <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.progress_mode" title="Clutter.Timeline.props.progress_mode"><tt class="xref py py-data docutils literal"><span class="pre">:progress-mode</span></tt></a> property will
+be set to <a class="reference internal" href="../enums.html#Clutter.AnimationMode.CUSTOM_MODE" title="Clutter.AnimationMode.CUSTOM_MODE"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode.CUSTOM_MODE</span></tt></a>.</p>
+<p>If <cite>func</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, any previously set progress function will be unset, and
+the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.progress_mode" title="Clutter.Timeline.props.progress_mode"><tt class="xref py py-data docutils literal"><span class="pre">:progress-mode</span></tt></a> property will be set to <a class="reference internal" href="../enums.html#Clutter.AnimationMode.LINEAR" title="Clutter.AnimationMode.LINEAR"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode.LINEAR</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_progress_mode">
+<tt class="descname">set_progress_mode</tt><big>(</big><em>mode</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mode</strong> (<a class="reference internal" href="../enums.html#Clutter.AnimationMode" title="Clutter.AnimationMode"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.AnimationMode</span></tt></a>) &#8211; the progress mode, as a <a class="reference internal" href="../enums.html#Clutter.AnimationMode" title="Clutter.AnimationMode"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the progress function using a value from the <a class="reference internal" href="../enums.html#Clutter.AnimationMode" title="Clutter.AnimationMode"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode</span></tt></a>
+enumeration. The <cite>mode</cite> cannot be <a class="reference internal" href="../enums.html#Clutter.AnimationMode.CUSTOM_MODE" title="Clutter.AnimationMode.CUSTOM_MODE"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode.CUSTOM_MODE</span></tt></a> or bigger than
+<a class="reference internal" href="../enums.html#Clutter.AnimationMode.ANIMATION_LAST" title="Clutter.AnimationMode.ANIMATION_LAST"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode.ANIMATION_LAST</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_repeat_count">
+<tt class="descname">set_repeat_count</tt><big>(</big><em>count</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>count</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the number of times the timeline should repeat</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the number of times the <cite>timeline</cite> should repeat.</p>
+<p>If <cite>count</cite> is 0, the timeline never repeats.</p>
+<p>If <cite>count</cite> is -1, the timeline will always repeat until
+it&#8217;s stopped.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.set_step_progress">
+<tt class="descname">set_step_progress</tt><big>(</big><em>n_steps</em>, <em>step_mode</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>n_steps</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the number of steps</li>
+<li><strong>step_mode</strong> (<a class="reference internal" href="../enums.html#Clutter.StepMode" title="Clutter.StepMode"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.StepMode</span></tt></a>) &#8211; whether the change should happen at the start
+or at the end of the step</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.progress_mode" title="Clutter.Timeline.props.progress_mode"><tt class="xref py py-data docutils literal"><span class="pre">:progress-mode</span></tt></a> of the <cite>timeline</cite> to <a class="reference internal" href="../enums.html#Clutter.AnimationMode.STEPS" title="Clutter.AnimationMode.STEPS"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode.STEPS</span></tt></a>
+and provides the parameters of the step function.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.12.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.skip">
+<tt class="descname">skip</tt><big>(</big><em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; Amount of time to skip</td>
+</tr>
+</tbody>
+</table>
+<p>Advance timeline by the requested time in milliseconds</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.start">
+<tt class="descname">start</tt><big>(</big><big>)</big></dt>
+<dd><p>Starts the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> playing.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.stop">
+<tt class="descname">stop</tt><big>(</big><big>)</big></dt>
+<dd><p>Stops the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> and moves to frame 0</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.do_completed">
+<tt class="descname">do_completed</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.do_marker_reached">
+<tt class="descname">do_marker_reached</tt><big>(</big><em>marker_name</em>, <em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><p class="first">virtual</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>marker_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.do_new_frame">
+<tt class="descname">do_new_frame</tt><big>(</big><em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.do_paused">
+<tt class="descname">do_paused</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.do_started">
+<tt class="descname">do_started</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Timeline.do_stopped">
+<tt class="descname">do_stopped</tt><big>(</big><em>is_finished</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>is_finished</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Clutter.Timeline.signals.completed">
+<tt class="descclassname">Clutter.Timeline.signals.</tt><tt class="descname">completed</tt><big>(</big><em>timeline</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">completed</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeline</strong> (<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.completed" title="Clutter.Timeline.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a> signal is emitted when the timeline&#8217;s
+elapsed time reaches the value of the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.duration" title="Clutter.Timeline.props.duration"><tt class="xref py py-data docutils literal"><span class="pre">:duration</span></tt></a>
+property.</p>
+<p>This signal will be emitted even if the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> is set to be
+repeating.</p>
+<p>If you want to get notification on whether the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> has
+been stopped or has finished its run, including its eventual repeats,
+you should use the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.stopped" title="Clutter.Timeline.signals.stopped"><tt class="xref py py-func docutils literal"><span class="pre">::stopped</span></tt></a> signal instead.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Timeline.signals.marker_reached">
+<tt class="descclassname">Clutter.Timeline.signals.</tt><tt class="descname">marker_reached</tt><big>(</big><em>timeline</em>, <em>marker_name</em>, <em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">marker-reached</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.DETAILED" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">DETAILED</span></tt></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.NO_HOOKS" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">NO_HOOKS</span></tt></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.NO_RECURSE" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">NO_RECURSE</span></tt></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>timeline</strong> (<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>marker_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the name of the marker reached</li>
+<li><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the elapsed time</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Timeline.signals.marker_reached" title="Clutter.Timeline.signals.marker_reached"><tt class="xref py py-func docutils literal"><span class="pre">::marker-reached</span></tt></a> signal is emitted each time a timeline
+reaches a marker set with
+<a class="reference internal" href="#Clutter.Timeline.add_marker_at_time" title="Clutter.Timeline.add_marker_at_time"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.add_marker_at_time</span></tt></a> (). This signal is detailed
+with the name of the marker as well, so it is possible to connect
+a callback to the <a class="reference internal" href="#Clutter.Timeline.signals.marker_reached" title="Clutter.Timeline.signals.marker_reached"><tt class="xref py py-func docutils literal"><span class="pre">::marker-reached</span></tt></a> signal for a specific marker
+with:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="n">clutter_timeline_add_marker_at_time</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="s">&quot;foo&quot;</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+<span class="n">clutter_timeline_add_marker_at_time</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="s">&quot;bar&quot;</span><span class="p">,</span> <span class="mi">750</span><span class="p">);</span>
+
+<span class="n">g_signal_connect</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="s">&quot;marker-reached&quot;</span><span class="p">,</span>
+                  <span class="n">G_CALLBACK</span> <span class="p">(</span><span class="n">each_marker_reached</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
+<span class="n">g_signal_connect</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="s">&quot;marker-reached::foo&quot;</span><span class="p">,</span>
+                  <span class="n">G_CALLBACK</span> <span class="p">(</span><span class="n">foo_marker_reached</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
+<span class="n">g_signal_connect</span> <span class="p">(</span><span class="n">timeline</span><span class="p">,</span> <span class="s">&quot;marker-reached::bar&quot;</span><span class="p">,</span>
+                  <span class="n">G_CALLBACK</span> <span class="p">(</span><span class="n">bar_marker_reached</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>In the example, the first callback will be invoked for both
+the &#8220;foo&#8221; and &#8220;bar&#8221; marker, while the second and third callbacks
+will be invoked for the &#8220;foo&#8221; or &#8220;bar&#8221; markers, respectively.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Timeline.signals.new_frame">
+<tt class="descclassname">Clutter.Timeline.signals.</tt><tt class="descname">new_frame</tt><big>(</big><em>timeline</em>, <em>msecs</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">new-frame</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>timeline</strong> (<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>msecs</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; the elapsed time between 0 and duration</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Timeline.signals.new_frame" title="Clutter.Timeline.signals.new_frame"><tt class="xref py py-func docutils literal"><span class="pre">::new-frame</span></tt></a> signal is emitted for each timeline running
+timeline before a new frame is drawn to give animations a chance
+to update the scene.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Timeline.signals.paused">
+<tt class="descclassname">Clutter.Timeline.signals.</tt><tt class="descname">paused</tt><big>(</big><em>timeline</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">paused</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeline</strong> (<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Timeline.signals.paused" title="Clutter.Timeline.signals.paused"><tt class="xref py py-func docutils literal"><span class="pre">::paused</span></tt></a> signal is emitted when <a class="reference internal" href="#Clutter.Timeline.pause" title="Clutter.Timeline.pause"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.pause</span></tt></a> () is invoked.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Timeline.signals.started">
+<tt class="descclassname">Clutter.Timeline.signals.</tt><tt class="descname">started</tt><big>(</big><em>timeline</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">started</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeline</strong> (<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Timeline.signals.started" title="Clutter.Timeline.signals.started"><tt class="xref py py-func docutils literal"><span class="pre">::started</span></tt></a> signal is emitted when the timeline starts its run.
+This might be as soon as <a class="reference internal" href="#Clutter.Timeline.start" title="Clutter.Timeline.start"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.start</span></tt></a> () is invoked or
+after the delay set in the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.delay" title="Clutter.Timeline.props.delay"><tt class="xref py py-data docutils literal"><span class="pre">:delay</span></tt></a> property has
+expired.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Timeline.signals.stopped">
+<tt class="descclassname">Clutter.Timeline.signals.</tt><tt class="descname">stopped</tt><big>(</big><em>timeline</em>, <em>is_finished</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">stopped</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>timeline</strong> (<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Timeline</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>is_finished</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the signal was emitted at the end of the
+timeline.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.stopped" title="Clutter.Timeline.signals.stopped"><tt class="xref py py-func docutils literal"><span class="pre">::stopped</span></tt></a> signal is emitted when the timeline
+has been stopped, either because <a class="reference internal" href="#Clutter.Timeline.stop" title="Clutter.Timeline.stop"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline.stop</span></tt></a> () has been
+called, or because it has been exhausted.</p>
+<p>This is different from the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.signals.completed" title="Clutter.Timeline.signals.completed"><tt class="xref py py-func docutils literal"><span class="pre">::completed</span></tt></a> signal,
+which gets emitted after every repeat finishes.</p>
+<p>If the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> has is marked as infinitely repeating,
+this signal will never be emitted.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.12.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Clutter.Timeline.props.auto_reverse">
+<tt class="descclassname">Clutter.Timeline.props.</tt><tt class="descname">auto_reverse</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">auto-reverse</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>If the direction of the timeline should be automatically reversed
+when reaching the end.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Timeline.props.delay">
+<tt class="descclassname">Clutter.Timeline.props.</tt><tt class="descname">delay</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">delay</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>A delay, in milliseconds, that should be observed by the
+timeline before actually starting.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Timeline.props.direction">
+<tt class="descclassname">Clutter.Timeline.props.</tt><tt class="descname">direction</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">direction</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Clutter.TimelineDirection" title="Clutter.TimelineDirection"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.TimelineDirection</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Clutter.TimelineDirection.FORWARD" title="Clutter.TimelineDirection.FORWARD"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TimelineDirection.FORWARD</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The direction of the timeline, either <a class="reference internal" href="../enums.html#Clutter.TimelineDirection.FORWARD" title="Clutter.TimelineDirection.FORWARD"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TimelineDirection.FORWARD</span></tt></a> or
+<a class="reference internal" href="../enums.html#Clutter.TimelineDirection.BACKWARD" title="Clutter.TimelineDirection.BACKWARD"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.TimelineDirection.BACKWARD</span></tt></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Timeline.props.duration">
+<tt class="descclassname">Clutter.Timeline.props.</tt><tt class="descname">duration</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">duration</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">1000</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Duration of the timeline in milliseconds, depending on the
+<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <tt class="xref py py-data docutils literal"><span class="pre">:fps</span></tt> value.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Timeline.props.loop">
+<tt class="descclassname">Clutter.Timeline.props.</tt><tt class="descname">loop</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">loop</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the timeline should automatically rewind and restart.</p>
+<p>As a side effect, setting this property to <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> will set the
+<a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.repeat_count" title="Clutter.Timeline.props.repeat_count"><tt class="xref py py-data docutils literal"><span class="pre">:repeat-count</span></tt></a> property to -1, while setting this
+property to <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> will set the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.repeat_count" title="Clutter.Timeline.props.repeat_count"><tt class="xref py py-data docutils literal"><span class="pre">:repeat-count</span></tt></a>
+property to 0.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use the <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> <a class="reference internal" href="#Clutter.Timeline.props.repeat_count" title="Clutter.Timeline.props.repeat_count"><tt class="xref py py-data docutils literal"><span class="pre">:repeat-count</span></tt></a> property instead.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Timeline.props.progress_mode">
+<tt class="descclassname">Clutter.Timeline.props.</tt><tt class="descname">progress_mode</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">progress-mode</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../enums.html#Clutter.AnimationMode" title="Clutter.AnimationMode"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.AnimationMode</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference internal" href="../enums.html#Clutter.AnimationMode.LINEAR" title="Clutter.AnimationMode.LINEAR"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.AnimationMode.LINEAR</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Controls the way a <a class="reference internal" href="#Clutter.Timeline" title="Clutter.Timeline"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Timeline</span></tt></a> computes the normalized progress.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Timeline.props.repeat_count">
+<tt class="descclassname">Clutter.Timeline.props.</tt><tt class="descname">repeat_count</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">repeat-count</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">0</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Defines how many times the timeline should repeat.</p>
+<p>If the repeat count is 0, the timeline does not repeat.</p>
+<p>If the repeat count is set to -1, the timeline will repeat until it is
+stopped.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.10.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    GstSdp 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="GstSdp 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Structures" href="structs/index.html"/>
+        <link rel="prev" title="GstSdp 1.0" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstSdp 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="structs/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GstSdp 1.0</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="structs/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstSdp.sdp_address_is_multicast" title="GstSdp.sdp_address_is_multicast"><tt class="xref py py-obj docutils literal"><span class="pre">sdp_address_is_multicast</span></tt></a>(nettype, addrtype, addr)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstSdp.sdp_media_new" title="GstSdp.sdp_media_new"><tt class="xref py py-obj docutils literal"><span class="pre">sdp_media_new</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstSdp.sdp_message_as_uri" title="GstSdp.sdp_message_as_uri"><tt class="xref py py-obj docutils literal"><span class="pre">sdp_message_as_uri</span></tt></a>(scheme, msg)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstSdp.sdp_message_new" title="GstSdp.sdp_message_new"><tt class="xref py py-obj docutils literal"><span class="pre">sdp_message_new</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GstSdp.sdp_message_parse_buffer" title="GstSdp.sdp_message_parse_buffer"><tt class="xref py py-obj docutils literal"><span class="pre">sdp_message_parse_buffer</span></tt></a>(data, msg)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GstSdp.sdp_message_parse_uri" title="GstSdp.sdp_message_parse_uri"><tt class="xref py py-obj docutils literal"><span class="pre">sdp_message_parse_uri</span></tt></a>(uri, msg)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="GstSdp.sdp_address_is_multicast">
+<tt class="descclassname">GstSdp.</tt><tt class="descname">sdp_address_is_multicast</tt><big>(</big><em>nettype</em>, <em>addrtype</em>, <em>addr</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>nettype</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; a network type</li>
+<li><strong>addrtype</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; an address type</li>
+<li><strong>addr</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; an address</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> when <cite>addr</cite> is multicast.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Check if the given <cite>addr</cite> is a multicast address.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstSdp.sdp_media_new">
+<tt class="descclassname">GstSdp.</tt><tt class="descname">sdp_media_new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#GstSdp.SDPResult" title="GstSdp.SDPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPResult</span></tt></a>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">media:</th><td class="field-body">pointer to new <a class="reference internal" href="structs/SDPMedia.html#GstSdp.SDPMedia" title="GstSdp.SDPMedia"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPMedia</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="enums.html#GstSdp.SDPResult" title="GstSdp.SDPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPResult</span></tt></a>, <strong>media</strong>: <a class="reference internal" href="structs/SDPMedia.html#GstSdp.SDPMedia" title="GstSdp.SDPMedia"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPMedia</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Allocate a new <a class="reference internal" href="structs/SDPMedia.html#GstSdp.SDPMedia" title="GstSdp.SDPMedia"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPMedia</span></tt></a> and store the result in <cite>media</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstSdp.sdp_message_as_uri">
+<tt class="descclassname">GstSdp.</tt><tt class="descname">sdp_message_as_uri</tt><big>(</big><em>scheme</em>, <em>msg</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>scheme</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the uri scheme</li>
+<li><strong>msg</strong> (<a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a>) &#8211; the <a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a uri for <cite>msg</cite>.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Creates a uri from <cite>msg</cite> with the given <cite>scheme</cite>. The uri has the format:</p>
+<p>\&#64;scheme:///[#type=value *[&amp;amp;type=value]]</p>
+<p>Where each value is url encoded.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstSdp.sdp_message_new">
+<tt class="descclassname">GstSdp.</tt><tt class="descname">sdp_message_new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a <a class="reference internal" href="enums.html#GstSdp.SDPResult" title="GstSdp.SDPResult"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPResult</span></tt></a>.<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">msg:</th><td class="field-body">pointer to new <a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(<a class="reference internal" href="enums.html#GstSdp.SDPResult" title="GstSdp.SDPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPResult</span></tt></a>, <strong>msg</strong>: <a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Allocate a new <a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a> and store the result in <cite>msg</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstSdp.sdp_message_parse_buffer">
+<tt class="descclassname">GstSdp.</tt><tt class="descname">sdp_message_parse_buffer</tt><big>(</big><em>data</em>, <em>msg</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bytes</span></tt></a>) &#8211; the start of the buffer</li>
+<li><strong>msg</strong> (<a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a>) &#8211; the result <a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference internal" href="enums.html#GstSdp.SDPResult.OK" title="GstSdp.SDPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPResult.OK</span></tt></a> on success.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="enums.html#GstSdp.SDPResult" title="GstSdp.SDPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPResult</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Parse the contents of <cite>size</cite> bytes pointed to by <cite>data</cite> and store the result in
+<cite>msg</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="GstSdp.sdp_message_parse_uri">
+<tt class="descclassname">GstSdp.</tt><tt class="descname">sdp_message_parse_uri</tt><big>(</big><em>uri</em>, <em>msg</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>uri</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; the start of the uri</li>
+<li><strong>msg</strong> (<a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a>) &#8211; the result <a class="reference internal" href="structs/SDPMessage.html#GstSdp.SDPMessage" title="GstSdp.SDPMessage"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPMessage</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><a class="reference internal" href="enums.html#GstSdp.SDPResult.OK" title="GstSdp.SDPResult.OK"><tt class="xref py py-obj docutils literal"><span class="pre">GstSdp.SDPResult.OK</span></tt></a> on success.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="enums.html#GstSdp.SDPResult" title="GstSdp.SDPResult"><tt class="xref py py-class docutils literal"><span class="pre">GstSdp.SDPResult</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Parse the null-terminated <cite>uri</cite> and store the result in <cite>msg</cite>.</p>
+<p>The uri should be of the form:</p>
+<p>scheme://[address[:ttl=ttl][:noa=noa]]/[sessionname]
+[#type=value *[&amp;amp;type=value]]</p>
+<p>where value is url encoded. This looslely resembles
+http://tools.ietf.org/html/draft-fujikawa-sdp-url-01</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

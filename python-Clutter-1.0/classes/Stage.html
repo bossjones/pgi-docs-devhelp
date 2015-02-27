@@ -1,0 +1,2119 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Clutter.Stage -
+    
+      Classes -
+    
+    Clutter 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="../_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Clutter 1.0 Python API Docs" href="../index.html"/>
+        <link rel="up" title="Classes" href="index.html"/>
+        <link rel="next" title="Clutter.StageManager" href="StageManager.html"/>
+        <link rel="prev" title="Clutter.SnapConstraint" href="SnapConstraint.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.Stage</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="SnapConstraint.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="StageManager.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.Stage</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Clutter 1.0</a> &raquo;</li>
+      
+          <li><a href="index.html">Classes</a> &raquo;</li>
+      
+    <li>Clutter.Stage</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="../index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><a accesskey="u" href="index.html"><i class="fa fa-chevron-up"></i></a></td>
+
+
+
+<td><a accesskey="p" href="SnapConstraint.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="StageManager.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Clutter.Stage</a><ul>
+<li><a class="reference internal" href="#methods">Methods</a></li>
+<li><a class="reference internal" href="#virtual-methods">Virtual Methods</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#signals">Signals</a></li>
+<li><a class="reference internal" href="#fields">Fields</a></li>
+<li><a class="reference internal" href="#class-details">Class Details</a></li>
+<li><a class="reference internal" href="#signal-details">Signal Details</a></li>
+<li><a class="reference internal" href="#property-details">Property Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="clutter-stage">
+<h1>Clutter.Stage</h1>
+<p class="graphviz">
+<svg width="584pt" height="242pt"
+ viewBox="0.00 0.00 583.50 242.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 238)">
+<title>inheritance4527c2458b</title>
+<!-- GObject.GInterface -->
+<g id="node1" class="node"><title>GObject.GInterface</title>
+<g id="a_node1"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/interfaces/GInterface.html#GObject.GInterface" xlink:title="GObject.GInterface">
+<path fill="none" stroke="#3091d1" d="M270.5,-234C270.5,-234 184.5,-234 184.5,-234 181.5,-234 178.5,-231 178.5,-228 178.5,-228 178.5,-222 178.5,-222 178.5,-219 181.5,-216 184.5,-216 184.5,-216 270.5,-216 270.5,-216 273.5,-216 276.5,-219 276.5,-222 276.5,-222 276.5,-228 276.5,-228 276.5,-231 273.5,-234 270.5,-234"/>
+<text text-anchor="middle" x="227.5" y="-222.7" font-family="inherit" font-size="8.50">GObject.GInterface</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface -->
+<g id="node2" class="node"><title>Atk.ImplementorIface</title>
+<g id="a_node2"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-Atk-1.0/interfaces/ImplementorIface.html#Atk.ImplementorIface" xlink:title="Atk.ImplementorIface">
+<path fill="none" stroke="#3091d1" d="M101,-180C101,-180 6,-180 6,-180 3,-180 0,-177 0,-174 0,-174 0,-168 0,-168 0,-165 3,-162 6,-162 6,-162 101,-162 101,-162 104,-162 107,-165 107,-168 107,-168 107,-174 107,-174 107,-177 104,-180 101,-180"/>
+<text text-anchor="middle" x="53.5" y="-168.7" font-family="inherit" font-size="8.50">Atk.ImplementorIface</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Atk.ImplementorIface -->
+<g id="edge1" class="edge"><title>GObject.GInterface&#45;&gt;Atk.ImplementorIface</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M200.694,-215.989C169.656,-206.713 118.572,-191.447 85.4862,-181.559"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="85.6284,-179.775 80.3366,-180.02 84.6262,-183.129 85.6284,-179.775"/>
+</g>
+<!-- Clutter.Animatable -->
+<g id="node3" class="node"><title>Clutter.Animatable</title>
+<g id="a_node3"><a xlink:href="../interfaces/Animatable.html#Clutter.Animatable" xlink:title="Clutter.Animatable">
+<path fill="none" stroke="#3091d1" d="M214,-180C214,-180 131,-180 131,-180 128,-180 125,-177 125,-174 125,-174 125,-168 125,-168 125,-165 128,-162 131,-162 131,-162 214,-162 214,-162 217,-162 220,-165 220,-168 220,-168 220,-174 220,-174 220,-177 217,-180 214,-180"/>
+<text text-anchor="middle" x="172.5" y="-168.7" font-family="inherit" font-size="8.50">Clutter.Animatable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Clutter.Animatable -->
+<g id="edge2" class="edge"><title>GObject.GInterface&#45;&gt;Clutter.Animatable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M218.906,-215.875C209.838,-207.301 195.453,-193.701 185.102,-183.915"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="186.05,-182.403 181.215,-180.24 183.646,-184.946 186.05,-182.403"/>
+</g>
+<!-- Clutter.Container -->
+<g id="node4" class="node"><title>Clutter.Container</title>
+<g id="a_node4"><a xlink:href="../interfaces/Container.html#Clutter.Container" xlink:title="Clutter.Container">
+<path fill="none" stroke="#3091d1" d="M321,-180C321,-180 244,-180 244,-180 241,-180 238,-177 238,-174 238,-174 238,-168 238,-168 238,-165 241,-162 244,-162 244,-162 321,-162 321,-162 324,-162 327,-165 327,-168 327,-168 327,-174 327,-174 327,-177 324,-180 321,-180"/>
+<text text-anchor="middle" x="282.5" y="-168.7" font-family="inherit" font-size="8.50">Clutter.Container</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Clutter.Container -->
+<g id="edge3" class="edge"><title>GObject.GInterface&#45;&gt;Clutter.Container</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M236.094,-215.875C245.162,-207.301 259.547,-193.701 269.898,-183.915"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="271.354,-184.946 273.785,-180.24 268.95,-182.403 271.354,-184.946"/>
+</g>
+<!-- Clutter.Scriptable -->
+<g id="node5" class="node"><title>Clutter.Scriptable</title>
+<g id="a_node5"><a xlink:href="../interfaces/Scriptable.html#Clutter.Scriptable" xlink:title="Clutter.Scriptable">
+<path fill="none" stroke="#3091d1" d="M429.5,-180C429.5,-180 351.5,-180 351.5,-180 348.5,-180 345.5,-177 345.5,-174 345.5,-174 345.5,-168 345.5,-168 345.5,-165 348.5,-162 351.5,-162 351.5,-162 429.5,-162 429.5,-162 432.5,-162 435.5,-165 435.5,-168 435.5,-168 435.5,-174 435.5,-174 435.5,-177 432.5,-180 429.5,-180"/>
+<text text-anchor="middle" x="390.5" y="-168.7" font-family="inherit" font-size="8.50">Clutter.Scriptable</text>
+</a>
+</g>
+</g>
+<!-- GObject.GInterface&#45;&gt;Clutter.Scriptable -->
+<g id="edge4" class="edge"><title>GObject.GInterface&#45;&gt;Clutter.Scriptable</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M252.612,-215.989C281.687,-206.713 329.542,-191.447 360.536,-181.559"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="361.128,-183.207 365.36,-180.02 360.065,-179.873 361.128,-183.207"/>
+</g>
+<!-- Clutter.Actor -->
+<g id="node8" class="node"><title>Clutter.Actor</title>
+<g id="a_node8"><a xlink:href="Actor.html#Clutter.Actor" xlink:title="Clutter.Actor">
+<path fill="none" stroke="#75507b" d="M311,-126C311,-126 254,-126 254,-126 251,-126 248,-123 248,-120 248,-120 248,-114 248,-114 248,-111 251,-108 254,-108 254,-108 311,-108 311,-108 314,-108 317,-111 317,-114 317,-114 317,-120 317,-120 317,-123 314,-126 311,-126"/>
+<text text-anchor="middle" x="282.5" y="-114.7" font-family="inherit" font-size="8.50">Clutter.Actor</text>
+</a>
+</g>
+</g>
+<!-- Atk.ImplementorIface&#45;&gt;Clutter.Actor -->
+<g id="edge6" class="edge"><title>Atk.ImplementorIface&#45;&gt;Clutter.Actor</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M88.7794,-161.989C130.457,-152.525 199.603,-136.824 243.028,-126.963"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="243.442,-128.664 247.931,-125.85 242.667,-125.251 243.442,-128.664"/>
+</g>
+<!-- Clutter.Animatable&#45;&gt;Clutter.Actor -->
+<g id="edge7" class="edge"><title>Clutter.Animatable&#45;&gt;Clutter.Actor</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M189.688,-161.875C208.9,-152.793 240.043,-138.071 260.89,-128.216"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="261.661,-129.787 265.433,-126.068 260.165,-126.623 261.661,-129.787"/>
+</g>
+<!-- Clutter.Container&#45;&gt;Clutter.Actor -->
+<g id="edge8" class="edge"><title>Clutter.Container&#45;&gt;Clutter.Actor</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M282.5,-161.875C282.5,-153.756 282.5,-141.131 282.5,-131.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="284.25,-131.24 282.5,-126.24 280.75,-131.24 284.25,-131.24"/>
+</g>
+<!-- Clutter.Scriptable&#45;&gt;Clutter.Actor -->
+<g id="edge11" class="edge"><title>Clutter.Scriptable&#45;&gt;Clutter.Actor</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M373.625,-161.875C354.841,-152.831 324.442,-138.194 303.976,-128.34"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="304.521,-126.66 299.257,-126.068 303.002,-129.814 304.521,-126.66"/>
+</g>
+<!-- GObject.Object -->
+<g id="node6" class="node"><title>GObject.Object</title>
+<g id="a_node6"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#GObject.Object" xlink:title="GObject.Object">
+<path fill="none" stroke="#75507b" d="M548.5,-234C548.5,-234 480.5,-234 480.5,-234 477.5,-234 474.5,-231 474.5,-228 474.5,-228 474.5,-222 474.5,-222 474.5,-219 477.5,-216 480.5,-216 480.5,-216 548.5,-216 548.5,-216 551.5,-216 554.5,-219 554.5,-222 554.5,-222 554.5,-228 554.5,-228 554.5,-231 551.5,-234 548.5,-234"/>
+<text text-anchor="middle" x="514.5" y="-222.7" font-family="inherit" font-size="8.50">GObject.Object</text>
+</a>
+</g>
+</g>
+<!-- GObject.InitiallyUnowned -->
+<g id="node7" class="node"><title>GObject.InitiallyUnowned</title>
+<g id="a_node7"><a xlink:href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#GObject.InitiallyUnowned" xlink:title="GObject.InitiallyUnowned">
+<path fill="none" stroke="#75507b" d="M569.5,-180C569.5,-180 459.5,-180 459.5,-180 456.5,-180 453.5,-177 453.5,-174 453.5,-174 453.5,-168 453.5,-168 453.5,-165 456.5,-162 459.5,-162 459.5,-162 569.5,-162 569.5,-162 572.5,-162 575.5,-165 575.5,-168 575.5,-168 575.5,-174 575.5,-174 575.5,-177 572.5,-180 569.5,-180"/>
+<text text-anchor="middle" x="514.5" y="-168.7" font-family="inherit" font-size="8.50">GObject.InitiallyUnowned</text>
+</a>
+</g>
+</g>
+<!-- GObject.Object&#45;&gt;GObject.InitiallyUnowned -->
+<g id="edge5" class="edge"><title>GObject.Object&#45;&gt;GObject.InitiallyUnowned</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M514.5,-215.875C514.5,-207.756 514.5,-195.131 514.5,-185.504"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="516.25,-185.24 514.5,-180.24 512.75,-185.24 516.25,-185.24"/>
+</g>
+<!-- GObject.InitiallyUnowned&#45;&gt;Clutter.Actor -->
+<g id="edge12" class="edge"><title>GObject.InitiallyUnowned&#45;&gt;Clutter.Actor</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M478.758,-161.989C436.412,-152.498 366.077,-136.733 322.108,-126.878"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="322.406,-125.151 317.145,-125.765 321.641,-128.566 322.406,-125.151"/>
+</g>
+<!-- Clutter.Group -->
+<g id="node9" class="node"><title>Clutter.Group</title>
+<g id="a_node9"><a xlink:href="Group.html#Clutter.Group" xlink:title="Clutter.Group">
+<path fill="none" stroke="#75507b" d="M313.5,-72C313.5,-72 251.5,-72 251.5,-72 248.5,-72 245.5,-69 245.5,-66 245.5,-66 245.5,-60 245.5,-60 245.5,-57 248.5,-54 251.5,-54 251.5,-54 313.5,-54 313.5,-54 316.5,-54 319.5,-57 319.5,-60 319.5,-60 319.5,-66 319.5,-66 319.5,-69 316.5,-72 313.5,-72"/>
+<text text-anchor="middle" x="282.5" y="-60.7" font-family="inherit" font-size="8.50">Clutter.Group</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Actor&#45;&gt;Clutter.Group -->
+<g id="edge10" class="edge"><title>Clutter.Actor&#45;&gt;Clutter.Group</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M282.5,-107.875C282.5,-99.7564 282.5,-87.1312 282.5,-77.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="284.25,-77.2395 282.5,-72.2396 280.75,-77.2396 284.25,-77.2395"/>
+</g>
+<!-- Clutter.Stage -->
+<g id="node10" class="node"><title>Clutter.Stage</title>
+<g id="a_node10"><a xlink:href="#Clutter.Stage" xlink:title="Clutter.Stage">
+<path fill="none" stroke="#75507b" d="M312.5,-18C312.5,-18 252.5,-18 252.5,-18 249.5,-18 246.5,-15 246.5,-12 246.5,-12 246.5,-6 246.5,-6 246.5,-3 249.5,-0 252.5,-0 252.5,-0 312.5,-0 312.5,-0 315.5,-0 318.5,-3 318.5,-6 318.5,-6 318.5,-12 318.5,-12 318.5,-15 315.5,-18 312.5,-18"/>
+<text text-anchor="middle" x="282.5" y="-6.7" font-family="inherit" font-size="8.50">Clutter.Stage</text>
+</a>
+</g>
+</g>
+<!-- Clutter.Group&#45;&gt;Clutter.Stage -->
+<g id="edge9" class="edge"><title>Clutter.Group&#45;&gt;Clutter.Stage</title>
+<path fill="none" stroke="black" stroke-width="0.5" d="M282.5,-53.875C282.5,-45.7564 282.5,-33.1312 282.5,-23.5044"/>
+<polygon fill="black" stroke="black" stroke-width="0.5" points="284.25,-23.2395 282.5,-18.2396 280.75,-23.2396 284.25,-23.2395"/>
+</g>
+</g>
+</svg>
+</p>
+<div class="section" id="methods">
+<span id="clutter-stage-methods"></span><h2>Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Group.html#clutter-group-methods"><em>Clutter.Group (4)</em></a>, <a class="reference internal" href="Actor.html#clutter-actor-methods"><em>Clutter.Actor (234)</em></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-methods" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (33)</em></a>, <a class="reference internal" href="../interfaces/Animatable.html#clutter-animatable-methods"><em>Clutter.Animatable (5)</em></a>, <a class="reference internal" href="../interfaces/Container.html#clutter-container-methods"><em>Clutter.Container (17)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-methods"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><em>static</em></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_default" title="Clutter.Stage.get_default"><tt class="xref py py-obj docutils literal"><span class="pre">get_default</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td><em>static</em></td>
+<td><a class="reference internal" href="#Clutter.Stage.new" title="Clutter.Stage.new"><tt class="xref py py-obj docutils literal"><span class="pre">new</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.ensure_current" title="Clutter.Stage.ensure_current"><tt class="xref py py-obj docutils literal"><span class="pre">ensure_current</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.ensure_redraw" title="Clutter.Stage.ensure_redraw"><tt class="xref py py-obj docutils literal"><span class="pre">ensure_redraw</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.ensure_viewport" title="Clutter.Stage.ensure_viewport"><tt class="xref py py-obj docutils literal"><span class="pre">ensure_viewport</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.event" title="Clutter.Stage.event"><tt class="xref py py-obj docutils literal"><span class="pre">event</span></tt></a>(event)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_accept_focus" title="Clutter.Stage.get_accept_focus"><tt class="xref py py-obj docutils literal"><span class="pre">get_accept_focus</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_actor_at_pos" title="Clutter.Stage.get_actor_at_pos"><tt class="xref py py-obj docutils literal"><span class="pre">get_actor_at_pos</span></tt></a>(pick_mode, x, y)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_color" title="Clutter.Stage.get_color"><tt class="xref py py-obj docutils literal"><span class="pre">get_color</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_fog" title="Clutter.Stage.get_fog"><tt class="xref py py-obj docutils literal"><span class="pre">get_fog</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_fullscreen" title="Clutter.Stage.get_fullscreen"><tt class="xref py py-obj docutils literal"><span class="pre">get_fullscreen</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_key_focus" title="Clutter.Stage.get_key_focus"><tt class="xref py py-obj docutils literal"><span class="pre">get_key_focus</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_minimum_size" title="Clutter.Stage.get_minimum_size"><tt class="xref py py-obj docutils literal"><span class="pre">get_minimum_size</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_motion_events_enabled" title="Clutter.Stage.get_motion_events_enabled"><tt class="xref py py-obj docutils literal"><span class="pre">get_motion_events_enabled</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_no_clear_hint" title="Clutter.Stage.get_no_clear_hint"><tt class="xref py py-obj docutils literal"><span class="pre">get_no_clear_hint</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_perspective" title="Clutter.Stage.get_perspective"><tt class="xref py py-obj docutils literal"><span class="pre">get_perspective</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_redraw_clip_bounds" title="Clutter.Stage.get_redraw_clip_bounds"><tt class="xref py py-obj docutils literal"><span class="pre">get_redraw_clip_bounds</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_throttle_motion_events" title="Clutter.Stage.get_throttle_motion_events"><tt class="xref py py-obj docutils literal"><span class="pre">get_throttle_motion_events</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_title" title="Clutter.Stage.get_title"><tt class="xref py py-obj docutils literal"><span class="pre">get_title</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_use_alpha" title="Clutter.Stage.get_use_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">get_use_alpha</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_use_fog" title="Clutter.Stage.get_use_fog"><tt class="xref py py-obj docutils literal"><span class="pre">get_use_fog</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.get_user_resizable" title="Clutter.Stage.get_user_resizable"><tt class="xref py py-obj docutils literal"><span class="pre">get_user_resizable</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.hide_cursor" title="Clutter.Stage.hide_cursor"><tt class="xref py py-obj docutils literal"><span class="pre">hide_cursor</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.is_default" title="Clutter.Stage.is_default"><tt class="xref py py-obj docutils literal"><span class="pre">is_default</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.queue_redraw" title="Clutter.Stage.queue_redraw"><tt class="xref py py-obj docutils literal"><span class="pre">queue_redraw</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.read_pixels" title="Clutter.Stage.read_pixels"><tt class="xref py py-obj docutils literal"><span class="pre">read_pixels</span></tt></a>(x, y, width, height)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_accept_focus" title="Clutter.Stage.set_accept_focus"><tt class="xref py py-obj docutils literal"><span class="pre">set_accept_focus</span></tt></a>(accept_focus)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_color" title="Clutter.Stage.set_color"><tt class="xref py py-obj docutils literal"><span class="pre">set_color</span></tt></a>(color)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_fog" title="Clutter.Stage.set_fog"><tt class="xref py py-obj docutils literal"><span class="pre">set_fog</span></tt></a>(fog)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_fullscreen" title="Clutter.Stage.set_fullscreen"><tt class="xref py py-obj docutils literal"><span class="pre">set_fullscreen</span></tt></a>(fullscreen)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_key_focus" title="Clutter.Stage.set_key_focus"><tt class="xref py py-obj docutils literal"><span class="pre">set_key_focus</span></tt></a>(actor)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_minimum_size" title="Clutter.Stage.set_minimum_size"><tt class="xref py py-obj docutils literal"><span class="pre">set_minimum_size</span></tt></a>(width, height)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_motion_events_enabled" title="Clutter.Stage.set_motion_events_enabled"><tt class="xref py py-obj docutils literal"><span class="pre">set_motion_events_enabled</span></tt></a>(enabled)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_no_clear_hint" title="Clutter.Stage.set_no_clear_hint"><tt class="xref py py-obj docutils literal"><span class="pre">set_no_clear_hint</span></tt></a>(no_clear)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_perspective" title="Clutter.Stage.set_perspective"><tt class="xref py py-obj docutils literal"><span class="pre">set_perspective</span></tt></a>(perspective)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_throttle_motion_events" title="Clutter.Stage.set_throttle_motion_events"><tt class="xref py py-obj docutils literal"><span class="pre">set_throttle_motion_events</span></tt></a>(throttle)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_title" title="Clutter.Stage.set_title"><tt class="xref py py-obj docutils literal"><span class="pre">set_title</span></tt></a>(title)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_use_alpha" title="Clutter.Stage.set_use_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">set_use_alpha</span></tt></a>(use_alpha)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_use_fog" title="Clutter.Stage.set_use_fog"><tt class="xref py py-obj docutils literal"><span class="pre">set_use_fog</span></tt></a>(fog)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.set_user_resizable" title="Clutter.Stage.set_user_resizable"><tt class="xref py py-obj docutils literal"><span class="pre">set_user_resizable</span></tt></a>(resizable)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.show_cursor" title="Clutter.Stage.show_cursor"><tt class="xref py py-obj docutils literal"><span class="pre">show_cursor</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="virtual-methods">
+<span id="clutter-stage-vfuncs"></span><h2>Virtual Methods</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Actor.html#clutter-actor-vfuncs"><em>Clutter.Actor (35)</em></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-vfuncs" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (7)</em></a>, <a class="reference internal" href="../interfaces/Animatable.html#clutter-animatable-vfuncs"><em>Clutter.Animatable (5)</em></a>, <a class="reference internal" href="../interfaces/Container.html#clutter-container-vfuncs"><em>Clutter.Container (13)</em></a>, <a class="reference internal" href="../interfaces/Scriptable.html#clutter-scriptable-vfuncs"><em>Clutter.Scriptable (4)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.do_activate" title="Clutter.Stage.do_activate"><tt class="xref py py-obj docutils literal"><span class="pre">do_activate</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.do_deactivate" title="Clutter.Stage.do_deactivate"><tt class="xref py py-obj docutils literal"><span class="pre">do_deactivate</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.do_delete_event" title="Clutter.Stage.do_delete_event"><tt class="xref py py-obj docutils literal"><span class="pre">do_delete_event</span></tt></a>(event)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.do_fullscreen" title="Clutter.Stage.do_fullscreen"><tt class="xref py py-obj docutils literal"><span class="pre">do_fullscreen</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Clutter.Stage.do_unfullscreen" title="Clutter.Stage.do_unfullscreen"><tt class="xref py py-obj docutils literal"><span class="pre">do_unfullscreen</span></tt></a>()</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="properties">
+<span id="clutter-stage-props"></span><h2>Properties</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Actor.html#clutter-actor-props"><em>Clutter.Actor (80)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="97%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Flags</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.props.accept_focus" title="Clutter.Stage.props.accept_focus"><tt class="xref py py-data docutils literal"><span class="pre">accept-focus</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the stage should accept focus on show</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.props.color" title="Clutter.Stage.props.color"><tt class="xref py py-data docutils literal"><span class="pre">color</span></tt></a></td>
+<td><a class="reference internal" href="../structs/Color.html#Clutter.Color" title="Clutter.Color"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Color</span></tt></a></td>
+<td>r/w</td>
+<td>The color of the stage</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.props.cursor_visible" title="Clutter.Stage.props.cursor_visible"><tt class="xref py py-data docutils literal"><span class="pre">cursor-visible</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the mouse pointer is visible on the main stage</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.props.fog" title="Clutter.Stage.props.fog"><tt class="xref py py-data docutils literal"><span class="pre">fog</span></tt></a></td>
+<td><a class="reference internal" href="../structs/Fog.html#Clutter.Fog" title="Clutter.Fog"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Fog</span></tt></a></td>
+<td>r/w</td>
+<td>Settings for the depth cueing</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.props.fullscreen_set" title="Clutter.Stage.props.fullscreen_set"><tt class="xref py py-data docutils literal"><span class="pre">fullscreen-set</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r</td>
+<td>Whether the main stage is fullscreen</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.props.key_focus" title="Clutter.Stage.props.key_focus"><tt class="xref py py-data docutils literal"><span class="pre">key-focus</span></tt></a></td>
+<td><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></td>
+<td>r/w</td>
+<td>The currently key focused actor</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.props.no_clear_hint" title="Clutter.Stage.props.no_clear_hint"><tt class="xref py py-data docutils literal"><span class="pre">no-clear-hint</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the stage should clear its contents</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.props.offscreen" title="Clutter.Stage.props.offscreen"><tt class="xref py py-data docutils literal"><span class="pre">offscreen</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the main stage should be rendered offscreen</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.props.perspective" title="Clutter.Stage.props.perspective"><tt class="xref py py-data docutils literal"><span class="pre">perspective</span></tt></a></td>
+<td><a class="reference internal" href="../structs/Perspective.html#Clutter.Perspective" title="Clutter.Perspective"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Perspective</span></tt></a></td>
+<td>r/w</td>
+<td>Perspective projection parameters</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.props.title" title="Clutter.Stage.props.title"><tt class="xref py py-data docutils literal"><span class="pre">title</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+<td>r/w</td>
+<td>Stage Title</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.props.use_alpha" title="Clutter.Stage.props.use_alpha"><tt class="xref py py-data docutils literal"><span class="pre">use-alpha</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether to honour the alpha component of the stage color</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.props.use_fog" title="Clutter.Stage.props.use_fog"><tt class="xref py py-data docutils literal"><span class="pre">use-fog</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether to enable depth cueing</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.props.user_resizable" title="Clutter.Stage.props.user_resizable"><tt class="xref py py-data docutils literal"><span class="pre">user-resizable</span></tt></a></td>
+<td><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+<td>r/w</td>
+<td>Whether the stage is able to be resized via user interaction</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="signals">
+<span id="clutter-stage-signals"></span><h2>Signals</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Actor.html#clutter-actor-signals"><em>Clutter.Actor (26)</em></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-signals" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (1)</em></a>, <a class="reference internal" href="../interfaces/Container.html#clutter-container-signals"><em>Clutter.Container (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Short Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.signals.activate" title="Clutter.Stage.signals.activate"><tt class="xref py py-func docutils literal"><span class="pre">activate</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Stage.signals.activate" title="Clutter.Stage.signals.activate"><tt class="xref py py-func docutils literal"><span class="pre">::activate</span></tt></a> signal is emitted when the stage receives key focus from the underlying window system.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.signals.after_paint" title="Clutter.Stage.signals.after_paint"><tt class="xref py py-func docutils literal"><span class="pre">after-paint</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Stage.signals.after_paint" title="Clutter.Stage.signals.after_paint"><tt class="xref py py-func docutils literal"><span class="pre">::after-paint</span></tt></a> signal is emitted after the stage is painted, but before the results are displayed on the screen.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.signals.deactivate" title="Clutter.Stage.signals.deactivate"><tt class="xref py py-func docutils literal"><span class="pre">deactivate</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Stage.signals.activate" title="Clutter.Stage.signals.activate"><tt class="xref py py-func docutils literal"><span class="pre">::activate</span></tt></a> signal is emitted when the stage loses key focus from the underlying window system.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.signals.delete_event" title="Clutter.Stage.signals.delete_event"><tt class="xref py py-func docutils literal"><span class="pre">delete-event</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Stage.signals.delete_event" title="Clutter.Stage.signals.delete_event"><tt class="xref py py-func docutils literal"><span class="pre">::delete-event</span></tt></a> signal is emitted when the user closes a <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> window using the window controls.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#Clutter.Stage.signals.fullscreen" title="Clutter.Stage.signals.fullscreen"><tt class="xref py py-func docutils literal"><span class="pre">fullscreen</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Stage.signals.fullscreen" title="Clutter.Stage.signals.fullscreen"><tt class="xref py py-func docutils literal"><span class="pre">::fullscreen</span></tt></a> signal is emitted when the stage is made fullscreen.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#Clutter.Stage.signals.unfullscreen" title="Clutter.Stage.signals.unfullscreen"><tt class="xref py py-func docutils literal"><span class="pre">unfullscreen</span></tt></a></td>
+<td>The <a class="reference internal" href="#Clutter.Stage.signals.unfullscreen" title="Clutter.Stage.signals.unfullscreen"><tt class="xref py py-func docutils literal"><span class="pre">::unfullscreen</span></tt></a> signal is emitted when the stage leaves a fullscreen state.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="fields">
+<span id="clutter-stage-fields"></span><h2>Fields</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Inherited:</th><td class="field-body"><a class="reference internal" href="Group.html#clutter-group-fields"><em>Clutter.Group (1)</em></a>, <a class="reference internal" href="Actor.html#clutter-actor-fields"><em>Clutter.Actor (3)</em></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/InitiallyUnowned.html#gobject-initiallyunowned-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.InitiallyUnowned (3)</em></a>, <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/classes/Object.html#gobject-object-fields" title="(in GObject 2.0 v2.0)"><em class="xref std std-ref">GObject.Object (3)</em></a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="1%" />
+<col width="1%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Type</th>
+<th class="head">Access</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>parent_instance</td>
+<td><a class="reference internal" href="Group.html#Clutter.Group" title="Clutter.Group"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Group</span></tt></a></td>
+<td>r</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="class-details">
+<h2>Class Details</h2>
+<dl class="class">
+<dt id="Clutter.Stage">
+<em class="property">class </em><tt class="descclassname">Clutter.</tt><tt class="descname">Stage</tt><big>(</big><em>**kwargs</em><big>)</big></dt>
+<dd><p>Bases: <a class="reference internal" href="Group.html#Clutter.Group" title="Clutter.Group"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Group</span></tt></a></p>
+<p>The <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> structure contains only private data
+and should be accessed using the provided API</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.1.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Clutter.Stage.get_default">
+<em class="property">static </em><tt class="descname">get_default</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the main
+<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a>. You should never destroy or unref the returned
+actor.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Stage</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves a <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> singleton.</p>
+<p>This function is not as useful as it sounds, and will most likely
+by deprecated in the future. Application code should only create
+a <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> instance using <a class="reference internal" href="#Clutter.Stage.new" title="Clutter.Stage.new"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.new</span></tt></a> (), and manage the
+lifetime of the stage manually.</p>
+<p>The default stage singleton has a platform-specific behaviour: on
+platforms without the <a class="reference internal" href="../flags.html#Clutter.FeatureFlags.STAGE_MULTIPLE" title="Clutter.FeatureFlags.STAGE_MULTIPLE"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.FeatureFlags.STAGE_MULTIPLE</span></tt></a> feature flag
+set, the first <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> instance will also be set to be the
+default stage instance, and this function will always return a
+pointer to it.</p>
+<p>On platforms with the <a class="reference internal" href="../flags.html#Clutter.FeatureFlags.STAGE_MULTIPLE" title="Clutter.FeatureFlags.STAGE_MULTIPLE"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.FeatureFlags.STAGE_MULTIPLE</span></tt></a> feature flag
+set, the default stage will be created by the first call to this
+function, and every following call will return the same pointer to
+it.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use <a class="reference internal" href="#Clutter.Stage.new" title="Clutter.Stage.new"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.new</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="Clutter.Stage.new">
+<em class="property">static </em><tt class="descname">new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a new stage, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if the default backend does
+not support multiple stages. Use <a class="reference internal" href="Actor.html#Clutter.Actor.destroy" title="Clutter.Actor.destroy"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.destroy</span></tt></a> () to
+programmatically close the returned stage.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Creates a new, non-default stage. A non-default stage is a new
+top-level actor which can be used as another container. It works
+exactly like the default stage, but while <a class="reference internal" href="#Clutter.Stage.get_default" title="Clutter.Stage.get_default"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.get_default</span></tt></a> ()
+will always return the same instance, you will have to keep a pointer
+to any <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> returned by <a class="reference internal" href="#Clutter.Stage.new" title="Clutter.Stage.new"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.new</span></tt></a> ().</p>
+<p>The ability to support multiple stages depends on the current
+backend. Use <a class="reference internal" href="../functions.html#Clutter.feature_available" title="Clutter.feature_available"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.feature_available</span></tt></a> () and
+<a class="reference internal" href="../flags.html#Clutter.FeatureFlags.STAGE_MULTIPLE" title="Clutter.FeatureFlags.STAGE_MULTIPLE"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.FeatureFlags.STAGE_MULTIPLE</span></tt></a> to check at runtime whether a
+backend supports multiple stages.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.ensure_current">
+<tt class="descname">ensure_current</tt><big>(</big><big>)</big></dt>
+<dd><p>This function essentially makes sure the right GL context is
+current for the passed stage. It is not intended to
+be used by applications.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.ensure_redraw">
+<tt class="descname">ensure_redraw</tt><big>(</big><big>)</big></dt>
+<dd><p>Ensures that <cite>stage</cite> is redrawn</p>
+<p>This function should not be called by applications: it is
+used when embedding a <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> into a toolkit with
+another windowing system, like GTK+.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.ensure_viewport">
+<tt class="descname">ensure_viewport</tt><big>(</big><big>)</big></dt>
+<dd><p>Ensures that the GL viewport is updated with the current
+stage window size.</p>
+<p>This function will queue a redraw of <cite>stage</cite>.</p>
+<p>This function should not be called by applications; it is used
+when embedding a <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> into a toolkit with another
+windowing system, like GTK+.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.event">
+<tt class="descname">event</tt><big>(</big><em>event</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>event</strong> (<a class="reference internal" href="../unions/Event.html#Clutter.Event" title="Clutter.Event"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Event</span></tt></a>) &#8211; a <a class="reference internal" href="../unions/Event.html#Clutter.Event" title="Clutter.Event"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Event</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the return value from the signal emission</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>This function is used to emit an event on the main stage.</p>
+<p>You should rarely need to use this function, except for
+synthetised events.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_accept_focus">
+<tt class="descname">get_accept_focus</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> should accept focus, and <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a>
+otherwise</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the value set with <a class="reference internal" href="#Clutter.Stage.set_accept_focus" title="Clutter.Stage.set_accept_focus"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_accept_focus</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_actor_at_pos">
+<tt class="descname">get_actor_at_pos</tt><big>(</big><em>pick_mode</em>, <em>x</em>, <em>y</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>pick_mode</strong> (<a class="reference internal" href="../enums.html#Clutter.PickMode" title="Clutter.PickMode"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.PickMode</span></tt></a>) &#8211; how the scene graph should be painted</li>
+<li><strong>x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; X coordinate to check</li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; Y coordinate to check</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">the actor at the specified coordinates,
+if any</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Checks the scene at the coordinates <cite>x</cite> and <cite>y</cite> and returns a pointer
+to the <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> at those coordinates.</p>
+<p>By using <cite>pick_mode</cite> it is possible to control which actors will be
+painted and thus available.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_color">
+<tt class="descname">get_color</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">return location for a <a class="reference internal" href="../structs/Color.html#Clutter.Color" title="Clutter.Color"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Color</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>color</strong>: <a class="reference internal" href="../structs/Color.html#Clutter.Color" title="Clutter.Color"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Color</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the stage color.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use <a class="reference internal" href="Actor.html#Clutter.Actor.get_background_color" title="Clutter.Actor.get_background_color"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.get_background_color</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_fog">
+<tt class="descname">get_fog</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">return location for a <a class="reference internal" href="../structs/Fog.html#Clutter.Fog" title="Clutter.Fog"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Fog</span></tt></a> structure</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>fog</strong>: <a class="reference internal" href="../structs/Fog.html#Clutter.Fog" title="Clutter.Fog"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Fog</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the current depth cueing settings from the stage.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>This function will always return the default
+values of <a class="reference internal" href="../structs/Fog.html#Clutter.Fog" title="Clutter.Fog"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Fog</span></tt></a></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_fullscreen">
+<tt class="descname">get_fullscreen</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the stage is full screen</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves whether the stage is full screen or not</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_key_focus">
+<tt class="descname">get_key_focus</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">the actor with key focus, or the stage</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the actor that is currently under key focus.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_minimum_size">
+<tt class="descname">get_minimum_size</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">width:</th><td class="field-body">return location for the minimum width, in pixels,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">height:</th><td class="field-body">return location for the minimum height, in pixels,
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">(<strong>width</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>, <strong>height</strong>: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the minimum size for a stage window as set using
+<a class="reference internal" href="#Clutter.Stage.set_minimum_size" title="Clutter.Stage.set_minimum_size"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_minimum_size</span></tt></a> ().</p>
+<p>The returned size may not correspond to the actual minimum size and
+it is specific to the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> implementation inside the
+Clutter backend</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_motion_events_enabled">
+<tt class="descname">get_motion_events_enabled</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the per-actor motion event delivery is enabled
+and <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the value set using <a class="reference internal" href="#Clutter.Stage.set_motion_events_enabled" title="Clutter.Stage.set_motion_events_enabled"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_motion_events_enabled</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_no_clear_hint">
+<tt class="descname">get_no_clear_hint</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the stage should not clear itself on every paint
+cycle, and <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the hint set with <a class="reference internal" href="#Clutter.Stage.set_no_clear_hint" title="Clutter.Stage.set_no_clear_hint"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_no_clear_hint</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_perspective">
+<tt class="descname">get_perspective</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">return location for a
+<a class="reference internal" href="../structs/Perspective.html#Clutter.Perspective" title="Clutter.Perspective"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Perspective</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>perspective</strong>: <a class="reference internal" href="../structs/Perspective.html#Clutter.Perspective" title="Clutter.Perspective"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Perspective</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the stage perspective.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_redraw_clip_bounds">
+<tt class="descname">get_redraw_clip_bounds</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Return location for the clip bounds</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><strong>clip</strong>: <tt class="xref py py-class docutils literal"><span class="pre">cairo.RectangleInt</span></tt></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the bounds of the current redraw for <cite>stage</cite> in stage pixel
+coordinates. E.g., if only a single actor has queued a redraw then
+Clutter may redraw the stage with a clip so that it doesn&#8217;t have to
+paint every pixel in the stage. This function would then return the
+bounds of that clip. An application can use this information to
+avoid some extra work if it knows that some regions of the stage
+aren&#8217;t going to be painted. This should only be called while the
+stage is being painted. If there is no current redraw clip then
+this function will set <cite>clip</cite> to the full extents of the stage.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_throttle_motion_events">
+<tt class="descname">get_throttle_motion_events</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the motion events are being throttled,
+and <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> otherwise</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the value set with <a class="reference internal" href="#Clutter.Stage.set_throttle_motion_events" title="Clutter.Stage.set_throttle_motion_events"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_throttle_motion_events</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_title">
+<tt class="descname">get_title</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">pointer to the title string for the stage. The
+returned string is owned by the actor and should not
+be modified or freed.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets the stage title.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_use_alpha">
+<tt class="descname">get_use_alpha</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the stage should honour the opacity and the
+alpha channel of the stage color</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the value set using <a class="reference internal" href="#Clutter.Stage.set_use_alpha" title="Clutter.Stage.set_use_alpha"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_use_alpha</span></tt></a> ()</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_use_fog">
+<tt class="descname">get_use_fog</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the depth cueing effect is enabled</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Gets whether the depth cueing effect is enabled on <cite>stage</cite>.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>This function will always return <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.get_user_resizable">
+<tt class="descname">get_user_resizable</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the stage is resizable by the user.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Retrieves the value set with <a class="reference internal" href="#Clutter.Stage.set_user_resizable" title="Clutter.Stage.set_user_resizable"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_user_resizable</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.hide_cursor">
+<tt class="descname">hide_cursor</tt><big>(</big><big>)</big></dt>
+<dd><p>Makes the cursor invisible on the stage window</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.is_default">
+<tt class="descname">is_default</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the passed stage is the default one</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Checks if <cite>stage</cite> is the default stage, or an instance created using
+<a class="reference internal" href="#Clutter.Stage.new" title="Clutter.Stage.new"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.new</span></tt></a> () but internally using the same implementation.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Track the stage pointer inside your application
+code, or use <a class="reference internal" href="Actor.html#Clutter.Actor.get_stage" title="Clutter.Actor.get_stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.get_stage</span></tt></a> () to retrieve the stage for
+a given actor.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.queue_redraw">
+<tt class="descname">queue_redraw</tt><big>(</big><big>)</big></dt>
+<dd><p>Queues a redraw for the passed stage.</p>
+<p>Applications should call <a class="reference internal" href="Actor.html#Clutter.Actor.queue_redraw" title="Clutter.Actor.queue_redraw"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.queue_redraw</span></tt></a> () and not
+this function.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use <a class="reference internal" href="Actor.html#Clutter.Actor.queue_redraw" title="Clutter.Actor.queue_redraw"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.queue_redraw</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.read_pixels">
+<tt class="descname">read_pixels</tt><big>(</big><em>x</em>, <em>y</em>, <em>width</em>, <em>height</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>x</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; x coordinate of the first pixel that is read from stage</li>
+<li><strong>y</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; y coordinate of the first pixel that is read from stage</li>
+<li><strong>width</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; Width dimention of pixels to be read, or -1 for the
+entire stage width</li>
+<li><strong>height</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; Height dimention of pixels to be read, or -1 for the
+entire stage height</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">a pointer to newly allocated memory with the buffer
+or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a> if the read failed. Use <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> () on the returned data
+to release the resources it has allocated.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bytes</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Makes a screenshot of the stage in RGBA 8bit data, returns a
+linear buffer with <cite>width</cite> * 4 as rowstride.</p>
+<p>The alpha data contained in the returned buffer is driver-dependent,
+and not guaranteed to hold any sensible value.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_accept_focus">
+<tt class="descname">set_accept_focus</tt><big>(</big><em>accept_focus</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>accept_focus</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> to accept focus on show</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether the <cite>stage</cite> should accept the key focus when shown.</p>
+<p>This function should be called before showing <cite>stage</cite> using
+<a class="reference internal" href="Actor.html#Clutter.Actor.show" title="Clutter.Actor.show"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.show</span></tt></a> ().</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_color">
+<tt class="descname">set_color</tt><big>(</big><em>color</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>color</strong> (<a class="reference internal" href="../structs/Color.html#Clutter.Color" title="Clutter.Color"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Color</span></tt></a>) &#8211; A <a class="reference internal" href="../structs/Color.html#Clutter.Color" title="Clutter.Color"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Color</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the stage color.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use <a class="reference internal" href="Actor.html#Clutter.Actor.set_background_color" title="Clutter.Actor.set_background_color"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.set_background_color</span></tt></a> () instead.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_fog">
+<tt class="descname">set_fog</tt><big>(</big><em>fog</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fog</strong> (<a class="reference internal" href="../structs/Fog.html#Clutter.Fog" title="Clutter.Fog"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Fog</span></tt></a>) &#8211; a <a class="reference internal" href="../structs/Fog.html#Clutter.Fog" title="Clutter.Fog"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Fog</span></tt></a> structure</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the fog (also known as &#8220;depth cueing&#8221;) settings for the <cite>stage</cite>.</p>
+<p>A <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> will only use a linear fog progression, which
+depends solely on the distance from the viewer. The <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-Cogl-1.0/functions.html#Cogl.set_fog" title="(in Cogl 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Cogl.set_fog</span></tt></a> ()
+function in COGL exposes more of the underlying implementation,
+and allows changing the for progression function. It can be directly
+used by disabling the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> <a class="reference internal" href="#Clutter.Stage.props.use_fog" title="Clutter.Stage.props.use_fog"><tt class="xref py py-data docutils literal"><span class="pre">:use-fog</span></tt></a> property and connecting
+a signal handler to the <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.signals.paint" title="Clutter.Actor.signals.paint"><tt class="xref py py-func docutils literal"><span class="pre">::paint</span></tt></a> signal on the <cite>stage</cite>,
+like:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="n">clutter_stage_set_use_fog</span> <span class="p">(</span><span class="n">stage</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">);</span>
+<span class="n">g_signal_connect</span> <span class="p">(</span><span class="n">stage</span><span class="p">,</span> <span class="s">&quot;paint&quot;</span><span class="p">,</span> <span class="n">G_CALLBACK</span> <span class="p">(</span><span class="n">on_stage_paint</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>The paint signal handler will call <a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-Cogl-1.0/functions.html#Cogl.set_fog" title="(in Cogl 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Cogl.set_fog</span></tt></a> () with the
+desired settings:</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="k">static</span> <span class="kt">void</span>
+<span class="nf">on_stage_paint</span> <span class="p">(</span><span class="n">ClutterActor</span> <span class="o">*</span><span class="n">actor</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">ClutterColor</span> <span class="n">stage_color</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">0</span><span class="p">,</span> <span class="p">};</span>
+  <span class="n">CoglColor</span> <span class="n">fog_color</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">0</span><span class="p">,</span> <span class="p">};</span>
+
+  <span class="c1">// set the fog color to the stage background color</span>
+  <span class="n">clutter_stage_get_color</span> <span class="p">(</span><span class="n">CLUTTER_STAGE</span> <span class="p">(</span><span class="n">actor</span><span class="p">),</span> <span class="o">&amp;</span><span class="n">stage_color</span><span class="p">);</span>
+  <span class="n">cogl_color_init_from_4ub</span> <span class="p">(</span><span class="o">&amp;</span><span class="n">fog_color</span><span class="p">,</span>
+                            <span class="n">stage_color</span><span class="p">.</span><span class="n">red</span><span class="p">,</span>
+                            <span class="n">stage_color</span><span class="p">.</span><span class="n">green</span><span class="p">,</span>
+                            <span class="n">stage_color</span><span class="p">.</span><span class="n">blue</span><span class="p">,</span>
+                            <span class="n">stage_color</span><span class="p">.</span><span class="n">alpha</span><span class="p">);</span>
+
+  <span class="c1">// enable fog //</span>
+  <span class="n">cogl_set_fog</span> <span class="p">(</span><span class="o">&amp;</span><span class="n">fog_color</span><span class="p">,</span>
+                <span class="n">COGL_FOG_MODE_EXPONENTIAL</span><span class="p">,</span> <span class="c1">// mode</span>
+                <span class="mf">0.5</span><span class="p">,</span>                       <span class="c1">// density</span>
+                <span class="mf">5.0</span><span class="p">,</span> <span class="mf">30.0</span><span class="p">);</span>                <span class="c1">// z_near and z_far</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>The fogging functions only work correctly when the visible actors use
+unmultiplied alpha colors. By default Cogl will premultiply textures and
+<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-Cogl-1.0/functions.html#Cogl.set_source_color" title="(in Cogl 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Cogl.set_source_color</span></tt></a> () will premultiply colors, so unless you explicitly
+load your textures requesting an unmultiplied internal format and use
+<a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-Cogl-1.0/structs/Material.html#Cogl.Material.set_color" title="(in Cogl 1.0 v1.0)"><tt class="xref py py-obj docutils literal"><span class="pre">Cogl.Material.set_color</span></tt></a> () you can only use fogging with fully opaque actors.
+Support for premultiplied colors will improve in the future when we can
+depend on fragment shaders.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Fog settings are ignored.</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_fullscreen">
+<tt class="descname">set_fullscreen</tt><big>(</big><em>fullscreen</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fullscreen</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> to to set the stage fullscreen</td>
+</tr>
+</tbody>
+</table>
+<p>Asks to place the stage window in the fullscreen or unfullscreen
+states.</p>
+<p>( Note that you shouldn&#8217;t assume the window is definitely full screen
+afterward, because other entities (e.g. the user or window manager)
+could unfullscreen it again, and not all window managers honor
+requests to fullscreen windows.</p>
+<p>If you want to receive notification of the fullscreen state you
+should either use the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> <a class="reference internal" href="#Clutter.Stage.signals.fullscreen" title="Clutter.Stage.signals.fullscreen"><tt class="xref py py-func docutils literal"><span class="pre">::fullscreen</span></tt></a> and
+<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> <a class="reference internal" href="#Clutter.Stage.signals.unfullscreen" title="Clutter.Stage.signals.unfullscreen"><tt class="xref py py-func docutils literal"><span class="pre">::unfullscreen</span></tt></a> signals, or use the notify signal
+for the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> <a class="reference internal" href="#Clutter.Stage.props.fullscreen_set" title="Clutter.Stage.props.fullscreen_set"><tt class="xref py py-data docutils literal"><span class="pre">:fullscreen-set</span></tt></a> property</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_key_focus">
+<tt class="descname">set_key_focus</tt><big>(</big><em>actor</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>actor</strong> (<a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the actor to set key focus to, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the key focus on <cite>actor</cite>. An actor with key focus will receive
+all the key events. If <cite>actor</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, the stage will receive
+focus.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_minimum_size">
+<tt class="descname">set_minimum_size</tt><big>(</big><em>width</em>, <em>height</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>width</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; width, in pixels</li>
+<li><strong>height</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; height, in pixels</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the minimum size for a stage window, if the default backend
+uses <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> inside a window</p>
+<p>This is a convenience function, and it is equivalent to setting the
+<a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.props.min_width" title="Clutter.Actor.props.min_width"><tt class="xref py py-data docutils literal"><span class="pre">:min-width</span></tt></a> and <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.props.min_height" title="Clutter.Actor.props.min_height"><tt class="xref py py-data docutils literal"><span class="pre">:min-height</span></tt></a> on <cite>stage</cite></p>
+<p>If the current size of <cite>stage</cite> is smaller than the minimum size, the
+<cite>stage</cite> will be resized to the new <cite>width</cite> and <cite>height</cite></p>
+<p>This function has no effect if <cite>stage</cite> is fullscreen</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_motion_events_enabled">
+<tt class="descname">set_motion_events_enabled</tt><big>(</big><em>enabled</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>enabled</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> to enable the motion events delivery, and <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a>
+otherwise</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether per-actor motion events (and relative crossing
+events) should be disabled or not.</p>
+<p>The default is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a>.</p>
+<p>If <cite>enable</cite> is <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> the following signals will not be emitted
+by the actors children of <cite>stage</cite> :</p>
+<ul class="simple">
+<li><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.signals.motion_event" title="Clutter.Actor.signals.motion_event"><tt class="xref py py-func docutils literal"><span class="pre">::motion-event</span></tt></a></li>
+<li><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.signals.enter_event" title="Clutter.Actor.signals.enter_event"><tt class="xref py py-func docutils literal"><span class="pre">::enter-event</span></tt></a></li>
+<li><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.signals.leave_event" title="Clutter.Actor.signals.leave_event"><tt class="xref py py-func docutils literal"><span class="pre">::leave-event</span></tt></a></li>
+</ul>
+<p>The events will still be delivered to the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a>.</p>
+<p>The main side effect of this function is that disabling the motion
+events will disable picking to detect the <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> underneath
+the pointer for each motion event. This is useful, for instance,
+when dragging a <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> across the <cite>stage</cite> : the actor underneath
+the pointer is not going to change, so it&#8217;s meaningless to perform
+a pick.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.8.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_no_clear_hint">
+<tt class="descname">set_no_clear_hint</tt><big>(</big><em>no_clear</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>no_clear</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the <cite>stage</cite> should not clear itself on every
+repaint cycle</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether the <cite>stage</cite> should clear itself at the beginning
+of each paint cycle or not.</p>
+<p>Clearing the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> can be a costly operation, especially
+if the stage is always covered - for instance, in a full-screen
+video player or in a game with a background texture.</p>
+<p>This setting is a hint; Clutter might discard this hint
+depending on its internal state.</p>
+<p>If parts of the stage are visible and you disable clearing you
+might end up with visual artifacts while painting the contents of
+the stage.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_perspective">
+<tt class="descname">set_perspective</tt><big>(</big><em>perspective</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>perspective</strong> (<a class="reference internal" href="../structs/Perspective.html#Clutter.Perspective" title="Clutter.Perspective"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Perspective</span></tt></a>) &#8211; A <a class="reference internal" href="../structs/Perspective.html#Clutter.Perspective" title="Clutter.Perspective"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Perspective</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Sets the stage perspective. Using this function is not recommended
+because it will disable Clutter&#8217;s attempts to generate an
+appropriate perspective based on the size of the stage.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_throttle_motion_events">
+<tt class="descname">set_throttle_motion_events</tt><big>(</big><em>throttle</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>throttle</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> to throttle motion events</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether motion events received between redraws should
+be throttled or not. If motion events are throttled, those
+events received by the windowing system between redraws will
+be compressed so that only the last event will be propagated
+to the <cite>stage</cite> and its actors.</p>
+<p>This function should only be used if you want to have all
+the motion events delivered to your application code.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_title">
+<tt class="descname">set_title</tt><big>(</big><em>title</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>title</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; A utf8 string for the stage windows title.</td>
+</tr>
+</tbody>
+</table>
+<p>Sets the stage title.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_use_alpha">
+<tt class="descname">set_use_alpha</tt><big>(</big><em>use_alpha</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>use_alpha</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; whether the stage should honour the opacity or the
+alpha channel of the stage color</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether the <cite>stage</cite> should honour the <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.props.opacity" title="Clutter.Actor.props.opacity"><tt class="xref py py-data docutils literal"><span class="pre">:opacity</span></tt></a> and
+the alpha channel of the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> <a class="reference internal" href="#Clutter.Stage.props.color" title="Clutter.Stage.props.color"><tt class="xref py py-data docutils literal"><span class="pre">:color</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_use_fog">
+<tt class="descname">set_use_fog</tt><big>(</big><em>fog</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fog</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for enabling the depth cueing effect</td>
+</tr>
+</tbody>
+</table>
+<p>Sets whether the depth cueing effect on the stage should be enabled
+or not.</p>
+<p>Depth cueing is a 3D effect that makes actors farther away from the
+viewing point less opaque, by fading them with the stage color.</p>
+<p>The parameters of the GL fog used can be changed using the
+<a class="reference internal" href="#Clutter.Stage.set_fog" title="Clutter.Stage.set_fog"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_fog</span></tt></a> () function.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Calling this function produces no visible effect</p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.set_user_resizable">
+<tt class="descname">set_user_resizable</tt><big>(</big><em>resizable</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>resizable</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; whether the stage should be user resizable.</td>
+</tr>
+</tbody>
+</table>
+<p>Sets if the stage is resizable by user interaction (e.g. via
+window manager controls)</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.show_cursor">
+<tt class="descname">show_cursor</tt><big>(</big><big>)</big></dt>
+<dd><p>Shows the cursor on the stage window</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.do_activate">
+<tt class="descname">do_activate</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.do_deactivate">
+<tt class="descname">do_deactivate</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.do_delete_event">
+<tt class="descname">do_delete_event</tt><big>(</big><em>event</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>event</strong> (<a class="reference internal" href="../unions/Event.html#Clutter.Event" title="Clutter.Event"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Event</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.do_fullscreen">
+<tt class="descname">do_fullscreen</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Clutter.Stage.do_unfullscreen">
+<tt class="descname">do_unfullscreen</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">virtual</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="signal-details">
+<h2>Signal Details</h2>
+<dl class="function">
+<dt id="Clutter.Stage.signals.activate">
+<tt class="descclassname">Clutter.Stage.signals.</tt><tt class="descname">activate</tt><big>(</big><em>stage</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">activate</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>stage</strong> (<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Stage</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Stage.signals.activate" title="Clutter.Stage.signals.activate"><tt class="xref py py-func docutils literal"><span class="pre">::activate</span></tt></a> signal is emitted when the stage receives key focus
+from the underlying window system.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Stage.signals.after_paint">
+<tt class="descclassname">Clutter.Stage.signals.</tt><tt class="descname">after_paint</tt><big>(</big><em>stage</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">after-paint</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>stage</strong> (<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Stage</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Stage.signals.after_paint" title="Clutter.Stage.signals.after_paint"><tt class="xref py py-func docutils literal"><span class="pre">::after-paint</span></tt></a> signal is emitted after the stage is painted,
+but before the results are displayed on the screen.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.20.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Stage.signals.deactivate">
+<tt class="descclassname">Clutter.Stage.signals.</tt><tt class="descname">deactivate</tt><big>(</big><em>stage</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">deactivate</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>stage</strong> (<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Stage</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Stage.signals.activate" title="Clutter.Stage.signals.activate"><tt class="xref py py-func docutils literal"><span class="pre">::activate</span></tt></a> signal is emitted when the stage loses key focus
+from the underlying window system.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Stage.signals.delete_event">
+<tt class="descclassname">Clutter.Stage.signals.</tt><tt class="descname">delete_event</tt><big>(</big><em>stage</em>, <em>event</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">delete-event</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><p class="first"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>stage</strong> (<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Stage</span></tt></a>) &#8211; The object which received the signal</li>
+<li><strong>event</strong> (<a class="reference internal" href="../unions/Event.html#Clutter.Event" title="Clutter.Event"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Event</span></tt></a>) &#8211; a <a class="reference internal" href="../unions/Event.html#Clutter.Event" title="Clutter.Event"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Event</span></tt></a> of type <a class="reference internal" href="../enums.html#Clutter.EventType.DELETE" title="Clutter.EventType.DELETE"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.EventType.DELETE</span></tt></a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Stage.signals.delete_event" title="Clutter.Stage.signals.delete_event"><tt class="xref py py-func docutils literal"><span class="pre">::delete-event</span></tt></a> signal is emitted when the user closes a
+<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> window using the window controls.</p>
+<p>Clutter by default will call <a class="reference internal" href="../functions.html#Clutter.main_quit" title="Clutter.main_quit"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.main_quit</span></tt></a> () if <cite>stage</cite> is
+the default stage, and <a class="reference internal" href="Actor.html#Clutter.Actor.destroy" title="Clutter.Actor.destroy"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor.destroy</span></tt></a> () for any other
+stage.</p>
+<p>It is possible to override the default behaviour by connecting
+a new handler and returning <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> there.</p>
+<p>This signal is emitted only on Clutter backends that
+embed <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> in native windows. It is not emitted for
+backends that use a static frame buffer.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Stage.signals.fullscreen">
+<tt class="descclassname">Clutter.Stage.signals.</tt><tt class="descname">fullscreen</tt><big>(</big><em>stage</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">fullscreen</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_FIRST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_FIRST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>stage</strong> (<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Stage</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Stage.signals.fullscreen" title="Clutter.Stage.signals.fullscreen"><tt class="xref py py-func docutils literal"><span class="pre">::fullscreen</span></tt></a> signal is emitted when the stage is made fullscreen.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="Clutter.Stage.signals.unfullscreen">
+<tt class="descclassname">Clutter.Stage.signals.</tt><tt class="descname">unfullscreen</tt><big>(</big><em>stage</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Signal Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">unfullscreen</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body"><a class="reference external" href="../_devhelp/Clutter-1.0/../../../python-GObject-2.0/flags.html#GObject.SignalFlags.RUN_LAST" title="(in GObject 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">RUN_LAST</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>stage</strong> (<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Stage</span></tt></a>) &#8211; The object which received the signal</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="#Clutter.Stage.signals.unfullscreen" title="Clutter.Stage.signals.unfullscreen"><tt class="xref py py-func docutils literal"><span class="pre">::unfullscreen</span></tt></a> signal is emitted when the stage leaves a fullscreen
+state.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="property-details">
+<h2>Property Details</h2>
+<dl class="data">
+<dt id="Clutter.Stage.props.accept_focus">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">accept_focus</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">accept-focus</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> should accept key focus when shown.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.color">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">color</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">color</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../structs/Color.html#Clutter.Color" title="Clutter.Color"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Color</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><tt class="docutils literal"><span class="pre">42273536</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The background color of the main stage.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>Use the <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> <a class="reference internal" href="Actor.html#Clutter.Actor.props.background_color" title="Clutter.Actor.props.background_color"><tt class="xref py py-data docutils literal"><span class="pre">:background-color</span></tt></a> property of
+<a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> instead.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.cursor_visible">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">cursor_visible</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">cursor-visible</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the mouse pointer should be visible</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.fog">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">fog</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">fog</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../structs/Fog.html#Clutter.Fog" title="Clutter.Fog"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Fog</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The settings for the GL &#8220;fog&#8221;, used only if <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> <a class="reference internal" href="#Clutter.Stage.props.use_fog" title="Clutter.Stage.props.use_fog"><tt class="xref py py-data docutils literal"><span class="pre">:use-fog</span></tt></a>
+is set to <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a></p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.0.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>This property does not do anything.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.fullscreen_set">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">fullscreen_set</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">fullscreen-set</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the main stage is fullscreen</p>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.key_focus">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">key_focus</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">key-focus</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Actor</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The <a class="reference internal" href="Actor.html#Clutter.Actor" title="Clutter.Actor"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Actor</span></tt></a> that will receive key events from the underlying
+windowing system.</p>
+<p>If <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> will receive the events.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.no_clear_hint">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">no_clear_hint</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">no-clear-hint</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether or not the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> should clear its contents
+before each paint cycle.</p>
+<p>See <a class="reference internal" href="#Clutter.Stage.set_no_clear_hint" title="Clutter.Stage.set_no_clear_hint"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage.set_no_clear_hint</span></tt></a> () for further information.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.offscreen">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">offscreen</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">offscreen</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the stage should be rendered in an offscreen buffer.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>This property does not do anything.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.perspective">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">perspective</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">perspective</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="../structs/Perspective.html#Clutter.Perspective" title="Clutter.Perspective"><tt class="xref py py-class docutils literal"><span class="pre">Clutter.Perspective</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The parameters used for the perspective projection from 3D
+coordinates to 2D</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.title">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">title</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">title</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>The stage&#8217;s title - usually displayed in stage windows title decorations.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.use_alpha">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">use_alpha</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">use-alpha</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the <a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> should honour the alpha component of the
+<a class="reference internal" href="#Clutter.Stage" title="Clutter.Stage"><tt class="xref py py-obj docutils literal"><span class="pre">Clutter.Stage</span></tt></a> <a class="reference internal" href="#Clutter.Stage.props.color" title="Clutter.Stage.props.color"><tt class="xref py py-data docutils literal"><span class="pre">:color</span></tt></a> property when painting. If Clutter is run under
+a compositing manager this will result in the stage being blended
+with the underlying window(s)</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 1.2.</span></p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.use_fog">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">use_fog</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">use-fog</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the stage should use a linear GL &#8220;fog&#8221; in creating the
+depth-cueing effect, to enhance the perception of depth by fading
+actors farther from the viewpoint.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.6.</span></p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 1.10: </span>This property does not do anything.</p>
+</div>
+</dd></dl>
+
+<dl class="data">
+<dt id="Clutter.Stage.props.user_resizable">
+<tt class="descclassname">Clutter.Stage.props.</tt><tt class="descname">user_resizable</tt></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Name:</th><td class="field-body"><tt class="docutils literal"><span class="pre">user-resizable</span></tt></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Default Value:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Flags:</th><td class="field-body">r/w</td>
+</tr>
+</tbody>
+</table>
+<p>Whether the stage is resizable via user interaction.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.4.</span></p>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

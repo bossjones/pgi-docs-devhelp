@@ -1,0 +1,1067 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    Evd 0.1
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Evd 0.1 Python API Docs" href="index.html"/>
+        <link rel="next" title="Callbacks" href="callbacks.html"/>
+        <link rel="prev" title="Evd 0.1" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Evd 0.1</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Evd 0.1</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="callbacks.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_close_connection" title="Evd.dbus_agent_close_connection"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_close_connection</span></tt></a>(object, connection_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_close_proxy" title="Evd.dbus_agent_close_proxy"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_close_proxy</span></tt></a>(object, proxy_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_create_address_alias" title="Evd.dbus_agent_create_address_alias"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_create_address_alias</span></tt></a>(object, address, alias)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_emit_signal" title="Evd.dbus_agent_emit_signal"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_emit_signal</span></tt></a>(object, registration_id, signal_name, signal_parameters)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_get_connection" title="Evd.dbus_agent_get_connection"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_get_connection</span></tt></a>(obj, connection_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_get_method_invocation" title="Evd.dbus_agent_get_method_invocation"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_get_method_invocation</span></tt></a>(object, registration_id, serial)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_get_proxy" title="Evd.dbus_agent_get_proxy"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_get_proxy</span></tt></a>(obj, proxy_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_get_registered_object_interface" title="Evd.dbus_agent_get_registered_object_interface"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_get_registered_object_interface</span></tt></a>(object, registration_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_method_call_return" title="Evd.dbus_agent_method_call_return"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_method_call_return</span></tt></a>(object, registration_id, serial, return_parameters)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_new_connection" title="Evd.dbus_agent_new_connection"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_new_connection</span></tt></a>(object, addr, reuse, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_new_connection_finish" title="Evd.dbus_agent_new_connection_finish"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_new_connection_finish</span></tt></a>(object, result)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_new_proxy" title="Evd.dbus_agent_new_proxy"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_new_proxy</span></tt></a>(object, conn_id, flags, name, object_path, iface_name, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_new_proxy_finish" title="Evd.dbus_agent_new_proxy_finish"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_new_proxy_finish</span></tt></a>(object, result)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_own_name" title="Evd.dbus_agent_own_name"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_own_name</span></tt></a>(object, connection_id, name, flags)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_register_object" title="Evd.dbus_agent_register_object"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_register_object</span></tt></a>(object, connection_id, object_path, interface_info)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_set_object_vtable" title="Evd.dbus_agent_set_object_vtable"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_set_object_vtable</span></tt></a>(object, vtable, user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_unown_name" title="Evd.dbus_agent_unown_name"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_unown_name</span></tt></a>(object, owner_id)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.dbus_agent_unregister_object" title="Evd.dbus_agent_unregister_object"><tt class="xref py py-obj docutils literal"><span class="pre">dbus_agent_unregister_object</span></tt></a>(object, registration_id)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.error_build_gcrypt" title="Evd.error_build_gcrypt"><tt class="xref py py-obj docutils literal"><span class="pre">error_build_gcrypt</span></tt></a>(gcrypt_error)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.error_build_gnutls" title="Evd.error_build_gnutls"><tt class="xref py py-obj docutils literal"><span class="pre">error_build_gnutls</span></tt></a>(gnutls_error)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.error_propagate_gnutls" title="Evd.error_propagate_gnutls"><tt class="xref py py-obj docutils literal"><span class="pre">error_propagate_gnutls</span></tt></a>(gnutls_error_code)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.nanosleep" title="Evd.nanosleep"><tt class="xref py py-obj docutils literal"><span class="pre">nanosleep</span></tt></a>(nanoseconds)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.pki_generate_key_pair" title="Evd.pki_generate_key_pair"><tt class="xref py py-obj docutils literal"><span class="pre">pki_generate_key_pair</span></tt></a>(key_type, bit_length, fast_but_insecure, cancellable, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.pki_generate_key_pair_finish" title="Evd.pki_generate_key_pair_finish"><tt class="xref py py-obj docutils literal"><span class="pre">pki_generate_key_pair_finish</span></tt></a>(result, privkey, pubkey)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.timeout_add" title="Evd.timeout_add"><tt class="xref py py-obj docutils literal"><span class="pre">timeout_add</span></tt></a>(context, timeout, priority, callback, *user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.tls_deinit" title="Evd.tls_deinit"><tt class="xref py py-obj docutils literal"><span class="pre">tls_deinit</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.tls_free_certificates" title="Evd.tls_free_certificates"><tt class="xref py py-obj docutils literal"><span class="pre">tls_free_certificates</span></tt></a>(certificates)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.tls_generate_dh_params" title="Evd.tls_generate_dh_params"><tt class="xref py py-obj docutils literal"><span class="pre">tls_generate_dh_params</span></tt></a>(bit_length, regenerate, callback, cancellable, *user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.tls_generate_dh_params_finish" title="Evd.tls_generate_dh_params_finish"><tt class="xref py py-obj docutils literal"><span class="pre">tls_generate_dh_params_finish</span></tt></a>(result)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.tls_init" title="Evd.tls_init"><tt class="xref py py-obj docutils literal"><span class="pre">tls_init</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.uuid_new" title="Evd.uuid_new"><tt class="xref py py-obj docutils literal"><span class="pre">uuid_new</span></tt></a>()</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_bind" title="Evd.websocket_protocol_bind"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_bind</span></tt></a>(conn, frame_cb, close_cb, *user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_close" title="Evd.websocket_protocol_close"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_close</span></tt></a>(conn, code, reason)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_create_handshake_request" title="Evd.websocket_protocol_create_handshake_request"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_create_handshake_request</span></tt></a>(url, sub_protocol, origin, key_base64)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_get_state" title="Evd.websocket_protocol_get_state"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_get_state</span></tt></a>(conn)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_handle_handshake_request" title="Evd.websocket_protocol_handle_handshake_request"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_handle_handshake_request</span></tt></a>(conn, request)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_handle_handshake_response" title="Evd.websocket_protocol_handle_handshake_response"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_handle_handshake_response</span></tt></a>(conn, http_version, status_code, headers, handshake_key)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_send" title="Evd.websocket_protocol_send"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_send</span></tt></a>(conn, frame, frame_len, frame_type)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Evd.websocket_protocol_unbind" title="Evd.websocket_protocol_unbind"><tt class="xref py py-obj docutils literal"><span class="pre">websocket_protocol_unbind</span></tt></a>(conn)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="Evd.dbus_agent_close_connection">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_close_connection</tt><big>(</big><em>object</em>, <em>connection_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>connection_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_close_proxy">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_close_proxy</tt><big>(</big><em>object</em>, <em>proxy_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>proxy_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_create_address_alias">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_create_address_alias</tt><big>(</big><em>object</em>, <em>address</em>, <em>alias</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>address</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>alias</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_emit_signal">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_emit_signal</tt><big>(</big><em>object</em>, <em>registration_id</em>, <em>signal_name</em>, <em>signal_parameters</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>registration_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>signal_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>signal_parameters</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_get_connection">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_get_connection</tt><big>(</big><em>obj</em>, <em>connection_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>obj</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>connection_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/classes/DBusConnection.html#Gio.DBusConnection" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusConnection</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_get_method_invocation">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_get_method_invocation</tt><big>(</big><em>object</em>, <em>registration_id</em>, <em>serial</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>registration_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>serial</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/classes/DBusMethodInvocation.html#Gio.DBusMethodInvocation" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusMethodInvocation</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_get_proxy">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_get_proxy</tt><big>(</big><em>obj</em>, <em>proxy_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>obj</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>proxy_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/classes/DBusProxy.html#Gio.DBusProxy" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxy</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_get_registered_object_interface">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_get_registered_object_interface</tt><big>(</big><em>object</em>, <em>registration_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>registration_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_method_call_return">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_method_call_return</tt><big>(</big><em>object</em>, <em>registration_id</em>, <em>serial</em>, <em>return_parameters</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>registration_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>serial</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>return_parameters</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/structs/Variant.html#GLib.Variant" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Variant</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_new_connection">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_new_connection</tt><big>(</big><em>object</em>, <em>addr</em>, <em>reuse</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>addr</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>reuse</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+<li><strong>cancellable</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_new_connection_finish">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_new_connection_finish</tt><big>(</big><em>object</em>, <em>result</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>result</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_new_proxy">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_new_proxy</tt><big>(</big><em>object</em>, <em>conn_id</em>, <em>flags</em>, <em>name</em>, <em>object_path</em>, <em>iface_name</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>conn_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>flags</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/flags.html#Gio.DBusProxyFlags" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusProxyFlags</span></tt></a>) &#8211; </li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>object_path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>iface_name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>cancellable</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_new_proxy_finish">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_new_proxy_finish</tt><big>(</big><em>object</em>, <em>result</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>result</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_own_name">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_own_name</tt><big>(</big><em>object</em>, <em>connection_id</em>, <em>name</em>, <em>flags</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>connection_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>name</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>flags</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/flags.html#Gio.BusNameOwnerFlags" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.BusNameOwnerFlags</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_register_object">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_register_object</tt><big>(</big><em>object</em>, <em>connection_id</em>, <em>object_path</em>, <em>interface_info</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>connection_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>object_path</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>interface_info</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/structs/DBusInterfaceInfo.html#Gio.DBusInterfaceInfo" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.DBusInterfaceInfo</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_set_object_vtable">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_set_object_vtable</tt><big>(</big><em>object</em>, <em>vtable</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>vtable</strong> (<a class="reference internal" href="structs/DBusAgentVTable.html#Evd.DBusAgentVTable" title="Evd.DBusAgentVTable"><tt class="xref py py-class docutils literal"><span class="pre">Evd.DBusAgentVTable</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_unown_name">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_unown_name</tt><big>(</big><em>object</em>, <em>owner_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>owner_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.dbus_agent_unregister_object">
+<tt class="descclassname">Evd.</tt><tt class="descname">dbus_agent_unregister_object</tt><big>(</big><em>object</em>, <em>registration_id</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>object</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GObject-2.0/classes/Object.html#GObject.Object" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.Object</span></tt></a>) &#8211; </li>
+<li><strong>registration_id</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.error_build_gcrypt">
+<tt class="descclassname">Evd.</tt><tt class="descname">error_build_gcrypt</tt><big>(</big><em>gcrypt_error</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>gcrypt_error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.error_build_gnutls">
+<tt class="descclassname">Evd.</tt><tt class="descname">error_build_gnutls</tt><big>(</big><em>gnutls_error</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>gnutls_error</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.error_propagate_gnutls">
+<tt class="descclassname">Evd.</tt><tt class="descname">error_propagate_gnutls</tt><big>(</big><em>gnutls_error_code</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>gnutls_error_code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.nanosleep">
+<tt class="descclassname">Evd.</tt><tt class="descname">nanosleep</tt><big>(</big><em>nanoseconds</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>nanoseconds</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.pki_generate_key_pair">
+<tt class="descclassname">Evd.</tt><tt class="descname">pki_generate_key_pair</tt><big>(</big><em>key_type</em>, <em>bit_length</em>, <em>fast_but_insecure</em>, <em>cancellable</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>key_type</strong> (<a class="reference internal" href="enums.html#Evd.PkiKeyType" title="Evd.PkiKeyType"><tt class="xref py py-class docutils literal"><span class="pre">Evd.PkiKeyType</span></tt></a>) &#8211; </li>
+<li><strong>bit_length</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>fast_but_insecure</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+<li><strong>cancellable</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.pki_generate_key_pair_finish">
+<tt class="descclassname">Evd.</tt><tt class="descname">pki_generate_key_pair_finish</tt><big>(</big><em>result</em>, <em>privkey</em>, <em>pubkey</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>result</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; </li>
+<li><strong>privkey</strong> (<a class="reference internal" href="classes/PkiPrivkey.html#Evd.PkiPrivkey" title="Evd.PkiPrivkey"><tt class="xref py py-class docutils literal"><span class="pre">Evd.PkiPrivkey</span></tt></a>) &#8211; </li>
+<li><strong>pubkey</strong> (<a class="reference internal" href="classes/PkiPubkey.html#Evd.PkiPubkey" title="Evd.PkiPubkey"><tt class="xref py py-class docutils literal"><span class="pre">Evd.PkiPubkey</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.timeout_add">
+<tt class="descclassname">Evd.</tt><tt class="descname">timeout_add</tt><big>(</big><em>context</em>, <em>timeout</em>, <em>priority</em>, <em>callback</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>context</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/structs/MainContext.html#GLib.MainContext" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.MainContext</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>timeout</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>priority</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">GLib.SourceFunc</span></tt>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.tls_deinit">
+<tt class="descclassname">Evd.</tt><tt class="descname">tls_deinit</tt><big>(</big><big>)</big></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="Evd.tls_free_certificates">
+<tt class="descclassname">Evd.</tt><tt class="descname">tls_free_certificates</tt><big>(</big><em>certificates</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>certificates</strong> ([<a class="reference internal" href="classes/TlsCertificate.html#Evd.TlsCertificate" title="Evd.TlsCertificate"><tt class="xref py py-class docutils literal"><span class="pre">Evd.TlsCertificate</span></tt></a>]) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.tls_generate_dh_params">
+<tt class="descclassname">Evd.</tt><tt class="descname">tls_generate_dh_params</tt><big>(</big><em>bit_length</em>, <em>regenerate</em>, <em>callback</em>, <em>cancellable</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>bit_length</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>regenerate</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a>) &#8211; </li>
+<li><strong>callback</strong> (<tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncReadyCallback</span></tt> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>cancellable</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/classes/Cancellable.html#Gio.Cancellable" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.Cancellable</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.tls_generate_dh_params_finish">
+<tt class="descclassname">Evd.</tt><tt class="descname">tls_generate_dh_params_finish</tt><big>(</big><em>result</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>result</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Gio-2.0/interfaces/AsyncResult.html#Gio.AsyncResult" title="(in Gio 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">Gio.AsyncResult</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.tls_init">
+<tt class="descclassname">Evd.</tt><tt class="descname">tls_init</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.uuid_new">
+<tt class="descclassname">Evd.</tt><tt class="descname">uuid_new</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_bind">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_bind</tt><big>(</big><em>conn</em>, <em>frame_cb</em>, <em>close_cb</em>, <em>*user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>conn</strong> (<a class="reference internal" href="classes/HttpConnection.html#Evd.HttpConnection" title="Evd.HttpConnection"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpConnection</span></tt></a>) &#8211; </li>
+<li><strong>frame_cb</strong> (<a class="reference internal" href="callbacks.html#Evd.WebsocketFrameCb" title="Evd.WebsocketFrameCb"><tt class="xref py py-class docutils literal"><span class="pre">Evd.WebsocketFrameCb</span></tt></a>) &#8211; </li>
+<li><strong>close_cb</strong> (<a class="reference internal" href="callbacks.html#Evd.WebsocketCloseCb" title="Evd.WebsocketCloseCb"><tt class="xref py py-class docutils literal"><span class="pre">Evd.WebsocketCloseCb</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_close">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_close</tt><big>(</big><em>conn</em>, <em>code</em>, <em>reason</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>conn</strong> (<a class="reference internal" href="classes/HttpConnection.html#Evd.HttpConnection" title="Evd.HttpConnection"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpConnection</span></tt></a>) &#8211; </li>
+<li><strong>code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>reason</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_create_handshake_request">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_create_handshake_request</tt><big>(</big><em>url</em>, <em>sub_protocol</em>, <em>origin</em>, <em>key_base64</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>url</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>sub_protocol</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>origin</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>key_base64</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference internal" href="classes/HttpRequest.html#Evd.HttpRequest" title="Evd.HttpRequest"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpRequest</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_get_state">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_get_state</tt><big>(</big><em>conn</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>conn</strong> (<a class="reference internal" href="classes/HttpConnection.html#Evd.HttpConnection" title="Evd.HttpConnection"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpConnection</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#Evd.WebsocketState" title="Evd.WebsocketState"><tt class="xref py py-class docutils literal"><span class="pre">Evd.WebsocketState</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_handle_handshake_request">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_handle_handshake_request</tt><big>(</big><em>conn</em>, <em>request</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>conn</strong> (<a class="reference internal" href="classes/HttpConnection.html#Evd.HttpConnection" title="Evd.HttpConnection"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpConnection</span></tt></a>) &#8211; </li>
+<li><strong>request</strong> (<a class="reference internal" href="classes/HttpRequest.html#Evd.HttpRequest" title="Evd.HttpRequest"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpRequest</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_handle_handshake_response">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_handle_handshake_response</tt><big>(</big><em>conn</em>, <em>http_version</em>, <em>status_code</em>, <em>headers</em>, <em>handshake_key</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>conn</strong> (<a class="reference internal" href="classes/HttpConnection.html#Evd.HttpConnection" title="Evd.HttpConnection"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpConnection</span></tt></a>) &#8211; </li>
+<li><strong>http_version</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Soup-2.4/enums.html#Soup.HTTPVersion" title="(in Soup 2.4 v2.4)"><tt class="xref py py-class docutils literal"><span class="pre">Soup.HTTPVersion</span></tt></a>) &#8211; </li>
+<li><strong>status_code</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>headers</strong> (<a class="reference external" href="_devhelp/Evd-0.1/../../../python-Soup-2.4/structs/MessageHeaders.html#Soup.MessageHeaders" title="(in Soup 2.4 v2.4)"><tt class="xref py py-class docutils literal"><span class="pre">Soup.MessageHeaders</span></tt></a>) &#8211; </li>
+<li><strong>handshake_key</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_send">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_send</tt><big>(</big><em>conn</em>, <em>frame</em>, <em>frame_len</em>, <em>frame_type</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>conn</strong> (<a class="reference internal" href="classes/HttpConnection.html#Evd.HttpConnection" title="Evd.HttpConnection"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpConnection</span></tt></a>) &#8211; </li>
+<li><strong>frame</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; </li>
+<li><strong>frame_len</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>frame_type</strong> (<a class="reference internal" href="enums.html#Evd.MessageType" title="Evd.MessageType"><tt class="xref py py-class docutils literal"><span class="pre">Evd.MessageType</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><a class="reference external" href="_devhelp/Evd-0.1/../../../python-GLib-2.0/classes/GError.html#GLib.GError" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.GError</span></tt></a></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Evd.websocket_protocol_unbind">
+<tt class="descclassname">Evd.</tt><tt class="descname">websocket_protocol_unbind</tt><big>(</big><em>conn</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>conn</strong> (<a class="reference internal" href="classes/HttpConnection.html#Evd.HttpConnection" title="Evd.HttpConnection"><tt class="xref py py-class docutils literal"><span class="pre">Evd.HttpConnection</span></tt></a>) &#8211; </td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

@@ -1,0 +1,690 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Functions -
+    
+    Gucharmap 2.90
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Gucharmap 2.90 Python API Docs" href="index.html"/>
+        <link rel="next" title="Classes" href="classes/index.html"/>
+        <link rel="prev" title="Gucharmap 2.90" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Gucharmap 2.90</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Gucharmap 2.90</a> &raquo;</li>
+      
+    <li>Functions</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="index.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="classes/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Functions</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="functions">
+<h1>Functions</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_nameslist_colons" title="Gucharmap.get_nameslist_colons"><tt class="xref py py-obj docutils literal"><span class="pre">get_nameslist_colons</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_nameslist_equals" title="Gucharmap.get_nameslist_equals"><tt class="xref py py-obj docutils literal"><span class="pre">get_nameslist_equals</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_nameslist_exes" title="Gucharmap.get_nameslist_exes"><tt class="xref py py-obj docutils literal"><span class="pre">get_nameslist_exes</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_nameslist_pounds" title="Gucharmap.get_nameslist_pounds"><tt class="xref py py-obj docutils literal"><span class="pre">get_nameslist_pounds</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_nameslist_stars" title="Gucharmap.get_nameslist_stars"><tt class="xref py py-obj docutils literal"><span class="pre">get_nameslist_stars</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_category_name" title="Gucharmap.get_unicode_category_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_category_name</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_data_name" title="Gucharmap.get_unicode_data_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_data_name</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_data_name_count" title="Gucharmap.get_unicode_data_name_count"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_data_name_count</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_kCantonese" title="Gucharmap.get_unicode_kCantonese"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_kCantonese</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_kDefinition" title="Gucharmap.get_unicode_kDefinition"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_kDefinition</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_kJapaneseKun" title="Gucharmap.get_unicode_kJapaneseKun"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_kJapaneseKun</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_kJapaneseOn" title="Gucharmap.get_unicode_kJapaneseOn"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_kJapaneseOn</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_kKorean" title="Gucharmap.get_unicode_kKorean"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_kKorean</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_kMandarin" title="Gucharmap.get_unicode_kMandarin"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_kMandarin</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_kTang" title="Gucharmap.get_unicode_kTang"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_kTang</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_name" title="Gucharmap.get_unicode_name"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_name</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unicode_version" title="Gucharmap.get_unicode_version"><tt class="xref py py-obj docutils literal"><span class="pre">get_unicode_version</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.get_unihan_count" title="Gucharmap.get_unihan_count"><tt class="xref py py-obj docutils literal"><span class="pre">get_unihan_count</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unichar_isdefined" title="Gucharmap.unichar_isdefined"><tt class="xref py py-obj docutils literal"><span class="pre">unichar_isdefined</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unichar_isgraph" title="Gucharmap.unichar_isgraph"><tt class="xref py py-obj docutils literal"><span class="pre">unichar_isgraph</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unichar_to_printable_utf8" title="Gucharmap.unichar_to_printable_utf8"><tt class="xref py py-obj docutils literal"><span class="pre">unichar_to_printable_utf8</span></tt></a>(uc, outbuf)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unichar_type" title="Gucharmap.unichar_type"><tt class="xref py py-obj docutils literal"><span class="pre">unichar_type</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unichar_validate" title="Gucharmap.unichar_validate"><tt class="xref py py-obj docutils literal"><span class="pre">unichar_validate</span></tt></a>(uc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unicode_get_locale_character" title="Gucharmap.unicode_get_locale_character"><tt class="xref py py-obj docutils literal"><span class="pre">unicode_get_locale_character</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unicode_get_script_for_char" title="Gucharmap.unicode_get_script_for_char"><tt class="xref py py-obj docutils literal"><span class="pre">unicode_get_script_for_char</span></tt></a>(wc)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unicode_list_scripts" title="Gucharmap.unicode_list_scripts"><tt class="xref py py-obj docutils literal"><span class="pre">unicode_list_scripts</span></tt></a>()</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#Gucharmap.unicode_version_to_string" title="Gucharmap.unicode_version_to_string"><tt class="xref py py-obj docutils literal"><span class="pre">unicode_version_to_string</span></tt></a>(version)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="Gucharmap.get_nameslist_colons">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_nameslist_colons</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a #gunichar</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">newly allocated null-terminated array of <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> 
+the items are const, but the array should be freed by the caller</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_nameslist_equals">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_nameslist_equals</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a gunichar</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">newly allocated null-terminated array of <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> 
+the items are const, but the array should be freed by the caller</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_nameslist_exes">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_nameslist_exes</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_nameslist_pounds">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_nameslist_pounds</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a #gunichar</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">newly allocated null-terminated array of <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> 
+the items are const, but the array should be freed by the caller</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_nameslist_stars">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_nameslist_stars</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a #gunichar</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">newly allocated null-terminated array of <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> 
+the items are const, but the array should be freed by the caller</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_category_name">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_category_name</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_data_name">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_data_name</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_data_name_count">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_data_name_count</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_kCantonese">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_kCantonese</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_kDefinition">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_kDefinition</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_kJapaneseKun">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_kJapaneseKun</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_kJapaneseOn">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_kJapaneseOn</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_kKorean">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_kKorean</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_kMandarin">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_kMandarin</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_kTang">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_kTang</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_name">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_name</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unicode_version">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unicode_version</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="enums.html#Gucharmap.UnicodeVersion" title="Gucharmap.UnicodeVersion"><tt class="xref py py-class docutils literal"><span class="pre">Gucharmap.UnicodeVersion</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.get_unihan_count">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">get_unihan_count</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unichar_isdefined">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unichar_isdefined</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a Unicode character</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if the character has an assigned value</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Determines if a given character is assigned in the Unicode
+standard.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unichar_isgraph">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unichar_isgraph</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a Unicode character</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> if <cite>c</cite> is printable unless it&#8217;s a space</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Determines whether a character is printable and not a space
+(returns <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#False" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">False</span></tt></a> for control characters, format characters, and
+spaces). <a class="reference external" href="_devhelp/Gucharmap-2.90/../../../python-GLib-2.0/functions.html#GLib.unichar_isprint" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.unichar_isprint</span></tt></a> () is similar, but returns <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#True" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">True</span></tt></a> for
+spaces. Given some UTF-8 text, obtain a character value with
+<a class="reference external" href="_devhelp/Gucharmap-2.90/../../../python-GLib-2.0/functions.html#GLib.utf8_get_char" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.utf8_get_char</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unichar_to_printable_utf8">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unichar_to_printable_utf8</tt><big>(</big><em>uc</em>, <em>outbuf</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a unicode character</li>
+<li><strong>outbuf</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>) &#8211; output buffer, must have at least 10 bytes of space.
+If <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>, the length will be computed and returned
+and nothing will be written to <cite>outbuf</cite>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">number of bytes written</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Converts a single character to UTF-8 suitable for rendering. Check the
+source to see what this means. ;-)</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unichar_type">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unichar_type</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a Unicode character</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">the type of the character.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="_devhelp/Gucharmap-2.90/../../../python-GLib-2.0/enums.html#GLib.UnicodeType" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.UnicodeType</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+<p>Classifies a Unicode character by type.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unichar_validate">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unichar_validate</tt><big>(</big><em>uc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>uc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#bool" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">bool</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unicode_get_locale_character">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unicode_get_locale_character</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a unicode character</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt></td>
+</tr>
+</tbody>
+</table>
+<p>Determines a character that&#8217;s commonly used in the current
+locale&#8217;s script.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unicode_get_script_for_char">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unicode_get_script_for_char</tt><big>(</big><em>wc</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>wc</strong> (<tt class="xref py py-class docutils literal"><span class="pre">unicode</span></tt>) &#8211; a character</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The English (untranslated) name of the script to which the
+character belongs. Characters that don&#8217;t belong to an actual script
+return %&#8221;Common&#8221;.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unicode_list_scripts">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unicode_list_scripts</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a newly allocated <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>-terminated array of strings</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">[<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a>]</td>
+</tr>
+</tbody>
+</table>
+<p>Returns an array of untranslated script names.</p>
+<p>The strings in the array are owned by gucharmap and should not be
+modified or free; the array itself however is allocated and should
+be freed with <a class="reference external" href="_devhelp/Gucharmap-2.90/../../../python-GLib-2.0/functions.html#GLib.free" title="(in GLib 2.0 v2.0)"><tt class="xref py py-obj docutils literal"><span class="pre">GLib.free</span></tt></a> ().</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="Gucharmap.unicode_version_to_string">
+<tt class="descclassname">Gucharmap.</tt><tt class="descname">unicode_version_to_string</tt><big>(</big><em>version</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>version</strong> (<a class="reference internal" href="enums.html#Gucharmap.UnicodeVersion" title="Gucharmap.UnicodeVersion"><tt class="xref py py-class docutils literal"><span class="pre">Gucharmap.UnicodeVersion</span></tt></a>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

@@ -1,0 +1,285 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Callbacks -
+    
+    GnomeKeyring 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="GnomeKeyring 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Structures" href="structs/index.html"/>
+        <link rel="prev" title="Functions" href="functions.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GnomeKeyring 1.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="structs/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">GnomeKeyring 1.0</a> &raquo;</li>
+      
+    <li>Callbacks</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="functions.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="structs/index.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Callbacks</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="callbacks">
+<h1>Callbacks</h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="0%" />
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GnomeKeyring.OperationDoneCallback" title="GnomeKeyring.OperationDoneCallback"><tt class="xref py py-obj docutils literal"><span class="pre">OperationDoneCallback</span></tt></a>(result, user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GnomeKeyring.OperationGetAttributesCallback" title="GnomeKeyring.OperationGetAttributesCallback"><tt class="xref py py-obj docutils literal"><span class="pre">OperationGetAttributesCallback</span></tt></a>(result, attributes, user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GnomeKeyring.OperationGetIntCallback" title="GnomeKeyring.OperationGetIntCallback"><tt class="xref py py-obj docutils literal"><span class="pre">OperationGetIntCallback</span></tt></a>(result, val, user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GnomeKeyring.OperationGetItemInfoCallback" title="GnomeKeyring.OperationGetItemInfoCallback"><tt class="xref py py-obj docutils literal"><span class="pre">OperationGetItemInfoCallback</span></tt></a>(result, info, user_data)</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal" href="#GnomeKeyring.OperationGetKeyringInfoCallback" title="GnomeKeyring.OperationGetKeyringInfoCallback"><tt class="xref py py-obj docutils literal"><span class="pre">OperationGetKeyringInfoCallback</span></tt></a>(result, info, user_data)</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><a class="reference internal" href="#GnomeKeyring.OperationGetStringCallback" title="GnomeKeyring.OperationGetStringCallback"><tt class="xref py py-obj docutils literal"><span class="pre">OperationGetStringCallback</span></tt></a>(result, string, user_data)</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="function">
+<dt id="GnomeKeyring.OperationDoneCallback">
+<tt class="descclassname">GnomeKeyring.</tt><tt class="descname">OperationDoneCallback</tt><big>(</big><em>result</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>result</strong> (<a class="reference internal" href="enums.html#GnomeKeyring.Result" title="GnomeKeyring.Result"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.Result</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GnomeKeyring.OperationGetAttributesCallback">
+<tt class="descclassname">GnomeKeyring.</tt><tt class="descname">OperationGetAttributesCallback</tt><big>(</big><em>result</em>, <em>attributes</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>result</strong> (<a class="reference internal" href="enums.html#GnomeKeyring.Result" title="GnomeKeyring.Result"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.Result</span></tt></a>) &#8211; </li>
+<li><strong>attributes</strong> (<a class="reference external" href="_devhelp/GnomeKeyring-1.0/../../../python-GLib-2.0/structs/Array.html#GLib.Array" title="(in GLib 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GLib.Array</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GnomeKeyring.OperationGetIntCallback">
+<tt class="descclassname">GnomeKeyring.</tt><tt class="descname">OperationGetIntCallback</tt><big>(</big><em>result</em>, <em>val</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>result</strong> (<a class="reference internal" href="enums.html#GnomeKeyring.Result" title="GnomeKeyring.Result"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.Result</span></tt></a>) &#8211; </li>
+<li><strong>val</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GnomeKeyring.OperationGetItemInfoCallback">
+<tt class="descclassname">GnomeKeyring.</tt><tt class="descname">OperationGetItemInfoCallback</tt><big>(</big><em>result</em>, <em>info</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>result</strong> (<a class="reference internal" href="enums.html#GnomeKeyring.Result" title="GnomeKeyring.Result"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.Result</span></tt></a>) &#8211; </li>
+<li><strong>info</strong> (<a class="reference internal" href="structs/ItemInfo.html#GnomeKeyring.ItemInfo" title="GnomeKeyring.ItemInfo"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.ItemInfo</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GnomeKeyring.OperationGetKeyringInfoCallback">
+<tt class="descclassname">GnomeKeyring.</tt><tt class="descname">OperationGetKeyringInfoCallback</tt><big>(</big><em>result</em>, <em>info</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>result</strong> (<a class="reference internal" href="enums.html#GnomeKeyring.Result" title="GnomeKeyring.Result"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.Result</span></tt></a>) &#8211; </li>
+<li><strong>info</strong> (<a class="reference internal" href="structs/Info.html#GnomeKeyring.Info" title="GnomeKeyring.Info"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.Info</span></tt></a>) &#8211; </li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="GnomeKeyring.OperationGetStringCallback">
+<tt class="descclassname">GnomeKeyring.</tt><tt class="descname">OperationGetStringCallback</tt><big>(</big><em>result</em>, <em>string</em>, <em>user_data</em><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>result</strong> (<a class="reference internal" href="enums.html#GnomeKeyring.Result" title="GnomeKeyring.Result"><tt class="xref py py-class docutils literal"><span class="pre">GnomeKeyring.Result</span></tt></a>) &#8211; result of the operation</li>
+<li><strong>string</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a>) &#8211; the string, or <a class="reference external" href="http://docs.python.org/2.7/library/constants.html#None" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">None</span></tt></a></li>
+<li><strong>user_data</strong> (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#object" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></a>) &#8211; user data</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>

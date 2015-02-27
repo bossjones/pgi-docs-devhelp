@@ -1,0 +1,360 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Enums -
+    
+    Json 1.0
+  </title>
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  <link rel="stylesheet" href="_static/css/pgi.css" type="text/css" />
+    <link rel="top" title="Json 1.0 Python API Docs" href="index.html"/>
+        <link rel="next" title="Constants" href="constants.html"/>
+        <link rel="prev" title="Json.Object" href="structs/Object.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+<div class="non-fixed-bar">
+<table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Json 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/Object.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+<div class="fixed-bar">
+  <table class="navigation" summary="Navigation header" cellpadding="2" cellspacing="10" width="100%"><tbody><tr valign="middle">
+
+<td class="shortcuts" align="left" width="100%">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Json 1.0</a> &raquo;</li>
+      
+    <li>Enums</li>
+  </ul>
+</td>
+<td><a accesskey="h" href="index.html"><i class="fa fa-home"></i></a></td>
+
+
+<td><i class="fa fa-chevron-up"></i></td>
+
+
+
+<td><a accesskey="p" href="structs/Object.html"><i class="fa fa-chevron-left"></i></a></td>
+
+
+
+<td><a accesskey="n" href="constants.html"><i class="fa fa-chevron-right"></i></a></td>
+
+
+</tr></tbody>
+</table>
+
+<div class="local-toc">
+    <ul>
+<li><a class="reference internal" href="#">Enums</a><ul>
+<li><a class="reference internal" href="#details">Details</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+  <div class="wy-grid-for-nav">
+
+    
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="main">
+            
+  <div class="section" id="enums">
+<h1>Enums</h1>
+<ul class="simple">
+<li><a class="reference internal" href="#Json.NodeType" title="Json.NodeType"><tt class="xref py py-class docutils literal"><span class="pre">Json.NodeType</span></tt></a></li>
+<li><a class="reference internal" href="#Json.ParserError" title="Json.ParserError"><tt class="xref py py-class docutils literal"><span class="pre">Json.ParserError</span></tt></a></li>
+<li><a class="reference internal" href="#Json.PathError" title="Json.PathError"><tt class="xref py py-class docutils literal"><span class="pre">Json.PathError</span></tt></a></li>
+<li><a class="reference internal" href="#Json.ReaderError" title="Json.ReaderError"><tt class="xref py py-class docutils literal"><span class="pre">Json.ReaderError</span></tt></a></li>
+</ul>
+<div class="section" id="details">
+<h2>Details</h2>
+<dl class="class">
+<dt id="Json.NodeType">
+<em class="property">class </em><tt class="descclassname">Json.</tt><tt class="descname">NodeType</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Json-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Indicates the content of a <a class="reference internal" href="structs/Node.html#Json.Node" title="Json.Node"><tt class="xref py py-obj docutils literal"><span class="pre">Json.Node</span></tt></a>.</p>
+<dl class="attribute">
+<dt id="Json.NodeType.OBJECT">
+<tt class="descname">OBJECT</tt><em class="property"> = 0</em></dt>
+<dd><p>The node contains a <a class="reference internal" href="structs/Object.html#Json.Object" title="Json.Object"><tt class="xref py py-obj docutils literal"><span class="pre">Json.Object</span></tt></a></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.NodeType.ARRAY">
+<tt class="descname">ARRAY</tt><em class="property"> = 1</em></dt>
+<dd><p>The node contains a <a class="reference internal" href="structs/Array.html#Json.Array" title="Json.Array"><tt class="xref py py-obj docutils literal"><span class="pre">Json.Array</span></tt></a></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.NodeType.VALUE">
+<tt class="descname">VALUE</tt><em class="property"> = 2</em></dt>
+<dd><p>The node contains a fundamental type</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.NodeType.NULL">
+<tt class="descname">NULL</tt><em class="property"> = 3</em></dt>
+<dd><p>Special type, for nodes containing null</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Json.ParserError">
+<em class="property">class </em><tt class="descclassname">Json.</tt><tt class="descname">ParserError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Json-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Error enumeration for <a class="reference internal" href="classes/Parser.html#Json.Parser" title="Json.Parser"><tt class="xref py py-obj docutils literal"><span class="pre">Json.Parser</span></tt></a></p>
+<p>This enumeration can be extended at later date</p>
+<dl class="staticmethod">
+<dt id="Json.ParserError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.PARSE">
+<tt class="descname">PARSE</tt><em class="property"> = 0</em></dt>
+<dd><p>parse error</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.TRAILING_COMMA">
+<tt class="descname">TRAILING_COMMA</tt><em class="property"> = 1</em></dt>
+<dd><p>unexpected trailing comma</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.MISSING_COMMA">
+<tt class="descname">MISSING_COMMA</tt><em class="property"> = 2</em></dt>
+<dd><p>expected comma</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.MISSING_COLON">
+<tt class="descname">MISSING_COLON</tt><em class="property"> = 3</em></dt>
+<dd><p>expected colon</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.INVALID_BAREWORD">
+<tt class="descname">INVALID_BAREWORD</tt><em class="property"> = 4</em></dt>
+<dd><p>invalid bareword</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.EMPTY_MEMBER_NAME">
+<tt class="descname">EMPTY_MEMBER_NAME</tt><em class="property"> = 5</em></dt>
+<dd><p>empty member name (</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.16).</span></p>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.INVALID_DATA">
+<tt class="descname">INVALID_DATA</tt><em class="property"> = 6</em></dt>
+<dd><p>invalid data (</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.18).</span></p>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ParserError.UNKNOWN">
+<tt class="descname">UNKNOWN</tt><em class="property"> = 7</em></dt>
+<dd><p>unknown error</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Json.PathError">
+<em class="property">class </em><tt class="descclassname">Json.</tt><tt class="descname">PathError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Json-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Error code enumeration for the %JSON_PATH_ERROR domain.</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.14.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Json.PathError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.PathError.QUERY">
+<tt class="descname">QUERY</tt><em class="property"> = 0</em></dt>
+<dd><p>Invalid query</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Json.ReaderError">
+<em class="property">class </em><tt class="descclassname">Json.</tt><tt class="descname">ReaderError</tt></dt>
+<dd><p>Bases: <a class="reference external" href="_devhelp/Json-1.0/../../../python-GObject-2.0/enums.html#GObject.GEnum" title="(in GObject 2.0 v2.0)"><tt class="xref py py-class docutils literal"><span class="pre">GObject.GEnum</span></tt></a></p>
+<p>Error codes enumeration for <a class="reference internal" href="classes/Reader.html#Json.Reader" title="Json.Reader"><tt class="xref py py-obj docutils literal"><span class="pre">Json.Reader</span></tt></a> errors</p>
+<div class="versionadded">
+<p><span class="versionmodified">New in version 0.12.</span></p>
+</div>
+<dl class="staticmethod">
+<dt id="Json.ReaderError.quark">
+<em class="property">static </em><tt class="descname">quark</tt><big>(</big><big>)</big></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ReaderError.NO_ARRAY">
+<tt class="descname">NO_ARRAY</tt><em class="property"> = 0</em></dt>
+<dd><p>No array found at the current position</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ReaderError.INVALID_INDEX">
+<tt class="descname">INVALID_INDEX</tt><em class="property"> = 1</em></dt>
+<dd><p>Index out of bounds</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ReaderError.NO_OBJECT">
+<tt class="descname">NO_OBJECT</tt><em class="property"> = 2</em></dt>
+<dd><p>No object found at the current position</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ReaderError.INVALID_MEMBER">
+<tt class="descname">INVALID_MEMBER</tt><em class="property"> = 3</em></dt>
+<dd><p>Member not found</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ReaderError.INVALID_NODE">
+<tt class="descname">INVALID_NODE</tt><em class="property"> = 4</em></dt>
+<dd><p>No valid node found at the current position</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ReaderError.NO_VALUE">
+<tt class="descname">NO_VALUE</tt><em class="property"> = 5</em></dt>
+<dd><p>The node at the current position does not
+hold a value</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="Json.ReaderError.INVALID_TYPE">
+<tt class="descname">INVALID_TYPE</tt><em class="property"> = 6</em></dt>
+<dd><p>The node at the current position does not
+hold a value of the desired type</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div> 
+
+</body>
+
+  
+
+</html>
